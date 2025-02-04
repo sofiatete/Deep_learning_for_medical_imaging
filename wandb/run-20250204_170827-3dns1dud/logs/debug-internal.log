@@ -1,0 +1,16 @@
+{"time":"2025-02-04T17:08:27.9683204+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250204_170827-3dns1dud\\logs\\debug-core.log"}
+{"time":"2025-02-04T17:08:28.078684+01:00","level":"INFO","msg":"created new stream","id":"3dns1dud"}
+{"time":"2025-02-04T17:08:28.078684+01:00","level":"INFO","msg":"stream: started","id":"3dns1dud"}
+{"time":"2025-02-04T17:08:28.0791883+01:00","level":"INFO","msg":"sender: started","stream_id":"3dns1dud"}
+{"time":"2025-02-04T17:08:28.0791883+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3dns1dud"}
+{"time":"2025-02-04T17:08:28.0791883+01:00","level":"INFO","msg":"handler: started","stream_id":"3dns1dud"}
+{"time":"2025-02-04T17:08:28.3447477+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-04T17:08:29.3444399+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-04T17:08:29.3445161+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-04T17:08:30.3531775+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-3dns1dud-data_plot0_table","runtime_seconds":1.3882741},{"desc":"uploading artifact run-3dns1dud-data_plot1_table","runtime_seconds":1.3882741},{"desc":"uploading artifact run-3dns1dud-data_plot2_table","runtime_seconds":1.2781316999999999},{"desc":"uploading artifact run-3dns1dud-data_plot3_table","runtime_seconds":1.0186113}],"total_operations":4}}
+{"time":"2025-02-04T17:08:30.9293568+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-04T17:08:32.184136+01:00","level":"INFO","msg":"stream: closing","id":"3dns1dud"}
+{"time":"2025-02-04T17:08:32.184136+01:00","level":"INFO","msg":"handler: closed","stream_id":"3dns1dud"}
+{"time":"2025-02-04T17:08:32.184136+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3dns1dud"}
+{"time":"2025-02-04T17:08:32.184136+01:00","level":"INFO","msg":"sender: closed","stream_id":"3dns1dud"}
+{"time":"2025-02-04T17:08:32.1846408+01:00","level":"INFO","msg":"stream: closed","id":"3dns1dud"}

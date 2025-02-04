@@ -1,0 +1,7 @@
+{"time":"2025-02-04T17:16:50.8706459+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250204_171650-dxyr68mo\\logs\\debug-core.log"}
+{"time":"2025-02-04T17:16:50.9800207+01:00","level":"INFO","msg":"created new stream","id":"dxyr68mo"}
+{"time":"2025-02-04T17:16:50.9800207+01:00","level":"INFO","msg":"stream: started","id":"dxyr68mo"}
+{"time":"2025-02-04T17:16:50.9800207+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dxyr68mo"}
+{"time":"2025-02-04T17:16:50.9800207+01:00","level":"INFO","msg":"handler: started","stream_id":"dxyr68mo"}
+{"time":"2025-02-04T17:16:50.9800207+01:00","level":"INFO","msg":"sender: started","stream_id":"dxyr68mo"}
+{"time":"2025-02-04T17:16:51.2881091+01:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-04T16:37:03.1066744+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250204_163703-z922g7sb\\logs\\debug-core.log"}
+{"time":"2025-02-04T16:37:03.2172606+01:00","level":"INFO","msg":"created new stream","id":"z922g7sb"}
+{"time":"2025-02-04T16:37:03.2172606+01:00","level":"INFO","msg":"stream: started","id":"z922g7sb"}
+{"time":"2025-02-04T16:37:03.2172606+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"z922g7sb"}
+{"time":"2025-02-04T16:37:03.2172606+01:00","level":"INFO","msg":"sender: started","stream_id":"z922g7sb"}
+{"time":"2025-02-04T16:37:03.2172606+01:00","level":"INFO","msg":"handler: started","stream_id":"z922g7sb"}
+{"time":"2025-02-04T16:37:03.896658+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-04T16:37:26.831945+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-04T16:37:26.8326224+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-04T16:37:27.8436938+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-z922g7sb-data_plotepoch180_table","runtime_seconds":2.2478225},{"desc":"uploading artifact run-z922g7sb-data_plotepoch190_table","runtime_seconds":1.3282729,"subtasks":[{"desc":"data_plot epoch 190_table.table.json","runtime_seconds":0.099205,"progress":"1.0KB/1.0KB"}]},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5699959,"progress":"13.3KB/13.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.2377471,"progress":"24.7KB/24.7KB"}],"total_operations":4}}
+{"time":"2025-02-04T16:37:29.0883193+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-04T16:37:30.6404971+01:00","level":"INFO","msg":"stream: closing","id":"z922g7sb"}
+{"time":"2025-02-04T16:37:30.6404971+01:00","level":"INFO","msg":"handler: closed","stream_id":"z922g7sb"}
+{"time":"2025-02-04T16:37:30.6404971+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z922g7sb"}
+{"time":"2025-02-04T16:37:30.6404971+01:00","level":"INFO","msg":"sender: closed","stream_id":"z922g7sb"}
+{"time":"2025-02-04T16:37:30.6410954+01:00","level":"INFO","msg":"stream: closed","id":"z922g7sb"}

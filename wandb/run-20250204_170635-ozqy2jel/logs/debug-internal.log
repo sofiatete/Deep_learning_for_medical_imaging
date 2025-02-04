@@ -1,0 +1,16 @@
+{"time":"2025-02-04T17:06:35.7692905+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250204_170635-ozqy2jel\\logs\\debug-core.log"}
+{"time":"2025-02-04T17:06:35.8780032+01:00","level":"INFO","msg":"created new stream","id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:35.8780032+01:00","level":"INFO","msg":"stream: started","id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:35.8780032+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:35.8785097+01:00","level":"INFO","msg":"sender: started","stream_id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:35.8780032+01:00","level":"INFO","msg":"handler: started","stream_id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:36.1899307+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-04T17:06:47.1308528+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-04T17:06:47.132248+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-04T17:06:48.1444684+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ozqy2jel-data_plotepoch190_table","runtime_seconds":1.3181873}],"total_operations":1}}
+{"time":"2025-02-04T17:06:48.999383+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-04T17:06:50.2313374+01:00","level":"INFO","msg":"stream: closing","id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:50.2313374+01:00","level":"INFO","msg":"handler: closed","stream_id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:50.2313374+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:50.2313374+01:00","level":"INFO","msg":"sender: closed","stream_id":"ozqy2jel"}
+{"time":"2025-02-04T17:06:50.2313374+01:00","level":"INFO","msg":"stream: closed","id":"ozqy2jel"}

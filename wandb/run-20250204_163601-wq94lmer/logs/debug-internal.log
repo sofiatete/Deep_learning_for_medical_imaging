@@ -1,0 +1,16 @@
+{"time":"2025-02-04T16:36:02.2489625+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250204_163601-wq94lmer\\logs\\debug-core.log"}
+{"time":"2025-02-04T16:36:03.0229503+01:00","level":"INFO","msg":"created new stream","id":"wq94lmer"}
+{"time":"2025-02-04T16:36:03.0240071+01:00","level":"INFO","msg":"sender: started","stream_id":"wq94lmer"}
+{"time":"2025-02-04T16:36:03.0240071+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"wq94lmer"}
+{"time":"2025-02-04T16:36:03.0240071+01:00","level":"INFO","msg":"handler: started","stream_id":"wq94lmer"}
+{"time":"2025-02-04T16:36:03.0245331+01:00","level":"INFO","msg":"stream: started","id":"wq94lmer"}
+{"time":"2025-02-04T16:36:04.2518941+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-04T16:36:09.2633928+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-04T16:36:09.2644376+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-04T16:36:10.2748714+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wq94lmer-data_plot1_table","runtime_seconds":1.8823824999999998},{"desc":"uploading artifact run-wq94lmer-data_plot2_table","runtime_seconds":1.4532702},{"desc":"uploading artifact run-wq94lmer-data_plot3_table","runtime_seconds":1.0688964,"subtasks":[{"desc":"data_plot 3_table.table.json","runtime_seconds":0.2894421,"progress":"673B/673B"}]}],"total_operations":3}}
+{"time":"2025-02-04T16:36:11.6799888+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-04T16:36:13.1412098+01:00","level":"INFO","msg":"stream: closing","id":"wq94lmer"}
+{"time":"2025-02-04T16:36:13.1412098+01:00","level":"INFO","msg":"handler: closed","stream_id":"wq94lmer"}
+{"time":"2025-02-04T16:36:13.1412098+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wq94lmer"}
+{"time":"2025-02-04T16:36:13.1412098+01:00","level":"INFO","msg":"sender: closed","stream_id":"wq94lmer"}
+{"time":"2025-02-04T16:36:13.1417192+01:00","level":"INFO","msg":"stream: closed","id":"wq94lmer"}

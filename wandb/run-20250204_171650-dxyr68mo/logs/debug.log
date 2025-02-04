@@ -1,0 +1,38 @@
+2025-02-04 17:16:50,867 INFO    MainThread:26132 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\costa\Documents\GitHub\Deep_learning_for_medical_imaging\wandb\run-20250204_171650-dxyr68mo\logs\debug.log
+2025-02-04 17:16:50,867 INFO    MainThread:26132 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\costa\Documents\GitHub\Deep_learning_for_medical_imaging\wandb\run-20250204_171650-dxyr68mo\logs\debug-internal.log
+2025-02-04 17:16:50,867 INFO    MainThread:26132 [wandb_init.py:init():756] calling init triggers
+2025-02-04 17:16:50,867 INFO    MainThread:26132 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-04 17:16:50,867 INFO    MainThread:26132 [wandb_init.py:init():789] starting backend
+2025-02-04 17:16:50,868 INFO    MainThread:26132 [wandb_init.py:init():793] sending inform_init request
+2025-02-04 17:16:50,869 INFO    MainThread:26132 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-04 17:16:50,870 INFO    MainThread:26132 [wandb_init.py:init():808] backend started and connected
+2025-02-04 17:16:50,872 INFO    MainThread:26132 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-04 17:16:50,873 INFO    MainThread:26132 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 3678: character maps to <undefined>
+2025-02-04 17:16:50,873 INFO    MainThread:26132 [wandb_init.py:init():901] updated telemetry
+2025-02-04 17:16:50,918 INFO    MainThread:26132 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-04 17:16:51,283 INFO    MainThread:26132 [wandb_init.py:init():984] starting run threads in backend
+2025-02-04 17:17:21,568 WARNING MainThread:26132 [wandb_init.py:init():1465] interrupted
+Traceback (most recent call last):
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 998, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 279, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 122, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\costa\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
