@@ -1,0 +1,107 @@
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113327-ji99bhtt/logs/debug.log
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113327-ji99bhtt/logs/debug-internal.log
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x172e14ad0>
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:init():756] calling init triggers
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:init():789] starting backend
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:init():793] sending inform_init request
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-05 11:33:27,850 INFO    MainThread:3679 [wandb_init.py:init():808] backend started and connected
+2025-02-05 11:33:27,855 INFO    MainThread:3679 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-05 11:33:27,857 INFO    MainThread:3679 [wandb_init.py:init():901] updated telemetry
+2025-02-05 11:33:27,880 INFO    MainThread:3679 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-05 11:33:28,147 INFO    MainThread:3679 [wandb_init.py:init():984] starting run threads in backend
+2025-02-05 11:33:28,319 INFO    MainThread:3679 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-05 11:33:28,320 INFO    MainThread:3679 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-05 11:33:28,320 INFO    MainThread:3679 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-05 11:33:28,320 INFO    MainThread:3679 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-05 11:33:28,320 INFO    MainThread:3679 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-05 11:33:28,321 INFO    MainThread:3679 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-05 11:33:28,475 INFO    MainThread:3679 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-05 11:33:28,616 INFO    MainThread:3679 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-05 11:33:28,755 INFO    MainThread:3679 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/ji99bhtt
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [wandb_run.py:_restore():2332] restore
+2025-02-05 11:33:28,898 INFO    MainThread:3679 [wandb_run.py:_restore():2338] restore done
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113338-nk8uip00/logs/debug.log
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113338-nk8uip00/logs/debug-internal.log
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x172aa25a0>
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:init():756] calling init triggers
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:init():789] starting backend
+2025-02-05 11:33:38,015 INFO    MainThread:3679 [wandb_init.py:init():793] sending inform_init request
+2025-02-05 11:33:38,016 INFO    MainThread:3679 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-05 11:33:38,016 INFO    MainThread:3679 [wandb_init.py:init():808] backend started and connected
+2025-02-05 11:33:38,018 INFO    MainThread:3679 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-05 11:33:38,020 INFO    MainThread:3679 [wandb_init.py:init():901] updated telemetry
+2025-02-05 11:33:38,044 INFO    MainThread:3679 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-05 11:33:49,360 WARNING MainThread:3679 [wandb_init.py:init():1465] interrupted
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 279, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/lib/mailbox.py", line 122, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-02-05 11:33:53,052 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113353-vx8iu149/logs/debug.log
+2025-02-05 11:33:53,052 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113353-vx8iu149/logs/debug-internal.log
+2025-02-05 11:33:53,052 INFO    MainThread:3679 [wandb_init.py:init():756] calling init triggers
+2025-02-05 11:33:53,052 INFO    MainThread:3679 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-05 11:33:53,052 INFO    MainThread:3679 [wandb_init.py:init():789] starting backend
+2025-02-05 11:33:53,052 INFO    MainThread:3679 [wandb_init.py:init():793] sending inform_init request
+2025-02-05 11:33:53,053 INFO    MainThread:3679 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-05 11:33:53,053 INFO    MainThread:3679 [wandb_init.py:init():808] backend started and connected
+2025-02-05 11:33:53,057 INFO    MainThread:3679 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-05 11:33:53,059 INFO    MainThread:3679 [wandb_init.py:init():901] updated telemetry
+2025-02-05 11:33:53,108 INFO    MainThread:3679 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-05 11:35:23,514 ERROR   MainThread:3679 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 950, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-02-05 11:50:21,598 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_115021-8rrl7mwb/logs/debug.log
+2025-02-05 11:50:21,598 INFO    MainThread:3679 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_115021-8rrl7mwb/logs/debug-internal.log
+2025-02-05 11:50:21,598 INFO    MainThread:3679 [wandb_init.py:init():756] calling init triggers
+2025-02-05 11:50:21,598 INFO    MainThread:3679 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-05 11:50:21,598 INFO    MainThread:3679 [wandb_init.py:init():789] starting backend
+2025-02-05 11:50:21,598 INFO    MainThread:3679 [wandb_init.py:init():793] sending inform_init request
+2025-02-05 11:50:21,599 INFO    MainThread:3679 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-05 11:50:21,599 INFO    MainThread:3679 [wandb_init.py:init():808] backend started and connected
+2025-02-05 11:50:21,601 INFO    MainThread:3679 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-05 11:50:21,603 INFO    MainThread:3679 [wandb_init.py:init():901] updated telemetry
+2025-02-05 11:50:21,622 INFO    MainThread:3679 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-05 11:51:52,090 ERROR   MainThread:3679 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 950, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.

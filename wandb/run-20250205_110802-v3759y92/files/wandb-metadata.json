@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-02-05T10:08:02.661482Z",
+  "program":  "/Users/sofiatete/Deep_learning_for_medical_imaging/exercise_1.ipynb",
+  "codePath":  "exercise_1.ipynb",
+  "git":  {
+    "remote":  "https://github.com/sofiatete/Deep_learning_for_medical_imaging.git",
+    "commit":  "f77bb0118dbe87924f4450dc11f2d3bd6ba02aee"
+  },
+  "email":  "sofia.garcia.nunes@gmail.com",
+  "root":  "/Users/sofiatete/Deep_learning_for_medical_imaging",
+  "host":  "Sofias-Laptop.local",
+  "executable":  "/opt/anaconda3/bin/python",
+  "codePathLocal":  "exercise_1.ipynb"
+}

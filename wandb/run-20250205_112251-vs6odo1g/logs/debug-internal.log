@@ -1,0 +1,16 @@
+{"time":"2025-02-05T11:22:51.724619+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_112251-vs6odo1g/logs/debug-core.log"}
+{"time":"2025-02-05T11:22:51.837181+01:00","level":"INFO","msg":"created new stream","id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:51.837216+01:00","level":"INFO","msg":"stream: started","id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:51.837219+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:51.837236+01:00","level":"INFO","msg":"sender: started","stream_id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:51.837267+01:00","level":"INFO","msg":"handler: started","stream_id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:52.0797+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T11:22:52.795267+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T11:22:52.795614+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T11:22:53.802346+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vs6odo1g-data_plot0_table","runtime_seconds":1.272958416},{"desc":"uploading artifact run-vs6odo1g-data_plot1_table","runtime_seconds":1.2729190830000001},{"desc":"uploading artifact run-vs6odo1g-data_plot2_table","runtime_seconds":1.161138042},{"desc":"uploading artifact run-vs6odo1g-data_plot3_table","runtime_seconds":1.010701958}],"total_operations":4}}
+{"time":"2025-02-05T11:22:54.175814+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T11:22:55.356706+01:00","level":"INFO","msg":"stream: closing","id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:55.356776+01:00","level":"INFO","msg":"handler: closed","stream_id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:55.356823+01:00","level":"INFO","msg":"sender: closed","stream_id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:55.356805+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vs6odo1g"}
+{"time":"2025-02-05T11:22:55.357166+01:00","level":"INFO","msg":"stream: closed","id":"vs6odo1g"}

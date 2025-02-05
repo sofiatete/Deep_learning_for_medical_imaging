@@ -1,0 +1,16 @@
+{"time":"2025-02-05T11:32:43.262268+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113243-ij8pevyk/logs/debug-core.log"}
+{"time":"2025-02-05T11:32:43.370963+01:00","level":"INFO","msg":"created new stream","id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:43.370996+01:00","level":"INFO","msg":"stream: started","id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:43.370993+01:00","level":"INFO","msg":"handler: started","stream_id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:43.371001+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:43.371017+01:00","level":"INFO","msg":"sender: started","stream_id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:43.565683+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T11:32:44.214362+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T11:32:44.2146+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T11:32:45.221142+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ij8pevyk-data_plot0_table","runtime_seconds":1.247497334},{"desc":"uploading artifact run-ij8pevyk-data_plot1_table","runtime_seconds":1.247463958},{"desc":"uploading artifact run-ij8pevyk-data_plot2_table","runtime_seconds":1.155336},{"desc":"uploading artifact run-ij8pevyk-data_plot3_table","runtime_seconds":1.009065584}],"total_operations":4}}
+{"time":"2025-02-05T11:32:45.813743+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T11:32:47.007548+01:00","level":"INFO","msg":"stream: closing","id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:47.007623+01:00","level":"INFO","msg":"handler: closed","stream_id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:47.007679+01:00","level":"INFO","msg":"sender: closed","stream_id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:47.007659+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ij8pevyk"}
+{"time":"2025-02-05T11:32:47.008074+01:00","level":"INFO","msg":"stream: closed","id":"ij8pevyk"}

@@ -1,0 +1,6 @@
+{"time":"2025-02-05T11:33:38.016867+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_113338-nk8uip00/logs/debug-core.log"}
+{"time":"2025-02-05T11:33:38.124946+01:00","level":"INFO","msg":"created new stream","id":"nk8uip00"}
+{"time":"2025-02-05T11:33:38.124976+01:00","level":"INFO","msg":"stream: started","id":"nk8uip00"}
+{"time":"2025-02-05T11:33:38.124996+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nk8uip00"}
+{"time":"2025-02-05T11:33:38.125002+01:00","level":"INFO","msg":"sender: started","stream_id":"nk8uip00"}
+{"time":"2025-02-05T11:33:38.125031+01:00","level":"INFO","msg":"handler: started","stream_id":"nk8uip00"}
