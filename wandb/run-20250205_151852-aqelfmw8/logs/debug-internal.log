@@ -1,0 +1,16 @@
+{"time":"2025-02-05T15:18:52.9565105+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250205_151852-aqelfmw8\\logs\\debug-core.log"}
+{"time":"2025-02-05T15:18:53.0690255+01:00","level":"INFO","msg":"created new stream","id":"aqelfmw8"}
+{"time":"2025-02-05T15:18:53.0690255+01:00","level":"INFO","msg":"stream: started","id":"aqelfmw8"}
+{"time":"2025-02-05T15:18:53.0690255+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"aqelfmw8"}
+{"time":"2025-02-05T15:18:53.0690255+01:00","level":"INFO","msg":"sender: started","stream_id":"aqelfmw8"}
+{"time":"2025-02-05T15:18:53.0690255+01:00","level":"INFO","msg":"handler: started","stream_id":"aqelfmw8"}
+{"time":"2025-02-05T15:18:53.3394536+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T15:19:04.858584+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T15:19:04.8593215+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T15:19:05.8689574+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\table\\data_plot epoch 170_table_17_14ca74b21fc159d76108.table.json","runtime_seconds":2.2578686,"progress":"290B/290B"},{"desc":"uploading artifact run-aqelfmw8-data_plotepoch190_table","runtime_seconds":1.3691098}],"total_operations":2}}
+{"time":"2025-02-05T15:19:06.3022286+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T15:19:07.5526273+01:00","level":"INFO","msg":"stream: closing","id":"aqelfmw8"}
+{"time":"2025-02-05T15:19:07.5526273+01:00","level":"INFO","msg":"handler: closed","stream_id":"aqelfmw8"}
+{"time":"2025-02-05T15:19:07.5526273+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aqelfmw8"}
+{"time":"2025-02-05T15:19:07.5531556+01:00","level":"INFO","msg":"sender: closed","stream_id":"aqelfmw8"}
+{"time":"2025-02-05T15:19:07.5531556+01:00","level":"INFO","msg":"stream: closed","id":"aqelfmw8"}

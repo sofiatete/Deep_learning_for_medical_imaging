@@ -1,0 +1,16 @@
+{"time":"2025-02-05T15:15:53.8162009+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250205_151553-fvct785e\\logs\\debug-core.log"}
+{"time":"2025-02-05T15:15:53.9296141+01:00","level":"INFO","msg":"created new stream","id":"fvct785e"}
+{"time":"2025-02-05T15:15:53.9302012+01:00","level":"INFO","msg":"stream: started","id":"fvct785e"}
+{"time":"2025-02-05T15:15:53.9302012+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fvct785e"}
+{"time":"2025-02-05T15:15:53.9302012+01:00","level":"INFO","msg":"sender: started","stream_id":"fvct785e"}
+{"time":"2025-02-05T15:15:53.9302012+01:00","level":"INFO","msg":"handler: started","stream_id":"fvct785e"}
+{"time":"2025-02-05T15:15:54.1523318+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T15:15:55.0157585+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T15:15:55.0162615+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T15:15:56.0240611+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fvct785e-data_plot0_table","runtime_seconds":1.4004627},{"desc":"uploading artifact run-fvct785e-data_plot1_table","runtime_seconds":1.3892335},{"desc":"uploading artifact run-fvct785e-data_plot2_table","runtime_seconds":1.2183792},{"desc":"uploading artifact run-fvct785e-data_plot3_table","runtime_seconds":1.0201546}],"total_operations":4}}
+{"time":"2025-02-05T15:15:56.5421732+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T15:15:57.7472086+01:00","level":"INFO","msg":"stream: closing","id":"fvct785e"}
+{"time":"2025-02-05T15:15:57.7472086+01:00","level":"INFO","msg":"handler: closed","stream_id":"fvct785e"}
+{"time":"2025-02-05T15:15:57.7472086+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fvct785e"}
+{"time":"2025-02-05T15:15:57.7472086+01:00","level":"INFO","msg":"sender: closed","stream_id":"fvct785e"}
+{"time":"2025-02-05T15:15:57.7493371+01:00","level":"INFO","msg":"stream: closed","id":"fvct785e"}

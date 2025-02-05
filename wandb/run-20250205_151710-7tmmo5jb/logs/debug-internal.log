@@ -1,0 +1,17 @@
+{"time":"2025-02-05T15:17:10.567173+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250205_151710-7tmmo5jb\\logs\\debug-core.log"}
+{"time":"2025-02-05T15:17:10.6799475+01:00","level":"INFO","msg":"created new stream","id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:10.6799475+01:00","level":"INFO","msg":"stream: started","id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:10.6799475+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:10.6799475+01:00","level":"INFO","msg":"sender: started","stream_id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:10.6799475+01:00","level":"INFO","msg":"handler: started","stream_id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:10.9016512+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T15:17:11.633856+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T15:17:11.7635621+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T15:17:11.7641558+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T15:17:12.7764752+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-7tmmo5jb-data_plot0_table","runtime_seconds":1.3752364,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-7tmmo5jb-data_plot1_table","runtime_seconds":1.374731},{"desc":"uploading artifact run-7tmmo5jb-data_plot2_table","runtime_seconds":1.2143614},{"desc":"uploading artifact run-7tmmo5jb-data_plot3_table","runtime_seconds":1.030033}],"total_operations":4}}
+{"time":"2025-02-05T15:17:16.0538889+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T15:17:17.3007486+01:00","level":"INFO","msg":"stream: closing","id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:17.3007486+01:00","level":"INFO","msg":"handler: closed","stream_id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:17.3007486+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:17.3007486+01:00","level":"INFO","msg":"sender: closed","stream_id":"7tmmo5jb"}
+{"time":"2025-02-05T15:17:17.3013319+01:00","level":"INFO","msg":"stream: closed","id":"7tmmo5jb"}

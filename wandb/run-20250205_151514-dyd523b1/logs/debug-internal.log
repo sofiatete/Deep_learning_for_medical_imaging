@@ -1,0 +1,17 @@
+{"time":"2025-02-05T15:15:14.6464132+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250205_151514-dyd523b1\\logs\\debug-core.log"}
+{"time":"2025-02-05T15:15:14.7649623+01:00","level":"INFO","msg":"created new stream","id":"dyd523b1"}
+{"time":"2025-02-05T15:15:14.7649623+01:00","level":"INFO","msg":"stream: started","id":"dyd523b1"}
+{"time":"2025-02-05T15:15:14.7649623+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dyd523b1"}
+{"time":"2025-02-05T15:15:14.7649623+01:00","level":"INFO","msg":"sender: started","stream_id":"dyd523b1"}
+{"time":"2025-02-05T15:15:14.7649623+01:00","level":"INFO","msg":"handler: started","stream_id":"dyd523b1"}
+{"time":"2025-02-05T15:15:15.0287898+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T15:15:15.7563077+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T15:15:15.8259767+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T15:15:15.8265856+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T15:15:16.8337367+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dyd523b1-data_plot0_table","runtime_seconds":1.3248762,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-dyd523b1-data_plot1_table","runtime_seconds":1.3248762},{"desc":"uploading artifact run-dyd523b1-data_plot2_table","runtime_seconds":1.1689046},{"desc":"uploading artifact run-dyd523b1-data_plot3_table","runtime_seconds":1.0152775}],"total_operations":4}}
+{"time":"2025-02-05T15:15:19.8554847+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T15:15:21.0767654+01:00","level":"INFO","msg":"stream: closing","id":"dyd523b1"}
+{"time":"2025-02-05T15:15:21.0767654+01:00","level":"INFO","msg":"handler: closed","stream_id":"dyd523b1"}
+{"time":"2025-02-05T15:15:21.0767654+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dyd523b1"}
+{"time":"2025-02-05T15:15:21.0777178+01:00","level":"INFO","msg":"sender: closed","stream_id":"dyd523b1"}
+{"time":"2025-02-05T15:15:21.0787623+01:00","level":"INFO","msg":"stream: closed","id":"dyd523b1"}

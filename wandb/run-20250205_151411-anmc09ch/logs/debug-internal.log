@@ -1,0 +1,16 @@
+{"time":"2025-02-05T15:14:11.4938494+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250205_151411-anmc09ch\\logs\\debug-core.log"}
+{"time":"2025-02-05T15:14:11.6068111+01:00","level":"INFO","msg":"created new stream","id":"anmc09ch"}
+{"time":"2025-02-05T15:14:11.6068111+01:00","level":"INFO","msg":"stream: started","id":"anmc09ch"}
+{"time":"2025-02-05T15:14:11.6068111+01:00","level":"INFO","msg":"handler: started","stream_id":"anmc09ch"}
+{"time":"2025-02-05T15:14:11.6068111+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"anmc09ch"}
+{"time":"2025-02-05T15:14:11.6068111+01:00","level":"INFO","msg":"sender: started","stream_id":"anmc09ch"}
+{"time":"2025-02-05T15:14:12.1517028+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T15:14:13.0982596+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T15:14:13.0992258+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T15:14:14.1204456+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-anmc09ch-data_plot0_table","runtime_seconds":1.4483787000000001},{"desc":"uploading artifact run-anmc09ch-data_plot1_table","runtime_seconds":1.4149753999999999},{"desc":"uploading artifact run-anmc09ch-data_plot2_table","runtime_seconds":1.2038819},{"desc":"uploading artifact run-anmc09ch-data_plot3_table","runtime_seconds":1.0398122}],"total_operations":4}}
+{"time":"2025-02-05T15:14:14.8510554+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T15:14:16.3364739+01:00","level":"INFO","msg":"stream: closing","id":"anmc09ch"}
+{"time":"2025-02-05T15:14:16.3364739+01:00","level":"INFO","msg":"handler: closed","stream_id":"anmc09ch"}
+{"time":"2025-02-05T15:14:16.3364739+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"anmc09ch"}
+{"time":"2025-02-05T15:14:16.3364739+01:00","level":"INFO","msg":"sender: closed","stream_id":"anmc09ch"}
+{"time":"2025-02-05T15:14:16.336976+01:00","level":"INFO","msg":"stream: closed","id":"anmc09ch"}
