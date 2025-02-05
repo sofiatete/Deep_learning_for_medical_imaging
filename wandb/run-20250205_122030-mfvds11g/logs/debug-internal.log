@@ -1,0 +1,18 @@
+{"time":"2025-02-05T12:20:30.709979+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_122030-mfvds11g/logs/debug-core.log"}
+{"time":"2025-02-05T12:20:30.821478+01:00","level":"INFO","msg":"created new stream","id":"mfvds11g"}
+{"time":"2025-02-05T12:20:30.821528+01:00","level":"INFO","msg":"stream: started","id":"mfvds11g"}
+{"time":"2025-02-05T12:20:30.821518+01:00","level":"INFO","msg":"handler: started","stream_id":"mfvds11g"}
+{"time":"2025-02-05T12:20:30.821536+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mfvds11g"}
+{"time":"2025-02-05T12:20:30.821561+01:00","level":"INFO","msg":"sender: started","stream_id":"mfvds11g"}
+{"time":"2025-02-05T12:20:31.044468+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T12:20:31.803941+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T12:20:31.804373+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T12:20:31.896029+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T12:20:31.896056+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T12:20:32.80931+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mfvds11g-data_plot0_table","runtime_seconds":1.159396708,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-mfvds11g-data_plot1_table","runtime_seconds":1.159317625},{"desc":"uploading artifact run-mfvds11g-data_plot2_table","runtime_seconds":1.15322775,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-mfvds11g-data_plot3_table","runtime_seconds":1.008599875}],"total_operations":4}}
+{"time":"2025-02-05T12:20:35.858536+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T12:20:37.048498+01:00","level":"INFO","msg":"stream: closing","id":"mfvds11g"}
+{"time":"2025-02-05T12:20:37.048579+01:00","level":"INFO","msg":"handler: closed","stream_id":"mfvds11g"}
+{"time":"2025-02-05T12:20:37.048602+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mfvds11g"}
+{"time":"2025-02-05T12:20:37.048632+01:00","level":"INFO","msg":"sender: closed","stream_id":"mfvds11g"}
+{"time":"2025-02-05T12:20:37.049033+01:00","level":"INFO","msg":"stream: closed","id":"mfvds11g"}

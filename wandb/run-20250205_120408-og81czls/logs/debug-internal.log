@@ -1,0 +1,17 @@
+{"time":"2025-02-05T12:04:08.294462+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_120408-og81czls/logs/debug-core.log"}
+{"time":"2025-02-05T12:04:08.403124+01:00","level":"INFO","msg":"created new stream","id":"og81czls"}
+{"time":"2025-02-05T12:04:08.403164+01:00","level":"INFO","msg":"stream: started","id":"og81czls"}
+{"time":"2025-02-05T12:04:08.403172+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"og81czls"}
+{"time":"2025-02-05T12:04:08.403196+01:00","level":"INFO","msg":"handler: started","stream_id":"og81czls"}
+{"time":"2025-02-05T12:04:08.403207+01:00","level":"INFO","msg":"sender: started","stream_id":"og81czls"}
+{"time":"2025-02-05T12:04:08.767179+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T12:04:09.390644+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T12:04:09.404364+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T12:04:09.404691+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T12:04:10.41147+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-og81czls-data_plot0_table","runtime_seconds":1.260860041},{"desc":"uploading artifact run-og81czls-data_plot1_table","runtime_seconds":1.260818167,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-og81czls-data_plot2_table","runtime_seconds":1.151469167},{"desc":"uploading artifact run-og81czls-data_plot3_table","runtime_seconds":1.011196042}],"total_operations":4}}
+{"time":"2025-02-05T12:04:13.016029+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T12:04:14.202033+01:00","level":"INFO","msg":"stream: closing","id":"og81czls"}
+{"time":"2025-02-05T12:04:14.202114+01:00","level":"INFO","msg":"handler: closed","stream_id":"og81czls"}
+{"time":"2025-02-05T12:04:14.202145+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"og81czls"}
+{"time":"2025-02-05T12:04:14.20218+01:00","level":"INFO","msg":"sender: closed","stream_id":"og81czls"}
+{"time":"2025-02-05T12:04:14.202656+01:00","level":"INFO","msg":"stream: closed","id":"og81czls"}

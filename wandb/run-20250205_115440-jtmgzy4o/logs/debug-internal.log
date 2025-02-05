@@ -1,0 +1,16 @@
+{"time":"2025-02-05T11:54:40.011021+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_115440-jtmgzy4o/logs/debug-core.log"}
+{"time":"2025-02-05T11:54:40.140807+01:00","level":"INFO","msg":"created new stream","id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:40.140842+01:00","level":"INFO","msg":"stream: started","id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:40.140843+01:00","level":"INFO","msg":"handler: started","stream_id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:40.140849+01:00","level":"INFO","msg":"sender: started","stream_id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:40.140867+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:40.330273+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T11:54:40.97005+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T11:54:40.970312+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T11:54:41.976738+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jtmgzy4o-data_plot0_table","runtime_seconds":1.243032833},{"desc":"uploading artifact run-jtmgzy4o-data_plot1_table","runtime_seconds":1.242970584},{"desc":"uploading artifact run-jtmgzy4o-data_plot2_table","runtime_seconds":1.1521038749999999},{"desc":"uploading artifact run-jtmgzy4o-data_plot3_table","runtime_seconds":1.009185375}],"total_operations":4}}
+{"time":"2025-02-05T11:54:42.670181+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T11:54:43.868139+01:00","level":"INFO","msg":"stream: closing","id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:43.868187+01:00","level":"INFO","msg":"handler: closed","stream_id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:43.868219+01:00","level":"INFO","msg":"sender: closed","stream_id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:43.868201+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jtmgzy4o"}
+{"time":"2025-02-05T11:54:43.86845+01:00","level":"INFO","msg":"stream: closed","id":"jtmgzy4o"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-05T12:24:28.157817+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_122428-oh25rexc/logs/debug-core.log"}
+{"time":"2025-02-05T12:24:28.265143+01:00","level":"INFO","msg":"created new stream","id":"oh25rexc"}
+{"time":"2025-02-05T12:24:28.265183+01:00","level":"INFO","msg":"stream: started","id":"oh25rexc"}
+{"time":"2025-02-05T12:24:28.265187+01:00","level":"INFO","msg":"handler: started","stream_id":"oh25rexc"}
+{"time":"2025-02-05T12:24:28.265228+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"oh25rexc"}
+{"time":"2025-02-05T12:24:28.265216+01:00","level":"INFO","msg":"sender: started","stream_id":"oh25rexc"}
+{"time":"2025-02-05T12:24:28.503044+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T12:24:29.202497+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T12:24:29.202843+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T12:24:30.209379+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-oh25rexc-data_plot0_table","runtime_seconds":1.277148125},{"desc":"uploading artifact run-oh25rexc-data_plot1_table","runtime_seconds":1.277084375},{"desc":"uploading artifact run-oh25rexc-data_plot2_table","runtime_seconds":1.158934125},{"desc":"uploading artifact run-oh25rexc-data_plot3_table","runtime_seconds":1.010254833}],"total_operations":4}}
+{"time":"2025-02-05T12:24:30.741594+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T12:24:31.93615+01:00","level":"INFO","msg":"stream: closing","id":"oh25rexc"}
+{"time":"2025-02-05T12:24:31.93618+01:00","level":"INFO","msg":"handler: closed","stream_id":"oh25rexc"}
+{"time":"2025-02-05T12:24:31.936196+01:00","level":"INFO","msg":"sender: closed","stream_id":"oh25rexc"}
+{"time":"2025-02-05T12:24:31.936195+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oh25rexc"}
+{"time":"2025-02-05T12:24:31.936366+01:00","level":"INFO","msg":"stream: closed","id":"oh25rexc"}

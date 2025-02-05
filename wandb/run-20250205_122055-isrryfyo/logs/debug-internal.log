@@ -1,0 +1,17 @@
+{"time":"2025-02-05T12:20:55.705908+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_122055-isrryfyo/logs/debug-core.log"}
+{"time":"2025-02-05T12:20:55.814884+01:00","level":"INFO","msg":"created new stream","id":"isrryfyo"}
+{"time":"2025-02-05T12:20:55.814924+01:00","level":"INFO","msg":"stream: started","id":"isrryfyo"}
+{"time":"2025-02-05T12:20:55.814926+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"isrryfyo"}
+{"time":"2025-02-05T12:20:55.814931+01:00","level":"INFO","msg":"sender: started","stream_id":"isrryfyo"}
+{"time":"2025-02-05T12:20:55.814958+01:00","level":"INFO","msg":"handler: started","stream_id":"isrryfyo"}
+{"time":"2025-02-05T12:20:56.083857+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T12:21:11.731591+01:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/isrryfyo/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-05T12:21:22.546148+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T12:21:22.546518+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T12:21:23.552996+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-isrryfyo-data_plotepoch180_table","runtime_seconds":1.3367074159999999},{"desc":"uploading artifact run-isrryfyo-data_plotepoch190_table","runtime_seconds":1.090186916}],"total_operations":2}}
+{"time":"2025-02-05T12:21:24.089214+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T12:21:25.306984+01:00","level":"INFO","msg":"stream: closing","id":"isrryfyo"}
+{"time":"2025-02-05T12:21:25.307011+01:00","level":"INFO","msg":"handler: closed","stream_id":"isrryfyo"}
+{"time":"2025-02-05T12:21:25.307026+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"isrryfyo"}
+{"time":"2025-02-05T12:21:25.307038+01:00","level":"INFO","msg":"sender: closed","stream_id":"isrryfyo"}
+{"time":"2025-02-05T12:21:25.307843+01:00","level":"INFO","msg":"stream: closed","id":"isrryfyo"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-05T12:01:49.112066+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_120149-dbvpf0ie/logs/debug-core.log"}
+{"time":"2025-02-05T12:01:49.220815+01:00","level":"INFO","msg":"created new stream","id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:49.220848+01:00","level":"INFO","msg":"stream: started","id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:49.220849+01:00","level":"INFO","msg":"handler: started","stream_id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:49.220854+01:00","level":"INFO","msg":"sender: started","stream_id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:49.220911+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:49.647903+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T12:01:55.120039+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T12:01:55.120425+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T12:01:56.126571+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dbvpf0ie-data_plotepoch170_table","runtime_seconds":1.6444722920000001},{"desc":"uploading artifact run-dbvpf0ie-data_plotepoch180_table","runtime_seconds":1.377152792},{"desc":"uploading artifact run-dbvpf0ie-data_plotepoch190_table","runtime_seconds":1.117915625},{"desc":"uploading config.yaml","runtime_seconds":0.370325167,"progress":"24.7KB/24.7KB"}],"total_operations":4}}
+{"time":"2025-02-05T12:01:56.624361+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T12:01:57.802136+01:00","level":"INFO","msg":"stream: closing","id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:57.802208+01:00","level":"INFO","msg":"handler: closed","stream_id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:57.802228+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:57.80225+01:00","level":"INFO","msg":"sender: closed","stream_id":"dbvpf0ie"}
+{"time":"2025-02-05T12:01:57.80306+01:00","level":"INFO","msg":"stream: closed","id":"dbvpf0ie"}
