@@ -1,0 +1,16 @@
+{"time":"2025-02-05T19:05:25.292564+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190525-16ld42wa/logs/debug-core.log"}
+{"time":"2025-02-05T19:05:25.399938+01:00","level":"INFO","msg":"created new stream","id":"16ld42wa"}
+{"time":"2025-02-05T19:05:25.399975+01:00","level":"INFO","msg":"stream: started","id":"16ld42wa"}
+{"time":"2025-02-05T19:05:25.399978+01:00","level":"INFO","msg":"handler: started","stream_id":"16ld42wa"}
+{"time":"2025-02-05T19:05:25.4+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"16ld42wa"}
+{"time":"2025-02-05T19:05:25.399989+01:00","level":"INFO","msg":"sender: started","stream_id":"16ld42wa"}
+{"time":"2025-02-05T19:05:25.621358+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:05:26.259829+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:05:26.260155+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:05:27.266545+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-16ld42wa-data_plot0_table","runtime_seconds":1.32203},{"desc":"uploading artifact run-16ld42wa-data_plot1_table","runtime_seconds":1.299437208},{"desc":"uploading artifact run-16ld42wa-data_plot2_table","runtime_seconds":1.165030542},{"desc":"uploading artifact run-16ld42wa-data_plot3_table","runtime_seconds":1.009827709}],"total_operations":4}}
+{"time":"2025-02-05T19:05:28.569389+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:05:29.758537+01:00","level":"INFO","msg":"stream: closing","id":"16ld42wa"}
+{"time":"2025-02-05T19:05:29.758611+01:00","level":"INFO","msg":"handler: closed","stream_id":"16ld42wa"}
+{"time":"2025-02-05T19:05:29.758647+01:00","level":"INFO","msg":"sender: closed","stream_id":"16ld42wa"}
+{"time":"2025-02-05T19:05:29.758633+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"16ld42wa"}
+{"time":"2025-02-05T19:05:29.759074+01:00","level":"INFO","msg":"stream: closed","id":"16ld42wa"}

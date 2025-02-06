@@ -1,0 +1,17 @@
+{"time":"2025-02-05T19:08:55.074206+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190855-50pikbbh/logs/debug-core.log"}
+{"time":"2025-02-05T19:08:55.1819+01:00","level":"INFO","msg":"created new stream","id":"50pikbbh"}
+{"time":"2025-02-05T19:08:55.181941+01:00","level":"INFO","msg":"stream: started","id":"50pikbbh"}
+{"time":"2025-02-05T19:08:55.181944+01:00","level":"INFO","msg":"handler: started","stream_id":"50pikbbh"}
+{"time":"2025-02-05T19:08:55.181948+01:00","level":"INFO","msg":"sender: started","stream_id":"50pikbbh"}
+{"time":"2025-02-05T19:08:55.181973+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"50pikbbh"}
+{"time":"2025-02-05T19:08:55.702082+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:08:56.356998+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:08:56.357491+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:08:56.414024+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T19:08:57.364232+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-50pikbbh-data_plot0_table","runtime_seconds":1.232384917,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-50pikbbh-data_plot1_table","runtime_seconds":1.232355167},{"desc":"uploading artifact run-50pikbbh-data_plot2_table","runtime_seconds":1.166627916},{"desc":"uploading artifact run-50pikbbh-data_plot3_table","runtime_seconds":1.012221083}],"total_operations":4}}
+{"time":"2025-02-05T19:08:59.926816+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:09:01.128998+01:00","level":"INFO","msg":"stream: closing","id":"50pikbbh"}
+{"time":"2025-02-05T19:09:01.129126+01:00","level":"INFO","msg":"handler: closed","stream_id":"50pikbbh"}
+{"time":"2025-02-05T19:09:01.129164+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"50pikbbh"}
+{"time":"2025-02-05T19:09:01.129183+01:00","level":"INFO","msg":"sender: closed","stream_id":"50pikbbh"}
+{"time":"2025-02-05T19:09:01.129872+01:00","level":"INFO","msg":"stream: closed","id":"50pikbbh"}

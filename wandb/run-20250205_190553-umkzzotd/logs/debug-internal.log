@@ -1,0 +1,16 @@
+{"time":"2025-02-05T19:05:53.066154+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190553-umkzzotd/logs/debug-core.log"}
+{"time":"2025-02-05T19:05:53.172954+01:00","level":"INFO","msg":"created new stream","id":"umkzzotd"}
+{"time":"2025-02-05T19:05:53.172996+01:00","level":"INFO","msg":"stream: started","id":"umkzzotd"}
+{"time":"2025-02-05T19:05:53.172997+01:00","level":"INFO","msg":"handler: started","stream_id":"umkzzotd"}
+{"time":"2025-02-05T19:05:53.173001+01:00","level":"INFO","msg":"sender: started","stream_id":"umkzzotd"}
+{"time":"2025-02-05T19:05:53.173013+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"umkzzotd"}
+{"time":"2025-02-05T19:05:53.939526+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:05:54.8229+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:05:54.823954+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:05:55.828314+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-umkzzotd-data_plot0_table","runtime_seconds":1.394747709},{"desc":"uploading artifact run-umkzzotd-data_plot1_table","runtime_seconds":1.394694958},{"desc":"uploading artifact run-umkzzotd-data_plot2_table","runtime_seconds":1.214690083},{"desc":"uploading artifact run-umkzzotd-data_plot3_table","runtime_seconds":1.015480042}],"total_operations":4}}
+{"time":"2025-02-05T19:05:56.658294+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:05:57.914781+01:00","level":"INFO","msg":"stream: closing","id":"umkzzotd"}
+{"time":"2025-02-05T19:05:57.9148+01:00","level":"INFO","msg":"handler: closed","stream_id":"umkzzotd"}
+{"time":"2025-02-05T19:05:57.914809+01:00","level":"INFO","msg":"sender: closed","stream_id":"umkzzotd"}
+{"time":"2025-02-05T19:05:57.914805+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"umkzzotd"}
+{"time":"2025-02-05T19:05:57.914933+01:00","level":"INFO","msg":"stream: closed","id":"umkzzotd"}

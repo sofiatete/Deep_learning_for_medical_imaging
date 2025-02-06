@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:13:16.551985+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_151316-gwf4tzpa/logs/debug-core.log"}
+{"time":"2025-02-06T15:13:16.65979+01:00","level":"INFO","msg":"created new stream","id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:16.659826+01:00","level":"INFO","msg":"stream: started","id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:16.659857+01:00","level":"INFO","msg":"handler: started","stream_id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:16.659874+01:00","level":"INFO","msg":"sender: started","stream_id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:16.659879+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:16.913439+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:13:17.628117+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:13:17.628431+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:13:18.630826+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-gwf4tzpa-data_plot0_table","runtime_seconds":1.173857333},{"desc":"uploading artifact run-gwf4tzpa-data_plot1_table","runtime_seconds":1.173817},{"desc":"uploading artifact run-gwf4tzpa-data_plot2_table","runtime_seconds":1.160753583},{"desc":"uploading artifact run-gwf4tzpa-data_plot3_table","runtime_seconds":1.00719825}],"total_operations":4}}
+{"time":"2025-02-06T15:13:19.275458+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:13:20.443346+01:00","level":"INFO","msg":"stream: closing","id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:20.443389+01:00","level":"INFO","msg":"handler: closed","stream_id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:20.443405+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:20.443498+01:00","level":"INFO","msg":"sender: closed","stream_id":"gwf4tzpa"}
+{"time":"2025-02-06T15:13:20.443716+01:00","level":"INFO","msg":"stream: closed","id":"gwf4tzpa"}

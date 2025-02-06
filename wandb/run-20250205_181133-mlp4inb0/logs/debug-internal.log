@@ -1,0 +1,16 @@
+{"time":"2025-02-05T18:11:33.554109+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_181133-mlp4inb0/logs/debug-core.log"}
+{"time":"2025-02-05T18:11:33.66446+01:00","level":"INFO","msg":"created new stream","id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:33.664495+01:00","level":"INFO","msg":"stream: started","id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:33.664497+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:33.664513+01:00","level":"INFO","msg":"handler: started","stream_id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:33.664546+01:00","level":"INFO","msg":"sender: started","stream_id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:33.902658+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T18:11:38.793158+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T18:11:38.793423+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T18:11:39.799812+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mlp4inb0-data_plotepoch170_table","runtime_seconds":1.56251375},{"desc":"uploading artifact run-mlp4inb0-data_plotepoch180_table","runtime_seconds":1.322818},{"desc":"uploading artifact run-mlp4inb0-data_plotepoch190_table","runtime_seconds":1.092059459}],"total_operations":3}}
+{"time":"2025-02-05T18:11:40.135097+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T18:11:41.330582+01:00","level":"INFO","msg":"stream: closing","id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:41.330656+01:00","level":"INFO","msg":"handler: closed","stream_id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:41.33069+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:41.330707+01:00","level":"INFO","msg":"sender: closed","stream_id":"mlp4inb0"}
+{"time":"2025-02-05T18:11:41.331953+01:00","level":"INFO","msg":"stream: closed","id":"mlp4inb0"}

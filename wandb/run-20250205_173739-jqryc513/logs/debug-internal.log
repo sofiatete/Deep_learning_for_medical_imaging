@@ -1,0 +1,16 @@
+{"time":"2025-02-05T17:37:39.956287+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_173739-jqryc513/logs/debug-core.log"}
+{"time":"2025-02-05T17:37:40.064286+01:00","level":"INFO","msg":"created new stream","id":"jqryc513"}
+{"time":"2025-02-05T17:37:40.064327+01:00","level":"INFO","msg":"stream: started","id":"jqryc513"}
+{"time":"2025-02-05T17:37:40.06433+01:00","level":"INFO","msg":"handler: started","stream_id":"jqryc513"}
+{"time":"2025-02-05T17:37:40.064333+01:00","level":"INFO","msg":"sender: started","stream_id":"jqryc513"}
+{"time":"2025-02-05T17:37:40.064357+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jqryc513"}
+{"time":"2025-02-05T17:37:40.42338+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:37:41.121617+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:37:41.122029+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:37:42.128772+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jqryc513-data_plot0_table","runtime_seconds":1.251903917},{"desc":"uploading artifact run-jqryc513-data_plot1_table","runtime_seconds":1.251831042},{"desc":"uploading artifact run-jqryc513-data_plot2_table","runtime_seconds":1.175562291},{"desc":"uploading artifact run-jqryc513-data_plot3_table","runtime_seconds":1.011884208}],"total_operations":4}}
+{"time":"2025-02-05T17:37:42.55277+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:37:43.744026+01:00","level":"INFO","msg":"stream: closing","id":"jqryc513"}
+{"time":"2025-02-05T17:37:43.744043+01:00","level":"INFO","msg":"handler: closed","stream_id":"jqryc513"}
+{"time":"2025-02-05T17:37:43.744054+01:00","level":"INFO","msg":"sender: closed","stream_id":"jqryc513"}
+{"time":"2025-02-05T17:37:43.744051+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jqryc513"}
+{"time":"2025-02-05T17:37:43.744166+01:00","level":"INFO","msg":"stream: closed","id":"jqryc513"}

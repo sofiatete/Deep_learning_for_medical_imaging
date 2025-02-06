@@ -1,0 +1,17 @@
+{"time":"2025-02-06T15:20:52.325593+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_152052-gu0k7hdu/logs/debug-core.log"}
+{"time":"2025-02-06T15:20:52.432214+01:00","level":"INFO","msg":"created new stream","id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:52.432255+01:00","level":"INFO","msg":"stream: started","id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:52.432257+01:00","level":"INFO","msg":"handler: started","stream_id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:52.432283+01:00","level":"INFO","msg":"sender: started","stream_id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:52.4323+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:52.620768+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:20:53.269467+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:20:53.2697+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:20:53.381532+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-06T15:20:54.275827+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-gu0k7hdu-data_plot0_table","runtime_seconds":1.136603875},{"desc":"uploading artifact run-gu0k7hdu-data_plot1_table","runtime_seconds":1.136544792},{"desc":"uploading artifact run-gu0k7hdu-data_plot2_table","runtime_seconds":1.136470875,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-gu0k7hdu-data_plot3_table","runtime_seconds":1.010074209}],"total_operations":4}}
+{"time":"2025-02-06T15:20:57.040085+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:20:58.220063+01:00","level":"INFO","msg":"stream: closing","id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:58.220144+01:00","level":"INFO","msg":"handler: closed","stream_id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:58.220196+01:00","level":"INFO","msg":"sender: closed","stream_id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:58.22018+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gu0k7hdu"}
+{"time":"2025-02-06T15:20:58.220607+01:00","level":"INFO","msg":"stream: closed","id":"gu0k7hdu"}

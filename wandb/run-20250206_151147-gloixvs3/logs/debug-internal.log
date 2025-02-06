@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:11:47.937838+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_151147-gloixvs3/logs/debug-core.log"}
+{"time":"2025-02-06T15:11:48.048076+01:00","level":"INFO","msg":"created new stream","id":"gloixvs3"}
+{"time":"2025-02-06T15:11:48.048113+01:00","level":"INFO","msg":"stream: started","id":"gloixvs3"}
+{"time":"2025-02-06T15:11:48.048116+01:00","level":"INFO","msg":"handler: started","stream_id":"gloixvs3"}
+{"time":"2025-02-06T15:11:48.048125+01:00","level":"INFO","msg":"sender: started","stream_id":"gloixvs3"}
+{"time":"2025-02-06T15:11:48.04814+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gloixvs3"}
+{"time":"2025-02-06T15:11:48.250592+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:11:56.67033+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:11:56.670605+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:11:57.676914+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-gloixvs3-data_plotepoch190_table","runtime_seconds":1.239519959},{"desc":"uploading config.yaml","runtime_seconds":0.710128167,"progress":"24.7KB/24.7KB"}],"total_operations":2}}
+{"time":"2025-02-06T15:11:58.17855+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:11:59.402925+01:00","level":"INFO","msg":"stream: closing","id":"gloixvs3"}
+{"time":"2025-02-06T15:11:59.402997+01:00","level":"INFO","msg":"handler: closed","stream_id":"gloixvs3"}
+{"time":"2025-02-06T15:11:59.403052+01:00","level":"INFO","msg":"sender: closed","stream_id":"gloixvs3"}
+{"time":"2025-02-06T15:11:59.403033+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gloixvs3"}
+{"time":"2025-02-06T15:11:59.403432+01:00","level":"INFO","msg":"stream: closed","id":"gloixvs3"}

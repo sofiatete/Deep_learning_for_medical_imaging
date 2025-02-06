@@ -1,0 +1,17 @@
+{"time":"2025-02-06T14:58:24.596989+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145824-afd4rsjm/logs/debug-core.log"}
+{"time":"2025-02-06T14:58:24.704685+01:00","level":"INFO","msg":"created new stream","id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:24.70472+01:00","level":"INFO","msg":"stream: started","id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:24.704722+01:00","level":"INFO","msg":"handler: started","stream_id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:24.704738+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:24.704725+01:00","level":"INFO","msg":"sender: started","stream_id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:24.989235+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:58:25.588105+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-06T14:58:25.676171+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:58:25.676387+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:58:26.682753+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-afd4rsjm-data_plot0_table","runtime_seconds":1.342666667,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-afd4rsjm-data_plot1_table","runtime_seconds":1.342641792},{"desc":"uploading artifact run-afd4rsjm-data_plot2_table","runtime_seconds":1.196936333},{"desc":"uploading artifact run-afd4rsjm-data_plot3_table","runtime_seconds":1.009311709}],"total_operations":4}}
+{"time":"2025-02-06T14:58:29.341685+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:58:30.574893+01:00","level":"INFO","msg":"stream: closing","id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:30.574934+01:00","level":"INFO","msg":"handler: closed","stream_id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:30.574949+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:30.5797+01:00","level":"INFO","msg":"sender: closed","stream_id":"afd4rsjm"}
+{"time":"2025-02-06T14:58:30.580593+01:00","level":"INFO","msg":"stream: closed","id":"afd4rsjm"}

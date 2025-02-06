@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:13:47.317907+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_141347-j3zisudt/logs/debug-core.log"}
+{"time":"2025-02-06T14:13:47.427276+01:00","level":"INFO","msg":"created new stream","id":"j3zisudt"}
+{"time":"2025-02-06T14:13:47.42732+01:00","level":"INFO","msg":"stream: started","id":"j3zisudt"}
+{"time":"2025-02-06T14:13:47.427313+01:00","level":"INFO","msg":"handler: started","stream_id":"j3zisudt"}
+{"time":"2025-02-06T14:13:47.427319+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"j3zisudt"}
+{"time":"2025-02-06T14:13:47.427336+01:00","level":"INFO","msg":"sender: started","stream_id":"j3zisudt"}
+{"time":"2025-02-06T14:13:47.608656+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:13:52.763644+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:13:52.763942+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:13:53.770295+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-j3zisudt-data_plotepoch160_table","runtime_seconds":1.803506458},{"desc":"uploading artifact run-j3zisudt-data_plotepoch170_table","runtime_seconds":1.569222042},{"desc":"uploading artifact run-j3zisudt-data_plotepoch180_table","runtime_seconds":1.33309025},{"desc":"uploading artifact run-j3zisudt-data_plotepoch190_table","runtime_seconds":1.096189458}],"total_operations":4}}
+{"time":"2025-02-06T14:13:55.03844+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:13:56.512771+01:00","level":"INFO","msg":"stream: closing","id":"j3zisudt"}
+{"time":"2025-02-06T14:13:56.512859+01:00","level":"INFO","msg":"handler: closed","stream_id":"j3zisudt"}
+{"time":"2025-02-06T14:13:56.512892+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j3zisudt"}
+{"time":"2025-02-06T14:13:56.512919+01:00","level":"INFO","msg":"sender: closed","stream_id":"j3zisudt"}
+{"time":"2025-02-06T14:13:56.51332+01:00","level":"INFO","msg":"stream: closed","id":"j3zisudt"}

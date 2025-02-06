@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:21:41.668336+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_152141-izwplthk/logs/debug-core.log"}
+{"time":"2025-02-06T15:21:41.773728+01:00","level":"INFO","msg":"created new stream","id":"izwplthk"}
+{"time":"2025-02-06T15:21:41.773766+01:00","level":"INFO","msg":"stream: started","id":"izwplthk"}
+{"time":"2025-02-06T15:21:41.773769+01:00","level":"INFO","msg":"handler: started","stream_id":"izwplthk"}
+{"time":"2025-02-06T15:21:41.773776+01:00","level":"INFO","msg":"sender: started","stream_id":"izwplthk"}
+{"time":"2025-02-06T15:21:41.773805+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"izwplthk"}
+{"time":"2025-02-06T15:21:42.02643+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:21:42.721266+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:21:42.721791+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:21:43.723752+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-izwplthk-data_plot0_table","runtime_seconds":1.376137792},{"desc":"uploading artifact run-izwplthk-data_plot1_table","runtime_seconds":1.292291583},{"desc":"uploading artifact run-izwplthk-data_plot2_table","runtime_seconds":1.146198042},{"desc":"uploading artifact run-izwplthk-data_plot3_table","runtime_seconds":1.0061495}],"total_operations":4}}
+{"time":"2025-02-06T15:21:44.232316+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:21:45.417714+01:00","level":"INFO","msg":"stream: closing","id":"izwplthk"}
+{"time":"2025-02-06T15:21:45.417746+01:00","level":"INFO","msg":"handler: closed","stream_id":"izwplthk"}
+{"time":"2025-02-06T15:21:45.417763+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"izwplthk"}
+{"time":"2025-02-06T15:21:45.417773+01:00","level":"INFO","msg":"sender: closed","stream_id":"izwplthk"}
+{"time":"2025-02-06T15:21:45.418006+01:00","level":"INFO","msg":"stream: closed","id":"izwplthk"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-06T15:12:15.169452+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_151215-vxju04pp/logs/debug-core.log"}
+{"time":"2025-02-06T15:12:15.27528+01:00","level":"INFO","msg":"created new stream","id":"vxju04pp"}
+{"time":"2025-02-06T15:12:15.275316+01:00","level":"INFO","msg":"stream: started","id":"vxju04pp"}
+{"time":"2025-02-06T15:12:15.275332+01:00","level":"INFO","msg":"handler: started","stream_id":"vxju04pp"}
+{"time":"2025-02-06T15:12:15.275332+01:00","level":"INFO","msg":"sender: started","stream_id":"vxju04pp"}
+{"time":"2025-02-06T15:12:15.27535+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vxju04pp"}
+{"time":"2025-02-06T15:12:15.462939+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:12:16.173903+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-06T15:12:16.189608+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:12:16.189853+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:12:17.196442+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vxju04pp-data_plot0_table","runtime_seconds":1.327637459},{"desc":"uploading artifact run-vxju04pp-data_plot1_table","runtime_seconds":1.327613459,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-vxju04pp-data_plot2_table","runtime_seconds":1.152325208},{"desc":"uploading artifact run-vxju04pp-data_plot3_table","runtime_seconds":1.012094625}],"total_operations":4}}
+{"time":"2025-02-06T15:12:19.651869+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:12:20.835077+01:00","level":"INFO","msg":"stream: closing","id":"vxju04pp"}
+{"time":"2025-02-06T15:12:20.835165+01:00","level":"INFO","msg":"handler: closed","stream_id":"vxju04pp"}
+{"time":"2025-02-06T15:12:20.835224+01:00","level":"INFO","msg":"sender: closed","stream_id":"vxju04pp"}
+{"time":"2025-02-06T15:12:20.835205+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vxju04pp"}
+{"time":"2025-02-06T15:12:20.835696+01:00","level":"INFO","msg":"stream: closed","id":"vxju04pp"}

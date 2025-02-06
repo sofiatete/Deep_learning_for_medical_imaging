@@ -1,0 +1,16 @@
+{"time":"2025-02-05T17:38:58.450539+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_173858-6w32dwal/logs/debug-core.log"}
+{"time":"2025-02-05T17:38:58.559192+01:00","level":"INFO","msg":"created new stream","id":"6w32dwal"}
+{"time":"2025-02-05T17:38:58.559238+01:00","level":"INFO","msg":"stream: started","id":"6w32dwal"}
+{"time":"2025-02-05T17:38:58.559243+01:00","level":"INFO","msg":"handler: started","stream_id":"6w32dwal"}
+{"time":"2025-02-05T17:38:58.559248+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6w32dwal"}
+{"time":"2025-02-05T17:38:58.559272+01:00","level":"INFO","msg":"sender: started","stream_id":"6w32dwal"}
+{"time":"2025-02-05T17:38:58.789676+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:38:59.445272+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:38:59.445589+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:39:00.449725+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6w32dwal-data_plot0_table","runtime_seconds":1.295519833},{"desc":"uploading artifact run-6w32dwal-data_plot1_table","runtime_seconds":1.295492958},{"desc":"uploading artifact run-6w32dwal-data_plot2_table","runtime_seconds":1.1607605},{"desc":"uploading artifact run-6w32dwal-data_plot3_table","runtime_seconds":1.008100042}],"total_operations":4}}
+{"time":"2025-02-05T17:39:00.954545+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:39:02.157933+01:00","level":"INFO","msg":"stream: closing","id":"6w32dwal"}
+{"time":"2025-02-05T17:39:02.158017+01:00","level":"INFO","msg":"handler: closed","stream_id":"6w32dwal"}
+{"time":"2025-02-05T17:39:02.158063+01:00","level":"INFO","msg":"sender: closed","stream_id":"6w32dwal"}
+{"time":"2025-02-05T17:39:02.158044+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6w32dwal"}
+{"time":"2025-02-05T17:39:02.158598+01:00","level":"INFO","msg":"stream: closed","id":"6w32dwal"}

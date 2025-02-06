@@ -1,0 +1,44 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-02-06T13:58:50.756924Z",
+  "program":  "/Users/sofiatete/Deep_learning_for_medical_imaging/exercise_1.ipynb",
+  "codePath":  "exercise_1.ipynb",
+  "git":  {
+    "remote":  "https://github.com/sofiatete/Deep_learning_for_medical_imaging.git",
+    "commit":  "36beaeb1770df705f40fc237a6bfe43b649d6044"
+  },
+  "email":  "sofia.garcia.nunes@gmail.com",
+  "root":  "/Users/sofiatete/Deep_learning_for_medical_imaging",
+  "host":  "Sofias-Laptop.local",
+  "executable":  "/opt/anaconda3/bin/python",
+  "codePathLocal":  "exercise_1.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "83221164032"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "83221164032"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M3",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "swapTotalBytes":  "3221225472",
+    "ramTotalBytes":  "17179869184"
+  }
+}

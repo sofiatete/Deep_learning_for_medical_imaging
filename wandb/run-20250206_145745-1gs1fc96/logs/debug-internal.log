@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:57:45.819536+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145745-1gs1fc96/logs/debug-core.log"}
+{"time":"2025-02-06T14:57:45.925912+01:00","level":"INFO","msg":"created new stream","id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:45.925963+01:00","level":"INFO","msg":"stream: started","id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:45.925976+01:00","level":"INFO","msg":"sender: started","stream_id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:45.925998+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:45.925971+01:00","level":"INFO","msg":"handler: started","stream_id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:46.148221+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:57:47.015929+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:57:47.016343+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:57:48.022274+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-1gs1fc96-data_plot1_table","runtime_seconds":1.326660625},{"desc":"uploading artifact run-1gs1fc96-data_plot2_table","runtime_seconds":1.163284708},{"desc":"uploading artifact run-1gs1fc96-data_plot3_table","runtime_seconds":1.010645166}],"total_operations":3}}
+{"time":"2025-02-06T14:57:48.520092+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:57:49.695893+01:00","level":"INFO","msg":"stream: closing","id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:49.695932+01:00","level":"INFO","msg":"handler: closed","stream_id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:49.695953+01:00","level":"INFO","msg":"sender: closed","stream_id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:49.695944+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1gs1fc96"}
+{"time":"2025-02-06T14:57:49.696226+01:00","level":"INFO","msg":"stream: closed","id":"1gs1fc96"}

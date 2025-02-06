@@ -1,0 +1,17 @@
+{"time":"2025-02-06T15:20:04.783131+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_152004-ye5wi649/logs/debug-core.log"}
+{"time":"2025-02-06T15:20:04.891736+01:00","level":"INFO","msg":"created new stream","id":"ye5wi649"}
+{"time":"2025-02-06T15:20:04.891776+01:00","level":"INFO","msg":"stream: started","id":"ye5wi649"}
+{"time":"2025-02-06T15:20:04.891829+01:00","level":"INFO","msg":"handler: started","stream_id":"ye5wi649"}
+{"time":"2025-02-06T15:20:04.891832+01:00","level":"INFO","msg":"sender: started","stream_id":"ye5wi649"}
+{"time":"2025-02-06T15:20:04.891845+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ye5wi649"}
+{"time":"2025-02-06T15:20:05.108485+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:20:05.745425+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:20:05.745807+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:20:05.76253+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-06T15:20:06.751981+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ye5wi649-data_plot0_table","runtime_seconds":1.250471417},{"desc":"uploading artifact run-ye5wi649-data_plot1_table","runtime_seconds":1.250432959,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-ye5wi649-data_plot2_table","runtime_seconds":1.149688417},{"desc":"uploading artifact run-ye5wi649-data_plot3_table","runtime_seconds":1.010236542}],"total_operations":4}}
+{"time":"2025-02-06T15:20:09.523857+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:20:10.699826+01:00","level":"INFO","msg":"stream: closing","id":"ye5wi649"}
+{"time":"2025-02-06T15:20:10.699905+01:00","level":"INFO","msg":"handler: closed","stream_id":"ye5wi649"}
+{"time":"2025-02-06T15:20:10.699965+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ye5wi649"}
+{"time":"2025-02-06T15:20:10.701158+01:00","level":"INFO","msg":"sender: closed","stream_id":"ye5wi649"}
+{"time":"2025-02-06T15:20:10.701265+01:00","level":"INFO","msg":"stream: closed","id":"ye5wi649"}

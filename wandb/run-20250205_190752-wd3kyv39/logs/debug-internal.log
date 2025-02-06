@@ -1,0 +1,16 @@
+{"time":"2025-02-05T19:07:52.171902+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190752-wd3kyv39/logs/debug-core.log"}
+{"time":"2025-02-05T19:07:52.281747+01:00","level":"INFO","msg":"created new stream","id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:52.28178+01:00","level":"INFO","msg":"stream: started","id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:52.281781+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:52.281806+01:00","level":"INFO","msg":"sender: started","stream_id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:52.281817+01:00","level":"INFO","msg":"handler: started","stream_id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:52.563703+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:07:53.217332+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:07:53.217529+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:07:54.219617+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wd3kyv39-data_plot0_table","runtime_seconds":1.246300292},{"desc":"uploading artifact run-wd3kyv39-data_plot1_table","runtime_seconds":1.246241542},{"desc":"uploading artifact run-wd3kyv39-data_plot2_table","runtime_seconds":1.149361042},{"desc":"uploading artifact run-wd3kyv39-data_plot3_table","runtime_seconds":1.004496166}],"total_operations":4}}
+{"time":"2025-02-05T19:07:54.629585+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:07:55.806338+01:00","level":"INFO","msg":"stream: closing","id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:55.806408+01:00","level":"INFO","msg":"handler: closed","stream_id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:55.806437+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:55.806452+01:00","level":"INFO","msg":"sender: closed","stream_id":"wd3kyv39"}
+{"time":"2025-02-05T19:07:55.806821+01:00","level":"INFO","msg":"stream: closed","id":"wd3kyv39"}

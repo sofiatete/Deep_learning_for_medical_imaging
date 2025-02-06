@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:10:12.805157+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_141012-rndakbif/logs/debug-core.log"}
+{"time":"2025-02-06T14:10:12.913089+01:00","level":"INFO","msg":"created new stream","id":"rndakbif"}
+{"time":"2025-02-06T14:10:12.913141+01:00","level":"INFO","msg":"stream: started","id":"rndakbif"}
+{"time":"2025-02-06T14:10:12.91314+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rndakbif"}
+{"time":"2025-02-06T14:10:12.913181+01:00","level":"INFO","msg":"sender: started","stream_id":"rndakbif"}
+{"time":"2025-02-06T14:10:12.91314+01:00","level":"INFO","msg":"handler: started","stream_id":"rndakbif"}
+{"time":"2025-02-06T14:10:13.118489+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:10:13.798054+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:10:13.798277+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:10:14.805075+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rndakbif-data_plot0_table","runtime_seconds":1.337416833},{"desc":"uploading artifact run-rndakbif-data_plot1_table","runtime_seconds":1.323661},{"desc":"uploading artifact run-rndakbif-data_plot2_table","runtime_seconds":1.157953125},{"desc":"uploading artifact run-rndakbif-data_plot3_table","runtime_seconds":1.009568833}],"total_operations":4}}
+{"time":"2025-02-06T14:10:15.389383+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:10:16.596329+01:00","level":"INFO","msg":"stream: closing","id":"rndakbif"}
+{"time":"2025-02-06T14:10:16.59642+01:00","level":"INFO","msg":"handler: closed","stream_id":"rndakbif"}
+{"time":"2025-02-06T14:10:16.596454+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rndakbif"}
+{"time":"2025-02-06T14:10:16.596483+01:00","level":"INFO","msg":"sender: closed","stream_id":"rndakbif"}
+{"time":"2025-02-06T14:10:16.597012+01:00","level":"INFO","msg":"stream: closed","id":"rndakbif"}

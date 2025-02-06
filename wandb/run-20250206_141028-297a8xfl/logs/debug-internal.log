@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:10:28.892589+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_141028-297a8xfl/logs/debug-core.log"}
+{"time":"2025-02-06T14:10:29.001948+01:00","level":"INFO","msg":"created new stream","id":"297a8xfl"}
+{"time":"2025-02-06T14:10:29.001981+01:00","level":"INFO","msg":"stream: started","id":"297a8xfl"}
+{"time":"2025-02-06T14:10:29.00199+01:00","level":"INFO","msg":"sender: started","stream_id":"297a8xfl"}
+{"time":"2025-02-06T14:10:29.001986+01:00","level":"INFO","msg":"handler: started","stream_id":"297a8xfl"}
+{"time":"2025-02-06T14:10:29.002037+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"297a8xfl"}
+{"time":"2025-02-06T14:10:29.213951+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:10:35.009872+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:10:35.010167+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:10:36.016729+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-297a8xfl-data_plotepoch170_table","runtime_seconds":1.630498625},{"desc":"uploading artifact run-297a8xfl-data_plotepoch180_table","runtime_seconds":1.344564625},{"desc":"uploading artifact run-297a8xfl-data_plotepoch190_table","runtime_seconds":1.094726375}],"total_operations":3}}
+{"time":"2025-02-06T14:10:36.582632+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:10:37.772222+01:00","level":"INFO","msg":"stream: closing","id":"297a8xfl"}
+{"time":"2025-02-06T14:10:37.772256+01:00","level":"INFO","msg":"handler: closed","stream_id":"297a8xfl"}
+{"time":"2025-02-06T14:10:37.772275+01:00","level":"INFO","msg":"sender: closed","stream_id":"297a8xfl"}
+{"time":"2025-02-06T14:10:37.772273+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"297a8xfl"}
+{"time":"2025-02-06T14:10:37.7725+01:00","level":"INFO","msg":"stream: closed","id":"297a8xfl"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-05T19:02:21.066231+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190220-sb4ml3os/logs/debug-core.log"}
+{"time":"2025-02-05T19:02:21.177172+01:00","level":"INFO","msg":"created new stream","id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:21.177381+01:00","level":"INFO","msg":"stream: started","id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:21.177527+01:00","level":"INFO","msg":"handler: started","stream_id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:21.177583+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:21.177595+01:00","level":"INFO","msg":"sender: started","stream_id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:21.428236+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:02:22.925101+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:02:22.925445+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:02:23.170873+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T19:02:23.93198+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-sb4ml3os-data_plot1_table","runtime_seconds":1.317958375},{"desc":"uploading artifact run-sb4ml3os-data_plot2_table","runtime_seconds":1.168634333},{"desc":"uploading artifact run-sb4ml3os-data_plot3_table","runtime_seconds":1.01729075,"error_status":"retrying HTTP 503 Service Unavailable"}],"total_operations":3}}
+{"time":"2025-02-05T19:02:27.141931+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:02:28.337445+01:00","level":"INFO","msg":"stream: closing","id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:28.337555+01:00","level":"INFO","msg":"handler: closed","stream_id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:28.337552+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:28.337573+01:00","level":"INFO","msg":"sender: closed","stream_id":"sb4ml3os"}
+{"time":"2025-02-05T19:02:28.337953+01:00","level":"INFO","msg":"stream: closed","id":"sb4ml3os"}

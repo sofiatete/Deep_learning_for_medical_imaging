@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:14:33.057312+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_151433-luyb80o1/logs/debug-core.log"}
+{"time":"2025-02-06T15:14:33.166294+01:00","level":"INFO","msg":"created new stream","id":"luyb80o1"}
+{"time":"2025-02-06T15:14:33.166329+01:00","level":"INFO","msg":"stream: started","id":"luyb80o1"}
+{"time":"2025-02-06T15:14:33.16634+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"luyb80o1"}
+{"time":"2025-02-06T15:14:33.166367+01:00","level":"INFO","msg":"handler: started","stream_id":"luyb80o1"}
+{"time":"2025-02-06T15:14:33.166344+01:00","level":"INFO","msg":"sender: started","stream_id":"luyb80o1"}
+{"time":"2025-02-06T15:14:33.372412+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:14:34.143767+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:14:34.144204+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:14:35.151192+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-luyb80o1-data_plot0_table","runtime_seconds":1.445893917},{"desc":"uploading artifact run-luyb80o1-data_plot1_table","runtime_seconds":1.360712875},{"desc":"uploading artifact run-luyb80o1-data_plot2_table","runtime_seconds":1.209481416},{"desc":"uploading artifact run-luyb80o1-data_plot3_table","runtime_seconds":1.013790833}],"total_operations":4}}
+{"time":"2025-02-06T15:14:35.708129+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:14:36.903769+01:00","level":"INFO","msg":"stream: closing","id":"luyb80o1"}
+{"time":"2025-02-06T15:14:36.903865+01:00","level":"INFO","msg":"handler: closed","stream_id":"luyb80o1"}
+{"time":"2025-02-06T15:14:36.903893+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"luyb80o1"}
+{"time":"2025-02-06T15:14:36.90393+01:00","level":"INFO","msg":"sender: closed","stream_id":"luyb80o1"}
+{"time":"2025-02-06T15:14:36.904434+01:00","level":"INFO","msg":"stream: closed","id":"luyb80o1"}

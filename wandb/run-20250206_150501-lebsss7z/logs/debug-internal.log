@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:05:01.012525+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_150501-lebsss7z/logs/debug-core.log"}
+{"time":"2025-02-06T15:05:01.121063+01:00","level":"INFO","msg":"created new stream","id":"lebsss7z"}
+{"time":"2025-02-06T15:05:01.121101+01:00","level":"INFO","msg":"stream: started","id":"lebsss7z"}
+{"time":"2025-02-06T15:05:01.121098+01:00","level":"INFO","msg":"handler: started","stream_id":"lebsss7z"}
+{"time":"2025-02-06T15:05:01.12112+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lebsss7z"}
+{"time":"2025-02-06T15:05:01.121125+01:00","level":"INFO","msg":"sender: started","stream_id":"lebsss7z"}
+{"time":"2025-02-06T15:05:01.351615+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:05:01.983578+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:05:01.983771+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:05:02.991403+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-lebsss7z-data_plot0_table","runtime_seconds":1.236572167},{"desc":"uploading artifact run-lebsss7z-data_plot1_table","runtime_seconds":1.2365315},{"desc":"uploading artifact run-lebsss7z-data_plot2_table","runtime_seconds":1.143195208},{"desc":"uploading artifact run-lebsss7z-data_plot3_table","runtime_seconds":1.010293458}],"total_operations":4}}
+{"time":"2025-02-06T15:05:03.429383+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:05:04.626108+01:00","level":"INFO","msg":"stream: closing","id":"lebsss7z"}
+{"time":"2025-02-06T15:05:04.626193+01:00","level":"INFO","msg":"handler: closed","stream_id":"lebsss7z"}
+{"time":"2025-02-06T15:05:04.626216+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lebsss7z"}
+{"time":"2025-02-06T15:05:04.626246+01:00","level":"INFO","msg":"sender: closed","stream_id":"lebsss7z"}
+{"time":"2025-02-06T15:05:04.626662+01:00","level":"INFO","msg":"stream: closed","id":"lebsss7z"}

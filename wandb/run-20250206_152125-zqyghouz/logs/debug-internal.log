@@ -1,0 +1,17 @@
+{"time":"2025-02-06T15:21:25.237592+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_152125-zqyghouz/logs/debug-core.log"}
+{"time":"2025-02-06T15:21:25.347569+01:00","level":"INFO","msg":"created new stream","id":"zqyghouz"}
+{"time":"2025-02-06T15:21:25.347611+01:00","level":"INFO","msg":"stream: started","id":"zqyghouz"}
+{"time":"2025-02-06T15:21:25.34763+01:00","level":"INFO","msg":"sender: started","stream_id":"zqyghouz"}
+{"time":"2025-02-06T15:21:25.347611+01:00","level":"INFO","msg":"handler: started","stream_id":"zqyghouz"}
+{"time":"2025-02-06T15:21:25.347614+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zqyghouz"}
+{"time":"2025-02-06T15:21:25.586937+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:21:26.280977+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:21:26.281222+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:21:26.309095+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-06T15:21:27.28758+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zqyghouz-data_plot0_table","runtime_seconds":1.217837875},{"desc":"uploading artifact run-zqyghouz-data_plot1_table","runtime_seconds":1.217772458,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-zqyghouz-data_plot2_table","runtime_seconds":1.139813416},{"desc":"uploading artifact run-zqyghouz-data_plot3_table","runtime_seconds":1.010028667}],"total_operations":4}}
+{"time":"2025-02-06T15:21:29.865376+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:21:31.070667+01:00","level":"INFO","msg":"stream: closing","id":"zqyghouz"}
+{"time":"2025-02-06T15:21:31.070862+01:00","level":"INFO","msg":"handler: closed","stream_id":"zqyghouz"}
+{"time":"2025-02-06T15:21:31.070906+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zqyghouz"}
+{"time":"2025-02-06T15:21:31.071045+01:00","level":"INFO","msg":"sender: closed","stream_id":"zqyghouz"}
+{"time":"2025-02-06T15:21:31.071359+01:00","level":"INFO","msg":"stream: closed","id":"zqyghouz"}

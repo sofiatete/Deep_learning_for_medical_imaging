@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:21:56.582679+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_152156-fg8niw01/logs/debug-core.log"}
+{"time":"2025-02-06T15:21:56.708525+01:00","level":"INFO","msg":"created new stream","id":"fg8niw01"}
+{"time":"2025-02-06T15:21:56.708578+01:00","level":"INFO","msg":"stream: started","id":"fg8niw01"}
+{"time":"2025-02-06T15:21:56.708704+01:00","level":"INFO","msg":"handler: started","stream_id":"fg8niw01"}
+{"time":"2025-02-06T15:21:56.708721+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fg8niw01"}
+{"time":"2025-02-06T15:21:56.708733+01:00","level":"INFO","msg":"sender: started","stream_id":"fg8niw01"}
+{"time":"2025-02-06T15:21:56.941228+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:21:57.802655+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:21:57.803014+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:21:58.805284+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fg8niw01-data_plot0_table","runtime_seconds":1.4462095},{"desc":"uploading artifact run-fg8niw01-data_plot2_table","runtime_seconds":1.3636615},{"desc":"uploading artifact run-fg8niw01-data_plot3_table","runtime_seconds":1.009161916}],"total_operations":3}}
+{"time":"2025-02-06T15:21:59.233748+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:22:00.410324+01:00","level":"INFO","msg":"stream: closing","id":"fg8niw01"}
+{"time":"2025-02-06T15:22:00.410405+01:00","level":"INFO","msg":"handler: closed","stream_id":"fg8niw01"}
+{"time":"2025-02-06T15:22:00.410423+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fg8niw01"}
+{"time":"2025-02-06T15:22:00.410459+01:00","level":"INFO","msg":"sender: closed","stream_id":"fg8niw01"}
+{"time":"2025-02-06T15:22:00.410812+01:00","level":"INFO","msg":"stream: closed","id":"fg8niw01"}

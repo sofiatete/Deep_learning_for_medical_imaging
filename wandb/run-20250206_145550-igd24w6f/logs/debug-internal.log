@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:55:50.649419+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145550-igd24w6f/logs/debug-core.log"}
+{"time":"2025-02-06T14:55:50.755512+01:00","level":"INFO","msg":"created new stream","id":"igd24w6f"}
+{"time":"2025-02-06T14:55:50.755544+01:00","level":"INFO","msg":"stream: started","id":"igd24w6f"}
+{"time":"2025-02-06T14:55:50.755548+01:00","level":"INFO","msg":"handler: started","stream_id":"igd24w6f"}
+{"time":"2025-02-06T14:55:50.755558+01:00","level":"INFO","msg":"sender: started","stream_id":"igd24w6f"}
+{"time":"2025-02-06T14:55:50.755574+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"igd24w6f"}
+{"time":"2025-02-06T14:55:50.994075+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:55:51.694578+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:55:51.694946+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:55:52.701815+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-igd24w6f-data_plot0_table","runtime_seconds":1.334114292},{"desc":"uploading artifact run-igd24w6f-data_plot1_table","runtime_seconds":1.334058334},{"desc":"uploading artifact run-igd24w6f-data_plot2_table","runtime_seconds":1.179688875},{"desc":"uploading artifact run-igd24w6f-data_plot3_table","runtime_seconds":1.012303083}],"total_operations":4}}
+{"time":"2025-02-06T14:55:53.182175+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:55:54.36154+01:00","level":"INFO","msg":"stream: closing","id":"igd24w6f"}
+{"time":"2025-02-06T14:55:54.361644+01:00","level":"INFO","msg":"handler: closed","stream_id":"igd24w6f"}
+{"time":"2025-02-06T14:55:54.361668+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"igd24w6f"}
+{"time":"2025-02-06T14:55:54.361716+01:00","level":"INFO","msg":"sender: closed","stream_id":"igd24w6f"}
+{"time":"2025-02-06T14:55:54.362269+01:00","level":"INFO","msg":"stream: closed","id":"igd24w6f"}

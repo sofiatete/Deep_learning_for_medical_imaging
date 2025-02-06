@@ -1,0 +1,16 @@
+{"time":"2025-02-05T19:06:40.771705+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190640-brcotzy9/logs/debug-core.log"}
+{"time":"2025-02-05T19:06:40.882232+01:00","level":"INFO","msg":"created new stream","id":"brcotzy9"}
+{"time":"2025-02-05T19:06:40.882267+01:00","level":"INFO","msg":"stream: started","id":"brcotzy9"}
+{"time":"2025-02-05T19:06:40.882265+01:00","level":"INFO","msg":"handler: started","stream_id":"brcotzy9"}
+{"time":"2025-02-05T19:06:40.882275+01:00","level":"INFO","msg":"sender: started","stream_id":"brcotzy9"}
+{"time":"2025-02-05T19:06:40.88229+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"brcotzy9"}
+{"time":"2025-02-05T19:06:41.144754+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:06:46.043839+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:06:46.044129+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:06:47.050087+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-brcotzy9-data_plotepoch170_table","runtime_seconds":1.567384291},{"desc":"uploading artifact run-brcotzy9-data_plotepoch180_table","runtime_seconds":1.3258258330000001},{"desc":"uploading artifact run-brcotzy9-data_plotepoch190_table","runtime_seconds":1.09167825}],"total_operations":3}}
+{"time":"2025-02-05T19:06:47.411036+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:06:48.611199+01:00","level":"INFO","msg":"stream: closing","id":"brcotzy9"}
+{"time":"2025-02-05T19:06:48.611217+01:00","level":"INFO","msg":"handler: closed","stream_id":"brcotzy9"}
+{"time":"2025-02-05T19:06:48.611226+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"brcotzy9"}
+{"time":"2025-02-05T19:06:48.611231+01:00","level":"INFO","msg":"sender: closed","stream_id":"brcotzy9"}
+{"time":"2025-02-05T19:06:48.611323+01:00","level":"INFO","msg":"stream: closed","id":"brcotzy9"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:57:58.161221+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145758-si86wg1s/logs/debug-core.log"}
+{"time":"2025-02-06T14:57:58.270099+01:00","level":"INFO","msg":"created new stream","id":"si86wg1s"}
+{"time":"2025-02-06T14:57:58.270151+01:00","level":"INFO","msg":"stream: started","id":"si86wg1s"}
+{"time":"2025-02-06T14:57:58.270146+01:00","level":"INFO","msg":"handler: started","stream_id":"si86wg1s"}
+{"time":"2025-02-06T14:57:58.270155+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"si86wg1s"}
+{"time":"2025-02-06T14:57:58.270172+01:00","level":"INFO","msg":"sender: started","stream_id":"si86wg1s"}
+{"time":"2025-02-06T14:57:58.477095+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:57:59.187459+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:57:59.187776+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:58:00.19581+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-si86wg1s-data_plot0_table","runtime_seconds":1.295304917},{"desc":"uploading artifact run-si86wg1s-data_plot2_table","runtime_seconds":1.199147375},{"desc":"uploading artifact run-si86wg1s-data_plot3_table","runtime_seconds":1.01201625}],"total_operations":3}}
+{"time":"2025-02-06T14:58:00.639201+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:58:01.846986+01:00","level":"INFO","msg":"stream: closing","id":"si86wg1s"}
+{"time":"2025-02-06T14:58:01.847074+01:00","level":"INFO","msg":"handler: closed","stream_id":"si86wg1s"}
+{"time":"2025-02-06T14:58:01.8471+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"si86wg1s"}
+{"time":"2025-02-06T14:58:01.847212+01:00","level":"INFO","msg":"sender: closed","stream_id":"si86wg1s"}
+{"time":"2025-02-06T14:58:01.848057+01:00","level":"INFO","msg":"stream: closed","id":"si86wg1s"}

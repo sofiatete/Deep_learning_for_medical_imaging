@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:09:23.08157+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_150923-p48f1fyk/logs/debug-core.log"}
+{"time":"2025-02-06T15:09:23.190354+01:00","level":"INFO","msg":"created new stream","id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:23.190392+01:00","level":"INFO","msg":"stream: started","id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:23.190407+01:00","level":"INFO","msg":"sender: started","stream_id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:23.190427+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:23.190397+01:00","level":"INFO","msg":"handler: started","stream_id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:23.482937+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:09:24.14687+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:09:24.147294+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:09:25.153996+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-p48f1fyk-data_plot0_table","runtime_seconds":1.340892292},{"desc":"uploading artifact run-p48f1fyk-data_plot1_table","runtime_seconds":1.306345583},{"desc":"uploading artifact run-p48f1fyk-data_plot2_table","runtime_seconds":1.15875975},{"desc":"uploading artifact run-p48f1fyk-data_plot3_table","runtime_seconds":1.012151542}],"total_operations":4}}
+{"time":"2025-02-06T15:09:25.475602+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:09:26.678109+01:00","level":"INFO","msg":"stream: closing","id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:26.678204+01:00","level":"INFO","msg":"handler: closed","stream_id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:26.678265+01:00","level":"INFO","msg":"sender: closed","stream_id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:26.678249+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p48f1fyk"}
+{"time":"2025-02-06T15:09:26.678721+01:00","level":"INFO","msg":"stream: closed","id":"p48f1fyk"}

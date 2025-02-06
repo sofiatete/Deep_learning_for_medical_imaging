@@ -1,0 +1,17 @@
+{"time":"2025-02-05T17:40:15.381321+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_174015-02vdmhbr/logs/debug-core.log"}
+{"time":"2025-02-05T17:40:15.490334+01:00","level":"INFO","msg":"created new stream","id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:15.490395+01:00","level":"INFO","msg":"stream: started","id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:15.490398+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:15.490393+01:00","level":"INFO","msg":"handler: started","stream_id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:15.490415+01:00","level":"INFO","msg":"sender: started","stream_id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:15.758488+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:40:16.452815+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:40:16.453035+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:40:16.508052+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T17:40:17.459496+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-02vdmhbr-data_plot0_table","runtime_seconds":1.274423209},{"desc":"uploading artifact run-02vdmhbr-data_plot1_table","runtime_seconds":1.274366334,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-02vdmhbr-data_plot2_table","runtime_seconds":1.163836667},{"desc":"uploading artifact run-02vdmhbr-data_plot3_table","runtime_seconds":1.009355417}],"total_operations":4}}
+{"time":"2025-02-05T17:40:20.649887+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:40:21.912865+01:00","level":"INFO","msg":"stream: closing","id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:21.912943+01:00","level":"INFO","msg":"handler: closed","stream_id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:21.913+01:00","level":"INFO","msg":"sender: closed","stream_id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:21.912983+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"02vdmhbr"}
+{"time":"2025-02-05T17:40:21.913404+01:00","level":"INFO","msg":"stream: closed","id":"02vdmhbr"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-05T17:42:48.370051+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_174248-pctpfxkj/logs/debug-core.log"}
+{"time":"2025-02-05T17:42:48.480629+01:00","level":"INFO","msg":"created new stream","id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:48.480668+01:00","level":"INFO","msg":"stream: started","id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:48.480674+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:48.480682+01:00","level":"INFO","msg":"sender: started","stream_id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:48.480718+01:00","level":"INFO","msg":"handler: started","stream_id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:48.704681+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:42:53.656209+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:42:53.656505+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:42:54.662882+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pctpfxkj-data_plotepoch170_table","runtime_seconds":1.5790381249999998},{"desc":"uploading artifact run-pctpfxkj-data_plotepoch180_table","runtime_seconds":1.34945625},{"desc":"uploading artifact run-pctpfxkj-data_plotepoch190_table","runtime_seconds":1.09656325}],"total_operations":3}}
+{"time":"2025-02-05T17:42:55.093273+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:42:56.320971+01:00","level":"INFO","msg":"stream: closing","id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:56.321071+01:00","level":"INFO","msg":"handler: closed","stream_id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:56.3211+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:56.321131+01:00","level":"INFO","msg":"sender: closed","stream_id":"pctpfxkj"}
+{"time":"2025-02-05T17:42:56.321599+01:00","level":"INFO","msg":"stream: closed","id":"pctpfxkj"}

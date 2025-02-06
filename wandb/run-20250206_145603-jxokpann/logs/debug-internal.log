@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:56:03.214515+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145603-jxokpann/logs/debug-core.log"}
+{"time":"2025-02-06T14:56:03.324118+01:00","level":"INFO","msg":"created new stream","id":"jxokpann"}
+{"time":"2025-02-06T14:56:03.324164+01:00","level":"INFO","msg":"stream: started","id":"jxokpann"}
+{"time":"2025-02-06T14:56:03.324164+01:00","level":"INFO","msg":"handler: started","stream_id":"jxokpann"}
+{"time":"2025-02-06T14:56:03.324166+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jxokpann"}
+{"time":"2025-02-06T14:56:03.324173+01:00","level":"INFO","msg":"sender: started","stream_id":"jxokpann"}
+{"time":"2025-02-06T14:56:03.60979+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:56:04.250657+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:56:04.251139+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:56:05.25795+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jxokpann-data_plot0_table","runtime_seconds":1.184700209},{"desc":"uploading artifact run-jxokpann-data_plot1_table","runtime_seconds":1.184643834},{"desc":"uploading artifact run-jxokpann-data_plot2_table","runtime_seconds":1.160615291},{"desc":"uploading artifact run-jxokpann-data_plot3_table","runtime_seconds":1.014783292},{"desc":"uploading requirements.txt","runtime_seconds":0.126422417,"progress":"4.8KB/4.8KB"}],"total_operations":5}}
+{"time":"2025-02-06T14:56:05.923937+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:56:07.232128+01:00","level":"INFO","msg":"stream: closing","id":"jxokpann"}
+{"time":"2025-02-06T14:56:07.232253+01:00","level":"INFO","msg":"handler: closed","stream_id":"jxokpann"}
+{"time":"2025-02-06T14:56:07.232322+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jxokpann"}
+{"time":"2025-02-06T14:56:07.232353+01:00","level":"INFO","msg":"sender: closed","stream_id":"jxokpann"}
+{"time":"2025-02-06T14:56:07.232864+01:00","level":"INFO","msg":"stream: closed","id":"jxokpann"}

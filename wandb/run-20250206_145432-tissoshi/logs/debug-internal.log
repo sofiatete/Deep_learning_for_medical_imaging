@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:54:32.821097+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145432-tissoshi/logs/debug-core.log"}
+{"time":"2025-02-06T14:54:32.932589+01:00","level":"INFO","msg":"created new stream","id":"tissoshi"}
+{"time":"2025-02-06T14:54:32.932626+01:00","level":"INFO","msg":"stream: started","id":"tissoshi"}
+{"time":"2025-02-06T14:54:32.932624+01:00","level":"INFO","msg":"handler: started","stream_id":"tissoshi"}
+{"time":"2025-02-06T14:54:32.932632+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tissoshi"}
+{"time":"2025-02-06T14:54:32.932674+01:00","level":"INFO","msg":"sender: started","stream_id":"tissoshi"}
+{"time":"2025-02-06T14:54:33.159038+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:54:33.986628+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:54:33.986987+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:54:34.993984+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tissoshi-data_plot1_table","runtime_seconds":1.391219334},{"desc":"uploading artifact run-tissoshi-data_plot2_table","runtime_seconds":1.2226435},{"desc":"uploading artifact run-tissoshi-data_plot3_table","runtime_seconds":1.011203792}],"total_operations":3}}
+{"time":"2025-02-06T14:54:35.573717+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:54:36.758823+01:00","level":"INFO","msg":"stream: closing","id":"tissoshi"}
+{"time":"2025-02-06T14:54:36.758856+01:00","level":"INFO","msg":"handler: closed","stream_id":"tissoshi"}
+{"time":"2025-02-06T14:54:36.758891+01:00","level":"INFO","msg":"sender: closed","stream_id":"tissoshi"}
+{"time":"2025-02-06T14:54:36.758889+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tissoshi"}
+{"time":"2025-02-06T14:54:36.759096+01:00","level":"INFO","msg":"stream: closed","id":"tissoshi"}

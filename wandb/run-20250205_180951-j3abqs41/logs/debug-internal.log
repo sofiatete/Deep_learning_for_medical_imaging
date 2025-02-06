@@ -1,0 +1,16 @@
+{"time":"2025-02-05T18:09:51.878495+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_180951-j3abqs41/logs/debug-core.log"}
+{"time":"2025-02-05T18:09:51.98747+01:00","level":"INFO","msg":"created new stream","id":"j3abqs41"}
+{"time":"2025-02-05T18:09:51.987509+01:00","level":"INFO","msg":"stream: started","id":"j3abqs41"}
+{"time":"2025-02-05T18:09:51.987506+01:00","level":"INFO","msg":"handler: started","stream_id":"j3abqs41"}
+{"time":"2025-02-05T18:09:51.987521+01:00","level":"INFO","msg":"sender: started","stream_id":"j3abqs41"}
+{"time":"2025-02-05T18:09:51.987562+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"j3abqs41"}
+{"time":"2025-02-05T18:09:52.203578+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T18:09:57.060868+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T18:09:57.06116+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T18:09:58.067548+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-j3abqs41-data_plotepoch160_table","runtime_seconds":1.8425153330000001},{"desc":"uploading artifact run-j3abqs41-data_plotepoch170_table","runtime_seconds":1.599453209},{"desc":"uploading artifact run-j3abqs41-data_plotepoch180_table","runtime_seconds":1.340056958},{"desc":"uploading artifact run-j3abqs41-data_plotepoch190_table","runtime_seconds":1.09477}],"total_operations":4}}
+{"time":"2025-02-05T18:09:58.848221+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T18:10:00.0498+01:00","level":"INFO","msg":"stream: closing","id":"j3abqs41"}
+{"time":"2025-02-05T18:10:00.049978+01:00","level":"INFO","msg":"handler: closed","stream_id":"j3abqs41"}
+{"time":"2025-02-05T18:10:00.049998+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j3abqs41"}
+{"time":"2025-02-05T18:10:00.050023+01:00","level":"INFO","msg":"sender: closed","stream_id":"j3abqs41"}
+{"time":"2025-02-05T18:10:00.050732+01:00","level":"INFO","msg":"stream: closed","id":"j3abqs41"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-05T17:42:30.369431+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_174230-hvteffpu/logs/debug-core.log"}
+{"time":"2025-02-05T17:42:30.479807+01:00","level":"INFO","msg":"created new stream","id":"hvteffpu"}
+{"time":"2025-02-05T17:42:30.479859+01:00","level":"INFO","msg":"stream: started","id":"hvteffpu"}
+{"time":"2025-02-05T17:42:30.479853+01:00","level":"INFO","msg":"handler: started","stream_id":"hvteffpu"}
+{"time":"2025-02-05T17:42:30.479861+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hvteffpu"}
+{"time":"2025-02-05T17:42:30.479893+01:00","level":"INFO","msg":"sender: started","stream_id":"hvteffpu"}
+{"time":"2025-02-05T17:42:30.82968+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:42:31.498136+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:42:31.498455+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:42:32.505162+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hvteffpu-data_plot0_table","runtime_seconds":1.208636084},{"desc":"uploading artifact run-hvteffpu-data_plot1_table","runtime_seconds":1.20860525},{"desc":"uploading artifact run-hvteffpu-data_plot2_table","runtime_seconds":1.16127825},{"desc":"uploading artifact run-hvteffpu-data_plot3_table","runtime_seconds":1.011123958}],"total_operations":4}}
+{"time":"2025-02-05T17:42:32.956662+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:42:34.149638+01:00","level":"INFO","msg":"stream: closing","id":"hvteffpu"}
+{"time":"2025-02-05T17:42:34.149735+01:00","level":"INFO","msg":"handler: closed","stream_id":"hvteffpu"}
+{"time":"2025-02-05T17:42:34.149767+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hvteffpu"}
+{"time":"2025-02-05T17:42:34.149962+01:00","level":"INFO","msg":"sender: closed","stream_id":"hvteffpu"}
+{"time":"2025-02-05T17:42:34.150296+01:00","level":"INFO","msg":"stream: closed","id":"hvteffpu"}

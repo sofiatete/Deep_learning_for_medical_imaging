@@ -1,0 +1,16 @@
+{"time":"2025-02-05T19:04:08.054795+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_190408-vcd15urp/logs/debug-core.log"}
+{"time":"2025-02-05T19:04:08.189392+01:00","level":"INFO","msg":"created new stream","id":"vcd15urp"}
+{"time":"2025-02-05T19:04:08.189438+01:00","level":"INFO","msg":"handler: started","stream_id":"vcd15urp"}
+{"time":"2025-02-05T19:04:08.189448+01:00","level":"INFO","msg":"sender: started","stream_id":"vcd15urp"}
+{"time":"2025-02-05T19:04:08.189442+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vcd15urp"}
+{"time":"2025-02-05T19:04:08.189441+01:00","level":"INFO","msg":"stream: started","id":"vcd15urp"}
+{"time":"2025-02-05T19:04:08.390841+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T19:04:09.124929+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T19:04:09.125212+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T19:04:10.131763+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vcd15urp-data_plot0_table","runtime_seconds":1.220005208},{"desc":"uploading artifact run-vcd15urp-data_plot1_table","runtime_seconds":1.219963958},{"desc":"uploading artifact run-vcd15urp-data_plot2_table","runtime_seconds":1.148197916},{"desc":"uploading artifact run-vcd15urp-data_plot3_table","runtime_seconds":1.010175667}],"total_operations":4}}
+{"time":"2025-02-05T19:04:10.973439+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T19:04:12.179251+01:00","level":"INFO","msg":"stream: closing","id":"vcd15urp"}
+{"time":"2025-02-05T19:04:12.179268+01:00","level":"INFO","msg":"handler: closed","stream_id":"vcd15urp"}
+{"time":"2025-02-05T19:04:12.17928+01:00","level":"INFO","msg":"sender: closed","stream_id":"vcd15urp"}
+{"time":"2025-02-05T19:04:12.179276+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vcd15urp"}
+{"time":"2025-02-05T19:04:12.179393+01:00","level":"INFO","msg":"stream: closed","id":"vcd15urp"}

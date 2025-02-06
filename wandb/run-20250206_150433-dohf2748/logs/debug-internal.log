@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:04:33.223409+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_150433-dohf2748/logs/debug-core.log"}
+{"time":"2025-02-06T15:04:33.330497+01:00","level":"INFO","msg":"created new stream","id":"dohf2748"}
+{"time":"2025-02-06T15:04:33.330548+01:00","level":"INFO","msg":"stream: started","id":"dohf2748"}
+{"time":"2025-02-06T15:04:33.330543+01:00","level":"INFO","msg":"handler: started","stream_id":"dohf2748"}
+{"time":"2025-02-06T15:04:33.330552+01:00","level":"INFO","msg":"sender: started","stream_id":"dohf2748"}
+{"time":"2025-02-06T15:04:33.330558+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dohf2748"}
+{"time":"2025-02-06T15:04:33.520644+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:04:34.328474+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:04:34.329106+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:04:35.336056+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dohf2748-data_plot1_table","runtime_seconds":1.339088542},{"desc":"uploading artifact run-dohf2748-data_plot2_table","runtime_seconds":1.198364041},{"desc":"uploading artifact run-dohf2748-data_plot3_table","runtime_seconds":1.016245792}],"total_operations":3}}
+{"time":"2025-02-06T15:04:35.777608+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:04:36.975914+01:00","level":"INFO","msg":"stream: closing","id":"dohf2748"}
+{"time":"2025-02-06T15:04:36.976015+01:00","level":"INFO","msg":"handler: closed","stream_id":"dohf2748"}
+{"time":"2025-02-06T15:04:36.976125+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dohf2748"}
+{"time":"2025-02-06T15:04:36.976224+01:00","level":"INFO","msg":"sender: closed","stream_id":"dohf2748"}
+{"time":"2025-02-06T15:04:36.976634+01:00","level":"INFO","msg":"stream: closed","id":"dohf2748"}

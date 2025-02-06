@@ -1,0 +1,16 @@
+{"time":"2025-02-06T15:00:39.137258+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_150039-nrms7cce/logs/debug-core.log"}
+{"time":"2025-02-06T15:00:39.245959+01:00","level":"INFO","msg":"created new stream","id":"nrms7cce"}
+{"time":"2025-02-06T15:00:39.246009+01:00","level":"INFO","msg":"stream: started","id":"nrms7cce"}
+{"time":"2025-02-06T15:00:39.246008+01:00","level":"INFO","msg":"handler: started","stream_id":"nrms7cce"}
+{"time":"2025-02-06T15:00:39.246032+01:00","level":"INFO","msg":"sender: started","stream_id":"nrms7cce"}
+{"time":"2025-02-06T15:00:39.246012+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nrms7cce"}
+{"time":"2025-02-06T15:00:39.646491+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T15:00:40.294595+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T15:00:40.294935+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T15:00:41.30107+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nrms7cce-data_plot0_table","runtime_seconds":1.212704709},{"desc":"uploading artifact run-nrms7cce-data_plot1_table","runtime_seconds":1.212632042},{"desc":"uploading artifact run-nrms7cce-data_plot2_table","runtime_seconds":1.158617958},{"desc":"uploading artifact run-nrms7cce-data_plot3_table","runtime_seconds":1.011236958}],"total_operations":4}}
+{"time":"2025-02-06T15:00:41.657173+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T15:00:42.835312+01:00","level":"INFO","msg":"stream: closing","id":"nrms7cce"}
+{"time":"2025-02-06T15:00:42.835341+01:00","level":"INFO","msg":"handler: closed","stream_id":"nrms7cce"}
+{"time":"2025-02-06T15:00:42.835358+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nrms7cce"}
+{"time":"2025-02-06T15:00:42.835365+01:00","level":"INFO","msg":"sender: closed","stream_id":"nrms7cce"}
+{"time":"2025-02-06T15:00:42.835571+01:00","level":"INFO","msg":"stream: closed","id":"nrms7cce"}

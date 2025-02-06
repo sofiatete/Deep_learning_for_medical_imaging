@@ -1,0 +1,16 @@
+{"time":"2025-02-05T17:47:40.798935+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_174740-tuts2fpn/logs/debug-core.log"}
+{"time":"2025-02-05T17:47:40.908125+01:00","level":"INFO","msg":"created new stream","id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:40.908162+01:00","level":"INFO","msg":"stream: started","id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:40.908167+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:40.908187+01:00","level":"INFO","msg":"handler: started","stream_id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:40.908171+01:00","level":"INFO","msg":"sender: started","stream_id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:41.140834+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:47:41.782951+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:47:41.78321+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:47:42.789843+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tuts2fpn-data_plot0_table","runtime_seconds":1.206881458},{"desc":"uploading artifact run-tuts2fpn-data_plot1_table","runtime_seconds":1.20682575},{"desc":"uploading artifact run-tuts2fpn-data_plot2_table","runtime_seconds":1.159178833},{"desc":"uploading artifact run-tuts2fpn-data_plot3_table","runtime_seconds":1.01007525}],"total_operations":4}}
+{"time":"2025-02-05T17:47:43.521392+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:47:44.773938+01:00","level":"INFO","msg":"stream: closing","id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:44.773969+01:00","level":"INFO","msg":"handler: closed","stream_id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:44.773986+01:00","level":"INFO","msg":"sender: closed","stream_id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:44.773983+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tuts2fpn"}
+{"time":"2025-02-05T17:47:44.774219+01:00","level":"INFO","msg":"stream: closed","id":"tuts2fpn"}

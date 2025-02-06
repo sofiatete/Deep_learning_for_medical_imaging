@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:11:04.787185+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_141104-ia2zlb5d/logs/debug-core.log"}
+{"time":"2025-02-06T14:11:04.896591+01:00","level":"INFO","msg":"created new stream","id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:04.896637+01:00","level":"INFO","msg":"stream: started","id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:04.896637+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:04.89665+01:00","level":"INFO","msg":"handler: started","stream_id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:04.896644+01:00","level":"INFO","msg":"sender: started","stream_id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:05.108065+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:11:06.079083+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:11:06.079631+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:11:07.086495+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ia2zlb5d-data_plot1_table","runtime_seconds":1.3815184999999999},{"desc":"uploading artifact run-ia2zlb5d-data_plot2_table","runtime_seconds":1.190281375},{"desc":"uploading artifact run-ia2zlb5d-data_plot3_table","runtime_seconds":1.015079833}],"total_operations":3}}
+{"time":"2025-02-06T14:11:07.487211+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:11:08.663202+01:00","level":"INFO","msg":"stream: closing","id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:08.663928+01:00","level":"INFO","msg":"handler: closed","stream_id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:08.663954+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:08.664017+01:00","level":"INFO","msg":"sender: closed","stream_id":"ia2zlb5d"}
+{"time":"2025-02-06T14:11:08.66435+01:00","level":"INFO","msg":"stream: closed","id":"ia2zlb5d"}

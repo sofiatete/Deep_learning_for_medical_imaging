@@ -1,0 +1,16 @@
+{"time":"2025-02-06T14:56:15.304028+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250206_145615-ul5ugs85/logs/debug-core.log"}
+{"time":"2025-02-06T14:56:15.417469+01:00","level":"INFO","msg":"created new stream","id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:15.417508+01:00","level":"INFO","msg":"stream: started","id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:15.41751+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:15.417541+01:00","level":"INFO","msg":"handler: started","stream_id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:15.417518+01:00","level":"INFO","msg":"sender: started","stream_id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:15.763555+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-06T14:56:16.565308+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-06T14:56:16.565963+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-06T14:56:17.572789+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ul5ugs85-data_plot0_table","runtime_seconds":1.349033541},{"desc":"uploading artifact run-ul5ugs85-data_plot1_table","runtime_seconds":1.348975},{"desc":"uploading artifact run-ul5ugs85-data_plot2_table","runtime_seconds":1.261495333},{"desc":"uploading artifact run-ul5ugs85-data_plot3_table","runtime_seconds":1.016866708}],"total_operations":4}}
+{"time":"2025-02-06T14:56:18.130304+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-06T14:56:19.313425+01:00","level":"INFO","msg":"stream: closing","id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:19.313518+01:00","level":"INFO","msg":"handler: closed","stream_id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:19.313589+01:00","level":"INFO","msg":"sender: closed","stream_id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:19.313557+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ul5ugs85"}
+{"time":"2025-02-06T14:56:19.313992+01:00","level":"INFO","msg":"stream: closed","id":"ul5ugs85"}

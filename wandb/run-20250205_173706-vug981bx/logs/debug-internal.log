@@ -1,0 +1,16 @@
+{"time":"2025-02-05T17:37:06.619503+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_173706-vug981bx/logs/debug-core.log"}
+{"time":"2025-02-05T17:37:06.728324+01:00","level":"INFO","msg":"created new stream","id":"vug981bx"}
+{"time":"2025-02-05T17:37:06.728361+01:00","level":"INFO","msg":"stream: started","id":"vug981bx"}
+{"time":"2025-02-05T17:37:06.728376+01:00","level":"INFO","msg":"handler: started","stream_id":"vug981bx"}
+{"time":"2025-02-05T17:37:06.728397+01:00","level":"INFO","msg":"sender: started","stream_id":"vug981bx"}
+{"time":"2025-02-05T17:37:06.728376+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vug981bx"}
+{"time":"2025-02-05T17:37:06.976934+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T17:37:07.741049+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T17:37:07.741386+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T17:37:08.747843+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vug981bx-data_plot0_table","runtime_seconds":1.2044347499999999},{"desc":"uploading artifact run-vug981bx-data_plot1_table","runtime_seconds":1.204388125},{"desc":"uploading artifact run-vug981bx-data_plot2_table","runtime_seconds":1.160827334},{"desc":"uploading artifact run-vug981bx-data_plot3_table","runtime_seconds":1.010101625}],"total_operations":4}}
+{"time":"2025-02-05T17:37:09.256522+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T17:37:10.517152+01:00","level":"INFO","msg":"stream: closing","id":"vug981bx"}
+{"time":"2025-02-05T17:37:10.517224+01:00","level":"INFO","msg":"handler: closed","stream_id":"vug981bx"}
+{"time":"2025-02-05T17:37:10.517274+01:00","level":"INFO","msg":"sender: closed","stream_id":"vug981bx"}
+{"time":"2025-02-05T17:37:10.51725+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vug981bx"}
+{"time":"2025-02-05T17:37:10.517677+01:00","level":"INFO","msg":"stream: closed","id":"vug981bx"}

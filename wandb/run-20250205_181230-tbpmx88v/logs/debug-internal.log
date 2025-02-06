@@ -1,0 +1,18 @@
+{"time":"2025-02-05T18:12:30.453237+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250205_181230-tbpmx88v/logs/debug-core.log"}
+{"time":"2025-02-05T18:12:30.563476+01:00","level":"INFO","msg":"created new stream","id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:30.563521+01:00","level":"INFO","msg":"stream: started","id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:30.563508+01:00","level":"INFO","msg":"handler: started","stream_id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:30.563521+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:30.563538+01:00","level":"INFO","msg":"sender: started","stream_id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:30.840837+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T18:12:31.583325+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T18:12:33.786532+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-05T18:12:35.758717+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T18:12:35.759028+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T18:12:36.765228+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tbpmx88v-data_plotepoch100_table","runtime_seconds":3.248895583},{"desc":"uploading artifact run-tbpmx88v-data_plotepoch180_table","runtime_seconds":1.3177657919999999},{"desc":"uploading artifact run-tbpmx88v-data_plotepoch190_table","runtime_seconds":1.078493625}],"total_operations":3}}
+{"time":"2025-02-05T18:12:37.366142+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T18:12:38.568134+01:00","level":"INFO","msg":"stream: closing","id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:38.568157+01:00","level":"INFO","msg":"handler: closed","stream_id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:38.568175+01:00","level":"INFO","msg":"sender: closed","stream_id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:38.56817+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tbpmx88v"}
+{"time":"2025-02-05T18:12:38.56833+01:00","level":"INFO","msg":"stream: closed","id":"tbpmx88v"}
