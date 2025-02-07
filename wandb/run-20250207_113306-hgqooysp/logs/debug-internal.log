@@ -1,0 +1,18 @@
+{"time":"2025-02-07T11:33:06.792932+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_113306-hgqooysp/logs/debug-core.log"}
+{"time":"2025-02-07T11:33:06.901673+01:00","level":"INFO","msg":"created new stream","id":"hgqooysp"}
+{"time":"2025-02-07T11:33:06.901707+01:00","level":"INFO","msg":"stream: started","id":"hgqooysp"}
+{"time":"2025-02-07T11:33:06.901711+01:00","level":"INFO","msg":"handler: started","stream_id":"hgqooysp"}
+{"time":"2025-02-07T11:33:06.901714+01:00","level":"INFO","msg":"sender: started","stream_id":"hgqooysp"}
+{"time":"2025-02-07T11:33:06.90178+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hgqooysp"}
+{"time":"2025-02-07T11:33:07.086439+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:33:07.708298+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:33:07.70851+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:33:07.878646+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:33:07.880113+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:33:08.719868+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hgqooysp-data_plot0_table","runtime_seconds":1.086929917},{"desc":"uploading artifact run-hgqooysp-data_plot1_table","runtime_seconds":1.08688025,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-hgqooysp-data_plot2_table","runtime_seconds":1.086859,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-hgqooysp-data_plot3_table","runtime_seconds":1.0146695}],"total_operations":4}}
+{"time":"2025-02-07T11:33:12.256345+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:33:13.553001+01:00","level":"INFO","msg":"stream: closing","id":"hgqooysp"}
+{"time":"2025-02-07T11:33:13.553102+01:00","level":"INFO","msg":"handler: closed","stream_id":"hgqooysp"}
+{"time":"2025-02-07T11:33:13.553128+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hgqooysp"}
+{"time":"2025-02-07T11:33:13.553202+01:00","level":"INFO","msg":"sender: closed","stream_id":"hgqooysp"}
+{"time":"2025-02-07T11:33:13.553621+01:00","level":"INFO","msg":"stream: closed","id":"hgqooysp"}

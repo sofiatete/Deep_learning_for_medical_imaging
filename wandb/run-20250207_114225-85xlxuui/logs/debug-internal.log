@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:42:25.380024+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114225-85xlxuui/logs/debug-core.log"}
+{"time":"2025-02-07T11:42:25.492225+01:00","level":"INFO","msg":"created new stream","id":"85xlxuui"}
+{"time":"2025-02-07T11:42:25.492255+01:00","level":"INFO","msg":"stream: started","id":"85xlxuui"}
+{"time":"2025-02-07T11:42:25.492259+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"85xlxuui"}
+{"time":"2025-02-07T11:42:25.492259+01:00","level":"INFO","msg":"handler: started","stream_id":"85xlxuui"}
+{"time":"2025-02-07T11:42:25.492267+01:00","level":"INFO","msg":"sender: started","stream_id":"85xlxuui"}
+{"time":"2025-02-07T11:42:25.714429+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:42:26.474774+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:42:26.475014+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:42:27.481587+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-85xlxuui-data_plot0_table","runtime_seconds":1.279698625},{"desc":"uploading artifact run-85xlxuui-data_plot1_table","runtime_seconds":1.279669958},{"desc":"uploading artifact run-85xlxuui-data_plot2_table","runtime_seconds":1.148728167},{"desc":"uploading artifact run-85xlxuui-data_plot3_table","runtime_seconds":1.009908875}],"total_operations":4}}
+{"time":"2025-02-07T11:42:28.210447+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:42:29.394066+01:00","level":"INFO","msg":"stream: closing","id":"85xlxuui"}
+{"time":"2025-02-07T11:42:29.394135+01:00","level":"INFO","msg":"handler: closed","stream_id":"85xlxuui"}
+{"time":"2025-02-07T11:42:29.394175+01:00","level":"INFO","msg":"sender: closed","stream_id":"85xlxuui"}
+{"time":"2025-02-07T11:42:29.394161+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"85xlxuui"}
+{"time":"2025-02-07T11:42:29.394549+01:00","level":"INFO","msg":"stream: closed","id":"85xlxuui"}

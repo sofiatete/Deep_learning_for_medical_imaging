@@ -1,0 +1,16 @@
+{"time":"2025-02-07T10:59:44.433825+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_105944-uvhuo1sh/logs/debug-core.log"}
+{"time":"2025-02-07T10:59:44.542546+01:00","level":"INFO","msg":"created new stream","id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:44.542587+01:00","level":"INFO","msg":"stream: started","id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:44.542592+01:00","level":"INFO","msg":"handler: started","stream_id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:44.542597+01:00","level":"INFO","msg":"sender: started","stream_id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:44.542613+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:44.762155+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T10:59:45.38755+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T10:59:45.387794+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T10:59:46.393948+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-uvhuo1sh-data_plot0_table","runtime_seconds":1.262965083},{"desc":"uploading artifact run-uvhuo1sh-data_plot1_table","runtime_seconds":1.262922334},{"desc":"uploading artifact run-uvhuo1sh-data_plot2_table","runtime_seconds":1.154775125},{"desc":"uploading artifact run-uvhuo1sh-data_plot3_table","runtime_seconds":1.008754666}],"total_operations":4}}
+{"time":"2025-02-07T10:59:47.157966+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T10:59:48.382636+01:00","level":"INFO","msg":"stream: closing","id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:48.382704+01:00","level":"INFO","msg":"handler: closed","stream_id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:48.382746+01:00","level":"INFO","msg":"sender: closed","stream_id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:48.382735+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uvhuo1sh"}
+{"time":"2025-02-07T10:59:48.383018+01:00","level":"INFO","msg":"stream: closed","id":"uvhuo1sh"}

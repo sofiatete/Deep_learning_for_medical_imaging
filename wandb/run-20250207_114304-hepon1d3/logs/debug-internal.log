@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:43:04.988559+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114304-hepon1d3/logs/debug-core.log"}
+{"time":"2025-02-07T11:43:05.095942+01:00","level":"INFO","msg":"created new stream","id":"hepon1d3"}
+{"time":"2025-02-07T11:43:05.095985+01:00","level":"INFO","msg":"stream: started","id":"hepon1d3"}
+{"time":"2025-02-07T11:43:05.095984+01:00","level":"INFO","msg":"handler: started","stream_id":"hepon1d3"}
+{"time":"2025-02-07T11:43:05.095984+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hepon1d3"}
+{"time":"2025-02-07T11:43:05.095997+01:00","level":"INFO","msg":"sender: started","stream_id":"hepon1d3"}
+{"time":"2025-02-07T11:43:05.321439+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:43:14.835978+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:43:14.836272+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:43:15.842618+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hepon1d3-data_plotepoch190_table","runtime_seconds":1.298819209}],"total_operations":1}}
+{"time":"2025-02-07T11:43:16.083685+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:43:17.287941+01:00","level":"INFO","msg":"stream: closing","id":"hepon1d3"}
+{"time":"2025-02-07T11:43:17.287957+01:00","level":"INFO","msg":"handler: closed","stream_id":"hepon1d3"}
+{"time":"2025-02-07T11:43:17.287965+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hepon1d3"}
+{"time":"2025-02-07T11:43:17.287985+01:00","level":"INFO","msg":"sender: closed","stream_id":"hepon1d3"}
+{"time":"2025-02-07T11:43:17.288603+01:00","level":"INFO","msg":"stream: closed","id":"hepon1d3"}

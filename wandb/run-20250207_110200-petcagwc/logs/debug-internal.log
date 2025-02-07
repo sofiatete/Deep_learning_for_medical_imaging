@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:02:00.470286+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_110200-petcagwc/logs/debug-core.log"}
+{"time":"2025-02-07T11:02:00.578757+01:00","level":"INFO","msg":"created new stream","id":"petcagwc"}
+{"time":"2025-02-07T11:02:00.578801+01:00","level":"INFO","msg":"stream: started","id":"petcagwc"}
+{"time":"2025-02-07T11:02:00.578805+01:00","level":"INFO","msg":"handler: started","stream_id":"petcagwc"}
+{"time":"2025-02-07T11:02:00.578808+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"petcagwc"}
+{"time":"2025-02-07T11:02:00.578848+01:00","level":"INFO","msg":"sender: started","stream_id":"petcagwc"}
+{"time":"2025-02-07T11:02:00.776223+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:02:01.419222+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:02:01.419445+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:02:02.426447+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-petcagwc-data_plot0_table","runtime_seconds":1.252977541},{"desc":"uploading artifact run-petcagwc-data_plot1_table","runtime_seconds":1.252919666},{"desc":"uploading artifact run-petcagwc-data_plot2_table","runtime_seconds":1.152330458},{"desc":"uploading artifact run-petcagwc-data_plot3_table","runtime_seconds":1.010359917}],"total_operations":4}}
+{"time":"2025-02-07T11:02:03.326014+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:02:04.563622+01:00","level":"INFO","msg":"stream: closing","id":"petcagwc"}
+{"time":"2025-02-07T11:02:04.563717+01:00","level":"INFO","msg":"handler: closed","stream_id":"petcagwc"}
+{"time":"2025-02-07T11:02:04.563739+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"petcagwc"}
+{"time":"2025-02-07T11:02:04.563764+01:00","level":"INFO","msg":"sender: closed","stream_id":"petcagwc"}
+{"time":"2025-02-07T11:02:04.564231+01:00","level":"INFO","msg":"stream: closed","id":"petcagwc"}

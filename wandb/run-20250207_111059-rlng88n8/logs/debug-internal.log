@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:10:59.454543+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_111059-rlng88n8/logs/debug-core.log"}
+{"time":"2025-02-07T11:10:59.560889+01:00","level":"INFO","msg":"created new stream","id":"rlng88n8"}
+{"time":"2025-02-07T11:10:59.560927+01:00","level":"INFO","msg":"stream: started","id":"rlng88n8"}
+{"time":"2025-02-07T11:10:59.56093+01:00","level":"INFO","msg":"handler: started","stream_id":"rlng88n8"}
+{"time":"2025-02-07T11:10:59.560952+01:00","level":"INFO","msg":"sender: started","stream_id":"rlng88n8"}
+{"time":"2025-02-07T11:10:59.560979+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rlng88n8"}
+{"time":"2025-02-07T11:10:59.786556+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:11:00.414884+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:11:00.415105+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:11:01.421716+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rlng88n8-data_plot0_table","runtime_seconds":1.289550625},{"desc":"uploading artifact run-rlng88n8-data_plot1_table","runtime_seconds":1.289520083},{"desc":"uploading artifact run-rlng88n8-data_plot2_table","runtime_seconds":1.154693583},{"desc":"uploading artifact run-rlng88n8-data_plot3_table","runtime_seconds":1.009755125}],"total_operations":4}}
+{"time":"2025-02-07T11:11:01.988951+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:11:03.190924+01:00","level":"INFO","msg":"stream: closing","id":"rlng88n8"}
+{"time":"2025-02-07T11:11:03.191016+01:00","level":"INFO","msg":"handler: closed","stream_id":"rlng88n8"}
+{"time":"2025-02-07T11:11:03.191097+01:00","level":"INFO","msg":"sender: closed","stream_id":"rlng88n8"}
+{"time":"2025-02-07T11:11:03.191041+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rlng88n8"}
+{"time":"2025-02-07T11:11:03.19156+01:00","level":"INFO","msg":"stream: closed","id":"rlng88n8"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:11:03.210713+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_111103-mwp6a0nk/logs/debug-core.log"}
+{"time":"2025-02-07T11:11:03.321263+01:00","level":"INFO","msg":"created new stream","id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:03.3213+01:00","level":"INFO","msg":"stream: started","id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:03.321307+01:00","level":"INFO","msg":"handler: started","stream_id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:03.32131+01:00","level":"INFO","msg":"sender: started","stream_id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:03.321364+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:03.664261+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:11:11.559855+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:11:11.560124+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:11:12.56675+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mwp6a0nk-data_plotepoch170_table","runtime_seconds":1.609789958},{"desc":"uploading artifact run-mwp6a0nk-data_plotepoch180_table","runtime_seconds":1.3560170409999999},{"desc":"uploading artifact run-mwp6a0nk-data_plotepoch190_table","runtime_seconds":1.102549209}],"total_operations":3}}
+{"time":"2025-02-07T11:11:12.914557+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:11:14.098111+01:00","level":"INFO","msg":"stream: closing","id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:14.098216+01:00","level":"INFO","msg":"handler: closed","stream_id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:14.098249+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:14.098287+01:00","level":"INFO","msg":"sender: closed","stream_id":"mwp6a0nk"}
+{"time":"2025-02-07T11:11:14.099933+01:00","level":"INFO","msg":"stream: closed","id":"mwp6a0nk"}

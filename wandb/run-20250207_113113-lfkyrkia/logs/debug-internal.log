@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:31:13.051895+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_113113-lfkyrkia/logs/debug-core.log"}
+{"time":"2025-02-07T11:31:13.162615+01:00","level":"INFO","msg":"created new stream","id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:13.162649+01:00","level":"INFO","msg":"stream: started","id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:13.162656+01:00","level":"INFO","msg":"handler: started","stream_id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:13.162686+01:00","level":"INFO","msg":"sender: started","stream_id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:13.162744+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:13.377155+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:31:14.002896+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:31:14.003135+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:31:15.014832+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-lfkyrkia-data_plot0_table","runtime_seconds":1.281311291},{"desc":"uploading artifact run-lfkyrkia-data_plot1_table","runtime_seconds":1.281282167},{"desc":"uploading artifact run-lfkyrkia-data_plot2_table","runtime_seconds":1.1486555},{"desc":"uploading artifact run-lfkyrkia-data_plot3_table","runtime_seconds":1.01424675}],"total_operations":4}}
+{"time":"2025-02-07T11:31:15.43878+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:31:16.628778+01:00","level":"INFO","msg":"stream: closing","id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:16.628891+01:00","level":"INFO","msg":"handler: closed","stream_id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:16.628925+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:16.628972+01:00","level":"INFO","msg":"sender: closed","stream_id":"lfkyrkia"}
+{"time":"2025-02-07T11:31:16.629344+01:00","level":"INFO","msg":"stream: closed","id":"lfkyrkia"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:47:31.646788+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114731-cihq39t1/logs/debug-core.log"}
+{"time":"2025-02-07T11:47:31.752136+01:00","level":"INFO","msg":"created new stream","id":"cihq39t1"}
+{"time":"2025-02-07T11:47:31.752194+01:00","level":"INFO","msg":"stream: started","id":"cihq39t1"}
+{"time":"2025-02-07T11:47:31.752212+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cihq39t1"}
+{"time":"2025-02-07T11:47:31.752218+01:00","level":"INFO","msg":"handler: started","stream_id":"cihq39t1"}
+{"time":"2025-02-07T11:47:31.752244+01:00","level":"INFO","msg":"sender: started","stream_id":"cihq39t1"}
+{"time":"2025-02-07T11:47:31.975984+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:47:32.616047+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:47:32.61627+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:47:33.62271+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-cihq39t1-data_plot0_table","runtime_seconds":1.2221672080000001},{"desc":"uploading artifact run-cihq39t1-data_plot1_table","runtime_seconds":1.222123833},{"desc":"uploading artifact run-cihq39t1-data_plot2_table","runtime_seconds":1.155231458},{"desc":"uploading artifact run-cihq39t1-data_plot3_table","runtime_seconds":1.009019541}],"total_operations":4}}
+{"time":"2025-02-07T11:47:34.127252+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:47:35.317884+01:00","level":"INFO","msg":"stream: closing","id":"cihq39t1"}
+{"time":"2025-02-07T11:47:35.317916+01:00","level":"INFO","msg":"handler: closed","stream_id":"cihq39t1"}
+{"time":"2025-02-07T11:47:35.317935+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cihq39t1"}
+{"time":"2025-02-07T11:47:35.317947+01:00","level":"INFO","msg":"sender: closed","stream_id":"cihq39t1"}
+{"time":"2025-02-07T11:47:35.318096+01:00","level":"INFO","msg":"stream: closed","id":"cihq39t1"}

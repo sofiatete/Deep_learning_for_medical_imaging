@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:30:35.06643+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_113035-twjfrkgc/logs/debug-core.log"}
+{"time":"2025-02-07T11:30:35.176589+01:00","level":"INFO","msg":"created new stream","id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:35.17662+01:00","level":"INFO","msg":"stream: started","id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:35.17663+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:35.176634+01:00","level":"INFO","msg":"sender: started","stream_id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:35.17667+01:00","level":"INFO","msg":"handler: started","stream_id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:35.369285+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:30:41.132033+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:30:41.132316+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:30:42.143633+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-twjfrkgc-data_plotepoch180_table","runtime_seconds":1.422661417},{"desc":"uploading artifact run-twjfrkgc-data_plotepoch190_table","runtime_seconds":1.139918333}],"total_operations":2}}
+{"time":"2025-02-07T11:30:42.391689+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:30:43.583407+01:00","level":"INFO","msg":"stream: closing","id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:43.583423+01:00","level":"INFO","msg":"handler: closed","stream_id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:43.583429+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:43.583435+01:00","level":"INFO","msg":"sender: closed","stream_id":"twjfrkgc"}
+{"time":"2025-02-07T11:30:43.583555+01:00","level":"INFO","msg":"stream: closed","id":"twjfrkgc"}

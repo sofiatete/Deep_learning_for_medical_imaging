@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:47:42.456032+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114742-vlnyls6u/logs/debug-core.log"}
+{"time":"2025-02-07T11:47:42.564669+01:00","level":"INFO","msg":"created new stream","id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:42.564708+01:00","level":"INFO","msg":"stream: started","id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:42.564713+01:00","level":"INFO","msg":"handler: started","stream_id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:42.564716+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:42.564735+01:00","level":"INFO","msg":"sender: started","stream_id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:42.868058+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:47:43.521492+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:47:43.521831+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:47:44.528527+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vlnyls6u-data_plot1_table","runtime_seconds":1.295298625},{"desc":"uploading artifact run-vlnyls6u-data_plot2_table","runtime_seconds":1.154416792},{"desc":"uploading artifact run-vlnyls6u-data_plot3_table","runtime_seconds":1.011700125}],"total_operations":3}}
+{"time":"2025-02-07T11:47:44.928657+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:47:46.124423+01:00","level":"INFO","msg":"stream: closing","id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:46.124515+01:00","level":"INFO","msg":"handler: closed","stream_id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:46.12457+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:46.124585+01:00","level":"INFO","msg":"sender: closed","stream_id":"vlnyls6u"}
+{"time":"2025-02-07T11:47:46.124994+01:00","level":"INFO","msg":"stream: closed","id":"vlnyls6u"}

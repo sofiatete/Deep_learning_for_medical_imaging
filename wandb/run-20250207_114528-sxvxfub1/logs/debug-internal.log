@@ -1,0 +1,17 @@
+{"time":"2025-02-07T11:45:28.515672+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114528-sxvxfub1/logs/debug-core.log"}
+{"time":"2025-02-07T11:45:28.622841+01:00","level":"INFO","msg":"created new stream","id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:28.622881+01:00","level":"INFO","msg":"stream: started","id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:28.622885+01:00","level":"INFO","msg":"handler: started","stream_id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:28.622915+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:28.622913+01:00","level":"INFO","msg":"sender: started","stream_id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:28.804344+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:45:29.472081+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:45:29.472333+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:45:29.484897+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:45:30.478817+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-sxvxfub1-data_plot0_table","runtime_seconds":1.25072075},{"desc":"uploading artifact run-sxvxfub1-data_plot1_table","runtime_seconds":1.2506612910000001,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-sxvxfub1-data_plot2_table","runtime_seconds":1.155493292},{"desc":"uploading artifact run-sxvxfub1-data_plot3_table","runtime_seconds":1.009733542}],"total_operations":4}}
+{"time":"2025-02-07T11:45:33.127914+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:45:34.326693+01:00","level":"INFO","msg":"stream: closing","id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:34.326866+01:00","level":"INFO","msg":"handler: closed","stream_id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:34.326899+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:34.326935+01:00","level":"INFO","msg":"sender: closed","stream_id":"sxvxfub1"}
+{"time":"2025-02-07T11:45:34.327391+01:00","level":"INFO","msg":"stream: closed","id":"sxvxfub1"}

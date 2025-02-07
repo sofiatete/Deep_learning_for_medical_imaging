@@ -1,0 +1,19 @@
+{"time":"2025-02-07T11:11:44.629875+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_111144-8pjy1drv/logs/debug-core.log"}
+{"time":"2025-02-07T11:11:44.741003+01:00","level":"INFO","msg":"created new stream","id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:44.741041+01:00","level":"INFO","msg":"stream: started","id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:44.741051+01:00","level":"INFO","msg":"sender: started","stream_id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:44.741065+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:44.741051+01:00","level":"INFO","msg":"handler: started","stream_id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:44.964386+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:11:45.807296+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:11:45.807296+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:11:48.490483+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:11:48.835174+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:11:48.835486+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:11:49.842929+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8pjy1drv-data_plotepoch20_table","runtime_seconds":4.291428042},{"desc":"uploading artifact run-8pjy1drv-data_plotepoch150_table","runtime_seconds":1.817262208},{"desc":"uploading artifact run-8pjy1drv-data_plotepoch160_table","runtime_seconds":1.626931292,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-8pjy1drv-data_plotepoch170_table","runtime_seconds":1.436181583},{"desc":"uploading artifact run-8pjy1drv-data_plotepoch180_table","runtime_seconds":1.251214959},{"desc":"uploading artifact run-8pjy1drv-data_plotepoch190_table","runtime_seconds":1.054065}],"total_operations":6}}
+{"time":"2025-02-07T11:11:52.39086+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:11:53.641075+01:00","level":"INFO","msg":"stream: closing","id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:53.64117+01:00","level":"INFO","msg":"handler: closed","stream_id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:53.641198+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:53.641255+01:00","level":"INFO","msg":"sender: closed","stream_id":"8pjy1drv"}
+{"time":"2025-02-07T11:11:53.641743+01:00","level":"INFO","msg":"stream: closed","id":"8pjy1drv"}

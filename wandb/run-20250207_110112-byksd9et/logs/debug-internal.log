@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:01:12.499203+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_110112-byksd9et/logs/debug-core.log"}
+{"time":"2025-02-07T11:01:12.608048+01:00","level":"INFO","msg":"created new stream","id":"byksd9et"}
+{"time":"2025-02-07T11:01:12.608087+01:00","level":"INFO","msg":"stream: started","id":"byksd9et"}
+{"time":"2025-02-07T11:01:12.608096+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"byksd9et"}
+{"time":"2025-02-07T11:01:12.608115+01:00","level":"INFO","msg":"sender: started","stream_id":"byksd9et"}
+{"time":"2025-02-07T11:01:12.608127+01:00","level":"INFO","msg":"handler: started","stream_id":"byksd9et"}
+{"time":"2025-02-07T11:01:12.79077+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:01:13.427214+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:01:13.427443+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:01:14.433797+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-byksd9et-data_plot0_table","runtime_seconds":1.290538916},{"desc":"uploading artifact run-byksd9et-data_plot1_table","runtime_seconds":1.290505833},{"desc":"uploading artifact run-byksd9et-data_plot2_table","runtime_seconds":1.154466},{"desc":"uploading artifact run-byksd9et-data_plot3_table","runtime_seconds":1.01000525}],"total_operations":4}}
+{"time":"2025-02-07T11:01:14.927225+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:01:16.123997+01:00","level":"INFO","msg":"stream: closing","id":"byksd9et"}
+{"time":"2025-02-07T11:01:16.124097+01:00","level":"INFO","msg":"handler: closed","stream_id":"byksd9et"}
+{"time":"2025-02-07T11:01:16.124173+01:00","level":"INFO","msg":"sender: closed","stream_id":"byksd9et"}
+{"time":"2025-02-07T11:01:16.124149+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"byksd9et"}
+{"time":"2025-02-07T11:01:16.124703+01:00","level":"INFO","msg":"stream: closed","id":"byksd9et"}

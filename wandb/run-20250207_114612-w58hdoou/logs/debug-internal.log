@@ -1,0 +1,18 @@
+{"time":"2025-02-07T11:46:12.336644+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114612-w58hdoou/logs/debug-core.log"}
+{"time":"2025-02-07T11:46:12.44723+01:00","level":"INFO","msg":"created new stream","id":"w58hdoou"}
+{"time":"2025-02-07T11:46:12.447266+01:00","level":"INFO","msg":"stream: started","id":"w58hdoou"}
+{"time":"2025-02-07T11:46:12.447275+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"w58hdoou"}
+{"time":"2025-02-07T11:46:12.447296+01:00","level":"INFO","msg":"handler: started","stream_id":"w58hdoou"}
+{"time":"2025-02-07T11:46:12.447283+01:00","level":"INFO","msg":"sender: started","stream_id":"w58hdoou"}
+{"time":"2025-02-07T11:46:12.690953+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:46:16.968835+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-07T11:46:17.454136+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-07T11:46:18.065605+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:46:18.06624+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:46:19.070371+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-w58hdoou-data_plot0_table","runtime_seconds":1.466044458},{"desc":"uploading artifact run-w58hdoou-data_plot1_table","runtime_seconds":1.325881791},{"desc":"uploading artifact run-w58hdoou-data_plot2_table","runtime_seconds":1.166437},{"desc":"uploading artifact run-w58hdoou-data_plot3_table","runtime_seconds":1.014449041}],"total_operations":4}}
+{"time":"2025-02-07T11:46:19.683617+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:46:20.877504+01:00","level":"INFO","msg":"stream: closing","id":"w58hdoou"}
+{"time":"2025-02-07T11:46:20.877523+01:00","level":"INFO","msg":"handler: closed","stream_id":"w58hdoou"}
+{"time":"2025-02-07T11:46:20.877534+01:00","level":"INFO","msg":"sender: closed","stream_id":"w58hdoou"}
+{"time":"2025-02-07T11:46:20.877531+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w58hdoou"}
+{"time":"2025-02-07T11:46:20.87789+01:00","level":"INFO","msg":"stream: closed","id":"w58hdoou"}

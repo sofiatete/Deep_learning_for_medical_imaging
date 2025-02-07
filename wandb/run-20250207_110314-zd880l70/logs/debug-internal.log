@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:03:14.802581+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_110314-zd880l70/logs/debug-core.log"}
+{"time":"2025-02-07T11:03:14.910407+01:00","level":"INFO","msg":"created new stream","id":"zd880l70"}
+{"time":"2025-02-07T11:03:14.910444+01:00","level":"INFO","msg":"stream: started","id":"zd880l70"}
+{"time":"2025-02-07T11:03:14.910452+01:00","level":"INFO","msg":"handler: started","stream_id":"zd880l70"}
+{"time":"2025-02-07T11:03:14.910455+01:00","level":"INFO","msg":"sender: started","stream_id":"zd880l70"}
+{"time":"2025-02-07T11:03:14.910475+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zd880l70"}
+{"time":"2025-02-07T11:03:15.167836+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:03:15.877723+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:03:15.878051+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:03:16.885084+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zd880l70-data_plot0_table","runtime_seconds":1.378702},{"desc":"uploading artifact run-zd880l70-data_plot1_table","runtime_seconds":1.325551583},{"desc":"uploading artifact run-zd880l70-data_plot2_table","runtime_seconds":1.170852541},{"desc":"uploading artifact run-zd880l70-data_plot3_table","runtime_seconds":1.012150042}],"total_operations":4}}
+{"time":"2025-02-07T11:03:17.474069+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:03:18.70133+01:00","level":"INFO","msg":"stream: closing","id":"zd880l70"}
+{"time":"2025-02-07T11:03:18.70162+01:00","level":"INFO","msg":"handler: closed","stream_id":"zd880l70"}
+{"time":"2025-02-07T11:03:18.701653+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zd880l70"}
+{"time":"2025-02-07T11:03:18.70177+01:00","level":"INFO","msg":"sender: closed","stream_id":"zd880l70"}
+{"time":"2025-02-07T11:03:18.702116+01:00","level":"INFO","msg":"stream: closed","id":"zd880l70"}

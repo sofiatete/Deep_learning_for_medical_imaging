@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:26:50.186939+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_112650-adwm4dqc/logs/debug-core.log"}
+{"time":"2025-02-07T11:26:50.296442+01:00","level":"INFO","msg":"created new stream","id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:50.29648+01:00","level":"INFO","msg":"stream: started","id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:50.296484+01:00","level":"INFO","msg":"handler: started","stream_id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:50.296486+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:50.296504+01:00","level":"INFO","msg":"sender: started","stream_id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:50.508048+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:26:51.164979+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:26:51.1654+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:26:52.172758+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-adwm4dqc-data_plot0_table","runtime_seconds":1.221001542},{"desc":"uploading artifact run-adwm4dqc-data_plot1_table","runtime_seconds":1.220976084},{"desc":"uploading artifact run-adwm4dqc-data_plot2_table","runtime_seconds":1.154144166},{"desc":"uploading artifact run-adwm4dqc-data_plot3_table","runtime_seconds":1.012376167}],"total_operations":4}}
+{"time":"2025-02-07T11:26:52.762852+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:26:53.978386+01:00","level":"INFO","msg":"stream: closing","id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:53.978477+01:00","level":"INFO","msg":"handler: closed","stream_id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:53.97855+01:00","level":"INFO","msg":"sender: closed","stream_id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:53.978573+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"adwm4dqc"}
+{"time":"2025-02-07T11:26:53.979041+01:00","level":"INFO","msg":"stream: closed","id":"adwm4dqc"}

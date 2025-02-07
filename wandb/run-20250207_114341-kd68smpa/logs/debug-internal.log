@@ -1,0 +1,17 @@
+{"time":"2025-02-07T11:43:41.886105+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114341-kd68smpa/logs/debug-core.log"}
+{"time":"2025-02-07T11:43:41.996053+01:00","level":"INFO","msg":"created new stream","id":"kd68smpa"}
+{"time":"2025-02-07T11:43:41.996085+01:00","level":"INFO","msg":"stream: started","id":"kd68smpa"}
+{"time":"2025-02-07T11:43:41.996095+01:00","level":"INFO","msg":"handler: started","stream_id":"kd68smpa"}
+{"time":"2025-02-07T11:43:41.996112+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kd68smpa"}
+{"time":"2025-02-07T11:43:41.996096+01:00","level":"INFO","msg":"sender: started","stream_id":"kd68smpa"}
+{"time":"2025-02-07T11:43:42.198896+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:43:42.827573+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:43:42.841544+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:43:42.841763+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:43:43.848336+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-kd68smpa-data_plot0_table","runtime_seconds":1.260305709},{"desc":"uploading artifact run-kd68smpa-data_plot1_table","runtime_seconds":1.260223667,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-kd68smpa-data_plot2_table","runtime_seconds":1.153722333},{"desc":"uploading artifact run-kd68smpa-data_plot3_table","runtime_seconds":1.009134291}],"total_operations":4}}
+{"time":"2025-02-07T11:43:46.699814+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:43:47.886569+01:00","level":"INFO","msg":"stream: closing","id":"kd68smpa"}
+{"time":"2025-02-07T11:43:47.886588+01:00","level":"INFO","msg":"handler: closed","stream_id":"kd68smpa"}
+{"time":"2025-02-07T11:43:47.886598+01:00","level":"INFO","msg":"sender: closed","stream_id":"kd68smpa"}
+{"time":"2025-02-07T11:43:47.886601+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kd68smpa"}
+{"time":"2025-02-07T11:43:47.886699+01:00","level":"INFO","msg":"stream: closed","id":"kd68smpa"}

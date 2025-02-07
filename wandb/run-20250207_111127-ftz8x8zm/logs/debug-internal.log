@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:11:27.584786+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_111127-ftz8x8zm/logs/debug-core.log"}
+{"time":"2025-02-07T11:11:27.692185+01:00","level":"INFO","msg":"created new stream","id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:27.692215+01:00","level":"INFO","msg":"stream: started","id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:27.692222+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:27.692243+01:00","level":"INFO","msg":"handler: started","stream_id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:27.692225+01:00","level":"INFO","msg":"sender: started","stream_id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:27.904106+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:11:28.549409+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:11:28.5496+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:11:29.5561+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ftz8x8zm-data_plot0_table","runtime_seconds":1.2535661249999999},{"desc":"uploading artifact run-ftz8x8zm-data_plot1_table","runtime_seconds":1.2535328749999999},{"desc":"uploading artifact run-ftz8x8zm-data_plot2_table","runtime_seconds":1.154202416},{"desc":"uploading artifact run-ftz8x8zm-data_plot3_table","runtime_seconds":1.009583959}],"total_operations":4}}
+{"time":"2025-02-07T11:11:30.013511+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:11:31.222127+01:00","level":"INFO","msg":"stream: closing","id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:31.222223+01:00","level":"INFO","msg":"handler: closed","stream_id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:31.222253+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:31.222285+01:00","level":"INFO","msg":"sender: closed","stream_id":"ftz8x8zm"}
+{"time":"2025-02-07T11:11:31.222751+01:00","level":"INFO","msg":"stream: closed","id":"ftz8x8zm"}

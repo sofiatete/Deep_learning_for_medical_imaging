@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:43:34.938667+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_114334-87qaolxe/logs/debug-core.log"}
+{"time":"2025-02-07T11:43:35.04941+01:00","level":"INFO","msg":"created new stream","id":"87qaolxe"}
+{"time":"2025-02-07T11:43:35.049446+01:00","level":"INFO","msg":"stream: started","id":"87qaolxe"}
+{"time":"2025-02-07T11:43:35.049449+01:00","level":"INFO","msg":"handler: started","stream_id":"87qaolxe"}
+{"time":"2025-02-07T11:43:35.049457+01:00","level":"INFO","msg":"sender: started","stream_id":"87qaolxe"}
+{"time":"2025-02-07T11:43:35.049505+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"87qaolxe"}
+{"time":"2025-02-07T11:43:35.232512+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:43:39.142307+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:43:39.14259+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:43:40.148919+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-87qaolxe-data_plotepoch170_table","runtime_seconds":1.459208125},{"desc":"uploading artifact run-87qaolxe-data_plotepoch180_table","runtime_seconds":1.255617708},{"desc":"uploading artifact run-87qaolxe-data_plotepoch190_table","runtime_seconds":1.057300791}],"total_operations":3}}
+{"time":"2025-02-07T11:43:40.689372+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:43:41.867751+01:00","level":"INFO","msg":"stream: closing","id":"87qaolxe"}
+{"time":"2025-02-07T11:43:41.868017+01:00","level":"INFO","msg":"handler: closed","stream_id":"87qaolxe"}
+{"time":"2025-02-07T11:43:41.868036+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"87qaolxe"}
+{"time":"2025-02-07T11:43:41.86805+01:00","level":"INFO","msg":"sender: closed","stream_id":"87qaolxe"}
+{"time":"2025-02-07T11:43:41.868526+01:00","level":"INFO","msg":"stream: closed","id":"87qaolxe"}

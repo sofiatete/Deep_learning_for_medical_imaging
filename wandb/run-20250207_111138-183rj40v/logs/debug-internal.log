@@ -1,0 +1,17 @@
+{"time":"2025-02-07T11:11:38.185677+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_111138-183rj40v/logs/debug-core.log"}
+{"time":"2025-02-07T11:11:38.293353+01:00","level":"INFO","msg":"created new stream","id":"183rj40v"}
+{"time":"2025-02-07T11:11:38.293397+01:00","level":"INFO","msg":"handler: started","stream_id":"183rj40v"}
+{"time":"2025-02-07T11:11:38.293407+01:00","level":"INFO","msg":"stream: started","id":"183rj40v"}
+{"time":"2025-02-07T11:11:38.293401+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"183rj40v"}
+{"time":"2025-02-07T11:11:38.293443+01:00","level":"INFO","msg":"sender: started","stream_id":"183rj40v"}
+{"time":"2025-02-07T11:11:38.525894+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:11:39.217564+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T11:11:39.219178+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:11:39.219569+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:11:40.225897+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-183rj40v-data_plot0_table","runtime_seconds":1.243972791},{"desc":"uploading artifact run-183rj40v-data_plot1_table","runtime_seconds":1.243915625,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-183rj40v-data_plot2_table","runtime_seconds":1.153384833},{"desc":"uploading artifact run-183rj40v-data_plot3_table","runtime_seconds":1.013315334}],"total_operations":4}}
+{"time":"2025-02-07T11:11:43.414132+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:11:44.608908+01:00","level":"INFO","msg":"stream: closing","id":"183rj40v"}
+{"time":"2025-02-07T11:11:44.609017+01:00","level":"INFO","msg":"handler: closed","stream_id":"183rj40v"}
+{"time":"2025-02-07T11:11:44.609066+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"183rj40v"}
+{"time":"2025-02-07T11:11:44.609103+01:00","level":"INFO","msg":"sender: closed","stream_id":"183rj40v"}
+{"time":"2025-02-07T11:11:44.609623+01:00","level":"INFO","msg":"stream: closed","id":"183rj40v"}

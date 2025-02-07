@@ -1,0 +1,16 @@
+{"time":"2025-02-07T11:32:46.266229+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_113246-020hk4fp/logs/debug-core.log"}
+{"time":"2025-02-07T11:32:46.375813+01:00","level":"INFO","msg":"created new stream","id":"020hk4fp"}
+{"time":"2025-02-07T11:32:46.375842+01:00","level":"INFO","msg":"stream: started","id":"020hk4fp"}
+{"time":"2025-02-07T11:32:46.375855+01:00","level":"INFO","msg":"handler: started","stream_id":"020hk4fp"}
+{"time":"2025-02-07T11:32:46.375851+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"020hk4fp"}
+{"time":"2025-02-07T11:32:46.37587+01:00","level":"INFO","msg":"sender: started","stream_id":"020hk4fp"}
+{"time":"2025-02-07T11:32:46.554693+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T11:32:51.927018+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T11:32:51.927279+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T11:32:52.938699+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-020hk4fp-data_plotepoch170_table","runtime_seconds":1.650244292},{"desc":"uploading artifact run-020hk4fp-data_plotepoch180_table","runtime_seconds":1.384605875},{"desc":"uploading artifact run-020hk4fp-data_plotepoch190_table","runtime_seconds":1.1232345}],"total_operations":3}}
+{"time":"2025-02-07T11:32:53.303322+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T11:32:54.50218+01:00","level":"INFO","msg":"stream: closing","id":"020hk4fp"}
+{"time":"2025-02-07T11:32:54.5022+01:00","level":"INFO","msg":"handler: closed","stream_id":"020hk4fp"}
+{"time":"2025-02-07T11:32:54.502212+01:00","level":"INFO","msg":"sender: closed","stream_id":"020hk4fp"}
+{"time":"2025-02-07T11:32:54.502209+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"020hk4fp"}
+{"time":"2025-02-07T11:32:54.502349+01:00","level":"INFO","msg":"stream: closed","id":"020hk4fp"}
