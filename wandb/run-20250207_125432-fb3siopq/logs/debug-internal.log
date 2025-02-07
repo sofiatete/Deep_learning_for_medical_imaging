@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:54:32.458721+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_125432-fb3siopq/logs/debug-core.log"}
+{"time":"2025-02-07T12:54:32.566858+01:00","level":"INFO","msg":"created new stream","id":"fb3siopq"}
+{"time":"2025-02-07T12:54:32.566948+01:00","level":"INFO","msg":"stream: started","id":"fb3siopq"}
+{"time":"2025-02-07T12:54:32.567053+01:00","level":"INFO","msg":"handler: started","stream_id":"fb3siopq"}
+{"time":"2025-02-07T12:54:32.567072+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fb3siopq"}
+{"time":"2025-02-07T12:54:32.567235+01:00","level":"INFO","msg":"sender: started","stream_id":"fb3siopq"}
+{"time":"2025-02-07T12:54:32.769628+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:54:33.493337+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:54:33.493543+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:54:34.500018+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fb3siopq-data_plot0_table","runtime_seconds":1.378671875},{"desc":"uploading artifact run-fb3siopq-data_plot1_table","runtime_seconds":1.32758625},{"desc":"uploading artifact run-fb3siopq-data_plot2_table","runtime_seconds":1.170305875},{"desc":"uploading artifact run-fb3siopq-data_plot3_table","runtime_seconds":1.009634083}],"total_operations":4}}
+{"time":"2025-02-07T12:54:35.100693+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:54:36.34733+01:00","level":"INFO","msg":"stream: closing","id":"fb3siopq"}
+{"time":"2025-02-07T12:54:36.347422+01:00","level":"INFO","msg":"handler: closed","stream_id":"fb3siopq"}
+{"time":"2025-02-07T12:54:36.347451+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fb3siopq"}
+{"time":"2025-02-07T12:54:36.347482+01:00","level":"INFO","msg":"sender: closed","stream_id":"fb3siopq"}
+{"time":"2025-02-07T12:54:36.347901+01:00","level":"INFO","msg":"stream: closed","id":"fb3siopq"}

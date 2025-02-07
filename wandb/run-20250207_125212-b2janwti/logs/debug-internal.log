@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:52:12.371589+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_125212-b2janwti/logs/debug-core.log"}
+{"time":"2025-02-07T12:52:12.480139+01:00","level":"INFO","msg":"created new stream","id":"b2janwti"}
+{"time":"2025-02-07T12:52:12.48018+01:00","level":"INFO","msg":"stream: started","id":"b2janwti"}
+{"time":"2025-02-07T12:52:12.48019+01:00","level":"INFO","msg":"sender: started","stream_id":"b2janwti"}
+{"time":"2025-02-07T12:52:12.480204+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"b2janwti"}
+{"time":"2025-02-07T12:52:12.480184+01:00","level":"INFO","msg":"handler: started","stream_id":"b2janwti"}
+{"time":"2025-02-07T12:52:12.721427+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:52:13.34841+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:52:13.348689+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:52:14.355212+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-b2janwti-data_plot0_table","runtime_seconds":1.286378583},{"desc":"uploading artifact run-b2janwti-data_plot1_table","runtime_seconds":1.2863313330000001},{"desc":"uploading artifact run-b2janwti-data_plot2_table","runtime_seconds":1.150377875},{"desc":"uploading artifact run-b2janwti-data_plot3_table","runtime_seconds":1.010489792}],"total_operations":4}}
+{"time":"2025-02-07T12:52:15.02813+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:52:16.203077+01:00","level":"INFO","msg":"stream: closing","id":"b2janwti"}
+{"time":"2025-02-07T12:52:16.203169+01:00","level":"INFO","msg":"handler: closed","stream_id":"b2janwti"}
+{"time":"2025-02-07T12:52:16.203242+01:00","level":"INFO","msg":"sender: closed","stream_id":"b2janwti"}
+{"time":"2025-02-07T12:52:16.20323+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b2janwti"}
+{"time":"2025-02-07T12:52:16.203659+01:00","level":"INFO","msg":"stream: closed","id":"b2janwti"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-07T12:53:57.244302+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_125357-olylyx9l/logs/debug-core.log"}
+{"time":"2025-02-07T12:53:57.350521+01:00","level":"INFO","msg":"created new stream","id":"olylyx9l"}
+{"time":"2025-02-07T12:53:57.35056+01:00","level":"INFO","msg":"stream: started","id":"olylyx9l"}
+{"time":"2025-02-07T12:53:57.350572+01:00","level":"INFO","msg":"sender: started","stream_id":"olylyx9l"}
+{"time":"2025-02-07T12:53:57.350566+01:00","level":"INFO","msg":"handler: started","stream_id":"olylyx9l"}
+{"time":"2025-02-07T12:53:57.35061+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"olylyx9l"}
+{"time":"2025-02-07T12:53:57.665118+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:53:58.455908+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-07T12:53:59.550023+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:53:59.550659+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:54:00.558172+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-olylyx9l-data_plot2_table","runtime_seconds":2.357928625,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-olylyx9l-data_plot3_table","runtime_seconds":1.021221417,"subtasks":[{"desc":"data_plot 3_table.table.json","runtime_seconds":0.35339575,"progress":"676B/676B"}]}],"total_operations":2}}
+{"time":"2025-02-07T12:54:02.271381+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:54:03.495422+01:00","level":"INFO","msg":"stream: closing","id":"olylyx9l"}
+{"time":"2025-02-07T12:54:03.49551+01:00","level":"INFO","msg":"handler: closed","stream_id":"olylyx9l"}
+{"time":"2025-02-07T12:54:03.495532+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"olylyx9l"}
+{"time":"2025-02-07T12:54:03.495559+01:00","level":"INFO","msg":"sender: closed","stream_id":"olylyx9l"}
+{"time":"2025-02-07T12:54:03.496041+01:00","level":"INFO","msg":"stream: closed","id":"olylyx9l"}

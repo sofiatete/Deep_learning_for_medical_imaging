@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:51:59.231951+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_125159-u3dikteg/logs/debug-core.log"}
+{"time":"2025-02-07T12:51:59.340168+01:00","level":"INFO","msg":"created new stream","id":"u3dikteg"}
+{"time":"2025-02-07T12:51:59.3402+01:00","level":"INFO","msg":"stream: started","id":"u3dikteg"}
+{"time":"2025-02-07T12:51:59.340209+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"u3dikteg"}
+{"time":"2025-02-07T12:51:59.34021+01:00","level":"INFO","msg":"sender: started","stream_id":"u3dikteg"}
+{"time":"2025-02-07T12:51:59.340282+01:00","level":"INFO","msg":"handler: started","stream_id":"u3dikteg"}
+{"time":"2025-02-07T12:51:59.525138+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:52:00.173569+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:52:00.173843+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:52:01.180409+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-u3dikteg-data_plot0_table","runtime_seconds":1.281444875},{"desc":"uploading artifact run-u3dikteg-data_plot1_table","runtime_seconds":1.281405583},{"desc":"uploading artifact run-u3dikteg-data_plot2_table","runtime_seconds":1.157126125},{"desc":"uploading artifact run-u3dikteg-data_plot3_table","runtime_seconds":1.01145525}],"total_operations":4}}
+{"time":"2025-02-07T12:52:01.598496+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:52:02.770064+01:00","level":"INFO","msg":"stream: closing","id":"u3dikteg"}
+{"time":"2025-02-07T12:52:02.770143+01:00","level":"INFO","msg":"handler: closed","stream_id":"u3dikteg"}
+{"time":"2025-02-07T12:52:02.770171+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u3dikteg"}
+{"time":"2025-02-07T12:52:02.770192+01:00","level":"INFO","msg":"sender: closed","stream_id":"u3dikteg"}
+{"time":"2025-02-07T12:52:02.77092+01:00","level":"INFO","msg":"stream: closed","id":"u3dikteg"}
