@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:25:45.588095+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_122545-vukmgvmp/logs/debug-core.log"}
+{"time":"2025-02-07T12:25:45.696088+01:00","level":"INFO","msg":"created new stream","id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:45.696122+01:00","level":"INFO","msg":"stream: started","id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:45.696128+01:00","level":"INFO","msg":"handler: started","stream_id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:45.696145+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:45.696131+01:00","level":"INFO","msg":"sender: started","stream_id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:46.207674+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:25:51.173391+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:25:51.173656+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:25:52.179731+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vukmgvmp-data_plotepoch180_table","runtime_seconds":1.3421045409999999},{"desc":"uploading artifact run-vukmgvmp-data_plotepoch190_table","runtime_seconds":1.103126}],"total_operations":2}}
+{"time":"2025-02-07T12:25:52.607754+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:25:53.792462+01:00","level":"INFO","msg":"stream: closing","id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:53.792564+01:00","level":"INFO","msg":"handler: closed","stream_id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:53.79261+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:53.792643+01:00","level":"INFO","msg":"sender: closed","stream_id":"vukmgvmp"}
+{"time":"2025-02-07T12:25:53.794029+01:00","level":"INFO","msg":"stream: closed","id":"vukmgvmp"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:28:16.181756+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_122816-6ma32n3a/logs/debug-core.log"}
+{"time":"2025-02-07T12:28:16.29206+01:00","level":"INFO","msg":"created new stream","id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:16.292092+01:00","level":"INFO","msg":"stream: started","id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:16.292101+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:16.292123+01:00","level":"INFO","msg":"sender: started","stream_id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:16.292105+01:00","level":"INFO","msg":"handler: started","stream_id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:16.633254+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:28:17.325433+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:28:17.326419+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:28:18.332234+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6ma32n3a-data_plot0_table","runtime_seconds":1.244071166},{"desc":"uploading artifact run-6ma32n3a-data_plot1_table","runtime_seconds":1.244033666},{"desc":"uploading artifact run-6ma32n3a-data_plot2_table","runtime_seconds":1.16298225},{"desc":"uploading artifact run-6ma32n3a-data_plot3_table","runtime_seconds":1.020076083}],"total_operations":4}}
+{"time":"2025-02-07T12:28:18.727153+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:28:19.940335+01:00","level":"INFO","msg":"stream: closing","id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:19.940423+01:00","level":"INFO","msg":"handler: closed","stream_id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:19.940445+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:19.940531+01:00","level":"INFO","msg":"sender: closed","stream_id":"6ma32n3a"}
+{"time":"2025-02-07T12:28:19.94094+01:00","level":"INFO","msg":"stream: closed","id":"6ma32n3a"}

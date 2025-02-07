@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:29:14.044803+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_122914-wkkwijzh/logs/debug-core.log"}
+{"time":"2025-02-07T12:29:14.15316+01:00","level":"INFO","msg":"created new stream","id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:14.153206+01:00","level":"INFO","msg":"stream: started","id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:14.153219+01:00","level":"INFO","msg":"handler: started","stream_id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:14.153232+01:00","level":"INFO","msg":"sender: started","stream_id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:14.153223+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:14.441114+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:29:15.127976+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:29:15.128295+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:29:16.131367+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wkkwijzh-data_plot0_table","runtime_seconds":1.311540583},{"desc":"uploading artifact run-wkkwijzh-data_plot1_table","runtime_seconds":1.296287708},{"desc":"uploading artifact run-wkkwijzh-data_plot2_table","runtime_seconds":1.1549479169999999},{"desc":"uploading artifact run-wkkwijzh-data_plot3_table","runtime_seconds":1.006770833}],"total_operations":4}}
+{"time":"2025-02-07T12:29:16.574561+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:29:17.788892+01:00","level":"INFO","msg":"stream: closing","id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:17.788996+01:00","level":"INFO","msg":"handler: closed","stream_id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:17.789023+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:17.78907+01:00","level":"INFO","msg":"sender: closed","stream_id":"wkkwijzh"}
+{"time":"2025-02-07T12:29:17.789622+01:00","level":"INFO","msg":"stream: closed","id":"wkkwijzh"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:25:02.279164+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_122502-zcu275hy/logs/debug-core.log"}
+{"time":"2025-02-07T12:25:02.389391+01:00","level":"INFO","msg":"created new stream","id":"zcu275hy"}
+{"time":"2025-02-07T12:25:02.389433+01:00","level":"INFO","msg":"stream: started","id":"zcu275hy"}
+{"time":"2025-02-07T12:25:02.389438+01:00","level":"INFO","msg":"handler: started","stream_id":"zcu275hy"}
+{"time":"2025-02-07T12:25:02.389464+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zcu275hy"}
+{"time":"2025-02-07T12:25:02.389479+01:00","level":"INFO","msg":"sender: started","stream_id":"zcu275hy"}
+{"time":"2025-02-07T12:25:02.687713+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:25:03.352984+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:25:03.353332+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:25:04.359976+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zcu275hy-data_plot0_table","runtime_seconds":1.329388958},{"desc":"uploading artifact run-zcu275hy-data_plot1_table","runtime_seconds":1.301958541},{"desc":"uploading artifact run-zcu275hy-data_plot2_table","runtime_seconds":1.15216825},{"desc":"uploading artifact run-zcu275hy-data_plot3_table","runtime_seconds":1.011420375}],"total_operations":4}}
+{"time":"2025-02-07T12:25:04.797894+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:25:05.988367+01:00","level":"INFO","msg":"stream: closing","id":"zcu275hy"}
+{"time":"2025-02-07T12:25:05.988433+01:00","level":"INFO","msg":"handler: closed","stream_id":"zcu275hy"}
+{"time":"2025-02-07T12:25:05.98848+01:00","level":"INFO","msg":"sender: closed","stream_id":"zcu275hy"}
+{"time":"2025-02-07T12:25:05.988462+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zcu275hy"}
+{"time":"2025-02-07T12:25:05.988921+01:00","level":"INFO","msg":"stream: closed","id":"zcu275hy"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-07T12:22:45.50443+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250207_122245-zaawbios/logs/debug-core.log"}
+{"time":"2025-02-07T12:22:45.715285+01:00","level":"INFO","msg":"created new stream","id":"zaawbios"}
+{"time":"2025-02-07T12:22:45.715325+01:00","level":"INFO","msg":"stream: started","id":"zaawbios"}
+{"time":"2025-02-07T12:22:45.715332+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zaawbios"}
+{"time":"2025-02-07T12:22:45.715332+01:00","level":"INFO","msg":"handler: started","stream_id":"zaawbios"}
+{"time":"2025-02-07T12:22:45.715361+01:00","level":"INFO","msg":"sender: started","stream_id":"zaawbios"}
+{"time":"2025-02-07T12:22:46.084601+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-07T12:22:46.93317+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-07T12:22:46.933526+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-07T12:22:47.9403+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zaawbios-data_plot1_table","runtime_seconds":1.319033375},{"desc":"uploading artifact run-zaawbios-data_plot2_table","runtime_seconds":1.162604917},{"desc":"uploading artifact run-zaawbios-data_plot3_table","runtime_seconds":1.011872625}],"total_operations":3}}
+{"time":"2025-02-07T12:22:48.367634+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-07T12:22:49.558516+01:00","level":"INFO","msg":"stream: closing","id":"zaawbios"}
+{"time":"2025-02-07T12:22:49.55853+01:00","level":"INFO","msg":"handler: closed","stream_id":"zaawbios"}
+{"time":"2025-02-07T12:22:49.558539+01:00","level":"INFO","msg":"sender: closed","stream_id":"zaawbios"}
+{"time":"2025-02-07T12:22:49.558536+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zaawbios"}
+{"time":"2025-02-07T12:22:49.558641+01:00","level":"INFO","msg":"stream: closed","id":"zaawbios"}
