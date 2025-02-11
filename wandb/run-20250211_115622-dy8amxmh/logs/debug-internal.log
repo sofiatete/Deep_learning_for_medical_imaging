@@ -1,0 +1,16 @@
+{"time":"2025-02-11T11:56:22.864638+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_115622-dy8amxmh\\logs\\debug-core.log"}
+{"time":"2025-02-11T11:56:22.9745589+01:00","level":"INFO","msg":"created new stream","id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:22.9745589+01:00","level":"INFO","msg":"stream: started","id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:22.9745589+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:22.9750769+01:00","level":"INFO","msg":"handler: started","stream_id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:22.9750769+01:00","level":"INFO","msg":"sender: started","stream_id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:23.210778+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T11:56:24.0584506+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T11:56:24.0598964+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T11:56:25.0694412+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dy8amxmh-data_plot1_table","runtime_seconds":1.3602451},{"desc":"uploading artifact run-dy8amxmh-data_plot2_table","runtime_seconds":1.2015517},{"desc":"uploading artifact run-dy8amxmh-data_plot3_table","runtime_seconds":1.0302728}],"total_operations":3}}
+{"time":"2025-02-11T11:56:25.4877505+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T11:56:26.6800762+01:00","level":"INFO","msg":"stream: closing","id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:26.6800762+01:00","level":"INFO","msg":"handler: closed","stream_id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:26.6800762+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:26.6800762+01:00","level":"INFO","msg":"sender: closed","stream_id":"dy8amxmh"}
+{"time":"2025-02-11T11:56:26.6800762+01:00","level":"INFO","msg":"stream: closed","id":"dy8amxmh"}

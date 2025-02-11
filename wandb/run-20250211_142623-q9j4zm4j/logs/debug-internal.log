@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:26:23.5136546+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_142623-q9j4zm4j\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:26:23.622619+01:00","level":"INFO","msg":"created new stream","id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:23.6226777+01:00","level":"INFO","msg":"stream: started","id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:23.6226777+01:00","level":"INFO","msg":"sender: started","stream_id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:23.6226777+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:23.6226777+01:00","level":"INFO","msg":"handler: started","stream_id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:23.8496397+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:26:41.7038852+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:26:41.7049679+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:26:42.7174483+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-q9j4zm4j-data_plotepoch190_table","runtime_seconds":1.6660018}],"total_operations":1}}
+{"time":"2025-02-11T14:26:43.1019586+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:26:44.5256224+01:00","level":"INFO","msg":"stream: closing","id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:44.5256224+01:00","level":"INFO","msg":"handler: closed","stream_id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:44.5256224+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:44.5256224+01:00","level":"INFO","msg":"sender: closed","stream_id":"q9j4zm4j"}
+{"time":"2025-02-11T14:26:44.5256224+01:00","level":"INFO","msg":"stream: closed","id":"q9j4zm4j"}

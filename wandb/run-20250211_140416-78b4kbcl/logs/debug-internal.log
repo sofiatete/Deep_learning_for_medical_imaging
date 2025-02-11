@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:04:16.979106+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_140416-78b4kbcl\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:04:18.0981188+01:00","level":"INFO","msg":"created new stream","id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:18.1001823+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:18.1007277+01:00","level":"INFO","msg":"stream: started","id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:18.0996704+01:00","level":"INFO","msg":"handler: started","stream_id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:18.1001823+01:00","level":"INFO","msg":"sender: started","stream_id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:18.4149749+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:04:19.6662027+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:04:19.666705+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:04:20.6783242+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-78b4kbcl-data_plot1_table","runtime_seconds":1.438647},{"desc":"uploading artifact run-78b4kbcl-data_plot2_table","runtime_seconds":1.2582498},{"desc":"uploading artifact run-78b4kbcl-data_plot3_table","runtime_seconds":1.0771717}],"total_operations":3}}
+{"time":"2025-02-11T14:04:21.1082949+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:04:22.3297782+01:00","level":"INFO","msg":"stream: closing","id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:22.3297782+01:00","level":"INFO","msg":"handler: closed","stream_id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:22.3297782+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:22.3297782+01:00","level":"INFO","msg":"sender: closed","stream_id":"78b4kbcl"}
+{"time":"2025-02-11T14:04:22.3303447+01:00","level":"INFO","msg":"stream: closed","id":"78b4kbcl"}

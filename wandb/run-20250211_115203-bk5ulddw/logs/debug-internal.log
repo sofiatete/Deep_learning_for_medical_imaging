@@ -1,0 +1,30 @@
+{"time":"2025-02-11T11:52:03.0925734+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_115203-bk5ulddw\\logs\\debug-core.log"}
+{"time":"2025-02-11T11:52:03.2082998+01:00","level":"INFO","msg":"created new stream","id":"bk5ulddw"}
+{"time":"2025-02-11T11:52:03.2082998+01:00","level":"INFO","msg":"stream: started","id":"bk5ulddw"}
+{"time":"2025-02-11T11:52:03.2082998+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bk5ulddw"}
+{"time":"2025-02-11T11:52:03.2082998+01:00","level":"INFO","msg":"sender: started","stream_id":"bk5ulddw"}
+{"time":"2025-02-11T11:52:03.2088468+01:00","level":"INFO","msg":"handler: started","stream_id":"bk5ulddw"}
+{"time":"2025-02-11T11:52:03.5563153+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T11:52:06.541785+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:53:49.2388176+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:53:49.2469285+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:53:51.978294+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:53:51.9859337+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:53:53.4015708+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:53:53.4095529+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:53:56.238899+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:53:56.2478807+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:54:03.89484+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:54:03.9033778+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:54:29.0000074+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:54:29.025924+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T11:54:31.2273522+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T11:54:31.9525324+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T11:54:31.9530875+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T11:54:32.9604847+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-bk5ulddw-data_plot0_table","runtime_seconds":1.5331534},{"desc":"uploading artifact run-bk5ulddw-data_plot1_table","runtime_seconds":1.3597427},{"desc":"uploading artifact run-bk5ulddw-data_plot2_table","runtime_seconds":1.1786053},{"desc":"uploading artifact run-bk5ulddw-data_plot3_table","runtime_seconds":1.0194807}],"total_operations":4}}
+{"time":"2025-02-11T11:54:33.6885928+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T11:54:34.8710048+01:00","level":"INFO","msg":"stream: closing","id":"bk5ulddw"}
+{"time":"2025-02-11T11:54:34.8710048+01:00","level":"INFO","msg":"handler: closed","stream_id":"bk5ulddw"}
+{"time":"2025-02-11T11:54:34.8710048+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bk5ulddw"}
+{"time":"2025-02-11T11:54:34.8710048+01:00","level":"INFO","msg":"sender: closed","stream_id":"bk5ulddw"}
+{"time":"2025-02-11T11:54:34.8710048+01:00","level":"INFO","msg":"stream: closed","id":"bk5ulddw"}

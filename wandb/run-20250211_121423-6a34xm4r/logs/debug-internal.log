@@ -1,0 +1,17 @@
+{"time":"2025-02-11T12:14:23.1278727+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_121423-6a34xm4r\\logs\\debug-core.log"}
+{"time":"2025-02-11T12:14:23.2473881+01:00","level":"INFO","msg":"created new stream","id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:23.2473881+01:00","level":"INFO","msg":"stream: started","id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:23.2473881+01:00","level":"INFO","msg":"sender: started","stream_id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:23.2473881+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:23.2473881+01:00","level":"INFO","msg":"handler: started","stream_id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:23.5002057+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T12:14:24.5369484+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T12:14:24.8486458+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T12:14:24.8497509+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T12:14:25.8680981+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6a34xm4r-data_plot0_table","runtime_seconds":1.5872733},{"desc":"uploading artifact run-6a34xm4r-data_plot1_table","runtime_seconds":1.5810617,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-6a34xm4r-data_plot2_table","runtime_seconds":1.421946},{"desc":"uploading artifact run-6a34xm4r-data_plot3_table","runtime_seconds":1.1962248}],"total_operations":4}}
+{"time":"2025-02-11T12:14:28.7822366+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T12:14:29.9656053+01:00","level":"INFO","msg":"stream: closing","id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:29.9656053+01:00","level":"INFO","msg":"handler: closed","stream_id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:29.9656053+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:29.9656053+01:00","level":"INFO","msg":"sender: closed","stream_id":"6a34xm4r"}
+{"time":"2025-02-11T12:14:29.9661114+01:00","level":"INFO","msg":"stream: closed","id":"6a34xm4r"}

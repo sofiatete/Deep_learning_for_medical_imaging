@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:07:08.4156717+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_140708-ck76ztaa\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:07:08.5270504+01:00","level":"INFO","msg":"created new stream","id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:08.5270504+01:00","level":"INFO","msg":"stream: started","id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:08.5270504+01:00","level":"INFO","msg":"sender: started","stream_id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:08.5270504+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:08.5270504+01:00","level":"INFO","msg":"handler: started","stream_id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:08.7596792+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:07:09.5645193+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:07:09.5646674+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:07:10.5771432+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ck76ztaa-data_plot0_table","runtime_seconds":1.3190938},{"desc":"uploading artifact run-ck76ztaa-data_plot1_table","runtime_seconds":1.3190938},{"desc":"uploading artifact run-ck76ztaa-data_plot2_table","runtime_seconds":1.1885802},{"desc":"uploading artifact run-ck76ztaa-data_plot3_table","runtime_seconds":1.0205844}],"total_operations":4}}
+{"time":"2025-02-11T14:07:11.042446+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:07:12.2278903+01:00","level":"INFO","msg":"stream: closing","id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:12.2280827+01:00","level":"INFO","msg":"handler: closed","stream_id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:12.2281414+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:12.2281414+01:00","level":"INFO","msg":"sender: closed","stream_id":"ck76ztaa"}
+{"time":"2025-02-11T14:07:12.2286647+01:00","level":"INFO","msg":"stream: closed","id":"ck76ztaa"}

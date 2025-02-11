@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:13:52.0606973+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_141352-7b2vszcm\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:13:52.1694559+01:00","level":"INFO","msg":"created new stream","id":"7b2vszcm"}
+{"time":"2025-02-11T14:13:52.1694559+01:00","level":"INFO","msg":"stream: started","id":"7b2vszcm"}
+{"time":"2025-02-11T14:13:52.1694559+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"7b2vszcm"}
+{"time":"2025-02-11T14:13:52.1694559+01:00","level":"INFO","msg":"handler: started","stream_id":"7b2vszcm"}
+{"time":"2025-02-11T14:13:52.1694559+01:00","level":"INFO","msg":"sender: started","stream_id":"7b2vszcm"}
+{"time":"2025-02-11T14:13:52.4032096+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:14:08.7326437+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:14:08.7331462+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:14:09.7357839+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-7b2vszcm-data_plotepoch190_table","runtime_seconds":1.5643699},{"desc":"uploading config.yaml","runtime_seconds":0.6449917,"progress":"24.7KB/24.7KB"}],"total_operations":2}}
+{"time":"2025-02-11T14:14:10.307241+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:14:11.5699621+01:00","level":"INFO","msg":"stream: closing","id":"7b2vszcm"}
+{"time":"2025-02-11T14:14:11.5699621+01:00","level":"INFO","msg":"handler: closed","stream_id":"7b2vszcm"}
+{"time":"2025-02-11T14:14:11.5699621+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7b2vszcm"}
+{"time":"2025-02-11T14:14:11.5699621+01:00","level":"INFO","msg":"sender: closed","stream_id":"7b2vszcm"}
+{"time":"2025-02-11T14:14:11.5699621+01:00","level":"INFO","msg":"stream: closed","id":"7b2vszcm"}
