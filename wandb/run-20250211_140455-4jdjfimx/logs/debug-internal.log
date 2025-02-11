@@ -1,0 +1,20 @@
+{"time":"2025-02-11T14:04:55.4058334+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_140455-4jdjfimx\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:04:55.5125528+01:00","level":"INFO","msg":"created new stream","id":"4jdjfimx"}
+{"time":"2025-02-11T14:04:55.5125528+01:00","level":"INFO","msg":"stream: started","id":"4jdjfimx"}
+{"time":"2025-02-11T14:04:55.5125528+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"4jdjfimx"}
+{"time":"2025-02-11T14:04:55.5125528+01:00","level":"INFO","msg":"sender: started","stream_id":"4jdjfimx"}
+{"time":"2025-02-11T14:04:55.5125528+01:00","level":"INFO","msg":"handler: started","stream_id":"4jdjfimx"}
+{"time":"2025-02-11T14:04:58.2866256+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:04:58.4986617+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T14:05:12.6374291+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T14:05:12.6480979+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T14:05:17.1319456+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T14:05:17.8387743+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:05:17.8394442+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:05:18.8445598+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-4jdjfimx-data_plot1_table","runtime_seconds":1.3976045},{"desc":"uploading artifact run-4jdjfimx-data_plot2_table","runtime_seconds":1.2058386},{"desc":"uploading artifact run-4jdjfimx-data_plot3_table","runtime_seconds":1.0167388}],"total_operations":3}}
+{"time":"2025-02-11T14:05:19.2365579+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:05:20.4176654+01:00","level":"INFO","msg":"stream: closing","id":"4jdjfimx"}
+{"time":"2025-02-11T14:05:20.4176654+01:00","level":"INFO","msg":"handler: closed","stream_id":"4jdjfimx"}
+{"time":"2025-02-11T14:05:20.4176654+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4jdjfimx"}
+{"time":"2025-02-11T14:05:20.4176654+01:00","level":"INFO","msg":"sender: closed","stream_id":"4jdjfimx"}
+{"time":"2025-02-11T14:05:20.4176654+01:00","level":"INFO","msg":"stream: closed","id":"4jdjfimx"}

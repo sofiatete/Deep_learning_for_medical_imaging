@@ -1,0 +1,16 @@
+{"time":"2025-02-11T11:51:58.2625242+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_115158-ybyg30hq\\logs\\debug-core.log"}
+{"time":"2025-02-11T11:51:58.4010062+01:00","level":"INFO","msg":"created new stream","id":"ybyg30hq"}
+{"time":"2025-02-11T11:51:58.4010062+01:00","level":"INFO","msg":"handler: started","stream_id":"ybyg30hq"}
+{"time":"2025-02-11T11:51:58.4010062+01:00","level":"INFO","msg":"sender: started","stream_id":"ybyg30hq"}
+{"time":"2025-02-11T11:51:58.4015243+01:00","level":"INFO","msg":"stream: started","id":"ybyg30hq"}
+{"time":"2025-02-11T11:51:58.4010062+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ybyg30hq"}
+{"time":"2025-02-11T11:51:58.8366665+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T11:52:00.1464317+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T11:52:00.1470826+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T11:52:01.1575543+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ybyg30hq-data_plot0_table","runtime_seconds":1.4844773},{"desc":"uploading artifact run-ybyg30hq-data_plot1_table","runtime_seconds":1.4321801},{"desc":"uploading artifact run-ybyg30hq-data_plot2_table","runtime_seconds":1.2551996},{"desc":"uploading artifact run-ybyg30hq-data_plot3_table","runtime_seconds":1.0662961}],"total_operations":4}}
+{"time":"2025-02-11T11:52:01.8201631+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T11:52:03.0267878+01:00","level":"INFO","msg":"stream: closing","id":"ybyg30hq"}
+{"time":"2025-02-11T11:52:03.0267878+01:00","level":"INFO","msg":"handler: closed","stream_id":"ybyg30hq"}
+{"time":"2025-02-11T11:52:03.0267878+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ybyg30hq"}
+{"time":"2025-02-11T11:52:03.0267878+01:00","level":"INFO","msg":"sender: closed","stream_id":"ybyg30hq"}
+{"time":"2025-02-11T11:52:03.0272984+01:00","level":"INFO","msg":"stream: closed","id":"ybyg30hq"}
