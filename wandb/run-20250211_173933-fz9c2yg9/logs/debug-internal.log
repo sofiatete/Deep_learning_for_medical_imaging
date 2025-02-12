@@ -1,0 +1,28 @@
+{"time":"2025-02-11T17:39:33.528668+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_173933-fz9c2yg9/logs/debug-core.log"}
+{"time":"2025-02-11T17:39:33.638541+01:00","level":"INFO","msg":"created new stream","id":"fz9c2yg9"}
+{"time":"2025-02-11T17:39:33.638573+01:00","level":"INFO","msg":"stream: started","id":"fz9c2yg9"}
+{"time":"2025-02-11T17:39:33.63858+01:00","level":"INFO","msg":"handler: started","stream_id":"fz9c2yg9"}
+{"time":"2025-02-11T17:39:33.638586+01:00","level":"INFO","msg":"sender: started","stream_id":"fz9c2yg9"}
+{"time":"2025-02-11T17:39:33.638577+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fz9c2yg9"}
+{"time":"2025-02-11T17:39:33.916255+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:39:47.498645+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:41:30.612125+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:41:30.676069+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:42:22.591772+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:42:22.593944+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:42:35.086223+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:42:35.095137+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:42:45.251547+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:42:45.255158+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:43:12.921723+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:43:12.923877+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:44:40.627478+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:44:41.251209+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:44:41.251754+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:44:42.25807+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fz9c2yg9-data_plot1_table","runtime_seconds":1.341534459},{"desc":"uploading artifact run-fz9c2yg9-data_plot2_table","runtime_seconds":1.202265708},{"desc":"uploading artifact run-fz9c2yg9-data_plot3_table","runtime_seconds":1.014947542}],"total_operations":3}}
+{"time":"2025-02-11T17:44:42.792402+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:44:43.981956+01:00","level":"INFO","msg":"stream: closing","id":"fz9c2yg9"}
+{"time":"2025-02-11T17:44:43.982024+01:00","level":"INFO","msg":"handler: closed","stream_id":"fz9c2yg9"}
+{"time":"2025-02-11T17:44:43.982082+01:00","level":"INFO","msg":"sender: closed","stream_id":"fz9c2yg9"}
+{"time":"2025-02-11T17:44:43.98205+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fz9c2yg9"}
+{"time":"2025-02-11T17:44:43.982353+01:00","level":"INFO","msg":"stream: closed","id":"fz9c2yg9"}

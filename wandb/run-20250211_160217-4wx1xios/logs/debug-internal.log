@@ -1,0 +1,16 @@
+{"time":"2025-02-11T16:02:17.34645+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_160217-4wx1xios/logs/debug-core.log"}
+{"time":"2025-02-11T16:02:17.45531+01:00","level":"INFO","msg":"created new stream","id":"4wx1xios"}
+{"time":"2025-02-11T16:02:17.45535+01:00","level":"INFO","msg":"stream: started","id":"4wx1xios"}
+{"time":"2025-02-11T16:02:17.45535+01:00","level":"INFO","msg":"handler: started","stream_id":"4wx1xios"}
+{"time":"2025-02-11T16:02:17.455357+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"4wx1xios"}
+{"time":"2025-02-11T16:02:17.45537+01:00","level":"INFO","msg":"sender: started","stream_id":"4wx1xios"}
+{"time":"2025-02-11T16:02:17.678634+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:02:18.427458+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:02:18.427878+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:02:19.433955+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-4wx1xios-data_plot0_table","runtime_seconds":1.242582667},{"desc":"uploading artifact run-4wx1xios-data_plot1_table","runtime_seconds":1.242537709},{"desc":"uploading artifact run-4wx1xios-data_plot2_table","runtime_seconds":1.162899334},{"desc":"uploading artifact run-4wx1xios-data_plot3_table","runtime_seconds":1.008938583}],"total_operations":4}}
+{"time":"2025-02-11T16:02:20.133538+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:02:21.308819+01:00","level":"INFO","msg":"stream: closing","id":"4wx1xios"}
+{"time":"2025-02-11T16:02:21.308836+01:00","level":"INFO","msg":"handler: closed","stream_id":"4wx1xios"}
+{"time":"2025-02-11T16:02:21.308847+01:00","level":"INFO","msg":"sender: closed","stream_id":"4wx1xios"}
+{"time":"2025-02-11T16:02:21.308842+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4wx1xios"}
+{"time":"2025-02-11T16:02:21.30894+01:00","level":"INFO","msg":"stream: closed","id":"4wx1xios"}

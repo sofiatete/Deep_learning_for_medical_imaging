@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:06:49.532022+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_150649-gp3zvbfo/logs/debug-core.log"}
+{"time":"2025-02-11T15:06:49.639771+01:00","level":"INFO","msg":"created new stream","id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:49.639814+01:00","level":"INFO","msg":"stream: started","id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:49.639811+01:00","level":"INFO","msg":"handler: started","stream_id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:49.639815+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:49.639833+01:00","level":"INFO","msg":"sender: started","stream_id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:49.83089+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:06:50.542781+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:06:50.543207+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:06:51.549917+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-gp3zvbfo-data_plot0_table","runtime_seconds":1.274863083},{"desc":"uploading artifact run-gp3zvbfo-data_plot1_table","runtime_seconds":1.2748364589999999},{"desc":"uploading artifact run-gp3zvbfo-data_plot2_table","runtime_seconds":1.157676041},{"desc":"uploading artifact run-gp3zvbfo-data_plot3_table","runtime_seconds":1.012414459}],"total_operations":4}}
+{"time":"2025-02-11T15:06:52.035199+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:06:53.262643+01:00","level":"INFO","msg":"stream: closing","id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:53.262721+01:00","level":"INFO","msg":"handler: closed","stream_id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:53.262765+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:53.262794+01:00","level":"INFO","msg":"sender: closed","stream_id":"gp3zvbfo"}
+{"time":"2025-02-11T15:06:53.263284+01:00","level":"INFO","msg":"stream: closed","id":"gp3zvbfo"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-11T17:52:42.140709+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_175242-5jtnlimr/logs/debug-core.log"}
+{"time":"2025-02-11T17:52:42.250854+01:00","level":"INFO","msg":"created new stream","id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:42.250893+01:00","level":"INFO","msg":"stream: started","id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:42.250889+01:00","level":"INFO","msg":"handler: started","stream_id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:42.2509+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:42.250907+01:00","level":"INFO","msg":"sender: started","stream_id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:42.594103+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:52:43.320425+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T17:52:51.676924+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:52:51.678087+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:52:52.684758+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-5jtnlimr-data_plot0_table","runtime_seconds":1.5170633329999998},{"desc":"uploading artifact run-5jtnlimr-data_plot1_table","runtime_seconds":1.370238416},{"desc":"uploading artifact run-5jtnlimr-data_plot2_table","runtime_seconds":1.201892625},{"desc":"uploading artifact run-5jtnlimr-data_plot3_table","runtime_seconds":1.021483584}],"total_operations":4}}
+{"time":"2025-02-11T17:52:53.295582+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:52:54.501075+01:00","level":"INFO","msg":"stream: closing","id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:54.501175+01:00","level":"INFO","msg":"handler: closed","stream_id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:54.501213+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:54.501248+01:00","level":"INFO","msg":"sender: closed","stream_id":"5jtnlimr"}
+{"time":"2025-02-11T17:52:54.501707+01:00","level":"INFO","msg":"stream: closed","id":"5jtnlimr"}

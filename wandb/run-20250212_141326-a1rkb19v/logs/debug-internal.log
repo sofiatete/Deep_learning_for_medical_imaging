@@ -1,0 +1,20 @@
+{"time":"2025-02-12T14:13:26.983763+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_141326-a1rkb19v\\logs\\debug-core.log"}
+{"time":"2025-02-12T14:13:27.095105+01:00","level":"INFO","msg":"created new stream","id":"a1rkb19v"}
+{"time":"2025-02-12T14:13:27.095105+01:00","level":"INFO","msg":"stream: started","id":"a1rkb19v"}
+{"time":"2025-02-12T14:13:27.095105+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"a1rkb19v"}
+{"time":"2025-02-12T14:13:27.095105+01:00","level":"INFO","msg":"handler: started","stream_id":"a1rkb19v"}
+{"time":"2025-02-12T14:13:27.095105+01:00","level":"INFO","msg":"sender: started","stream_id":"a1rkb19v"}
+{"time":"2025-02-12T14:13:27.4213462+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T14:13:55.3634224+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:14:10.5301901+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:14:10.5358885+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:14:13.168313+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:14:13.9159562+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T14:14:13.9172037+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T14:14:14.9325188+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-a1rkb19v-data_plot1_table","runtime_seconds":1.4053623},{"desc":"uploading artifact run-a1rkb19v-data_plot2_table","runtime_seconds":1.2192142},{"desc":"uploading artifact run-a1rkb19v-data_plot3_table","runtime_seconds":1.0246133}],"total_operations":3}}
+{"time":"2025-02-12T14:14:15.3383417+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T14:14:16.5552979+01:00","level":"INFO","msg":"stream: closing","id":"a1rkb19v"}
+{"time":"2025-02-12T14:14:16.5552979+01:00","level":"INFO","msg":"handler: closed","stream_id":"a1rkb19v"}
+{"time":"2025-02-12T14:14:16.5552979+01:00","level":"INFO","msg":"sender: closed","stream_id":"a1rkb19v"}
+{"time":"2025-02-12T14:14:16.5552979+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a1rkb19v"}
+{"time":"2025-02-12T14:14:16.5552979+01:00","level":"INFO","msg":"stream: closed","id":"a1rkb19v"}

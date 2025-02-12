@@ -1,0 +1,16 @@
+{"time":"2025-02-11T16:04:49.970247+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_160449-v0f4lyj7/logs/debug-core.log"}
+{"time":"2025-02-11T16:04:50.082606+01:00","level":"INFO","msg":"created new stream","id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:50.082655+01:00","level":"INFO","msg":"stream: started","id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:50.082662+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:50.082675+01:00","level":"INFO","msg":"sender: started","stream_id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:50.082668+01:00","level":"INFO","msg":"handler: started","stream_id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:50.336919+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:04:51.09648+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:04:51.0968+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:04:52.103306+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-v0f4lyj7-data_plot0_table","runtime_seconds":1.256452917},{"desc":"uploading artifact run-v0f4lyj7-data_plot1_table","runtime_seconds":1.256406791},{"desc":"uploading artifact run-v0f4lyj7-data_plot2_table","runtime_seconds":1.159500333},{"desc":"uploading artifact run-v0f4lyj7-data_plot3_table","runtime_seconds":1.009828291}],"total_operations":4}}
+{"time":"2025-02-11T16:04:52.75092+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:04:53.940943+01:00","level":"INFO","msg":"stream: closing","id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:53.941055+01:00","level":"INFO","msg":"handler: closed","stream_id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:53.941081+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:53.941107+01:00","level":"INFO","msg":"sender: closed","stream_id":"v0f4lyj7"}
+{"time":"2025-02-11T16:04:53.941262+01:00","level":"INFO","msg":"stream: closed","id":"v0f4lyj7"}

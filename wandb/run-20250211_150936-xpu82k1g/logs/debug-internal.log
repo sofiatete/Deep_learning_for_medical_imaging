@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:09:36.293179+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_150936-xpu82k1g/logs/debug-core.log"}
+{"time":"2025-02-11T15:09:36.401222+01:00","level":"INFO","msg":"created new stream","id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:36.401252+01:00","level":"INFO","msg":"stream: started","id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:36.401256+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:36.401273+01:00","level":"INFO","msg":"handler: started","stream_id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:36.401263+01:00","level":"INFO","msg":"sender: started","stream_id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:36.645144+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:09:38.390396+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:09:38.39125+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:09:39.394564+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xpu82k1g-data_plot3_table","runtime_seconds":1.0134785}],"total_operations":1}}
+{"time":"2025-02-11T15:09:39.947526+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:09:41.136904+01:00","level":"INFO","msg":"stream: closing","id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:41.136922+01:00","level":"INFO","msg":"handler: closed","stream_id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:41.136932+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:41.136991+01:00","level":"INFO","msg":"sender: closed","stream_id":"xpu82k1g"}
+{"time":"2025-02-11T15:09:41.137083+01:00","level":"INFO","msg":"stream: closed","id":"xpu82k1g"}

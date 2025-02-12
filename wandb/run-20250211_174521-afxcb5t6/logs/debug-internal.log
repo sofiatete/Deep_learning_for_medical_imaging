@@ -1,0 +1,17 @@
+{"time":"2025-02-11T17:45:21.608174+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_174521-afxcb5t6/logs/debug-core.log"}
+{"time":"2025-02-11T17:45:21.716831+01:00","level":"INFO","msg":"created new stream","id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:21.716867+01:00","level":"INFO","msg":"stream: started","id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:21.716869+01:00","level":"INFO","msg":"handler: started","stream_id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:21.716888+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:21.716874+01:00","level":"INFO","msg":"sender: started","stream_id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:21.950729+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:45:22.60649+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T17:45:31.068265+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:45:31.069545+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:45:32.076589+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-afxcb5t6-data_plot0_table","runtime_seconds":1.470704917},{"desc":"uploading artifact run-afxcb5t6-data_plot1_table","runtime_seconds":1.3262990829999999},{"desc":"uploading artifact run-afxcb5t6-data_plot2_table","runtime_seconds":1.170587584},{"desc":"uploading artifact run-afxcb5t6-data_plot3_table","runtime_seconds":1.019437417}],"total_operations":4}}
+{"time":"2025-02-11T17:45:32.538068+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:45:33.740817+01:00","level":"INFO","msg":"stream: closing","id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:33.740873+01:00","level":"INFO","msg":"handler: closed","stream_id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:33.740895+01:00","level":"INFO","msg":"sender: closed","stream_id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:33.740887+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"afxcb5t6"}
+{"time":"2025-02-11T17:45:33.741087+01:00","level":"INFO","msg":"stream: closed","id":"afxcb5t6"}

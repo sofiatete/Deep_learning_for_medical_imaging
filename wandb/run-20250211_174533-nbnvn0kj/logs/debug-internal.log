@@ -1,0 +1,17 @@
+{"time":"2025-02-11T17:45:33.750161+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_174533-nbnvn0kj/logs/debug-core.log"}
+{"time":"2025-02-11T17:45:33.857582+01:00","level":"INFO","msg":"created new stream","id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:33.857616+01:00","level":"INFO","msg":"stream: started","id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:33.857618+01:00","level":"INFO","msg":"handler: started","stream_id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:33.857639+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:33.857623+01:00","level":"INFO","msg":"sender: started","stream_id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:34.153318+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:45:34.799449+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T17:45:43.151292+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:45:43.152114+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:45:44.158916+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nbnvn0kj-data_plot1_table","runtime_seconds":1.339239209},{"desc":"uploading artifact run-nbnvn0kj-data_plot2_table","runtime_seconds":1.176740167},{"desc":"uploading artifact run-nbnvn0kj-data_plot3_table","runtime_seconds":1.017965125}],"total_operations":3}}
+{"time":"2025-02-11T17:45:44.590251+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:45:45.810608+01:00","level":"INFO","msg":"stream: closing","id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:45.810692+01:00","level":"INFO","msg":"handler: closed","stream_id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:45.810728+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:45.81075+01:00","level":"INFO","msg":"sender: closed","stream_id":"nbnvn0kj"}
+{"time":"2025-02-11T17:45:45.811068+01:00","level":"INFO","msg":"stream: closed","id":"nbnvn0kj"}
