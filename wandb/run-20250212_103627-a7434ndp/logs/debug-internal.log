@@ -1,0 +1,16 @@
+{"time":"2025-02-12T10:36:27.291327+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_103627-a7434ndp/logs/debug-core.log"}
+{"time":"2025-02-12T10:36:27.399327+01:00","level":"INFO","msg":"created new stream","id":"a7434ndp"}
+{"time":"2025-02-12T10:36:27.399356+01:00","level":"INFO","msg":"stream: started","id":"a7434ndp"}
+{"time":"2025-02-12T10:36:27.399361+01:00","level":"INFO","msg":"handler: started","stream_id":"a7434ndp"}
+{"time":"2025-02-12T10:36:27.399367+01:00","level":"INFO","msg":"sender: started","stream_id":"a7434ndp"}
+{"time":"2025-02-12T10:36:27.399408+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"a7434ndp"}
+{"time":"2025-02-12T10:36:27.616892+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T10:36:28.338502+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T10:36:28.339133+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T10:36:29.34774+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-a7434ndp-data_plot0_table","runtime_seconds":1.297947208},{"desc":"uploading artifact run-a7434ndp-data_plot1_table","runtime_seconds":1.29788625},{"desc":"uploading artifact run-a7434ndp-data_plot2_table","runtime_seconds":1.179639458},{"desc":"uploading artifact run-a7434ndp-data_plot3_table","runtime_seconds":1.01624}],"total_operations":4}}
+{"time":"2025-02-12T10:36:29.937824+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T10:36:31.112995+01:00","level":"INFO","msg":"stream: closing","id":"a7434ndp"}
+{"time":"2025-02-12T10:36:31.113071+01:00","level":"INFO","msg":"handler: closed","stream_id":"a7434ndp"}
+{"time":"2025-02-12T10:36:31.113111+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a7434ndp"}
+{"time":"2025-02-12T10:36:31.11313+01:00","level":"INFO","msg":"sender: closed","stream_id":"a7434ndp"}
+{"time":"2025-02-12T10:36:31.113506+01:00","level":"INFO","msg":"stream: closed","id":"a7434ndp"}

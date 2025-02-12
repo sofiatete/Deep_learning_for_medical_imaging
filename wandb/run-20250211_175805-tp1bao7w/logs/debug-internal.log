@@ -51,3 +51,25 @@
 {"time":"2025-02-12T10:07:45.686291+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
 {"time":"2025-02-12T10:07:47.877139+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
 {"time":"2025-02-12T10:10:15.409587+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 130.37.201.227:64664->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-02-12T10:14:58.050495+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:14:58.072821+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:14:59.459688+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:14:59.464232+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:14:59.790329+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:14:59.795509+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:02.36231+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:02.36492+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:03.002301+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:03.006616+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:03.252429+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:03.255708+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:15.177613+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:15.843289+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T10:15:15.844482+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T10:15:16.850154+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tp1bao7w-data_plot1_table","runtime_seconds":1.3303237079999999},{"desc":"uploading artifact run-tp1bao7w-data_plot2_table","runtime_seconds":1.174551209},{"desc":"uploading artifact run-tp1bao7w-data_plot3_table","runtime_seconds":1.027667625,"subtasks":[{"desc":"data_plot 3_table.table.json","runtime_seconds":0.085636916,"progress":"673B/673B"}]}],"total_operations":3}}
+{"time":"2025-02-12T10:15:17.620171+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T10:15:18.890957+01:00","level":"INFO","msg":"stream: closing","id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891056+01:00","level":"INFO","msg":"handler: closed","stream_id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891074+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891102+01:00","level":"INFO","msg":"sender: closed","stream_id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891441+01:00","level":"INFO","msg":"stream: closed","id":"tp1bao7w"}
