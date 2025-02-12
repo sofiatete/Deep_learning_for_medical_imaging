@@ -1,0 +1,8 @@
+{"time":"2025-02-12T17:01:00.0152711+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_170100-dau7wez1\\logs\\debug-core.log"}
+{"time":"2025-02-12T17:01:00.1265893+01:00","level":"INFO","msg":"created new stream","id":"dau7wez1"}
+{"time":"2025-02-12T17:01:00.1271433+01:00","level":"INFO","msg":"stream: started","id":"dau7wez1"}
+{"time":"2025-02-12T17:01:00.1271433+01:00","level":"INFO","msg":"sender: started","stream_id":"dau7wez1"}
+{"time":"2025-02-12T17:01:00.1271433+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dau7wez1"}
+{"time":"2025-02-12T17:01:00.1271433+01:00","level":"INFO","msg":"handler: started","stream_id":"dau7wez1"}
+{"time":"2025-02-12T17:01:00.4414796+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T17:27:04.1688614+01:00","level":"INFO","msg":"Pausing system monitor"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-12T15:59:30.3606546+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_155929-ubccbvdr\\logs\\debug-core.log"}
+{"time":"2025-02-12T15:59:30.960625+01:00","level":"INFO","msg":"created new stream","id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:30.9619835+01:00","level":"INFO","msg":"stream: started","id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:30.9626142+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:30.9626142+01:00","level":"INFO","msg":"sender: started","stream_id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:30.9626142+01:00","level":"INFO","msg":"handler: started","stream_id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:31.599422+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T15:59:33.6368313+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T15:59:33.637343+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T15:59:34.6394824+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ubccbvdr-data_plot1_table","runtime_seconds":1.3672242},{"desc":"uploading artifact run-ubccbvdr-data_plot2_table","runtime_seconds":1.1886261},{"desc":"uploading artifact run-ubccbvdr-data_plot3_table","runtime_seconds":1.0329125}],"total_operations":3}}
+{"time":"2025-02-12T15:59:35.0535848+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T15:59:36.2665227+01:00","level":"INFO","msg":"stream: closing","id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:36.2665227+01:00","level":"INFO","msg":"handler: closed","stream_id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:36.2665227+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:36.2670246+01:00","level":"INFO","msg":"sender: closed","stream_id":"ubccbvdr"}
+{"time":"2025-02-12T15:59:36.2670246+01:00","level":"INFO","msg":"stream: closed","id":"ubccbvdr"}

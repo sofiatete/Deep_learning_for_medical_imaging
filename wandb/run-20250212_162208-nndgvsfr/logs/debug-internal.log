@@ -1,0 +1,85 @@
+{"time":"2025-02-12T16:22:08.6588199+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_162208-nndgvsfr\\logs\\debug-core.log"}
+{"time":"2025-02-12T16:22:08.7660163+01:00","level":"INFO","msg":"created new stream","id":"nndgvsfr"}
+{"time":"2025-02-12T16:22:08.7660163+01:00","level":"INFO","msg":"stream: started","id":"nndgvsfr"}
+{"time":"2025-02-12T16:22:08.7660163+01:00","level":"INFO","msg":"handler: started","stream_id":"nndgvsfr"}
+{"time":"2025-02-12T16:22:08.7660163+01:00","level":"INFO","msg":"sender: started","stream_id":"nndgvsfr"}
+{"time":"2025-02-12T16:22:08.7660163+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nndgvsfr"}
+{"time":"2025-02-12T16:22:08.9578743+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T16:53:59.2576082+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:26.1479387+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:26.1859352+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:27.4630205+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:27.4709451+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:30.0793469+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:30.0875376+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:31.7591105+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:31.7644729+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:32.8455432+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:32.855052+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:35.8350938+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:35.8451066+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:37.0106935+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:37.0200005+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:37.1057903+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:37.1136202+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:38.6607401+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:38.6668277+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:40.0719801+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:40.078585+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:40.9164199+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:40.9249864+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:42.9625111+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:42.9703091+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:45.0486054+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:45.0558049+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:49.5869721+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:49.6002329+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:50.7127681+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:50.7222122+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:53.6381034+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:53.6488168+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:57.1858175+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:57.1915909+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:54:58.0432409+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:54:58.0520174+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:01.1340268+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:01.1453794+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:05.3301107+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:05.3353047+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:05.8826161+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:05.889159+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:06.587115+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:06.5994483+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:23.4452726+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:23.4526503+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:26.5329409+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:26.5406414+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:26.8257128+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:26.8320009+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:27.0173439+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:27.0228045+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:28.4851863+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:28.4915454+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:30.0085874+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:30.0165442+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:32.9138522+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:32.919395+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:34.5349322+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:34.5396957+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:36.2578013+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:36.2673839+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:36.9137004+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:36.9192849+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:55:59.5197435+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:55:59.5302188+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T16:56:19.7018414+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T16:56:20.5521443+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T16:56:20.5574284+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T16:56:21.5721455+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":1.5109582000000001},{"desc":"uploading artifact run-nndgvsfr-data_plot2_table","runtime_seconds":1.1982517},{"desc":"uploading artifact run-nndgvsfr-data_plot3_table","runtime_seconds":1.0349362}],"total_operations":3}}
+{"time":"2025-02-12T16:56:21.9584136+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T16:56:27.0271448+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/nndgvsfr/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-02-12T16:56:30.6020473+01:00","level":"INFO","msg":"stream: closing","id":"nndgvsfr"}
+{"time":"2025-02-12T16:56:30.6020473+01:00","level":"INFO","msg":"handler: closed","stream_id":"nndgvsfr"}
+{"time":"2025-02-12T16:56:30.6020473+01:00","level":"INFO","msg":"sender: closed","stream_id":"nndgvsfr"}
+{"time":"2025-02-12T16:56:30.6020473+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nndgvsfr"}
+{"time":"2025-02-12T16:56:30.6020473+01:00","level":"INFO","msg":"stream: closed","id":"nndgvsfr"}

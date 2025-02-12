@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "CPython 3.12.8",
+  "startedAt": "2025-02-12T15:20:49.440782Z",
+  "program": "c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\help.ipynb",
+  "codePath": "help.ipynb",
+  "git": {
+    "remote": "https://github.com/sofiatete/Deep_learning_for_medical_imaging.git",
+    "commit": "8eec41c2c5789b2976c350e80a2046d3e0e3b5c4"
+  },
+  "email": "costanza.dercole@student.uva.nl",
+  "root": "c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging",
+  "host": "Costa",
+  "executable": "c:\\Users\\costa\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "codePathLocal": "help.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "510770802688",
+      "used": "238680207360"
+    }
+  },
+  "memory": {
+    "total": "8362713088"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}
