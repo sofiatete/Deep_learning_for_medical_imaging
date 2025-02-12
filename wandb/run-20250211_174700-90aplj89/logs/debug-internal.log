@@ -1,0 +1,27 @@
+{"time":"2025-02-11T17:47:00.116005+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_174700-90aplj89/logs/debug-core.log"}
+{"time":"2025-02-11T17:47:00.223956+01:00","level":"INFO","msg":"created new stream","id":"90aplj89"}
+{"time":"2025-02-11T17:47:00.223993+01:00","level":"INFO","msg":"stream: started","id":"90aplj89"}
+{"time":"2025-02-11T17:47:00.223999+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"90aplj89"}
+{"time":"2025-02-11T17:47:00.22402+01:00","level":"INFO","msg":"sender: started","stream_id":"90aplj89"}
+{"time":"2025-02-11T17:47:00.224006+01:00","level":"INFO","msg":"handler: started","stream_id":"90aplj89"}
+{"time":"2025-02-11T17:47:00.461686+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:47:01.224177+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T17:47:09.125962+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:47:14.013877+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:47:14.022959+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:47:17.675756+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:47:17.677834+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:47:19.67701+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:47:19.679448+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:48:21.368215+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:48:21.370549+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:48:52.9931+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:48:53.599534+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:48:53.599987+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:48:54.602788+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-90aplj89-data_plot1_table","runtime_seconds":1.312725375},{"desc":"uploading artifact run-90aplj89-data_plot2_table","runtime_seconds":1.16163475},{"desc":"uploading artifact run-90aplj89-data_plot3_table","runtime_seconds":1.009810541}],"total_operations":3}}
+{"time":"2025-02-11T17:48:55.510971+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:48:56.721326+01:00","level":"INFO","msg":"stream: closing","id":"90aplj89"}
+{"time":"2025-02-11T17:48:56.721416+01:00","level":"INFO","msg":"handler: closed","stream_id":"90aplj89"}
+{"time":"2025-02-11T17:48:56.721449+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"90aplj89"}
+{"time":"2025-02-11T17:48:56.721495+01:00","level":"INFO","msg":"sender: closed","stream_id":"90aplj89"}
+{"time":"2025-02-11T17:48:56.721875+01:00","level":"INFO","msg":"stream: closed","id":"90aplj89"}

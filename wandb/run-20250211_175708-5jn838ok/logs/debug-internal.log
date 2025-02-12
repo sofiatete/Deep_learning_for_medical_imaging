@@ -1,0 +1,16 @@
+{"time":"2025-02-11T17:57:08.503528+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_175708-5jn838ok/logs/debug-core.log"}
+{"time":"2025-02-11T17:57:08.613163+01:00","level":"INFO","msg":"created new stream","id":"5jn838ok"}
+{"time":"2025-02-11T17:57:08.613196+01:00","level":"INFO","msg":"stream: started","id":"5jn838ok"}
+{"time":"2025-02-11T17:57:08.613196+01:00","level":"INFO","msg":"handler: started","stream_id":"5jn838ok"}
+{"time":"2025-02-11T17:57:08.613217+01:00","level":"INFO","msg":"sender: started","stream_id":"5jn838ok"}
+{"time":"2025-02-11T17:57:08.613252+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5jn838ok"}
+{"time":"2025-02-11T17:57:08.855763+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:57:22.765543+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:57:22.766131+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:57:23.772791+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-5jn838ok-data_plot1_table","runtime_seconds":1.507280042},{"desc":"uploading artifact run-5jn838ok-data_plot2_table","runtime_seconds":1.264891291},{"desc":"uploading artifact run-5jn838ok-data_plot3_table","runtime_seconds":1.017236167}],"total_operations":3}}
+{"time":"2025-02-11T17:57:24.264728+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:57:25.541714+01:00","level":"INFO","msg":"stream: closing","id":"5jn838ok"}
+{"time":"2025-02-11T17:57:25.541763+01:00","level":"INFO","msg":"handler: closed","stream_id":"5jn838ok"}
+{"time":"2025-02-11T17:57:25.541778+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5jn838ok"}
+{"time":"2025-02-11T17:57:25.541789+01:00","level":"INFO","msg":"sender: closed","stream_id":"5jn838ok"}
+{"time":"2025-02-11T17:57:25.542028+01:00","level":"INFO","msg":"stream: closed","id":"5jn838ok"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-11T14:43:16.338966+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_144316-fivwok3i/logs/debug-core.log"}
+{"time":"2025-02-11T14:43:16.446643+01:00","level":"INFO","msg":"created new stream","id":"fivwok3i"}
+{"time":"2025-02-11T14:43:16.446676+01:00","level":"INFO","msg":"stream: started","id":"fivwok3i"}
+{"time":"2025-02-11T14:43:16.446679+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fivwok3i"}
+{"time":"2025-02-11T14:43:16.446703+01:00","level":"INFO","msg":"sender: started","stream_id":"fivwok3i"}
+{"time":"2025-02-11T14:43:16.446688+01:00","level":"INFO","msg":"handler: started","stream_id":"fivwok3i"}
+{"time":"2025-02-11T14:43:16.661159+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:43:17.278978+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T14:43:17.325234+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:43:17.325437+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:43:18.327848+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fivwok3i-data_plot0_table","runtime_seconds":1.3066905,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-fivwok3i-data_plot1_table","runtime_seconds":1.3052495},{"desc":"uploading artifact run-fivwok3i-data_plot2_table","runtime_seconds":1.153743708},{"desc":"uploading artifact run-fivwok3i-data_plot3_table","runtime_seconds":1.004661666}],"total_operations":4}}
+{"time":"2025-02-11T14:43:20.788146+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:43:21.962095+01:00","level":"INFO","msg":"stream: closing","id":"fivwok3i"}
+{"time":"2025-02-11T14:43:21.962194+01:00","level":"INFO","msg":"handler: closed","stream_id":"fivwok3i"}
+{"time":"2025-02-11T14:43:21.962241+01:00","level":"INFO","msg":"sender: closed","stream_id":"fivwok3i"}
+{"time":"2025-02-11T14:43:21.96222+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fivwok3i"}
+{"time":"2025-02-11T14:43:21.962633+01:00","level":"INFO","msg":"stream: closed","id":"fivwok3i"}

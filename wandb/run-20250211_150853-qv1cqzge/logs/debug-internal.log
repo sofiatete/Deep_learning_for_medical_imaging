@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:08:53.018076+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_150853-qv1cqzge/logs/debug-core.log"}
+{"time":"2025-02-11T15:08:53.129109+01:00","level":"INFO","msg":"created new stream","id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:53.129157+01:00","level":"INFO","msg":"stream: started","id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:53.129149+01:00","level":"INFO","msg":"handler: started","stream_id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:53.129157+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:53.129173+01:00","level":"INFO","msg":"sender: started","stream_id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:53.356321+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:08:54.126267+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:08:54.126585+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:08:55.132706+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qv1cqzge-data_plot0_table","runtime_seconds":1.29899925},{"desc":"uploading artifact run-qv1cqzge-data_plot1_table","runtime_seconds":1.283906042},{"desc":"uploading artifact run-qv1cqzge-data_plot2_table","runtime_seconds":1.142246083},{"desc":"uploading artifact run-qv1cqzge-data_plot3_table","runtime_seconds":1.00947125}],"total_operations":4}}
+{"time":"2025-02-11T15:08:55.679164+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:08:56.864052+01:00","level":"INFO","msg":"stream: closing","id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:56.864065+01:00","level":"INFO","msg":"handler: closed","stream_id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:56.864076+01:00","level":"INFO","msg":"sender: closed","stream_id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:56.864072+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qv1cqzge"}
+{"time":"2025-02-11T15:08:56.864153+01:00","level":"INFO","msg":"stream: closed","id":"qv1cqzge"}

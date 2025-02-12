@@ -1,0 +1,16 @@
+{"time":"2025-02-11T17:57:39.343327+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_175739-cyfc3c0t/logs/debug-core.log"}
+{"time":"2025-02-11T17:57:39.453018+01:00","level":"INFO","msg":"created new stream","id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:39.453056+01:00","level":"INFO","msg":"stream: started","id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:39.453058+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:39.453078+01:00","level":"INFO","msg":"sender: started","stream_id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:39.453067+01:00","level":"INFO","msg":"handler: started","stream_id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:39.730132+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:57:49.783805+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:57:49.784386+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:57:50.79086+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-cyfc3c0t-data_plot1_table","runtime_seconds":1.440968125},{"desc":"uploading artifact run-cyfc3c0t-data_plot2_table","runtime_seconds":1.182409458},{"desc":"uploading artifact run-cyfc3c0t-data_plot3_table","runtime_seconds":1.015247833}],"total_operations":3}}
+{"time":"2025-02-11T17:57:51.393377+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:57:52.665355+01:00","level":"INFO","msg":"stream: closing","id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:52.665441+01:00","level":"INFO","msg":"handler: closed","stream_id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:52.665478+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:52.665497+01:00","level":"INFO","msg":"sender: closed","stream_id":"cyfc3c0t"}
+{"time":"2025-02-11T17:57:52.665887+01:00","level":"INFO","msg":"stream: closed","id":"cyfc3c0t"}

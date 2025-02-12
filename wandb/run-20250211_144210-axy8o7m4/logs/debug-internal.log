@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:42:11.471484+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_144210-axy8o7m4/logs/debug-core.log"}
+{"time":"2025-02-11T14:42:11.581094+01:00","level":"INFO","msg":"created new stream","id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:11.58112+01:00","level":"INFO","msg":"stream: started","id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:11.581168+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:11.581234+01:00","level":"INFO","msg":"sender: started","stream_id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:11.581379+01:00","level":"INFO","msg":"handler: started","stream_id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:12.011256+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:42:14.777768+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:42:14.778987+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:42:15.786305+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-axy8o7m4-data_plot1_table","runtime_seconds":1.3580409580000001},{"desc":"uploading artifact run-axy8o7m4-data_plot2_table","runtime_seconds":1.177891917},{"desc":"uploading artifact run-axy8o7m4-data_plot3_table","runtime_seconds":1.018519917,"subtasks":[{"desc":"data_plot 3_table.table.json","runtime_seconds":0.163731666,"progress":"673B/673B"}]}],"total_operations":3}}
+{"time":"2025-02-11T14:42:16.762054+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:42:17.98+01:00","level":"INFO","msg":"stream: closing","id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:17.980115+01:00","level":"INFO","msg":"handler: closed","stream_id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:17.980144+01:00","level":"INFO","msg":"sender: closed","stream_id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:17.980131+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"axy8o7m4"}
+{"time":"2025-02-11T14:42:17.980548+01:00","level":"INFO","msg":"stream: closed","id":"axy8o7m4"}

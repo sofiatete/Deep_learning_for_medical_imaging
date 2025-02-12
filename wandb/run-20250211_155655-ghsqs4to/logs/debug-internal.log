@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:56:55.460827+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_155655-ghsqs4to/logs/debug-core.log"}
+{"time":"2025-02-11T15:56:55.568509+01:00","level":"INFO","msg":"created new stream","id":"ghsqs4to"}
+{"time":"2025-02-11T15:56:55.568554+01:00","level":"INFO","msg":"stream: started","id":"ghsqs4to"}
+{"time":"2025-02-11T15:56:55.568549+01:00","level":"INFO","msg":"handler: started","stream_id":"ghsqs4to"}
+{"time":"2025-02-11T15:56:55.56856+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ghsqs4to"}
+{"time":"2025-02-11T15:56:55.568599+01:00","level":"INFO","msg":"sender: started","stream_id":"ghsqs4to"}
+{"time":"2025-02-11T15:56:55.76396+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:57:02.849932+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:57:02.850212+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:57:03.856509+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ghsqs4to-data_plotepoch190_table","runtime_seconds":1.17525825}],"total_operations":1}}
+{"time":"2025-02-11T15:57:04.203368+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:57:05.393116+01:00","level":"INFO","msg":"stream: closing","id":"ghsqs4to"}
+{"time":"2025-02-11T15:57:05.393146+01:00","level":"INFO","msg":"handler: closed","stream_id":"ghsqs4to"}
+{"time":"2025-02-11T15:57:05.393156+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ghsqs4to"}
+{"time":"2025-02-11T15:57:05.393167+01:00","level":"INFO","msg":"sender: closed","stream_id":"ghsqs4to"}
+{"time":"2025-02-11T15:57:05.393388+01:00","level":"INFO","msg":"stream: closed","id":"ghsqs4to"}
