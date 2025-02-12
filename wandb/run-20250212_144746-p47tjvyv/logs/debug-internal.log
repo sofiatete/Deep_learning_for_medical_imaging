@@ -1,0 +1,20 @@
+{"time":"2025-02-12T14:47:46.800758+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_144746-p47tjvyv/logs/debug-core.log"}
+{"time":"2025-02-12T14:47:46.982438+01:00","level":"INFO","msg":"created new stream","id":"p47tjvyv"}
+{"time":"2025-02-12T14:47:46.982478+01:00","level":"INFO","msg":"stream: started","id":"p47tjvyv"}
+{"time":"2025-02-12T14:47:46.982487+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"p47tjvyv"}
+{"time":"2025-02-12T14:47:46.982493+01:00","level":"INFO","msg":"sender: started","stream_id":"p47tjvyv"}
+{"time":"2025-02-12T14:47:46.982512+01:00","level":"INFO","msg":"handler: started","stream_id":"p47tjvyv"}
+{"time":"2025-02-12T14:47:47.327585+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T14:48:38.589243+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:48:38.597239+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:48:38.633739+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:48:39.11499+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:48:40.077962+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T14:48:40.080302+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T14:48:41.083857+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-p47tjvyv-data_plot0_table","runtime_seconds":1.695361792},{"desc":"uploading artifact run-p47tjvyv-data_plot1_table","runtime_seconds":1.516351583},{"desc":"uploading artifact run-p47tjvyv-data_plot2_table","runtime_seconds":1.370175584},{"desc":"uploading artifact run-p47tjvyv-data_plot3_table","runtime_seconds":1.212483541}],"total_operations":4}}
+{"time":"2025-02-12T14:48:41.585785+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T14:48:42.786896+01:00","level":"INFO","msg":"stream: closing","id":"p47tjvyv"}
+{"time":"2025-02-12T14:48:42.787072+01:00","level":"INFO","msg":"handler: closed","stream_id":"p47tjvyv"}
+{"time":"2025-02-12T14:48:42.787171+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p47tjvyv"}
+{"time":"2025-02-12T14:48:42.787556+01:00","level":"INFO","msg":"sender: closed","stream_id":"p47tjvyv"}
+{"time":"2025-02-12T14:48:42.787895+01:00","level":"INFO","msg":"stream: closed","id":"p47tjvyv"}

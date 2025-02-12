@@ -1,0 +1,35 @@
+{"time":"2025-02-12T14:48:42.805068+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_144842-jsbq5yse/logs/debug-core.log"}
+{"time":"2025-02-12T14:48:42.923796+01:00","level":"INFO","msg":"created new stream","id":"jsbq5yse"}
+{"time":"2025-02-12T14:48:42.923842+01:00","level":"INFO","msg":"stream: started","id":"jsbq5yse"}
+{"time":"2025-02-12T14:48:42.923888+01:00","level":"INFO","msg":"handler: started","stream_id":"jsbq5yse"}
+{"time":"2025-02-12T14:48:42.923908+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jsbq5yse"}
+{"time":"2025-02-12T14:48:42.923998+01:00","level":"INFO","msg":"sender: started","stream_id":"jsbq5yse"}
+{"time":"2025-02-12T14:48:43.327941+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T14:48:43.526397+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:44.339807+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:44.343434+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:46.974119+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:46.985116+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:47.050709+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:47.054324+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:47.870354+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:47.877625+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:48.238884+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:48.252189+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:48.338347+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:48.342714+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:50.025873+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:50.033946+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:50.112689+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:50.11603+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:49:54.780482+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:49:55.397098+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-12T14:49:55.532097+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T14:49:55.532418+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T14:49:56.538484+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jsbq5yse-data_plot0_table","runtime_seconds":1.3924011250000001},{"desc":"uploading artifact run-jsbq5yse-data_plot1_table","runtime_seconds":1.391160208,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-jsbq5yse-data_plot2_table","runtime_seconds":1.230598458},{"desc":"uploading artifact run-jsbq5yse-data_plot3_table","runtime_seconds":1.064669167}],"total_operations":4}}
+{"time":"2025-02-12T14:49:59.25518+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T14:50:00.544051+01:00","level":"INFO","msg":"stream: closing","id":"jsbq5yse"}
+{"time":"2025-02-12T14:50:00.544083+01:00","level":"INFO","msg":"handler: closed","stream_id":"jsbq5yse"}
+{"time":"2025-02-12T14:50:00.544102+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jsbq5yse"}
+{"time":"2025-02-12T14:50:00.544116+01:00","level":"INFO","msg":"sender: closed","stream_id":"jsbq5yse"}
+{"time":"2025-02-12T14:50:00.544264+01:00","level":"INFO","msg":"stream: closed","id":"jsbq5yse"}
