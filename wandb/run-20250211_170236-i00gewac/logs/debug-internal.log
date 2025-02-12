@@ -1,0 +1,16 @@
+{"time":"2025-02-11T17:02:36.5332328+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_170236-i00gewac\\logs\\debug-core.log"}
+{"time":"2025-02-11T17:02:36.6413901+01:00","level":"INFO","msg":"created new stream","id":"i00gewac"}
+{"time":"2025-02-11T17:02:36.6413901+01:00","level":"INFO","msg":"stream: started","id":"i00gewac"}
+{"time":"2025-02-11T17:02:36.6413901+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"i00gewac"}
+{"time":"2025-02-11T17:02:36.6413901+01:00","level":"INFO","msg":"handler: started","stream_id":"i00gewac"}
+{"time":"2025-02-11T17:02:36.6413901+01:00","level":"INFO","msg":"sender: started","stream_id":"i00gewac"}
+{"time":"2025-02-11T17:02:36.909232+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:02:37.875013+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:02:37.8756774+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:02:38.8894278+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-i00gewac-data_plot0_table","runtime_seconds":1.4032645000000001},{"desc":"uploading artifact run-i00gewac-data_plot1_table","runtime_seconds":1.3833014000000001},{"desc":"uploading artifact run-i00gewac-data_plot2_table","runtime_seconds":1.1942094},{"desc":"uploading artifact run-i00gewac-data_plot3_table","runtime_seconds":1.0310656}],"total_operations":4}}
+{"time":"2025-02-11T17:02:39.3653524+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:02:40.5752219+01:00","level":"INFO","msg":"stream: closing","id":"i00gewac"}
+{"time":"2025-02-11T17:02:40.5752219+01:00","level":"INFO","msg":"handler: closed","stream_id":"i00gewac"}
+{"time":"2025-02-11T17:02:40.5752219+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i00gewac"}
+{"time":"2025-02-11T17:02:40.5752219+01:00","level":"INFO","msg":"sender: closed","stream_id":"i00gewac"}
+{"time":"2025-02-11T17:02:40.5752219+01:00","level":"INFO","msg":"stream: closed","id":"i00gewac"}

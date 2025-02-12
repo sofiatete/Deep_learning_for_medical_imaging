@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:53:30.493071+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_145330-pfo1amgm\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:53:30.6034919+01:00","level":"INFO","msg":"created new stream","id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:30.6034919+01:00","level":"INFO","msg":"stream: started","id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:30.6034919+01:00","level":"INFO","msg":"handler: started","stream_id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:30.6034919+01:00","level":"INFO","msg":"sender: started","stream_id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:30.6034919+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:30.8758484+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:53:51.3139998+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:53:51.3145029+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:53:52.3299977+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pfo1amgm-data_plotepoch180_table","runtime_seconds":2.5584583},{"desc":"uploading artifact run-pfo1amgm-data_plotepoch190_table","runtime_seconds":1.6899517}],"total_operations":2}}
+{"time":"2025-02-11T14:53:53.1041978+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:53:54.2919431+01:00","level":"INFO","msg":"stream: closing","id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:54.2919431+01:00","level":"INFO","msg":"handler: closed","stream_id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:54.2919431+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:54.2919431+01:00","level":"INFO","msg":"sender: closed","stream_id":"pfo1amgm"}
+{"time":"2025-02-11T14:53:54.2924491+01:00","level":"INFO","msg":"stream: closed","id":"pfo1amgm"}

@@ -1,0 +1,36 @@
+{"time":"2025-02-11T16:28:11.1144419+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_162811-geagf6oq\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:28:11.2266387+01:00","level":"INFO","msg":"created new stream","id":"geagf6oq"}
+{"time":"2025-02-11T16:28:11.2271677+01:00","level":"INFO","msg":"stream: started","id":"geagf6oq"}
+{"time":"2025-02-11T16:28:11.2271677+01:00","level":"INFO","msg":"handler: started","stream_id":"geagf6oq"}
+{"time":"2025-02-11T16:28:11.2274087+01:00","level":"INFO","msg":"sender: started","stream_id":"geagf6oq"}
+{"time":"2025-02-11T16:28:11.2274087+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"geagf6oq"}
+{"time":"2025-02-11T16:28:11.654955+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:28:11.9494851+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:28:46.6030075+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:28:46.6091472+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:28:49.8882565+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:28:49.91494+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:28:53.1444676+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:28:53.153503+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:29:04.4014389+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:29:04.4073621+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:29:05.0884581+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:29:05.1015553+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:29:05.4639687+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:29:05.4884292+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:29:06.0349826+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:29:06.0473348+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:29:56.5639177+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:29:56.5759319+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:30:04.9331653+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:30:04.9376322+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:30:07.1317367+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:30:07.8553385+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:30:07.8559529+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:30:08.8643992+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-geagf6oq-data_plot1_table","runtime_seconds":1.3555617},{"desc":"uploading artifact run-geagf6oq-data_plot2_table","runtime_seconds":1.1833501},{"desc":"uploading artifact run-geagf6oq-data_plot3_table","runtime_seconds":1.0227289}],"total_operations":3}}
+{"time":"2025-02-11T16:30:09.520831+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:30:10.7344451+01:00","level":"INFO","msg":"stream: closing","id":"geagf6oq"}
+{"time":"2025-02-11T16:30:10.7344451+01:00","level":"INFO","msg":"handler: closed","stream_id":"geagf6oq"}
+{"time":"2025-02-11T16:30:10.7344451+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"geagf6oq"}
+{"time":"2025-02-11T16:30:10.7344451+01:00","level":"INFO","msg":"sender: closed","stream_id":"geagf6oq"}
+{"time":"2025-02-11T16:30:10.7350388+01:00","level":"INFO","msg":"stream: closed","id":"geagf6oq"}

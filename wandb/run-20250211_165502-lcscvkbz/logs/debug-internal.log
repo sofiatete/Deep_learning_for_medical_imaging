@@ -1,0 +1,20 @@
+{"time":"2025-02-11T16:55:02.6401465+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_165502-lcscvkbz\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:55:02.7598103+01:00","level":"INFO","msg":"created new stream","id":"lcscvkbz"}
+{"time":"2025-02-11T16:55:02.7598103+01:00","level":"INFO","msg":"stream: started","id":"lcscvkbz"}
+{"time":"2025-02-11T16:55:02.7598103+01:00","level":"INFO","msg":"handler: started","stream_id":"lcscvkbz"}
+{"time":"2025-02-11T16:55:02.7603123+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lcscvkbz"}
+{"time":"2025-02-11T16:55:02.7603123+01:00","level":"INFO","msg":"sender: started","stream_id":"lcscvkbz"}
+{"time":"2025-02-11T16:55:04.0244374+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:55:04.2812375+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:56:52.2152263+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:56:52.2249512+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:57:00.8737374+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:57:01.8395615+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:57:01.8400685+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:57:02.8507089+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-lcscvkbz-data_plot0_table","runtime_seconds":1.719871},{"desc":"uploading artifact run-lcscvkbz-data_plot1_table","runtime_seconds":1.4542141},{"desc":"uploading artifact run-lcscvkbz-data_plot2_table","runtime_seconds":1.2658241000000001},{"desc":"uploading artifact run-lcscvkbz-data_plot3_table","runtime_seconds":1.0289183}],"total_operations":4}}
+{"time":"2025-02-11T16:57:03.8785047+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:57:05.1797819+01:00","level":"INFO","msg":"stream: closing","id":"lcscvkbz"}
+{"time":"2025-02-11T16:57:05.1797819+01:00","level":"INFO","msg":"handler: closed","stream_id":"lcscvkbz"}
+{"time":"2025-02-11T16:57:05.1797819+01:00","level":"INFO","msg":"sender: closed","stream_id":"lcscvkbz"}
+{"time":"2025-02-11T16:57:05.1797819+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lcscvkbz"}
+{"time":"2025-02-11T16:57:05.1797819+01:00","level":"INFO","msg":"stream: closed","id":"lcscvkbz"}

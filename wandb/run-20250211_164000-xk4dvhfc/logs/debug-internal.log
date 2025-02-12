@@ -1,0 +1,24 @@
+{"time":"2025-02-11T16:40:00.5553047+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_164000-xk4dvhfc\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:40:00.6629852+01:00","level":"INFO","msg":"created new stream","id":"xk4dvhfc"}
+{"time":"2025-02-11T16:40:00.6629852+01:00","level":"INFO","msg":"stream: started","id":"xk4dvhfc"}
+{"time":"2025-02-11T16:40:00.6629852+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xk4dvhfc"}
+{"time":"2025-02-11T16:40:00.6629852+01:00","level":"INFO","msg":"handler: started","stream_id":"xk4dvhfc"}
+{"time":"2025-02-11T16:40:00.6629852+01:00","level":"INFO","msg":"sender: started","stream_id":"xk4dvhfc"}
+{"time":"2025-02-11T16:40:01.6046323+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:40:02.1425539+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:40:52.0301704+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:40:52.0412981+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:40:52.775926+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:40:52.7898882+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:40:56.7280031+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:40:56.7397253+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:41:02.897438+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:41:03.6319437+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:41:03.6324459+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:41:04.6375778+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xk4dvhfc-data_plot0_table","runtime_seconds":1.5243983},{"desc":"uploading artifact run-xk4dvhfc-data_plot1_table","runtime_seconds":1.354574},{"desc":"uploading artifact run-xk4dvhfc-data_plot2_table","runtime_seconds":1.1897909},{"desc":"uploading artifact run-xk4dvhfc-data_plot3_table","runtime_seconds":1.0236173}],"total_operations":4}}
+{"time":"2025-02-11T16:41:12.5567078+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:41:13.7684226+01:00","level":"INFO","msg":"stream: closing","id":"xk4dvhfc"}
+{"time":"2025-02-11T16:41:13.7684226+01:00","level":"INFO","msg":"handler: closed","stream_id":"xk4dvhfc"}
+{"time":"2025-02-11T16:41:13.7684226+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xk4dvhfc"}
+{"time":"2025-02-11T16:41:13.7684226+01:00","level":"INFO","msg":"sender: closed","stream_id":"xk4dvhfc"}
+{"time":"2025-02-11T16:41:13.7700885+01:00","level":"INFO","msg":"stream: closed","id":"xk4dvhfc"}

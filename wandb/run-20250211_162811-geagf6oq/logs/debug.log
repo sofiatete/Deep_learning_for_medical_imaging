@@ -1,0 +1,67 @@
+2025-02-11 16:28:11,108 INFO    MainThread:30936 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\costa\Documents\GitHub\Deep_learning_for_medical_imaging\wandb\run-20250211_162811-geagf6oq\logs\debug.log
+2025-02-11 16:28:11,108 INFO    MainThread:30936 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\costa\Documents\GitHub\Deep_learning_for_medical_imaging\wandb\run-20250211_162811-geagf6oq\logs\debug-internal.log
+2025-02-11 16:28:11,109 INFO    MainThread:30936 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001703C5A96A0>
+2025-02-11 16:28:11,110 INFO    MainThread:30936 [wandb_init.py:init():756] calling init triggers
+2025-02-11 16:28:11,111 INFO    MainThread:30936 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-11 16:28:11,112 INFO    MainThread:30936 [wandb_init.py:init():789] starting backend
+2025-02-11 16:28:11,112 INFO    MainThread:30936 [wandb_init.py:init():793] sending inform_init request
+2025-02-11 16:28:11,113 INFO    MainThread:30936 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-11 16:28:11,113 INFO    MainThread:30936 [wandb_init.py:init():808] backend started and connected
+2025-02-11 16:28:11,115 INFO    MainThread:30936 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-11 16:28:11,116 INFO    MainThread:30936 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 3678: character maps to <undefined>
+2025-02-11 16:28:11,116 INFO    MainThread:30936 [wandb_init.py:init():901] updated telemetry
+2025-02-11 16:28:11,163 INFO    MainThread:30936 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-11 16:28:11,650 INFO    MainThread:30936 [wandb_init.py:init():984] starting run threads in backend
+2025-02-11 16:28:11,851 INFO    MainThread:30936 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-11 16:28:11,852 INFO    MainThread:30936 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-11 16:28:11,852 INFO    MainThread:30936 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-11 16:28:11,852 INFO    MainThread:30936 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-11 16:28:11,853 INFO    MainThread:30936 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-11 16:28:11,947 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:28:11,948 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:28:46,601 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:28:46,607 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:28:46,607 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:28:49,885 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:28:49,896 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:28:49,912 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:28:53,142 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:28:53,149 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:28:53,151 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:29:04,399 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:29:04,406 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:29:04,406 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:29:05,086 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:29:05,095 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:29:05,100 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:29:05,461 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:29:05,483 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:29:05,487 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:29:06,033 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:29:06,041 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:29:06,046 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:29:56,561 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:29:56,571 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:29:56,571 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:30:04,931 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:30:04,935 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:30:04,936 INFO    MainThread:30936 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-11 16:30:07,129 INFO    MainThread:30936 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-11 16:30:07,149 INFO    MainThread:30936 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\costa\Documents\GitHub\Deep_learning_for_medical_imaging\wandb\run-20250211_163007-07jv2dlx\logs\debug.log
+2025-02-11 16:30:07,150 INFO    MainThread:30936 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\costa\Documents\GitHub\Deep_learning_for_medical_imaging\wandb\run-20250211_163007-07jv2dlx\logs\debug-internal.log
+2025-02-11 16:30:07,150 INFO    MainThread:30936 [wandb_init.py:init():756] calling init triggers
+2025-02-11 16:30:07,150 INFO    MainThread:30936 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-11 16:30:07,151 INFO    MainThread:30936 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-11 16:30:07,155 INFO    MainThread:30936 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-11 16:30:07,317 INFO    MainThread:30936 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-11 16:30:07,516 INFO    MainThread:30936 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-11 16:30:07,689 INFO    MainThread:30936 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-11 16:30:07,852 INFO    MainThread:30936 [wandb_run.py:_finish():2110] finishing run costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/geagf6oq
+2025-02-11 16:30:07,853 ERROR   MainThread:30936 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-11 16:30:07,853 INFO    MainThread:30936 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-11 16:30:07,853 INFO    MainThread:30936 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-11 16:30:07,853 INFO    MainThread:30936 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-11 16:30:07,853 INFO    MainThread:30936 [wandb_run.py:_restore():2332] restore
+2025-02-11 16:30:07,854 INFO    MainThread:30936 [wandb_run.py:_restore():2338] restore done

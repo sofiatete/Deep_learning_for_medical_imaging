@@ -1,0 +1,17 @@
+{"time":"2025-02-11T16:42:00.8293168+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_164200-z78w4z9h\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:42:00.9386496+01:00","level":"INFO","msg":"created new stream","id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:00.9391549+01:00","level":"INFO","msg":"stream: started","id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:00.9391549+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:00.9391549+01:00","level":"INFO","msg":"handler: started","stream_id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:00.9391549+01:00","level":"INFO","msg":"sender: started","stream_id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:01.6057816+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:42:02.361836+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T16:42:02.4356059+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:42:02.4361166+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:42:03.4469699+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-z78w4z9h-data_plot0_table","runtime_seconds":1.336524,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-z78w4z9h-data_plot1_table","runtime_seconds":1.336524},{"desc":"uploading artifact run-z78w4z9h-data_plot2_table","runtime_seconds":1.2050037},{"desc":"uploading artifact run-z78w4z9h-data_plot3_table","runtime_seconds":1.0255301000000001}],"total_operations":4}}
+{"time":"2025-02-11T16:42:06.6618009+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:42:07.8634739+01:00","level":"INFO","msg":"stream: closing","id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:07.8634739+01:00","level":"INFO","msg":"handler: closed","stream_id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:07.8634739+01:00","level":"INFO","msg":"sender: closed","stream_id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:07.8634739+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z78w4z9h"}
+{"time":"2025-02-11T16:42:07.8656014+01:00","level":"INFO","msg":"stream: closed","id":"z78w4z9h"}

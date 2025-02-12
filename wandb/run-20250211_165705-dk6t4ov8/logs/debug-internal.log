@@ -1,0 +1,18 @@
+{"time":"2025-02-11T16:57:05.1901305+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_165705-dk6t4ov8\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:57:05.3001653+01:00","level":"INFO","msg":"created new stream","id":"dk6t4ov8"}
+{"time":"2025-02-11T16:57:05.3001653+01:00","level":"INFO","msg":"stream: started","id":"dk6t4ov8"}
+{"time":"2025-02-11T16:57:05.3001653+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dk6t4ov8"}
+{"time":"2025-02-11T16:57:05.3001653+01:00","level":"INFO","msg":"sender: started","stream_id":"dk6t4ov8"}
+{"time":"2025-02-11T16:57:05.3001653+01:00","level":"INFO","msg":"handler: started","stream_id":"dk6t4ov8"}
+{"time":"2025-02-11T16:57:05.9272759+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:57:06.1679903+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T16:58:36.3559902+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T16:58:37.117526+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:58:37.1186421+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:58:38.1302153+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dk6t4ov8-data_plot0_table","runtime_seconds":1.5606447},{"desc":"uploading artifact run-dk6t4ov8-data_plot1_table","runtime_seconds":1.3937671},{"desc":"uploading artifact run-dk6t4ov8-data_plot2_table","runtime_seconds":1.2139394000000001},{"desc":"uploading artifact run-dk6t4ov8-data_plot3_table","runtime_seconds":1.0306346},{"desc":"updating run config","runtime_seconds":1.0098648}],"total_operations":5}}
+{"time":"2025-02-11T16:58:41.0923897+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:58:42.3064813+01:00","level":"INFO","msg":"stream: closing","id":"dk6t4ov8"}
+{"time":"2025-02-11T16:58:42.3064813+01:00","level":"INFO","msg":"handler: closed","stream_id":"dk6t4ov8"}
+{"time":"2025-02-11T16:58:42.3064813+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dk6t4ov8"}
+{"time":"2025-02-11T16:58:42.3064813+01:00","level":"INFO","msg":"sender: closed","stream_id":"dk6t4ov8"}
+{"time":"2025-02-11T16:58:42.3070539+01:00","level":"INFO","msg":"stream: closed","id":"dk6t4ov8"}

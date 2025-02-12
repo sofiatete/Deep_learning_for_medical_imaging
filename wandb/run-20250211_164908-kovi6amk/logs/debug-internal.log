@@ -1,0 +1,16 @@
+{"time":"2025-02-11T16:49:08.4221585+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_164908-kovi6amk\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:49:08.533626+01:00","level":"INFO","msg":"created new stream","id":"kovi6amk"}
+{"time":"2025-02-11T16:49:08.533626+01:00","level":"INFO","msg":"stream: started","id":"kovi6amk"}
+{"time":"2025-02-11T16:49:08.533626+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kovi6amk"}
+{"time":"2025-02-11T16:49:08.533626+01:00","level":"INFO","msg":"sender: started","stream_id":"kovi6amk"}
+{"time":"2025-02-11T16:49:08.5341355+01:00","level":"INFO","msg":"handler: started","stream_id":"kovi6amk"}
+{"time":"2025-02-11T16:49:08.8001374+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:49:09.6402959+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:49:09.641438+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:49:10.6527754+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-kovi6amk-data_plot0_table","runtime_seconds":1.3141736},{"desc":"uploading artifact run-kovi6amk-data_plot1_table","runtime_seconds":1.3141736},{"desc":"uploading artifact run-kovi6amk-data_plot2_table","runtime_seconds":1.2077279},{"desc":"uploading artifact run-kovi6amk-data_plot3_table","runtime_seconds":1.0274038}],"total_operations":4}}
+{"time":"2025-02-11T16:49:14.5859227+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:49:15.7647398+01:00","level":"INFO","msg":"stream: closing","id":"kovi6amk"}
+{"time":"2025-02-11T16:49:15.7647398+01:00","level":"INFO","msg":"handler: closed","stream_id":"kovi6amk"}
+{"time":"2025-02-11T16:49:15.7647398+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kovi6amk"}
+{"time":"2025-02-11T16:49:15.7647398+01:00","level":"INFO","msg":"sender: closed","stream_id":"kovi6amk"}
+{"time":"2025-02-11T16:49:15.7653234+01:00","level":"INFO","msg":"stream: closed","id":"kovi6amk"}

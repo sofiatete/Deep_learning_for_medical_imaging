@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:53:54.310581+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_145354-zs8mm9vd\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:53:54.4201372+01:00","level":"INFO","msg":"created new stream","id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:54.4201372+01:00","level":"INFO","msg":"handler: started","stream_id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:54.4201372+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:54.4201372+01:00","level":"INFO","msg":"stream: started","id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:54.4201372+01:00","level":"INFO","msg":"sender: started","stream_id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:54.6503319+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:53:55.4822194+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:53:55.482722+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:53:56.4921636+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zs8mm9vd-data_plot0_table","runtime_seconds":1.3891543},{"desc":"uploading artifact run-zs8mm9vd-data_plot1_table","runtime_seconds":1.3507567},{"desc":"uploading artifact run-zs8mm9vd-data_plot2_table","runtime_seconds":1.205338},{"desc":"uploading artifact run-zs8mm9vd-data_plot3_table","runtime_seconds":1.019367}],"total_operations":4}}
+{"time":"2025-02-11T14:53:56.9625639+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:53:58.1415792+01:00","level":"INFO","msg":"stream: closing","id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:58.1415792+01:00","level":"INFO","msg":"handler: closed","stream_id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:58.1415792+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:58.1415792+01:00","level":"INFO","msg":"sender: closed","stream_id":"zs8mm9vd"}
+{"time":"2025-02-11T14:53:58.1420832+01:00","level":"INFO","msg":"stream: closed","id":"zs8mm9vd"}

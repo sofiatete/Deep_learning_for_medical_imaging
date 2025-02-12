@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:14:24.2306477+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_151424-cyo650iv\\logs\\debug-core.log"}
+{"time":"2025-02-11T15:14:24.3404309+01:00","level":"INFO","msg":"created new stream","id":"cyo650iv"}
+{"time":"2025-02-11T15:14:24.3404309+01:00","level":"INFO","msg":"stream: started","id":"cyo650iv"}
+{"time":"2025-02-11T15:14:24.3405198+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cyo650iv"}
+{"time":"2025-02-11T15:14:24.3405198+01:00","level":"INFO","msg":"sender: started","stream_id":"cyo650iv"}
+{"time":"2025-02-11T15:14:24.3405198+01:00","level":"INFO","msg":"handler: started","stream_id":"cyo650iv"}
+{"time":"2025-02-11T15:14:24.5703509+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:14:42.6299551+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:14:42.6304613+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:14:43.6416912+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-cyo650iv-data_plotepoch190_table","runtime_seconds":1.6549684999999998}],"total_operations":1}}
+{"time":"2025-02-11T15:14:43.8377779+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:14:45.0319447+01:00","level":"INFO","msg":"stream: closing","id":"cyo650iv"}
+{"time":"2025-02-11T15:14:45.0319447+01:00","level":"INFO","msg":"handler: closed","stream_id":"cyo650iv"}
+{"time":"2025-02-11T15:14:45.0319447+01:00","level":"INFO","msg":"sender: closed","stream_id":"cyo650iv"}
+{"time":"2025-02-11T15:14:45.0319447+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cyo650iv"}
+{"time":"2025-02-11T15:14:45.0320932+01:00","level":"INFO","msg":"stream: closed","id":"cyo650iv"}

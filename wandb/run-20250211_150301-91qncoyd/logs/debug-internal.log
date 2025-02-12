@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:03:01.7692115+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_150301-91qncoyd\\logs\\debug-core.log"}
+{"time":"2025-02-11T15:03:01.8803188+01:00","level":"INFO","msg":"created new stream","id":"91qncoyd"}
+{"time":"2025-02-11T15:03:01.8803188+01:00","level":"INFO","msg":"stream: started","id":"91qncoyd"}
+{"time":"2025-02-11T15:03:01.8803188+01:00","level":"INFO","msg":"sender: started","stream_id":"91qncoyd"}
+{"time":"2025-02-11T15:03:01.8803188+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"91qncoyd"}
+{"time":"2025-02-11T15:03:01.8803188+01:00","level":"INFO","msg":"handler: started","stream_id":"91qncoyd"}
+{"time":"2025-02-11T15:03:02.1249883+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:03:17.6801018+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:03:17.6807842+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:03:18.6865484+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-91qncoyd-data_plot1_table","runtime_seconds":1.2559478},{"desc":"uploading artifact run-91qncoyd-data_plot2_table","runtime_seconds":1.175576},{"desc":"uploading artifact run-91qncoyd-data_plot3_table","runtime_seconds":1.0181734}],"total_operations":3}}
+{"time":"2025-02-11T15:03:19.2858937+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:03:20.47203+01:00","level":"INFO","msg":"stream: closing","id":"91qncoyd"}
+{"time":"2025-02-11T15:03:20.47203+01:00","level":"INFO","msg":"handler: closed","stream_id":"91qncoyd"}
+{"time":"2025-02-11T15:03:20.47203+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"91qncoyd"}
+{"time":"2025-02-11T15:03:20.47203+01:00","level":"INFO","msg":"sender: closed","stream_id":"91qncoyd"}
+{"time":"2025-02-11T15:03:20.47203+01:00","level":"INFO","msg":"stream: closed","id":"91qncoyd"}

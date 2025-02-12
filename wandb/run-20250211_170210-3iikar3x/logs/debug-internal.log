@@ -1,0 +1,16 @@
+{"time":"2025-02-11T17:02:10.6993439+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_170210-3iikar3x\\logs\\debug-core.log"}
+{"time":"2025-02-11T17:02:10.8115043+01:00","level":"INFO","msg":"created new stream","id":"3iikar3x"}
+{"time":"2025-02-11T17:02:10.8115043+01:00","level":"INFO","msg":"stream: started","id":"3iikar3x"}
+{"time":"2025-02-11T17:02:10.8115043+01:00","level":"INFO","msg":"handler: started","stream_id":"3iikar3x"}
+{"time":"2025-02-11T17:02:10.8118581+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3iikar3x"}
+{"time":"2025-02-11T17:02:10.8118581+01:00","level":"INFO","msg":"sender: started","stream_id":"3iikar3x"}
+{"time":"2025-02-11T17:02:11.1094512+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:02:12.9198851+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:02:12.9213203+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:02:13.9342699+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-3iikar3x-data_plot1_table","runtime_seconds":1.4084952},{"desc":"uploading artifact run-3iikar3x-data_plot2_table","runtime_seconds":1.2270367},{"desc":"uploading artifact run-3iikar3x-data_plot3_table","runtime_seconds":1.0251983}],"total_operations":3}}
+{"time":"2025-02-11T17:02:14.6064688+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:02:15.7872644+01:00","level":"INFO","msg":"stream: closing","id":"3iikar3x"}
+{"time":"2025-02-11T17:02:15.7872644+01:00","level":"INFO","msg":"handler: closed","stream_id":"3iikar3x"}
+{"time":"2025-02-11T17:02:15.7872644+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3iikar3x"}
+{"time":"2025-02-11T17:02:15.7872644+01:00","level":"INFO","msg":"sender: closed","stream_id":"3iikar3x"}
+{"time":"2025-02-11T17:02:15.7877677+01:00","level":"INFO","msg":"stream: closed","id":"3iikar3x"}

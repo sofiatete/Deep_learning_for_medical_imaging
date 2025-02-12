@@ -1,0 +1,16 @@
+{"time":"2025-02-11T16:42:29.9145934+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_164229-lxq7rpue\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:42:30.0244069+01:00","level":"INFO","msg":"created new stream","id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:30.0244069+01:00","level":"INFO","msg":"stream: started","id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:30.024966+01:00","level":"INFO","msg":"sender: started","stream_id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:30.024966+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:30.024966+01:00","level":"INFO","msg":"handler: started","stream_id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:30.3242368+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:42:31.2526831+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:42:31.2534924+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:42:32.266936+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":1.4987107},{"desc":"uploading artifact run-lxq7rpue-data_plot0_table","runtime_seconds":1.4278961},{"desc":"uploading artifact run-lxq7rpue-data_plot1_table","runtime_seconds":1.3895099},{"desc":"uploading artifact run-lxq7rpue-data_plot2_table","runtime_seconds":1.2221726},{"desc":"uploading artifact run-lxq7rpue-data_plot3_table","runtime_seconds":1.0387244}],"total_operations":5}}
+{"time":"2025-02-11T16:42:38.7301511+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:42:39.9505875+01:00","level":"INFO","msg":"stream: closing","id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:39.9505875+01:00","level":"INFO","msg":"handler: closed","stream_id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:39.9505875+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:39.9505875+01:00","level":"INFO","msg":"sender: closed","stream_id":"lxq7rpue"}
+{"time":"2025-02-11T16:42:39.9516716+01:00","level":"INFO","msg":"stream: closed","id":"lxq7rpue"}

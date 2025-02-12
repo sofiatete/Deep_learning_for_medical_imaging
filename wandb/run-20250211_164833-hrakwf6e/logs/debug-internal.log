@@ -1,0 +1,16 @@
+{"time":"2025-02-11T16:48:33.9851123+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_164833-hrakwf6e\\logs\\debug-core.log"}
+{"time":"2025-02-11T16:48:34.0974594+01:00","level":"INFO","msg":"created new stream","id":"hrakwf6e"}
+{"time":"2025-02-11T16:48:34.0974594+01:00","level":"INFO","msg":"stream: started","id":"hrakwf6e"}
+{"time":"2025-02-11T16:48:34.0974594+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hrakwf6e"}
+{"time":"2025-02-11T16:48:34.0974594+01:00","level":"INFO","msg":"handler: started","stream_id":"hrakwf6e"}
+{"time":"2025-02-11T16:48:34.0974594+01:00","level":"INFO","msg":"sender: started","stream_id":"hrakwf6e"}
+{"time":"2025-02-11T16:48:34.4328448+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T16:48:52.8675196+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T16:48:52.8681068+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T16:48:53.8715731+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hrakwf6e-data_plotepoch70_table","runtime_seconds":11.8351594},{"desc":"uploading artifact run-hrakwf6e-data_plotepoch150_table","runtime_seconds":5.4252939},{"desc":"uploading artifact run-hrakwf6e-data_plotepoch180_table","runtime_seconds":2.626271},{"desc":"uploading artifact run-hrakwf6e-data_plotepoch190_table","runtime_seconds":1.5826008}],"total_operations":4}}
+{"time":"2025-02-11T16:49:07.1693173+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T16:49:08.4063806+01:00","level":"INFO","msg":"stream: closing","id":"hrakwf6e"}
+{"time":"2025-02-11T16:49:08.4063806+01:00","level":"INFO","msg":"handler: closed","stream_id":"hrakwf6e"}
+{"time":"2025-02-11T16:49:08.4063806+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hrakwf6e"}
+{"time":"2025-02-11T16:49:08.4063806+01:00","level":"INFO","msg":"sender: closed","stream_id":"hrakwf6e"}
+{"time":"2025-02-11T16:49:08.4063806+01:00","level":"INFO","msg":"stream: closed","id":"hrakwf6e"}

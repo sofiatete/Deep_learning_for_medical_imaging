@@ -1,0 +1,16 @@
+{"time":"2025-02-11T14:54:44.4141866+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250211_145444-izw5137x\\logs\\debug-core.log"}
+{"time":"2025-02-11T14:54:44.5222691+01:00","level":"INFO","msg":"created new stream","id":"izw5137x"}
+{"time":"2025-02-11T14:54:44.5222691+01:00","level":"INFO","msg":"stream: started","id":"izw5137x"}
+{"time":"2025-02-11T14:54:44.5222691+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"izw5137x"}
+{"time":"2025-02-11T14:54:44.5222691+01:00","level":"INFO","msg":"sender: started","stream_id":"izw5137x"}
+{"time":"2025-02-11T14:54:44.5222691+01:00","level":"INFO","msg":"handler: started","stream_id":"izw5137x"}
+{"time":"2025-02-11T14:54:44.8633909+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T14:54:45.7884238+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T14:54:45.7889385+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T14:54:46.8001532+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-izw5137x-data_plot0_table","runtime_seconds":1.4195236},{"desc":"uploading artifact run-izw5137x-data_plot1_table","runtime_seconds":1.3999767},{"desc":"uploading artifact run-izw5137x-data_plot2_table","runtime_seconds":1.2180029},{"desc":"uploading artifact run-izw5137x-data_plot3_table","runtime_seconds":1.0221507}],"total_operations":4}}
+{"time":"2025-02-11T14:54:47.224175+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T14:54:48.4268105+01:00","level":"INFO","msg":"stream: closing","id":"izw5137x"}
+{"time":"2025-02-11T14:54:48.4268105+01:00","level":"INFO","msg":"handler: closed","stream_id":"izw5137x"}
+{"time":"2025-02-11T14:54:48.4268105+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"izw5137x"}
+{"time":"2025-02-11T14:54:48.4268105+01:00","level":"INFO","msg":"sender: closed","stream_id":"izw5137x"}
+{"time":"2025-02-11T14:54:48.4268105+01:00","level":"INFO","msg":"stream: closed","id":"izw5137x"}
