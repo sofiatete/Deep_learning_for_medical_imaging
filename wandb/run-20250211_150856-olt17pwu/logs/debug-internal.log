@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:08:56.869621+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_150856-olt17pwu/logs/debug-core.log"}
+{"time":"2025-02-11T15:08:56.976383+01:00","level":"INFO","msg":"created new stream","id":"olt17pwu"}
+{"time":"2025-02-11T15:08:56.976421+01:00","level":"INFO","msg":"stream: started","id":"olt17pwu"}
+{"time":"2025-02-11T15:08:56.976421+01:00","level":"INFO","msg":"handler: started","stream_id":"olt17pwu"}
+{"time":"2025-02-11T15:08:56.976428+01:00","level":"INFO","msg":"sender: started","stream_id":"olt17pwu"}
+{"time":"2025-02-11T15:08:56.976462+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"olt17pwu"}
+{"time":"2025-02-11T15:08:57.170569+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:09:04.018988+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:09:04.019272+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:09:05.025655+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-olt17pwu-data_plotepoch180_table","runtime_seconds":1.497701542},{"desc":"uploading artifact run-olt17pwu-data_plotepoch190_table","runtime_seconds":1.174182}],"total_operations":2}}
+{"time":"2025-02-11T15:09:05.321524+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:09:06.543511+01:00","level":"INFO","msg":"stream: closing","id":"olt17pwu"}
+{"time":"2025-02-11T15:09:06.543581+01:00","level":"INFO","msg":"handler: closed","stream_id":"olt17pwu"}
+{"time":"2025-02-11T15:09:06.543623+01:00","level":"INFO","msg":"sender: closed","stream_id":"olt17pwu"}
+{"time":"2025-02-11T15:09:06.543608+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"olt17pwu"}
+{"time":"2025-02-11T15:09:06.543993+01:00","level":"INFO","msg":"stream: closed","id":"olt17pwu"}

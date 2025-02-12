@@ -1,0 +1,24 @@
+{"time":"2025-02-12T14:14:16.5679626+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_141416-tjt020ag\\logs\\debug-core.log"}
+{"time":"2025-02-12T14:14:16.6809747+01:00","level":"INFO","msg":"created new stream","id":"tjt020ag"}
+{"time":"2025-02-12T14:14:16.6809747+01:00","level":"INFO","msg":"stream: started","id":"tjt020ag"}
+{"time":"2025-02-12T14:14:16.6809747+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tjt020ag"}
+{"time":"2025-02-12T14:14:16.6809747+01:00","level":"INFO","msg":"handler: started","stream_id":"tjt020ag"}
+{"time":"2025-02-12T14:14:16.6809747+01:00","level":"INFO","msg":"sender: started","stream_id":"tjt020ag"}
+{"time":"2025-02-12T14:14:16.9818971+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T14:14:33.5427574+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:14:46.8617975+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:14:46.8703795+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:14:54.8821709+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:14:54.8838069+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:14:56.7734422+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:14:56.7817771+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T14:15:00.6123737+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T14:15:02.1772138+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T14:15:02.1782466+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T14:15:03.182011+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tjt020ag-data_plot3_table","runtime_seconds":1.6650689}],"total_operations":1}}
+{"time":"2025-02-12T14:15:03.3141266+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T14:15:04.4881423+01:00","level":"INFO","msg":"stream: closing","id":"tjt020ag"}
+{"time":"2025-02-12T14:15:04.4881423+01:00","level":"INFO","msg":"handler: closed","stream_id":"tjt020ag"}
+{"time":"2025-02-12T14:15:04.4881423+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tjt020ag"}
+{"time":"2025-02-12T14:15:04.4881423+01:00","level":"INFO","msg":"sender: closed","stream_id":"tjt020ag"}
+{"time":"2025-02-12T14:15:04.4881423+01:00","level":"INFO","msg":"stream: closed","id":"tjt020ag"}

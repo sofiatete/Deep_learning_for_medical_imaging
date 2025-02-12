@@ -1,0 +1,18 @@
+{"time":"2025-02-11T17:52:54.520674+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_175254-daqvvcvp/logs/debug-core.log"}
+{"time":"2025-02-11T17:52:54.631232+01:00","level":"INFO","msg":"created new stream","id":"daqvvcvp"}
+{"time":"2025-02-11T17:52:54.631267+01:00","level":"INFO","msg":"stream: started","id":"daqvvcvp"}
+{"time":"2025-02-11T17:52:54.631261+01:00","level":"INFO","msg":"handler: started","stream_id":"daqvvcvp"}
+{"time":"2025-02-11T17:52:54.631274+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"daqvvcvp"}
+{"time":"2025-02-11T17:52:54.631288+01:00","level":"INFO","msg":"sender: started","stream_id":"daqvvcvp"}
+{"time":"2025-02-11T17:52:54.91854+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:52:55.58071+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T17:53:03.961367+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:53:03.962072+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:53:04.968953+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-daqvvcvp-data_plot0_table","runtime_seconds":1.503886},{"desc":"uploading artifact run-daqvvcvp-data_plot1_table","runtime_seconds":1.354785875},{"desc":"uploading artifact run-daqvvcvp-data_plot2_table","runtime_seconds":1.193575167},{"desc":"uploading artifact run-daqvvcvp-data_plot3_table","runtime_seconds":1.024023375}],"total_operations":4}}
+{"time":"2025-02-11T17:53:32.65666+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-11T17:53:35.546912+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:53:36.904727+01:00","level":"INFO","msg":"stream: closing","id":"daqvvcvp"}
+{"time":"2025-02-11T17:53:36.904826+01:00","level":"INFO","msg":"handler: closed","stream_id":"daqvvcvp"}
+{"time":"2025-02-11T17:53:36.90486+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"daqvvcvp"}
+{"time":"2025-02-11T17:53:36.90489+01:00","level":"INFO","msg":"sender: closed","stream_id":"daqvvcvp"}
+{"time":"2025-02-11T17:53:36.905276+01:00","level":"INFO","msg":"stream: closed","id":"daqvvcvp"}

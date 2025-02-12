@@ -1,0 +1,16 @@
+{"time":"2025-02-11T15:06:17.995585+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_150617-mi5j1czc/logs/debug-core.log"}
+{"time":"2025-02-11T15:06:18.103374+01:00","level":"INFO","msg":"created new stream","id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:18.103409+01:00","level":"INFO","msg":"stream: started","id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:18.103415+01:00","level":"INFO","msg":"handler: started","stream_id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:18.103438+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:18.103419+01:00","level":"INFO","msg":"sender: started","stream_id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:18.324391+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T15:06:18.988706+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T15:06:18.988942+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T15:06:19.995353+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mi5j1czc-data_plot0_table","runtime_seconds":1.23734825},{"desc":"uploading artifact run-mi5j1czc-data_plot1_table","runtime_seconds":1.237289625},{"desc":"uploading artifact run-mi5j1czc-data_plot2_table","runtime_seconds":1.157642417},{"desc":"uploading artifact run-mi5j1czc-data_plot3_table","runtime_seconds":1.009127583}],"total_operations":4}}
+{"time":"2025-02-11T15:06:20.618119+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T15:06:21.810759+01:00","level":"INFO","msg":"stream: closing","id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:21.810857+01:00","level":"INFO","msg":"handler: closed","stream_id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:21.810886+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:21.810928+01:00","level":"INFO","msg":"sender: closed","stream_id":"mi5j1czc"}
+{"time":"2025-02-11T15:06:21.811474+01:00","level":"INFO","msg":"stream: closed","id":"mi5j1czc"}

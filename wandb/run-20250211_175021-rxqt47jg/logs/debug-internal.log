@@ -1,0 +1,22 @@
+{"time":"2025-02-11T17:50:21.353459+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_175021-rxqt47jg/logs/debug-core.log"}
+{"time":"2025-02-11T17:50:21.464291+01:00","level":"INFO","msg":"created new stream","id":"rxqt47jg"}
+{"time":"2025-02-11T17:50:21.464331+01:00","level":"INFO","msg":"stream: started","id":"rxqt47jg"}
+{"time":"2025-02-11T17:50:21.464328+01:00","level":"INFO","msg":"handler: started","stream_id":"rxqt47jg"}
+{"time":"2025-02-11T17:50:21.464348+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rxqt47jg"}
+{"time":"2025-02-11T17:50:21.464337+01:00","level":"INFO","msg":"sender: started","stream_id":"rxqt47jg"}
+{"time":"2025-02-11T17:50:21.691966+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:50:30.515276+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:51:36.941541+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:51:36.94406+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:52:09.589359+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:52:09.591694+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T17:52:26.077259+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-11T17:52:26.740063+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-11T17:52:26.740405+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-11T17:52:27.74648+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rxqt47jg-data_plot1_table","runtime_seconds":1.29801825},{"desc":"uploading artifact run-rxqt47jg-data_plot2_table","runtime_seconds":1.154733},{"desc":"uploading artifact run-rxqt47jg-data_plot3_table","runtime_seconds":1.010603666}],"total_operations":3}}
+{"time":"2025-02-11T17:52:28.26577+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-11T17:52:29.4682+01:00","level":"INFO","msg":"stream: closing","id":"rxqt47jg"}
+{"time":"2025-02-11T17:52:29.468231+01:00","level":"INFO","msg":"handler: closed","stream_id":"rxqt47jg"}
+{"time":"2025-02-11T17:52:29.468247+01:00","level":"INFO","msg":"sender: closed","stream_id":"rxqt47jg"}
+{"time":"2025-02-11T17:52:29.468246+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rxqt47jg"}
+{"time":"2025-02-11T17:52:29.468426+01:00","level":"INFO","msg":"stream: closed","id":"rxqt47jg"}

@@ -1,0 +1,75 @@
+{"time":"2025-02-11T17:58:05.694619+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250211_175805-tp1bao7w/logs/debug-core.log"}
+{"time":"2025-02-11T17:58:05.803822+01:00","level":"INFO","msg":"created new stream","id":"tp1bao7w"}
+{"time":"2025-02-11T17:58:05.803859+01:00","level":"INFO","msg":"stream: started","id":"tp1bao7w"}
+{"time":"2025-02-11T17:58:05.803863+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tp1bao7w"}
+{"time":"2025-02-11T17:58:05.803885+01:00","level":"INFO","msg":"sender: started","stream_id":"tp1bao7w"}
+{"time":"2025-02-11T17:58:05.80387+01:00","level":"INFO","msg":"handler: started","stream_id":"tp1bao7w"}
+{"time":"2025-02-11T17:58:06.168499+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-11T17:58:06.894985+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-11T17:58:14.725761+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-11T18:06:23.682039+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-11T18:06:25.980306+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-11T18:06:26.21042+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 130.37.201.43:60014->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-02-11T18:06:28.260854+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-11T18:07:57.647031+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-11T18:08:07.226068+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-11T18:23:12.359057+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-11T18:23:12.540168+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": read tcp 130.37.201.43:60087->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-02-11T18:54:14.048504+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-11T20:24:02.644666+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:60644->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T20:43:07.127428+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:60736->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T20:59:45.272622+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:60834->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T21:15:18.962907+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:60874->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T21:31:56.674453+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:60939->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T21:47:25.271189+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:60972->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T23:32:36.612824+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:61562->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-11T23:57:36.618905+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:61897->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T00:14:43.811776+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:61977->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T01:00:01.948054+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:62127->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T01:34:28.925824+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:62212->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T02:05:34.944417+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:62335->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T02:56:11.906762+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:62614->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T03:45:20.8093+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:62778->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T04:35:35.733299+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63018->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T04:51:31.987917+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63178->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T05:41:52.137913+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63429->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T06:38:01.29504+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63606->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T06:54:28.822088+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63784->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T07:10:24.353196+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63879->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T07:44:04.100724+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:63977->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T08:02:04.065051+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:64162->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T09:00:14.231302+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:64255->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T09:12:26.450776+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:64554->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-12T09:57:25.441334+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:64563->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-02-12T09:57:27.555051+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:04:19.546019+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:04:21.084454+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:04:23.409172+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:04:28.267144+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:05:07.047186+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:05:29.294896+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-02-12T10:07:45.686291+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:07:47.877139+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tp1bao7w/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-12T10:10:15.409587+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 130.37.201.227:64664->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-02-12T10:14:58.050495+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:14:58.072821+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:14:59.459688+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:14:59.464232+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:14:59.790329+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:14:59.795509+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:02.36231+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:02.36492+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:03.002301+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:03.006616+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:03.252429+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:03.255708+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-12T10:15:15.177613+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-12T10:15:15.843289+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T10:15:15.844482+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T10:15:16.850154+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-tp1bao7w-data_plot1_table","runtime_seconds":1.3303237079999999},{"desc":"uploading artifact run-tp1bao7w-data_plot2_table","runtime_seconds":1.174551209},{"desc":"uploading artifact run-tp1bao7w-data_plot3_table","runtime_seconds":1.027667625,"subtasks":[{"desc":"data_plot 3_table.table.json","runtime_seconds":0.085636916,"progress":"673B/673B"}]}],"total_operations":3}}
+{"time":"2025-02-12T10:15:17.620171+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T10:15:18.890957+01:00","level":"INFO","msg":"stream: closing","id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891056+01:00","level":"INFO","msg":"handler: closed","stream_id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891074+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891102+01:00","level":"INFO","msg":"sender: closed","stream_id":"tp1bao7w"}
+{"time":"2025-02-12T10:15:18.891441+01:00","level":"INFO","msg":"stream: closed","id":"tp1bao7w"}
