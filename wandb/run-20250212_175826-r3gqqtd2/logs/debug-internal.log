@@ -1,0 +1,17 @@
+{"time":"2025-02-12T17:58:26.8331451+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_175826-r3gqqtd2\\logs\\debug-core.log"}
+{"time":"2025-02-12T17:58:27.1757443+01:00","level":"INFO","msg":"created new stream","id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:27.1757443+01:00","level":"INFO","msg":"stream: started","id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:27.1757443+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:27.1757443+01:00","level":"INFO","msg":"sender: started","stream_id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:27.1757443+01:00","level":"INFO","msg":"handler: started","stream_id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:27.3868848+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T17:58:28.2227768+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-12T17:58:28.2763844+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T17:58:28.2770294+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T17:58:29.2805167+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-r3gqqtd2-data_plot0_table","runtime_seconds":1.3344089000000001,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-r3gqqtd2-data_plot1_table","runtime_seconds":1.3344089000000001},{"desc":"uploading artifact run-r3gqqtd2-data_plot2_table","runtime_seconds":1.1898014},{"desc":"uploading artifact run-r3gqqtd2-data_plot3_table","runtime_seconds":1.0135336}],"total_operations":4}}
+{"time":"2025-02-12T17:58:34.3462617+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T17:58:35.5491772+01:00","level":"INFO","msg":"stream: closing","id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:35.5491772+01:00","level":"INFO","msg":"handler: closed","stream_id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:35.5491772+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:35.5491772+01:00","level":"INFO","msg":"sender: closed","stream_id":"r3gqqtd2"}
+{"time":"2025-02-12T17:58:35.5491772+01:00","level":"INFO","msg":"stream: closed","id":"r3gqqtd2"}

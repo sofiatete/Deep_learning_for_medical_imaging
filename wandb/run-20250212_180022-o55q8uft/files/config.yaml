@@ -1,0 +1,1768 @@
+_wandb:
+    value:
+        cli_version: 0.19.5
+        m: []
+        python_version: 3.12.8
+        t:
+            "1":
+                - 1
+                - 55
+                - 105
+            "2":
+                - 1
+                - 55
+                - 105
+            "3":
+                - 2
+                - 13
+                - 23
+                - 55
+            "4": 3.12.8
+            "5": 0.19.5
+            "8":
+                - 1
+                - 3
+                - 5
+            "12": 0.19.5
+            "13": windows-amd64
+        visualize:
+            data_plot_D_epoch 0:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 0'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 0_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 10:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 10'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 10_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 20:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 20'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 20_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 30:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 30'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 30_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 40:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 40'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 40_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 50:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 50'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 50_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 60:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 60'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 60_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 70:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 70'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 70_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 80:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 80'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 80_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 90:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 90'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 90_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 100:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 100'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 100_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 110:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 110'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 110_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 120:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 120'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 120_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 130:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 130'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 130_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 140:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 140'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 140_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 150:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 150'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 150_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 160:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 160'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 160_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 170:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 170'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 170_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 180:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 180'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 180_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_D_epoch 190:
+                panel_config:
+                    fieldSettings:
+                        x: D_ref
+                        "y": D_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'D: epoch 190'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_D_epoch 190_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 0:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 0'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 0_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 10:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 10'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 10_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 20:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 20'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 20_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 30:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 30'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 30_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 40:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 40'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 40_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 50:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 50'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 50_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 60:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 60'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 60_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 70:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 70'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 70_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 80:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 80'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 80_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 90:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 90'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 90_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 100:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 100'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 100_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 110:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 110'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 110_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 120:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 120'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 120_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 130:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 130'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 130_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 140:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 140'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 140_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 150:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 150'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 150_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 160:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 160'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 160_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 170:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 170'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 170_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 180:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 180'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 180_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_Dp_epoch 190:
+                panel_config:
+                    fieldSettings:
+                        x: Dp_ref
+                        "y": Dp_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'Dp: epoch 190'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_Dp_epoch 190_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 0:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 0'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 0_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 10:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 10'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 10_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 20:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 20'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 20_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 30:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 30'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 30_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 40:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 40'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 40_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 50:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 50'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 50_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 60:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 60'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 60_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 70:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 70'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 70_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 80:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 80'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 80_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 90:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 90'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 90_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 100:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 100'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 100_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 110:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 110'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 110_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 120:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 120'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 120_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 130:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 130'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 130_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 140:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 140'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 140_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 150:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 150'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 150_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 160:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 160'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 160_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 170:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 170'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 170_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 180:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 180'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 180_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            data_plot_f_epoch 190:
+                panel_config:
+                    fieldSettings:
+                        x: f_ref
+                        "y": f_pred
+                    panelDefId: wandb/scatter/v0
+                    stringSettings:
+                        title: 'f: epoch 190'
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: data_plot_f_epoch 190_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2

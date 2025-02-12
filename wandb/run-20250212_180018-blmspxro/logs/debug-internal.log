@@ -1,0 +1,16 @@
+{"time":"2025-02-12T18:00:18.3307523+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_180018-blmspxro\\logs\\debug-core.log"}
+{"time":"2025-02-12T18:00:18.4483536+01:00","level":"INFO","msg":"created new stream","id":"blmspxro"}
+{"time":"2025-02-12T18:00:18.4483536+01:00","level":"INFO","msg":"stream: started","id":"blmspxro"}
+{"time":"2025-02-12T18:00:18.4483536+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"blmspxro"}
+{"time":"2025-02-12T18:00:18.4483536+01:00","level":"INFO","msg":"sender: started","stream_id":"blmspxro"}
+{"time":"2025-02-12T18:00:18.4483536+01:00","level":"INFO","msg":"handler: started","stream_id":"blmspxro"}
+{"time":"2025-02-12T18:00:18.6958763+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T18:00:19.6560176+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T18:00:19.6573885+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T18:00:20.671208+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-blmspxro-data_plot0_table","runtime_seconds":1.44849},{"desc":"uploading artifact run-blmspxro-data_plot1_table","runtime_seconds":1.393663},{"desc":"uploading artifact run-blmspxro-data_plot2_table","runtime_seconds":1.214659},{"desc":"uploading artifact run-blmspxro-data_plot3_table","runtime_seconds":1.0315111}],"total_operations":4}}
+{"time":"2025-02-12T18:00:21.0787526+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T18:00:22.2475256+01:00","level":"INFO","msg":"stream: closing","id":"blmspxro"}
+{"time":"2025-02-12T18:00:22.2475256+01:00","level":"INFO","msg":"handler: closed","stream_id":"blmspxro"}
+{"time":"2025-02-12T18:00:22.2475256+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"blmspxro"}
+{"time":"2025-02-12T18:00:22.2475256+01:00","level":"INFO","msg":"sender: closed","stream_id":"blmspxro"}
+{"time":"2025-02-12T18:00:22.2480325+01:00","level":"INFO","msg":"stream: closed","id":"blmspxro"}

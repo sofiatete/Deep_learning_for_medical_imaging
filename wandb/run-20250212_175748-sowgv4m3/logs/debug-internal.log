@@ -1,0 +1,16 @@
+{"time":"2025-02-12T17:57:48.4991386+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\costa\\Documents\\GitHub\\Deep_learning_for_medical_imaging\\wandb\\run-20250212_175748-sowgv4m3\\logs\\debug-core.log"}
+{"time":"2025-02-12T17:57:49.0616746+01:00","level":"INFO","msg":"created new stream","id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:49.0628498+01:00","level":"INFO","msg":"stream: started","id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:49.0628498+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:49.0628498+01:00","level":"INFO","msg":"sender: started","stream_id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:49.0628498+01:00","level":"INFO","msg":"handler: started","stream_id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:49.4076076+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-12T17:57:51.4546041+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-12T17:57:51.4565193+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-12T17:57:52.4712544+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-sowgv4m3-data_plot1_table","runtime_seconds":1.3494339},{"desc":"uploading artifact run-sowgv4m3-data_plot2_table","runtime_seconds":1.2026733},{"desc":"uploading artifact run-sowgv4m3-data_plot3_table","runtime_seconds":1.0388838}],"total_operations":3}}
+{"time":"2025-02-12T17:57:53.1357105+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-12T17:57:54.3769678+01:00","level":"INFO","msg":"stream: closing","id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:54.3769678+01:00","level":"INFO","msg":"handler: closed","stream_id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:54.37747+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:54.37747+01:00","level":"INFO","msg":"sender: closed","stream_id":"sowgv4m3"}
+{"time":"2025-02-12T17:57:54.3775277+01:00","level":"INFO","msg":"stream: closed","id":"sowgv4m3"}
