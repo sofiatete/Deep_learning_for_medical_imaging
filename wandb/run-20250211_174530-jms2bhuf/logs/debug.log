@@ -4486,3 +4486,283 @@ config: {'_wandb': {}}
 2025-02-12 10:42:14,642 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
 2025-02-12 10:42:14,642 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
 2025-02-12 10:42:14,643 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 10:59:47,747 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_105947-u7uarory/logs/debug.log
+2025-02-12 10:59:47,756 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_105947-u7uarory/logs/debug-internal.log
+2025-02-12 10:59:47,756 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1641c6fc0>
+2025-02-12 10:59:47,757 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 10:59:47,757 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 10:59:47,758 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 10:59:47,758 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 10:59:47,759 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 10:59:47,760 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 10:59:47,766 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 10:59:47,770 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 10:59:47,796 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 10:59:48,098 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 10:59:48,277 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 10:59:48,278 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 10:59:48,278 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 10:59:48,278 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 10:59:48,279 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 10:59:48,284 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-12 10:59:48,448 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-12 10:59:48,590 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-12 10:59:48,737 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-12 10:59:48,880 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/u7uarory
+2025-02-12 10:59:48,881 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 10:59:48,881 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 10:59:48,882 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 10:59:48,882 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 10:59:48,882 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 10:59:48,883 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 10:59:51,479 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_105951-78d50p78/logs/debug.log
+2025-02-12 10:59:51,479 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_105951-78d50p78/logs/debug-internal.log
+2025-02-12 10:59:51,480 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16c0c9d30>
+2025-02-12 10:59:51,480 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 10:59:51,481 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 10:59:51,481 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 10:59:51,481 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 10:59:51,483 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 10:59:51,483 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 10:59:51,487 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 10:59:51,491 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 10:59:51,511 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 10:59:52,004 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 10:59:52,080 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 10:59:52,081 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 10:59:52,082 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 10:59:52,082 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 10:59:52,082 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:00:20,236 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/78d50p78
+2025-02-12 11:00:20,237 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:00:20,237 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:00:20,238 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:00:20,238 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:00:20,238 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:00:20,239 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:01:15,471 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_110115-wegm1ymu/logs/debug.log
+2025-02-12 11:01:15,477 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_110115-wegm1ymu/logs/debug-internal.log
+2025-02-12 11:01:15,477 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16b8b6a80>
+2025-02-12 11:01:15,477 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:01:15,478 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:01:15,478 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:01:15,478 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:01:15,479 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:01:15,480 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:01:15,483 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:01:15,487 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:01:15,506 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:01:15,775 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:01:15,886 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:01:15,886 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:01:15,887 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:01:15,887 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:01:15,887 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:01:15,929 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:01:16,133 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:01:16,276 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:01:16,421 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:01:16,760 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/wegm1ymu
+2025-02-12 11:01:16,761 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:01:16,761 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:01:16,761 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:01:16,762 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:01:16,762 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:01:16,762 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:01:19,563 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_110119-nb60514p/logs/debug.log
+2025-02-12 11:01:19,564 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_110119-nb60514p/logs/debug-internal.log
+2025-02-12 11:01:19,565 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16bcb1820>
+2025-02-12 11:01:19,565 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:01:19,566 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:01:19,567 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:01:19,567 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:01:19,568 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:01:19,569 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:01:19,572 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:01:19,577 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:01:19,597 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:01:19,883 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:01:19,950 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:01:19,951 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:01:19,951 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:01:19,951 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:01:19,952 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:06:16,136 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/nb60514p
+2025-02-12 11:06:16,144 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:06:16,144 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:06:16,145 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:06:16,145 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:06:16,145 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:06:16,146 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:21:14,664 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_112114-ljm0rofz/logs/debug.log
+2025-02-12 11:21:14,673 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_112114-ljm0rofz/logs/debug-internal.log
+2025-02-12 11:21:14,674 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16a4217f0>
+2025-02-12 11:21:14,674 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:21:14,675 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:21:14,675 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:21:14,676 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:21:14,677 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:21:14,678 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:21:14,684 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:21:14,688 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:21:14,711 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:21:15,066 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:21:15,245 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:21:15,245 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:21:15,246 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:21:15,246 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:21:15,247 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:21:15,297 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:21:15,477 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:21:15,643 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:21:15,796 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:21:16,219 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/ljm0rofz
+2025-02-12 11:21:16,221 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:21:16,222 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:21:16,222 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:21:16,222 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:21:16,223 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:21:16,223 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:21:18,637 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_112118-tofauznt/logs/debug.log
+2025-02-12 11:21:18,638 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_112118-tofauznt/logs/debug-internal.log
+2025-02-12 11:21:18,638 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16a736750>
+2025-02-12 11:21:18,639 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:21:18,640 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:21:18,640 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:21:18,641 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:21:18,642 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:21:18,643 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:21:18,646 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:21:18,651 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:21:18,671 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:21:18,977 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:21:19,056 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:21:19,057 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:21:19,057 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:21:19,057 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:21:19,058 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:26:26,452 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/tofauznt
+2025-02-12 11:26:26,464 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:26:26,464 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:26:26,464 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:26:26,465 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:26:26,465 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:26:26,465 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:32:10,513 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113210-z03u0irj/logs/debug.log
+2025-02-12 11:32:10,528 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113210-z03u0irj/logs/debug-internal.log
+2025-02-12 11:32:10,528 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16a7bd940>
+2025-02-12 11:32:10,529 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:32:10,529 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:32:10,529 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:32:10,529 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:32:10,531 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:32:10,531 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:32:10,539 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:32:10,543 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:32:10,563 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:32:10,879 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:32:11,053 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:32:11,054 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:32:11,054 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:32:11,054 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:32:11,055 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:32:11,116 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:32:11,278 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:32:11,430 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:32:11,570 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:32:11,939 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/z03u0irj
+2025-02-12 11:32:11,940 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:32:11,941 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:32:11,941 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:32:11,941 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:32:11,942 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:32:11,942 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:32:14,442 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113214-uod0e3gc/logs/debug.log
+2025-02-12 11:32:14,443 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113214-uod0e3gc/logs/debug-internal.log
+2025-02-12 11:32:14,443 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16a9ad700>
+2025-02-12 11:32:14,444 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:32:14,444 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:32:14,445 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:32:14,445 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:32:14,446 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:32:14,447 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:32:14,450 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:32:14,456 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:32:14,480 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:32:14,866 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:32:14,938 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:32:14,939 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:32:14,939 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:32:14,940 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:32:14,940 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:37:29,076 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/uod0e3gc
+2025-02-12 11:37:29,088 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:37:29,088 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:37:29,089 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:37:29,089 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:37:29,089 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:37:29,090 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:39:17,888 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113917-5nfhud12/logs/debug.log
+2025-02-12 11:39:17,898 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113917-5nfhud12/logs/debug-internal.log
+2025-02-12 11:39:17,898 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16aec3ce0>
+2025-02-12 11:39:17,899 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:39:17,899 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:39:17,899 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:39:17,900 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:39:17,901 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:39:17,902 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:39:17,908 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:39:17,951 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:39:17,980 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:39:18,218 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:39:18,401 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:39:18,402 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:39:18,403 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:39:18,403 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:39:18,404 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:39:18,467 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:39:18,641 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:39:18,800 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:39:18,967 INFO    MainThread:32424 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-12 11:39:19,163 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/5nfhud12
+2025-02-12 11:39:19,164 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:39:19,164 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:39:19,165 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:39:19,165 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:39:19,165 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:39:19,166 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
+2025-02-12 11:39:21,853 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113921-ghzx919h/logs/debug.log
+2025-02-12 11:39:21,855 INFO    MainThread:32424 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250212_113921-ghzx919h/logs/debug-internal.log
+2025-02-12 11:39:21,855 INFO    MainThread:32424 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16c0ae450>
+2025-02-12 11:39:21,856 INFO    MainThread:32424 [wandb_init.py:init():756] calling init triggers
+2025-02-12 11:39:21,856 INFO    MainThread:32424 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-12 11:39:21,857 INFO    MainThread:32424 [wandb_init.py:init():789] starting backend
+2025-02-12 11:39:21,858 INFO    MainThread:32424 [wandb_init.py:init():793] sending inform_init request
+2025-02-12 11:39:21,859 INFO    MainThread:32424 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-12 11:39:21,859 INFO    MainThread:32424 [wandb_init.py:init():808] backend started and connected
+2025-02-12 11:39:21,864 INFO    MainThread:32424 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-12 11:39:21,868 INFO    MainThread:32424 [wandb_init.py:init():901] updated telemetry
+2025-02-12 11:39:21,887 INFO    MainThread:32424 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-12 11:39:22,207 INFO    MainThread:32424 [wandb_init.py:init():984] starting run threads in backend
+2025-02-12 11:39:22,275 INFO    MainThread:32424 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-12 11:39:22,276 INFO    MainThread:32424 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-12 11:39:22,276 INFO    MainThread:32424 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-12 11:39:22,277 INFO    MainThread:32424 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-12 11:39:22,277 INFO    MainThread:32424 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-12 11:45:09,845 INFO    MainThread:32424 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/ghzx919h
+2025-02-12 11:45:09,856 INFO    MainThread:32424 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-12 11:45:09,856 INFO    MainThread:32424 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-12 11:45:09,857 INFO    MainThread:32424 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-12 11:45:09,857 INFO    MainThread:32424 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-12 11:45:09,857 INFO    MainThread:32424 [wandb_run.py:_restore():2332] restore
+2025-02-12 11:45:09,858 INFO    MainThread:32424 [wandb_run.py:_restore():2338] restore done
