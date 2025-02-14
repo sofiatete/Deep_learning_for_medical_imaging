@@ -1,0 +1,16 @@
+{"time":"2025-02-14T13:51:51.413497+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_135151-s383rr14/logs/debug-core.log"}
+{"time":"2025-02-14T13:51:51.523833+01:00","level":"INFO","msg":"created new stream","id":"s383rr14"}
+{"time":"2025-02-14T13:51:51.523876+01:00","level":"INFO","msg":"stream: started","id":"s383rr14"}
+{"time":"2025-02-14T13:51:51.523876+01:00","level":"INFO","msg":"handler: started","stream_id":"s383rr14"}
+{"time":"2025-02-14T13:51:51.523885+01:00","level":"INFO","msg":"sender: started","stream_id":"s383rr14"}
+{"time":"2025-02-14T13:51:51.523906+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"s383rr14"}
+{"time":"2025-02-14T13:51:51.744676+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T13:52:01.480626+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T13:52:01.481473+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T13:52:02.488519+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-s383rr14-data_plot1_table","runtime_seconds":1.342052083},{"desc":"uploading artifact run-s383rr14-data_plot2_table","runtime_seconds":1.178188583},{"desc":"uploading artifact run-s383rr14-data_plot3_table","runtime_seconds":1.0148205}],"total_operations":3}}
+{"time":"2025-02-14T13:52:02.896251+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T13:52:04.279357+01:00","level":"INFO","msg":"stream: closing","id":"s383rr14"}
+{"time":"2025-02-14T13:52:04.279465+01:00","level":"INFO","msg":"handler: closed","stream_id":"s383rr14"}
+{"time":"2025-02-14T13:52:04.279494+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s383rr14"}
+{"time":"2025-02-14T13:52:04.279526+01:00","level":"INFO","msg":"sender: closed","stream_id":"s383rr14"}
+{"time":"2025-02-14T13:52:04.279893+01:00","level":"INFO","msg":"stream: closed","id":"s383rr14"}

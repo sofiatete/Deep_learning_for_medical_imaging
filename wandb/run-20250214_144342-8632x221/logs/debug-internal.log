@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:43:42.590944+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_144342-8632x221/logs/debug-core.log"}
+{"time":"2025-02-14T14:43:42.70005+01:00","level":"INFO","msg":"created new stream","id":"8632x221"}
+{"time":"2025-02-14T14:43:42.700094+01:00","level":"INFO","msg":"stream: started","id":"8632x221"}
+{"time":"2025-02-14T14:43:42.700103+01:00","level":"INFO","msg":"handler: started","stream_id":"8632x221"}
+{"time":"2025-02-14T14:43:42.700107+01:00","level":"INFO","msg":"sender: started","stream_id":"8632x221"}
+{"time":"2025-02-14T14:43:42.700121+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"8632x221"}
+{"time":"2025-02-14T14:43:42.913819+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:43:51.501449+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:43:51.502085+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:43:52.508755+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8632x221-data_plot_valepoch170_table","runtime_seconds":2.562283875},{"desc":"uploading artifact run-8632x221-data_plotepoch180_table","runtime_seconds":2.335418458},{"desc":"uploading artifact run-8632x221-data_plot_valepoch180_table","runtime_seconds":2.163525042},{"desc":"uploading artifact run-8632x221-data_plotepoch190_table","runtime_seconds":1.943814416},{"desc":"uploading artifact run-8632x221-data_plot_valepoch190_table","runtime_seconds":1.76754175},{"desc":"uploading artifact run-8632x221-data_plot0_table","runtime_seconds":1.5396992919999999},{"desc":"uploading artifact run-8632x221-data_plot1_table","runtime_seconds":1.377199917},{"desc":"uploading artifact run-8632x221-data_plot2_table","runtime_seconds":1.206158125},{"desc":"uploading artifact run-8632x221-data_plot3_table","runtime_seconds":1.02627275}],"total_operations":9}}
+{"time":"2025-02-14T14:43:52.964779+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:43:54.191741+01:00","level":"INFO","msg":"stream: closing","id":"8632x221"}
+{"time":"2025-02-14T14:43:54.191832+01:00","level":"INFO","msg":"handler: closed","stream_id":"8632x221"}
+{"time":"2025-02-14T14:43:54.191862+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8632x221"}
+{"time":"2025-02-14T14:43:54.191873+01:00","level":"INFO","msg":"sender: closed","stream_id":"8632x221"}
+{"time":"2025-02-14T14:43:54.192347+01:00","level":"INFO","msg":"stream: closed","id":"8632x221"}

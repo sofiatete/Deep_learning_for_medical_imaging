@@ -1,0 +1,20 @@
+{"time":"2025-02-14T13:49:09.471819+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_134909-v3j9et59/logs/debug-core.log"}
+{"time":"2025-02-14T13:49:09.586128+01:00","level":"INFO","msg":"created new stream","id":"v3j9et59"}
+{"time":"2025-02-14T13:49:09.586174+01:00","level":"INFO","msg":"stream: started","id":"v3j9et59"}
+{"time":"2025-02-14T13:49:09.586179+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"v3j9et59"}
+{"time":"2025-02-14T13:49:09.58618+01:00","level":"INFO","msg":"sender: started","stream_id":"v3j9et59"}
+{"time":"2025-02-14T13:49:09.586188+01:00","level":"INFO","msg":"handler: started","stream_id":"v3j9et59"}
+{"time":"2025-02-14T13:49:10.452128+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T13:49:26.325538+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T13:49:57.966928+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T13:49:57.968166+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T13:50:00.589327+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T13:50:01.279206+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T13:50:01.280532+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T13:50:02.283967+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-v3j9et59-data_plot0_table","runtime_seconds":1.5164885830000001},{"desc":"uploading artifact run-v3j9et59-data_plot1_table","runtime_seconds":1.3541865},{"desc":"uploading artifact run-v3j9et59-data_plot2_table","runtime_seconds":1.165595125},{"desc":"uploading artifact run-v3j9et59-data_plot3_table","runtime_seconds":1.014228916}],"total_operations":4}}
+{"time":"2025-02-14T13:50:03.006212+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T13:50:04.220402+01:00","level":"INFO","msg":"stream: closing","id":"v3j9et59"}
+{"time":"2025-02-14T13:50:04.220431+01:00","level":"INFO","msg":"handler: closed","stream_id":"v3j9et59"}
+{"time":"2025-02-14T13:50:04.220446+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v3j9et59"}
+{"time":"2025-02-14T13:50:04.220456+01:00","level":"INFO","msg":"sender: closed","stream_id":"v3j9et59"}
+{"time":"2025-02-14T13:50:04.220607+01:00","level":"INFO","msg":"stream: closed","id":"v3j9et59"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:06:06.791726+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_140606-6gb2r8dd/logs/debug-core.log"}
+{"time":"2025-02-14T14:06:06.903359+01:00","level":"INFO","msg":"created new stream","id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:06.903397+01:00","level":"INFO","msg":"stream: started","id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:06.903395+01:00","level":"INFO","msg":"handler: started","stream_id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:06.903405+01:00","level":"INFO","msg":"sender: started","stream_id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:06.903413+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:07.13614+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:06:16.291938+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:06:16.292591+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:06:17.299537+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6gb2r8dd-data_plot_valepoch190_table","runtime_seconds":1.798146833},{"desc":"uploading artifact run-6gb2r8dd-data_plot0_table","runtime_seconds":1.5320660419999999},{"desc":"uploading artifact run-6gb2r8dd-data_plot1_table","runtime_seconds":1.353281916},{"desc":"uploading artifact run-6gb2r8dd-data_plot2_table","runtime_seconds":1.192308542},{"desc":"uploading artifact run-6gb2r8dd-data_plot3_table","runtime_seconds":1.020449792},{"desc":"uploading config.yaml","runtime_seconds":0.664801625,"progress":"53.9KB/53.9KB"}],"total_operations":6}}
+{"time":"2025-02-14T14:06:17.967699+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:06:19.214159+01:00","level":"INFO","msg":"stream: closing","id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:19.214269+01:00","level":"INFO","msg":"handler: closed","stream_id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:19.214342+01:00","level":"INFO","msg":"sender: closed","stream_id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:19.214297+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6gb2r8dd"}
+{"time":"2025-02-14T14:06:19.21489+01:00","level":"INFO","msg":"stream: closed","id":"6gb2r8dd"}

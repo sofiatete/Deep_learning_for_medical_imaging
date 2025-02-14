@@ -1,0 +1,26 @@
+{"time":"2025-02-14T13:53:19.823666+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_135319-iiu1d5um/logs/debug-core.log"}
+{"time":"2025-02-14T13:53:19.935132+01:00","level":"INFO","msg":"created new stream","id":"iiu1d5um"}
+{"time":"2025-02-14T13:53:19.935166+01:00","level":"INFO","msg":"stream: started","id":"iiu1d5um"}
+{"time":"2025-02-14T13:53:19.935168+01:00","level":"INFO","msg":"handler: started","stream_id":"iiu1d5um"}
+{"time":"2025-02-14T13:53:19.935195+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"iiu1d5um"}
+{"time":"2025-02-14T13:53:19.935178+01:00","level":"INFO","msg":"sender: started","stream_id":"iiu1d5um"}
+{"time":"2025-02-14T13:53:20.14335+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T13:53:20.856861+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-14T13:53:28.935714+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T13:53:32.390096+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T13:53:32.45422+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T13:53:54.77867+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T13:53:54.78496+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T13:55:14.622338+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T13:55:14.628104+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T14:01:35.946277+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/iiu1d5um/file_stream\": read tcp 192.168.101.29:50454->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-14T14:05:26.387472+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T14:05:27.051066+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:05:27.051473+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:05:28.058136+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-iiu1d5um-data_plot0_table","runtime_seconds":1.48162875},{"desc":"uploading artifact run-iiu1d5um-data_plot1_table","runtime_seconds":1.3465575},{"desc":"uploading artifact run-iiu1d5um-data_plot2_table","runtime_seconds":1.183177542},{"desc":"uploading artifact run-iiu1d5um-data_plot3_table","runtime_seconds":1.015851917}],"total_operations":4}}
+{"time":"2025-02-14T14:05:28.527464+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:05:29.745299+01:00","level":"INFO","msg":"stream: closing","id":"iiu1d5um"}
+{"time":"2025-02-14T14:05:29.745336+01:00","level":"INFO","msg":"handler: closed","stream_id":"iiu1d5um"}
+{"time":"2025-02-14T14:05:29.745354+01:00","level":"INFO","msg":"sender: closed","stream_id":"iiu1d5um"}
+{"time":"2025-02-14T14:05:29.745349+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iiu1d5um"}
+{"time":"2025-02-14T14:05:29.745479+01:00","level":"INFO","msg":"stream: closed","id":"iiu1d5um"}

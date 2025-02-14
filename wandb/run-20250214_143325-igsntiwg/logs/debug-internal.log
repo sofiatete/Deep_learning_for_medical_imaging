@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:33:25.479272+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143325-igsntiwg/logs/debug-core.log"}
+{"time":"2025-02-14T14:33:25.590439+01:00","level":"INFO","msg":"created new stream","id":"igsntiwg"}
+{"time":"2025-02-14T14:33:25.590476+01:00","level":"INFO","msg":"stream: started","id":"igsntiwg"}
+{"time":"2025-02-14T14:33:25.590486+01:00","level":"INFO","msg":"handler: started","stream_id":"igsntiwg"}
+{"time":"2025-02-14T14:33:25.590492+01:00","level":"INFO","msg":"sender: started","stream_id":"igsntiwg"}
+{"time":"2025-02-14T14:33:25.590523+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"igsntiwg"}
+{"time":"2025-02-14T14:33:25.979593+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:33:50.84827+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:33:50.848836+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:33:51.855641+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-igsntiwg-data_plot1_table","runtime_seconds":1.395678417},{"desc":"uploading artifact run-igsntiwg-data_plot2_table","runtime_seconds":1.210930916},{"desc":"uploading artifact run-igsntiwg-data_plot3_table","runtime_seconds":1.033387959}],"total_operations":3}}
+{"time":"2025-02-14T14:33:52.256987+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:33:53.499957+01:00","level":"INFO","msg":"stream: closing","id":"igsntiwg"}
+{"time":"2025-02-14T14:33:53.500049+01:00","level":"INFO","msg":"handler: closed","stream_id":"igsntiwg"}
+{"time":"2025-02-14T14:33:53.500089+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"igsntiwg"}
+{"time":"2025-02-14T14:33:53.500112+01:00","level":"INFO","msg":"sender: closed","stream_id":"igsntiwg"}
+{"time":"2025-02-14T14:33:53.500584+01:00","level":"INFO","msg":"stream: closed","id":"igsntiwg"}

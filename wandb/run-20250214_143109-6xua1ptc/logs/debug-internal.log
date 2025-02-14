@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:31:09.921068+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143109-6xua1ptc/logs/debug-core.log"}
+{"time":"2025-02-14T14:31:10.029276+01:00","level":"INFO","msg":"created new stream","id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:10.029311+01:00","level":"INFO","msg":"stream: started","id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:10.029309+01:00","level":"INFO","msg":"handler: started","stream_id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:10.02933+01:00","level":"INFO","msg":"sender: started","stream_id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:10.029315+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:10.244498+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:31:35.019116+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:31:35.019685+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:31:36.026272+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6xua1ptc-data_plot0_table","runtime_seconds":1.65383575},{"desc":"uploading artifact run-6xua1ptc-data_plot1_table","runtime_seconds":1.371054708},{"desc":"uploading artifact run-6xua1ptc-data_plot2_table","runtime_seconds":1.2048258330000001},{"desc":"uploading artifact run-6xua1ptc-data_plot3_table","runtime_seconds":1.029176708}],"total_operations":4}}
+{"time":"2025-02-14T14:31:36.611935+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:31:37.873848+01:00","level":"INFO","msg":"stream: closing","id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:37.874011+01:00","level":"INFO","msg":"handler: closed","stream_id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:37.874057+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:37.874183+01:00","level":"INFO","msg":"sender: closed","stream_id":"6xua1ptc"}
+{"time":"2025-02-14T14:31:37.874552+01:00","level":"INFO","msg":"stream: closed","id":"6xua1ptc"}

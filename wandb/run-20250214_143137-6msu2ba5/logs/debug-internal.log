@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:31:37.897011+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143137-6msu2ba5/logs/debug-core.log"}
+{"time":"2025-02-14T14:31:38.0059+01:00","level":"INFO","msg":"created new stream","id":"6msu2ba5"}
+{"time":"2025-02-14T14:31:38.005933+01:00","level":"INFO","msg":"stream: started","id":"6msu2ba5"}
+{"time":"2025-02-14T14:31:38.005934+01:00","level":"INFO","msg":"handler: started","stream_id":"6msu2ba5"}
+{"time":"2025-02-14T14:31:38.005939+01:00","level":"INFO","msg":"sender: started","stream_id":"6msu2ba5"}
+{"time":"2025-02-14T14:31:38.005953+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6msu2ba5"}
+{"time":"2025-02-14T14:31:38.325348+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:32:03.657589+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:32:03.6582+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:32:04.6647+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-6msu2ba5-data_plot1_table","runtime_seconds":1.374339291},{"desc":"uploading artifact run-6msu2ba5-data_plot2_table","runtime_seconds":1.199494333},{"desc":"uploading artifact run-6msu2ba5-data_plot3_table","runtime_seconds":1.021277208}],"total_operations":3}}
+{"time":"2025-02-14T14:32:05.12997+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:32:06.391397+01:00","level":"INFO","msg":"stream: closing","id":"6msu2ba5"}
+{"time":"2025-02-14T14:32:06.39151+01:00","level":"INFO","msg":"handler: closed","stream_id":"6msu2ba5"}
+{"time":"2025-02-14T14:32:06.391537+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6msu2ba5"}
+{"time":"2025-02-14T14:32:06.391566+01:00","level":"INFO","msg":"sender: closed","stream_id":"6msu2ba5"}
+{"time":"2025-02-14T14:32:06.392069+01:00","level":"INFO","msg":"stream: closed","id":"6msu2ba5"}

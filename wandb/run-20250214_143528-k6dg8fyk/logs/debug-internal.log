@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:35:28.303451+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143528-k6dg8fyk/logs/debug-core.log"}
+{"time":"2025-02-14T14:35:28.412237+01:00","level":"INFO","msg":"created new stream","id":"k6dg8fyk"}
+{"time":"2025-02-14T14:35:28.412278+01:00","level":"INFO","msg":"stream: started","id":"k6dg8fyk"}
+{"time":"2025-02-14T14:35:28.412286+01:00","level":"INFO","msg":"handler: started","stream_id":"k6dg8fyk"}
+{"time":"2025-02-14T14:35:28.412283+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"k6dg8fyk"}
+{"time":"2025-02-14T14:35:28.412304+01:00","level":"INFO","msg":"sender: started","stream_id":"k6dg8fyk"}
+{"time":"2025-02-14T14:35:28.630566+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:36:01.034102+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:36:01.034724+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:36:02.041199+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-k6dg8fyk-data_plot2_table","runtime_seconds":1.219963125},{"desc":"uploading artifact run-k6dg8fyk-data_plot3_table","runtime_seconds":1.029936541}],"total_operations":2}}
+{"time":"2025-02-14T14:36:02.58639+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:36:03.852473+01:00","level":"INFO","msg":"stream: closing","id":"k6dg8fyk"}
+{"time":"2025-02-14T14:36:03.852587+01:00","level":"INFO","msg":"handler: closed","stream_id":"k6dg8fyk"}
+{"time":"2025-02-14T14:36:03.852615+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"k6dg8fyk"}
+{"time":"2025-02-14T14:36:03.852655+01:00","level":"INFO","msg":"sender: closed","stream_id":"k6dg8fyk"}
+{"time":"2025-02-14T14:36:03.853017+01:00","level":"INFO","msg":"stream: closed","id":"k6dg8fyk"}

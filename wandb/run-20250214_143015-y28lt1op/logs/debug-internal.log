@@ -1,0 +1,17 @@
+{"time":"2025-02-14T14:30:15.531108+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143015-y28lt1op/logs/debug-core.log"}
+{"time":"2025-02-14T14:30:15.641654+01:00","level":"INFO","msg":"created new stream","id":"y28lt1op"}
+{"time":"2025-02-14T14:30:15.641691+01:00","level":"INFO","msg":"stream: started","id":"y28lt1op"}
+{"time":"2025-02-14T14:30:15.641698+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"y28lt1op"}
+{"time":"2025-02-14T14:30:15.641721+01:00","level":"INFO","msg":"sender: started","stream_id":"y28lt1op"}
+{"time":"2025-02-14T14:30:15.641702+01:00","level":"INFO","msg":"handler: started","stream_id":"y28lt1op"}
+{"time":"2025-02-14T14:30:15.875627+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:30:31.414866+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/y28lt1op/file_stream\": read tcp 192.168.101.29:52670->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-14T14:30:40.03513+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:30:40.0357+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:30:41.042349+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-y28lt1op-data_plot0_table","runtime_seconds":1.581671333},{"desc":"uploading artifact run-y28lt1op-data_plot1_table","runtime_seconds":1.399869625},{"desc":"uploading artifact run-y28lt1op-data_plot2_table","runtime_seconds":1.216750208},{"desc":"uploading artifact run-y28lt1op-data_plot3_table","runtime_seconds":1.029838708}],"total_operations":4}}
+{"time":"2025-02-14T14:30:41.605239+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:30:42.897063+01:00","level":"INFO","msg":"stream: closing","id":"y28lt1op"}
+{"time":"2025-02-14T14:30:42.897155+01:00","level":"INFO","msg":"handler: closed","stream_id":"y28lt1op"}
+{"time":"2025-02-14T14:30:42.897176+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"y28lt1op"}
+{"time":"2025-02-14T14:30:42.897205+01:00","level":"INFO","msg":"sender: closed","stream_id":"y28lt1op"}
+{"time":"2025-02-14T14:30:42.897661+01:00","level":"INFO","msg":"stream: closed","id":"y28lt1op"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-14T14:39:23.226238+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143923-avajt09m/logs/debug-core.log"}
+{"time":"2025-02-14T14:39:23.335355+01:00","level":"INFO","msg":"created new stream","id":"avajt09m"}
+{"time":"2025-02-14T14:39:23.335386+01:00","level":"INFO","msg":"stream: started","id":"avajt09m"}
+{"time":"2025-02-14T14:39:23.335396+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"avajt09m"}
+{"time":"2025-02-14T14:39:23.335399+01:00","level":"INFO","msg":"handler: started","stream_id":"avajt09m"}
+{"time":"2025-02-14T14:39:23.335415+01:00","level":"INFO","msg":"sender: started","stream_id":"avajt09m"}
+{"time":"2025-02-14T14:39:23.54121+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:39:24.174181+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-14T14:39:32.575513+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:39:32.576134+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:39:33.583148+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-avajt09m-data_plot1_table","runtime_seconds":1.389886667},{"desc":"uploading artifact run-avajt09m-data_plot2_table","runtime_seconds":1.213730167},{"desc":"uploading artifact run-avajt09m-data_plot3_table","runtime_seconds":1.025719667}],"total_operations":3}}
+{"time":"2025-02-14T14:39:34.292571+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:39:35.521599+01:00","level":"INFO","msg":"stream: closing","id":"avajt09m"}
+{"time":"2025-02-14T14:39:35.521617+01:00","level":"INFO","msg":"handler: closed","stream_id":"avajt09m"}
+{"time":"2025-02-14T14:39:35.521625+01:00","level":"INFO","msg":"sender: closed","stream_id":"avajt09m"}
+{"time":"2025-02-14T14:39:35.521625+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"avajt09m"}
+{"time":"2025-02-14T14:39:35.52172+01:00","level":"INFO","msg":"stream: closed","id":"avajt09m"}

@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.2",
+  "startedAt":  "2025-02-14T12:49:05.589718Z",
+  "program":  "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/help.ipynb",
+  "codePath":  "help.ipynb",
+  "git":  {
+    "remote":  "https://github.com/sofiatete/Deep_learning_for_medical_imaging.git",
+    "commit":  "3f45a1b2b470b608ebe1f1075873bb6d4db424d0"
+  },
+  "email":  "costanza.dercole@student.uva.nl",
+  "root":  "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging",
+  "host":  "Mac.bbrouter",
+  "executable":  "/usr/local/bin/python3",
+  "codePathLocal":  "help.ipynb"
+}

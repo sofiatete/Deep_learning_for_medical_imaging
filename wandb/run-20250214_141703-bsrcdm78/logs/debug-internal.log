@@ -1,0 +1,17 @@
+{"time":"2025-02-14T14:17:03.541075+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_141703-bsrcdm78/logs/debug-core.log"}
+{"time":"2025-02-14T14:17:03.650362+01:00","level":"INFO","msg":"created new stream","id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:03.650401+01:00","level":"INFO","msg":"stream: started","id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:03.650402+01:00","level":"INFO","msg":"handler: started","stream_id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:03.650423+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:03.650409+01:00","level":"INFO","msg":"sender: started","stream_id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:03.934205+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:17:17.746044+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:17:17.746711+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:17:18.753803+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-bsrcdm78-data_plot0_table","runtime_seconds":1.553644375},{"desc":"uploading artifact run-bsrcdm78-data_plot1_table","runtime_seconds":1.360938667},{"desc":"uploading artifact run-bsrcdm78-data_plot2_table","runtime_seconds":1.193196292,"subtasks":[{"desc":"data_plot 2_table.table.json","runtime_seconds":0.506040792,"progress":"674B/674B"}]},{"desc":"uploading artifact run-bsrcdm78-data_plot3_table","runtime_seconds":1.02137425}],"total_operations":4}}
+{"time":"2025-02-14T14:17:19.731822+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:17:19.836883+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/bsrcdm78/file_stream\": read tcp 192.168.101.29:51474->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-14T14:17:23.341603+01:00","level":"INFO","msg":"stream: closing","id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:23.341634+01:00","level":"INFO","msg":"handler: closed","stream_id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:23.341648+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:23.341703+01:00","level":"INFO","msg":"sender: closed","stream_id":"bsrcdm78"}
+{"time":"2025-02-14T14:17:23.341808+01:00","level":"INFO","msg":"stream: closed","id":"bsrcdm78"}

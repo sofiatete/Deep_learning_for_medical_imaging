@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:26:54.909712+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_142654-rrnkcmxt/logs/debug-core.log"}
+{"time":"2025-02-14T14:26:55.019073+01:00","level":"INFO","msg":"created new stream","id":"rrnkcmxt"}
+{"time":"2025-02-14T14:26:55.019106+01:00","level":"INFO","msg":"stream: started","id":"rrnkcmxt"}
+{"time":"2025-02-14T14:26:55.019109+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rrnkcmxt"}
+{"time":"2025-02-14T14:26:55.019134+01:00","level":"INFO","msg":"sender: started","stream_id":"rrnkcmxt"}
+{"time":"2025-02-14T14:26:55.019119+01:00","level":"INFO","msg":"handler: started","stream_id":"rrnkcmxt"}
+{"time":"2025-02-14T14:26:55.423288+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:27:13.445031+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:27:13.445696+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:27:14.453151+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rrnkcmxt-data_plot2_table","runtime_seconds":1.201088166},{"desc":"uploading artifact run-rrnkcmxt-data_plot3_table","runtime_seconds":1.022526584}],"total_operations":2}}
+{"time":"2025-02-14T14:27:14.871343+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:27:16.145841+01:00","level":"INFO","msg":"stream: closing","id":"rrnkcmxt"}
+{"time":"2025-02-14T14:27:16.145871+01:00","level":"INFO","msg":"handler: closed","stream_id":"rrnkcmxt"}
+{"time":"2025-02-14T14:27:16.145886+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rrnkcmxt"}
+{"time":"2025-02-14T14:27:16.145898+01:00","level":"INFO","msg":"sender: closed","stream_id":"rrnkcmxt"}
+{"time":"2025-02-14T14:27:16.146077+01:00","level":"INFO","msg":"stream: closed","id":"rrnkcmxt"}

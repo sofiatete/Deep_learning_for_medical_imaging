@@ -1,0 +1,16 @@
+{"time":"2025-02-14T13:47:55.33085+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_134754-ch5teifg/logs/debug-core.log"}
+{"time":"2025-02-14T13:47:55.541887+01:00","level":"INFO","msg":"created new stream","id":"ch5teifg"}
+{"time":"2025-02-14T13:47:55.541947+01:00","level":"INFO","msg":"stream: started","id":"ch5teifg"}
+{"time":"2025-02-14T13:47:55.541974+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ch5teifg"}
+{"time":"2025-02-14T13:47:55.542022+01:00","level":"INFO","msg":"handler: started","stream_id":"ch5teifg"}
+{"time":"2025-02-14T13:47:55.541984+01:00","level":"INFO","msg":"sender: started","stream_id":"ch5teifg"}
+{"time":"2025-02-14T13:47:55.895519+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T13:47:57.320074+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T13:47:57.321115+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T13:47:58.328459+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ch5teifg-data_plot1_table","runtime_seconds":1.371823584},{"desc":"uploading artifact run-ch5teifg-data_plot2_table","runtime_seconds":1.203724917},{"desc":"uploading artifact run-ch5teifg-data_plot3_table","runtime_seconds":1.01871425}],"total_operations":3}}
+{"time":"2025-02-14T13:47:58.999624+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T13:48:00.243707+01:00","level":"INFO","msg":"stream: closing","id":"ch5teifg"}
+{"time":"2025-02-14T13:48:00.243836+01:00","level":"INFO","msg":"handler: closed","stream_id":"ch5teifg"}
+{"time":"2025-02-14T13:48:00.243833+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ch5teifg"}
+{"time":"2025-02-14T13:48:00.243858+01:00","level":"INFO","msg":"sender: closed","stream_id":"ch5teifg"}
+{"time":"2025-02-14T13:48:00.244199+01:00","level":"INFO","msg":"stream: closed","id":"ch5teifg"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:25:39.685485+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_142539-vumwkobd/logs/debug-core.log"}
+{"time":"2025-02-14T14:25:39.795197+01:00","level":"INFO","msg":"created new stream","id":"vumwkobd"}
+{"time":"2025-02-14T14:25:39.795228+01:00","level":"INFO","msg":"stream: started","id":"vumwkobd"}
+{"time":"2025-02-14T14:25:39.79523+01:00","level":"INFO","msg":"handler: started","stream_id":"vumwkobd"}
+{"time":"2025-02-14T14:25:39.795248+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vumwkobd"}
+{"time":"2025-02-14T14:25:39.795235+01:00","level":"INFO","msg":"sender: started","stream_id":"vumwkobd"}
+{"time":"2025-02-14T14:25:40.159999+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:25:54.588533+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:25:54.58909+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:25:55.595855+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vumwkobd-data_plot1_table","runtime_seconds":1.351806959},{"desc":"uploading artifact run-vumwkobd-data_plot2_table","runtime_seconds":1.184173042},{"desc":"uploading artifact run-vumwkobd-data_plot3_table","runtime_seconds":1.026803292},{"desc":"uploading history steps 1-243, summary, console lines 0-0","runtime_seconds":0.109861583}],"total_operations":4}}
+{"time":"2025-02-14T14:25:55.988879+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:25:57.163779+01:00","level":"INFO","msg":"stream: closing","id":"vumwkobd"}
+{"time":"2025-02-14T14:25:57.163805+01:00","level":"INFO","msg":"handler: closed","stream_id":"vumwkobd"}
+{"time":"2025-02-14T14:25:57.163819+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vumwkobd"}
+{"time":"2025-02-14T14:25:57.163826+01:00","level":"INFO","msg":"sender: closed","stream_id":"vumwkobd"}
+{"time":"2025-02-14T14:25:57.163993+01:00","level":"INFO","msg":"stream: closed","id":"vumwkobd"}

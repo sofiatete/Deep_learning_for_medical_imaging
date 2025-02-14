@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:32:59.438928+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143259-zodqtwlz/logs/debug-core.log"}
+{"time":"2025-02-14T14:32:59.548899+01:00","level":"INFO","msg":"created new stream","id":"zodqtwlz"}
+{"time":"2025-02-14T14:32:59.548931+01:00","level":"INFO","msg":"stream: started","id":"zodqtwlz"}
+{"time":"2025-02-14T14:32:59.548935+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zodqtwlz"}
+{"time":"2025-02-14T14:32:59.548957+01:00","level":"INFO","msg":"handler: started","stream_id":"zodqtwlz"}
+{"time":"2025-02-14T14:32:59.54894+01:00","level":"INFO","msg":"sender: started","stream_id":"zodqtwlz"}
+{"time":"2025-02-14T14:32:59.781242+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:33:22.874318+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:33:22.874902+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:33:23.881438+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zodqtwlz-data_plot1_table","runtime_seconds":1.371726792},{"desc":"uploading artifact run-zodqtwlz-data_plot2_table","runtime_seconds":1.196660042},{"desc":"uploading artifact run-zodqtwlz-data_plot3_table","runtime_seconds":1.030373708}],"total_operations":3}}
+{"time":"2025-02-14T14:33:24.238312+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:33:25.45778+01:00","level":"INFO","msg":"stream: closing","id":"zodqtwlz"}
+{"time":"2025-02-14T14:33:25.457875+01:00","level":"INFO","msg":"handler: closed","stream_id":"zodqtwlz"}
+{"time":"2025-02-14T14:33:25.457898+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zodqtwlz"}
+{"time":"2025-02-14T14:33:25.457922+01:00","level":"INFO","msg":"sender: closed","stream_id":"zodqtwlz"}
+{"time":"2025-02-14T14:33:25.45831+01:00","level":"INFO","msg":"stream: closed","id":"zodqtwlz"}

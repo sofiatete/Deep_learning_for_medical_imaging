@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:17:37.991087+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_141737-pdrx2ef8/logs/debug-core.log"}
+{"time":"2025-02-14T14:17:38.098154+01:00","level":"INFO","msg":"created new stream","id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:38.09819+01:00","level":"INFO","msg":"stream: started","id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:38.098193+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:38.098211+01:00","level":"INFO","msg":"sender: started","stream_id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:38.098191+01:00","level":"INFO","msg":"handler: started","stream_id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:38.30217+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:17:47.520214+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:17:47.520927+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:17:48.527887+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pdrx2ef8-data_plot1_table","runtime_seconds":1.358617542},{"desc":"uploading artifact run-pdrx2ef8-data_plot2_table","runtime_seconds":1.181123917},{"desc":"uploading artifact run-pdrx2ef8-data_plot3_table","runtime_seconds":1.022578083}],"total_operations":3}}
+{"time":"2025-02-14T14:17:48.974551+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:17:50.220064+01:00","level":"INFO","msg":"stream: closing","id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:50.220094+01:00","level":"INFO","msg":"handler: closed","stream_id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:50.220113+01:00","level":"INFO","msg":"sender: closed","stream_id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:50.220111+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pdrx2ef8"}
+{"time":"2025-02-14T14:17:50.220289+01:00","level":"INFO","msg":"stream: closed","id":"pdrx2ef8"}

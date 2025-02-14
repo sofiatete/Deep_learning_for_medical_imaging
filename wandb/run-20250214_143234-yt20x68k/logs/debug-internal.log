@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:32:34.911136+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143234-yt20x68k/logs/debug-core.log"}
+{"time":"2025-02-14T14:32:35.021591+01:00","level":"INFO","msg":"created new stream","id":"yt20x68k"}
+{"time":"2025-02-14T14:32:35.021628+01:00","level":"INFO","msg":"stream: started","id":"yt20x68k"}
+{"time":"2025-02-14T14:32:35.021628+01:00","level":"INFO","msg":"handler: started","stream_id":"yt20x68k"}
+{"time":"2025-02-14T14:32:35.021636+01:00","level":"INFO","msg":"sender: started","stream_id":"yt20x68k"}
+{"time":"2025-02-14T14:32:35.021649+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yt20x68k"}
+{"time":"2025-02-14T14:32:35.224683+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:32:56.538946+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:32:56.539614+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:32:57.546215+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-yt20x68k-data_plot2_table","runtime_seconds":1.2037171660000001},{"desc":"uploading artifact run-yt20x68k-data_plot3_table","runtime_seconds":1.03015575}],"total_operations":2}}
+{"time":"2025-02-14T14:32:58.126641+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:32:59.418422+01:00","level":"INFO","msg":"stream: closing","id":"yt20x68k"}
+{"time":"2025-02-14T14:32:59.418517+01:00","level":"INFO","msg":"handler: closed","stream_id":"yt20x68k"}
+{"time":"2025-02-14T14:32:59.418533+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yt20x68k"}
+{"time":"2025-02-14T14:32:59.418614+01:00","level":"INFO","msg":"sender: closed","stream_id":"yt20x68k"}
+{"time":"2025-02-14T14:32:59.418956+01:00","level":"INFO","msg":"stream: closed","id":"yt20x68k"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-14T14:38:57.822057+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_143857-460zg4aa/logs/debug-core.log"}
+{"time":"2025-02-14T14:38:57.932214+01:00","level":"INFO","msg":"created new stream","id":"460zg4aa"}
+{"time":"2025-02-14T14:38:57.932247+01:00","level":"INFO","msg":"stream: started","id":"460zg4aa"}
+{"time":"2025-02-14T14:38:57.932258+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"460zg4aa"}
+{"time":"2025-02-14T14:38:57.932265+01:00","level":"INFO","msg":"sender: started","stream_id":"460zg4aa"}
+{"time":"2025-02-14T14:38:57.932316+01:00","level":"INFO","msg":"handler: started","stream_id":"460zg4aa"}
+{"time":"2025-02-14T14:38:58.179455+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:39:08.605053+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:39:08.605554+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:39:09.61188+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-460zg4aa-data_plot2_table","runtime_seconds":1.201720584},{"desc":"uploading artifact run-460zg4aa-data_plot3_table","runtime_seconds":1.02528475}],"total_operations":2}}
+{"time":"2025-02-14T14:39:10.063413+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:39:11.339723+01:00","level":"INFO","msg":"stream: closing","id":"460zg4aa"}
+{"time":"2025-02-14T14:39:11.339801+01:00","level":"INFO","msg":"handler: closed","stream_id":"460zg4aa"}
+{"time":"2025-02-14T14:39:11.339828+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"460zg4aa"}
+{"time":"2025-02-14T14:39:11.339839+01:00","level":"INFO","msg":"sender: closed","stream_id":"460zg4aa"}
+{"time":"2025-02-14T14:39:11.340137+01:00","level":"INFO","msg":"stream: closed","id":"460zg4aa"}

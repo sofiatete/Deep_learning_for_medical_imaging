@@ -1,0 +1,17 @@
+{"time":"2025-02-14T14:43:18.184779+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250214_144318-mx00kt2h/logs/debug-core.log"}
+{"time":"2025-02-14T14:43:18.291872+01:00","level":"INFO","msg":"created new stream","id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:18.291909+01:00","level":"INFO","msg":"stream: started","id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:18.291916+01:00","level":"INFO","msg":"handler: started","stream_id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:18.291932+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:18.291918+01:00","level":"INFO","msg":"sender: started","stream_id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:18.539502+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T14:43:19.172457+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-14T14:43:28.006122+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T14:43:28.006639+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T14:43:29.013092+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mx00kt2h-data_plot2_table","runtime_seconds":1.2017413750000001},{"desc":"uploading artifact run-mx00kt2h-data_plot3_table","runtime_seconds":1.019549917}],"total_operations":2}}
+{"time":"2025-02-14T14:43:29.49096+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T14:43:30.739507+01:00","level":"INFO","msg":"stream: closing","id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:30.739586+01:00","level":"INFO","msg":"handler: closed","stream_id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:30.739617+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:30.739633+01:00","level":"INFO","msg":"sender: closed","stream_id":"mx00kt2h"}
+{"time":"2025-02-14T14:43:30.739935+01:00","level":"INFO","msg":"stream: closed","id":"mx00kt2h"}
