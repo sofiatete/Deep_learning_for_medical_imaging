@@ -5,3 +5,13 @@
 {"time":"2025-02-18T16:33:26.010907+01:00","level":"INFO","msg":"sender: started","stream_id":"xvxe1u1i"}
 {"time":"2025-02-18T16:33:26.010924+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xvxe1u1i"}
 {"time":"2025-02-18T16:33:26.419419+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T16:44:11.847982+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/Deep_learning_for_medical_imaging/xvxe1u1i/file_stream\": read tcp 145.108.84.32:57859->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-18T16:50:02.656471+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T16:50:02.657555+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T16:50:03.663246+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.624385458,"progress":"159B/159B"},{"desc":"uploading config.yaml","runtime_seconds":0.423351625,"progress":"480B/480B"}],"total_operations":2}}
+{"time":"2025-02-18T16:50:03.816371+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T16:50:05.031448+01:00","level":"INFO","msg":"stream: closing","id":"xvxe1u1i"}
+{"time":"2025-02-18T16:50:05.031558+01:00","level":"INFO","msg":"handler: closed","stream_id":"xvxe1u1i"}
+{"time":"2025-02-18T16:50:05.031586+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xvxe1u1i"}
+{"time":"2025-02-18T16:50:05.03161+01:00","level":"INFO","msg":"sender: closed","stream_id":"xvxe1u1i"}
+{"time":"2025-02-18T16:50:05.032056+01:00","level":"INFO","msg":"stream: closed","id":"xvxe1u1i"}
