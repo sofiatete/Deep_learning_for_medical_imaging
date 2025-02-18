@@ -1,0 +1,16 @@
+{"time":"2025-02-18T14:28:13.437914+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_142813-g6xntouf/logs/debug-core.log"}
+{"time":"2025-02-18T14:28:13.647972+01:00","level":"INFO","msg":"created new stream","id":"g6xntouf"}
+{"time":"2025-02-18T14:28:13.64802+01:00","level":"INFO","msg":"stream: started","id":"g6xntouf"}
+{"time":"2025-02-18T14:28:13.648213+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"g6xntouf"}
+{"time":"2025-02-18T14:28:13.648242+01:00","level":"INFO","msg":"handler: started","stream_id":"g6xntouf"}
+{"time":"2025-02-18T14:28:13.648283+01:00","level":"INFO","msg":"sender: started","stream_id":"g6xntouf"}
+{"time":"2025-02-18T14:28:14.003416+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T14:28:14.929366+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T14:28:14.929936+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T14:28:15.937233+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-g6xntouf-data_plot0_table","runtime_seconds":1.54868275},{"desc":"uploading artifact run-g6xntouf-data_plot1_table","runtime_seconds":1.2954841670000001},{"desc":"uploading artifact run-g6xntouf-data_plot2_table","runtime_seconds":1.160913209},{"desc":"uploading artifact run-g6xntouf-data_plot3_table","runtime_seconds":1.019646708}],"total_operations":4}}
+{"time":"2025-02-18T14:28:16.343146+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T14:28:17.511604+01:00","level":"INFO","msg":"stream: closing","id":"g6xntouf"}
+{"time":"2025-02-18T14:28:17.51192+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g6xntouf"}
+{"time":"2025-02-18T14:28:17.511947+01:00","level":"INFO","msg":"sender: closed","stream_id":"g6xntouf"}
+{"time":"2025-02-18T14:28:17.512163+01:00","level":"INFO","msg":"handler: closed","stream_id":"g6xntouf"}
+{"time":"2025-02-18T14:28:17.512725+01:00","level":"INFO","msg":"stream: closed","id":"g6xntouf"}

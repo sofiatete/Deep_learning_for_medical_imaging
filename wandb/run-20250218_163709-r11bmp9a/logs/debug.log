@@ -1,0 +1,12 @@
+2025-02-18 16:37:09,920 INFO    MainThread:8378 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_163709-r11bmp9a/logs/debug.log
+2025-02-18 16:37:09,921 INFO    MainThread:8378 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_163709-r11bmp9a/logs/debug-internal.log
+2025-02-18 16:37:09,921 INFO    MainThread:8378 [wandb_init.py:init():756] calling init triggers
+2025-02-18 16:37:09,921 INFO    MainThread:8378 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 16:37:09,922 INFO    MainThread:8378 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 16:37:30,184 INFO    MainThread:8378 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_163730-sv4t37lg/logs/debug.log
+2025-02-18 16:37:30,185 INFO    MainThread:8378 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_163730-sv4t37lg/logs/debug-internal.log
+2025-02-18 16:37:30,185 INFO    MainThread:8378 [wandb_init.py:init():756] calling init triggers
+2025-02-18 16:37:30,185 INFO    MainThread:8378 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 16:37:30,186 INFO    MainThread:8378 [wandb_init.py:init():781] wandb.init() called when a run is still active

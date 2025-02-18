@@ -1,0 +1,103 @@
+Epoch 0: Train Loss: 0.038804, Val Loss: 0.031664
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+Epoch 10: Train Loss: 0.037290, Val Loss: 0.030978
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+Epoch 20: Train Loss: 0.037172, Val Loss: 0.030874
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+Epoch 30: Train Loss: 0.037054, Val Loss: 0.030715
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+Epoch 40: Train Loss: 0.036964, Val Loss: 0.030564
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)
+/var/folders/kg/080h9pxs6gs15qtw_zf174w00000gn/T/ipykernel_8378/1047839314.py:20: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  bvalues = torch.tensor(bvalues, dtype = torch.float32, device = device)

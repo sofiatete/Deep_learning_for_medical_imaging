@@ -64,11 +64,10 @@ class LinearModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-       #hint: use the np.einsum function to deal with dimensions. I.e. np.einsum('ab,ac-->bc',A,B)  multiplies A (a by b shape) with B (b by c shape) such that it ends up with a matrix shaped b by c
+        out = np.einsum('ab,bc->ac', x, self.weights) + self.bias.T
         #######################
         # END OF YOUR CODE    #
         #######################
-
         return out
 
     def backward(self, DlDout):
@@ -85,7 +84,9 @@ class LinearModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        self.grads['weight'] = np.einsum('ab,ac->bc', self.x, DlDout)
+        self.grads['bias'] = np.sum(DlDout, axis=0, keepdims=True).T
+        DlDin = np.einsum('bc,cd->bd', DlDout, self.weights.T)
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -125,11 +126,10 @@ class RELUModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        out = np.maximum(0, x)
         #######################
         # END OF YOUR CODE    #
         #######################
-
         return out
 
     def backward(self, DlDout):
@@ -146,7 +146,7 @@ class RELUModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        DlDin = DlDout * (self.x > 0)
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -179,7 +179,7 @@ class TanhModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        out = np.tanh(x)
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -200,7 +200,7 @@ class TanhModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        DlDin = DlDout * (1 - self.x ** 2)
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -234,7 +234,8 @@ class MSE:
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        self.x, self.y = x, y
+        out = np.mean((x - y) ** 2)
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -252,7 +253,7 @@ class MSE:
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        DlDin = 2 * (self.x - self.y) / self.x.shape[0]
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -312,8 +313,8 @@ class MLP(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
-
+        for layer in self.layers:
+            x = layer.forward(x)
         #######################
         # END OF YOUR CODE    #
         #######################
