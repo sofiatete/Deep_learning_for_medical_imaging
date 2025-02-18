@@ -1,0 +1,16 @@
+{"time":"2025-02-18T12:57:54.128456+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_125754-ge6kg0nt/logs/debug-core.log"}
+{"time":"2025-02-18T12:57:54.239092+01:00","level":"INFO","msg":"created new stream","id":"ge6kg0nt"}
+{"time":"2025-02-18T12:57:54.239125+01:00","level":"INFO","msg":"stream: started","id":"ge6kg0nt"}
+{"time":"2025-02-18T12:57:54.239132+01:00","level":"INFO","msg":"handler: started","stream_id":"ge6kg0nt"}
+{"time":"2025-02-18T12:57:54.239137+01:00","level":"INFO","msg":"sender: started","stream_id":"ge6kg0nt"}
+{"time":"2025-02-18T12:57:54.239176+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ge6kg0nt"}
+{"time":"2025-02-18T12:57:54.429153+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T13:02:44.961228+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T13:02:44.962155+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T13:02:45.695794+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T13:02:45.886597+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-02-18T13:02:46.892346+01:00","level":"INFO","msg":"stream: closing","id":"ge6kg0nt"}
+{"time":"2025-02-18T13:02:46.89237+01:00","level":"INFO","msg":"handler: closed","stream_id":"ge6kg0nt"}
+{"time":"2025-02-18T13:02:46.892387+01:00","level":"INFO","msg":"sender: closed","stream_id":"ge6kg0nt"}
+{"time":"2025-02-18T13:02:46.892377+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ge6kg0nt"}
+{"time":"2025-02-18T13:02:46.892482+01:00","level":"INFO","msg":"stream: closed","id":"ge6kg0nt"}

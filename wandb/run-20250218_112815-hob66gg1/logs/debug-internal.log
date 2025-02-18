@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:28:15.693029+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112815-hob66gg1/logs/debug-core.log"}
+{"time":"2025-02-18T11:28:15.804215+01:00","level":"INFO","msg":"created new stream","id":"hob66gg1"}
+{"time":"2025-02-18T11:28:15.804254+01:00","level":"INFO","msg":"stream: started","id":"hob66gg1"}
+{"time":"2025-02-18T11:28:15.804256+01:00","level":"INFO","msg":"handler: started","stream_id":"hob66gg1"}
+{"time":"2025-02-18T11:28:15.804271+01:00","level":"INFO","msg":"sender: started","stream_id":"hob66gg1"}
+{"time":"2025-02-18T11:28:15.804256+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hob66gg1"}
+{"time":"2025-02-18T11:28:15.994573+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:28:25.581739+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:28:25.582752+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:28:26.589644+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hob66gg1-data_plot1_table","runtime_seconds":1.351261042},{"desc":"uploading artifact run-hob66gg1-data_plot2_table","runtime_seconds":1.189930708},{"desc":"uploading artifact run-hob66gg1-data_plot3_table","runtime_seconds":1.020863792}],"total_operations":3}}
+{"time":"2025-02-18T11:28:26.999439+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:28:28.228385+01:00","level":"INFO","msg":"stream: closing","id":"hob66gg1"}
+{"time":"2025-02-18T11:28:28.228481+01:00","level":"INFO","msg":"handler: closed","stream_id":"hob66gg1"}
+{"time":"2025-02-18T11:28:28.228518+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hob66gg1"}
+{"time":"2025-02-18T11:28:28.228537+01:00","level":"INFO","msg":"sender: closed","stream_id":"hob66gg1"}
+{"time":"2025-02-18T11:28:28.229033+01:00","level":"INFO","msg":"stream: closed","id":"hob66gg1"}

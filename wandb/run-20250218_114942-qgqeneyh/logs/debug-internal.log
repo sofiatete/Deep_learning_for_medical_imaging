@@ -1,0 +1,17 @@
+{"time":"2025-02-18T11:49:42.617362+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_114942-qgqeneyh/logs/debug-core.log"}
+{"time":"2025-02-18T11:49:42.727295+01:00","level":"INFO","msg":"created new stream","id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:42.727332+01:00","level":"INFO","msg":"stream: started","id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:42.727334+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:42.72734+01:00","level":"INFO","msg":"sender: started","stream_id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:42.72735+01:00","level":"INFO","msg":"handler: started","stream_id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:43.039061+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:49:52.156439+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:49:52.1571+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:49:53.163837+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qgqeneyh-data_plot_valepoch70_table","runtime_seconds":6.910925166},{"desc":"uploading artifact run-qgqeneyh-data_plot_valepoch100_table","runtime_seconds":5.683700167},{"desc":"uploading artifact run-qgqeneyh-data_plotepoch130_table","runtime_seconds":4.606949},{"desc":"uploading artifact run-qgqeneyh-data_plotepoch180_table","runtime_seconds":2.370277042},{"desc":"uploading artifact run-qgqeneyh-data_plot1_table","runtime_seconds":1.3329749579999999},{"desc":"uploading artifact run-qgqeneyh-data_plot2_table","runtime_seconds":1.179914417},{"desc":"uploading artifact run-qgqeneyh-data_plot3_table","runtime_seconds":1.020426791}],"total_operations":7}}
+{"time":"2025-02-18T11:49:54.206503+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:49:54.252306+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/qgqeneyh/file_stream\": read tcp 145.108.84.32:54102->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-18T11:49:57.784791+01:00","level":"INFO","msg":"stream: closing","id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:57.78491+01:00","level":"INFO","msg":"handler: closed","stream_id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:57.784936+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:57.785132+01:00","level":"INFO","msg":"sender: closed","stream_id":"qgqeneyh"}
+{"time":"2025-02-18T11:49:57.785318+01:00","level":"INFO","msg":"stream: closed","id":"qgqeneyh"}

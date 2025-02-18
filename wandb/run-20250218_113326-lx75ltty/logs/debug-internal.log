@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:33:26.320565+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113326-lx75ltty/logs/debug-core.log"}
+{"time":"2025-02-18T11:33:26.429675+01:00","level":"INFO","msg":"created new stream","id":"lx75ltty"}
+{"time":"2025-02-18T11:33:26.429721+01:00","level":"INFO","msg":"stream: started","id":"lx75ltty"}
+{"time":"2025-02-18T11:33:26.429722+01:00","level":"INFO","msg":"handler: started","stream_id":"lx75ltty"}
+{"time":"2025-02-18T11:33:26.429729+01:00","level":"INFO","msg":"sender: started","stream_id":"lx75ltty"}
+{"time":"2025-02-18T11:33:26.429744+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lx75ltty"}
+{"time":"2025-02-18T11:33:26.663162+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:33:36.344499+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:33:36.346001+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:33:37.354932+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-lx75ltty-data_plot1_table","runtime_seconds":1.338523541},{"desc":"uploading artifact run-lx75ltty-data_plot2_table","runtime_seconds":1.176335917},{"desc":"uploading artifact run-lx75ltty-data_plot3_table","runtime_seconds":1.022127042}],"total_operations":3}}
+{"time":"2025-02-18T11:33:37.749339+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:33:39.000252+01:00","level":"INFO","msg":"stream: closing","id":"lx75ltty"}
+{"time":"2025-02-18T11:33:39.000342+01:00","level":"INFO","msg":"handler: closed","stream_id":"lx75ltty"}
+{"time":"2025-02-18T11:33:39.000367+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lx75ltty"}
+{"time":"2025-02-18T11:33:39.000406+01:00","level":"INFO","msg":"sender: closed","stream_id":"lx75ltty"}
+{"time":"2025-02-18T11:33:39.000822+01:00","level":"INFO","msg":"stream: closed","id":"lx75ltty"}

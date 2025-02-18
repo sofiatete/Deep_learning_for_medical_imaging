@@ -1,0 +1,18 @@
+{"time":"2025-02-18T11:41:55.42599+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_114155-s9no2bnk/logs/debug-core.log"}
+{"time":"2025-02-18T11:41:55.534669+01:00","level":"INFO","msg":"created new stream","id":"s9no2bnk"}
+{"time":"2025-02-18T11:41:55.534722+01:00","level":"INFO","msg":"stream: started","id":"s9no2bnk"}
+{"time":"2025-02-18T11:41:55.534728+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"s9no2bnk"}
+{"time":"2025-02-18T11:41:55.534742+01:00","level":"INFO","msg":"handler: started","stream_id":"s9no2bnk"}
+{"time":"2025-02-18T11:41:55.534753+01:00","level":"INFO","msg":"sender: started","stream_id":"s9no2bnk"}
+{"time":"2025-02-18T11:41:55.743856+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:42:31.13097+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T11:42:31.154231+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T11:42:31.764742+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:42:31.765211+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:42:32.77047+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-s9no2bnk-data_plot1_table","runtime_seconds":1.319995292},{"desc":"uploading artifact run-s9no2bnk-data_plot2_table","runtime_seconds":1.1621025},{"desc":"uploading artifact run-s9no2bnk-data_plot3_table","runtime_seconds":1.016580917}],"total_operations":3}}
+{"time":"2025-02-18T11:42:33.172853+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:42:34.409896+01:00","level":"INFO","msg":"stream: closing","id":"s9no2bnk"}
+{"time":"2025-02-18T11:42:34.409951+01:00","level":"INFO","msg":"handler: closed","stream_id":"s9no2bnk"}
+{"time":"2025-02-18T11:42:34.40997+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s9no2bnk"}
+{"time":"2025-02-18T11:42:34.409983+01:00","level":"INFO","msg":"sender: closed","stream_id":"s9no2bnk"}
+{"time":"2025-02-18T11:42:34.410254+01:00","level":"INFO","msg":"stream: closed","id":"s9no2bnk"}

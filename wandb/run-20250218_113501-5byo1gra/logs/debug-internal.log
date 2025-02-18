@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:35:01.458646+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113501-5byo1gra/logs/debug-core.log"}
+{"time":"2025-02-18T11:35:01.568091+01:00","level":"INFO","msg":"created new stream","id":"5byo1gra"}
+{"time":"2025-02-18T11:35:01.568128+01:00","level":"INFO","msg":"stream: started","id":"5byo1gra"}
+{"time":"2025-02-18T11:35:01.568134+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5byo1gra"}
+{"time":"2025-02-18T11:35:01.56814+01:00","level":"INFO","msg":"handler: started","stream_id":"5byo1gra"}
+{"time":"2025-02-18T11:35:01.568152+01:00","level":"INFO","msg":"sender: started","stream_id":"5byo1gra"}
+{"time":"2025-02-18T11:35:01.757911+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:35:10.906783+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:35:10.907348+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:35:11.913837+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-5byo1gra-data_plot1_table","runtime_seconds":1.326964416},{"desc":"uploading artifact run-5byo1gra-data_plot2_table","runtime_seconds":1.171566917},{"desc":"uploading artifact run-5byo1gra-data_plot3_table","runtime_seconds":1.013864875}],"total_operations":3}}
+{"time":"2025-02-18T11:35:12.286471+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:35:13.503956+01:00","level":"INFO","msg":"stream: closing","id":"5byo1gra"}
+{"time":"2025-02-18T11:35:13.504086+01:00","level":"INFO","msg":"handler: closed","stream_id":"5byo1gra"}
+{"time":"2025-02-18T11:35:13.504113+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5byo1gra"}
+{"time":"2025-02-18T11:35:13.504162+01:00","level":"INFO","msg":"sender: closed","stream_id":"5byo1gra"}
+{"time":"2025-02-18T11:35:13.504606+01:00","level":"INFO","msg":"stream: closed","id":"5byo1gra"}

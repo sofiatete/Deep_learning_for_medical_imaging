@@ -1,0 +1,13 @@
+2025-02-18 14:03:19,192 INFO    MainThread:4906 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_140319-y5joso6i/logs/debug.log
+2025-02-18 14:03:19,192 INFO    MainThread:4906 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_140319-y5joso6i/logs/debug-internal.log
+2025-02-18 14:03:19,193 INFO    MainThread:4906 [wandb_init.py:init():756] calling init triggers
+2025-02-18 14:03:19,193 INFO    MainThread:4906 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 14:03:19,193 INFO    MainThread:4906 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 14:03:19,193 INFO    MainThread:4906 [wandb_run.py:_finish():2110] finishing run costanza-dercole-vrije-universiteit-amsterdam/Deep_learning_for_medical_imaging/ddu5chju
+2025-02-18 14:03:19,194 INFO    MainThread:4906 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-18 14:03:19,194 INFO    MainThread:4906 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 14:03:19,194 INFO    MainThread:4906 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-18 14:03:19,195 INFO    MainThread:4906 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-18 14:03:19,195 INFO    MainThread:4906 [wandb_run.py:_restore():2332] restore
+2025-02-18 14:03:19,195 INFO    MainThread:4906 [wandb_run.py:_restore():2338] restore done

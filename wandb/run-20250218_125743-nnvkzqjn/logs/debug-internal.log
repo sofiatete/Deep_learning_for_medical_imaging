@@ -1,0 +1,17 @@
+{"time":"2025-02-18T12:57:43.811149+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_125743-nnvkzqjn/logs/debug-core.log"}
+{"time":"2025-02-18T12:57:43.920409+01:00","level":"INFO","msg":"created new stream","id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:43.920441+01:00","level":"INFO","msg":"stream: started","id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:43.920457+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:43.920502+01:00","level":"INFO","msg":"sender: started","stream_id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:43.920458+01:00","level":"INFO","msg":"handler: started","stream_id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:44.156804+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 145.108.84.32:55222->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-18T12:57:47.049494+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T12:57:51.418504+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T12:57:51.418832+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T12:57:52.425048+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nnvkzqjn-data_plot2_table","runtime_seconds":1.3378566250000001},{"desc":"uploading artifact run-nnvkzqjn-data_plot3_table","runtime_seconds":1.199603292}],"total_operations":2}}
+{"time":"2025-02-18T12:57:52.883132+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T12:57:54.111083+01:00","level":"INFO","msg":"stream: closing","id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:54.112143+01:00","level":"INFO","msg":"handler: closed","stream_id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:54.112201+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:54.112283+01:00","level":"INFO","msg":"sender: closed","stream_id":"nnvkzqjn"}
+{"time":"2025-02-18T12:57:54.112754+01:00","level":"INFO","msg":"stream: closed","id":"nnvkzqjn"}

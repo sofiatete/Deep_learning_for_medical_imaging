@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:24:43.065948+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112443-046un94m/logs/debug-core.log"}
+{"time":"2025-02-18T11:24:43.177521+01:00","level":"INFO","msg":"created new stream","id":"046un94m"}
+{"time":"2025-02-18T11:24:43.177556+01:00","level":"INFO","msg":"stream: started","id":"046un94m"}
+{"time":"2025-02-18T11:24:43.17756+01:00","level":"INFO","msg":"handler: started","stream_id":"046un94m"}
+{"time":"2025-02-18T11:24:43.177563+01:00","level":"INFO","msg":"sender: started","stream_id":"046un94m"}
+{"time":"2025-02-18T11:24:43.177577+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"046un94m"}
+{"time":"2025-02-18T11:24:43.368768+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:24:53.895613+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:24:53.896261+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:24:54.903002+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-046un94m-data_plot_valepoch190_table","runtime_seconds":1.738269292},{"desc":"uploading artifact run-046un94m-data_plot0_table","runtime_seconds":1.480033875},{"desc":"uploading artifact run-046un94m-data_plot1_table","runtime_seconds":1.334581041},{"desc":"uploading artifact run-046un94m-data_plot2_table","runtime_seconds":1.183002292},{"desc":"uploading artifact run-046un94m-data_plot3_table","runtime_seconds":1.015479}],"total_operations":5}}
+{"time":"2025-02-18T11:24:55.499587+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:24:56.732517+01:00","level":"INFO","msg":"stream: closing","id":"046un94m"}
+{"time":"2025-02-18T11:24:56.732608+01:00","level":"INFO","msg":"handler: closed","stream_id":"046un94m"}
+{"time":"2025-02-18T11:24:56.732634+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"046un94m"}
+{"time":"2025-02-18T11:24:56.732654+01:00","level":"INFO","msg":"sender: closed","stream_id":"046un94m"}
+{"time":"2025-02-18T11:24:56.733109+01:00","level":"INFO","msg":"stream: closed","id":"046un94m"}

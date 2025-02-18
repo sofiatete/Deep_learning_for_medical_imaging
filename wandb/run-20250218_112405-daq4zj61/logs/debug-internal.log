@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:24:05.870451+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112405-daq4zj61/logs/debug-core.log"}
+{"time":"2025-02-18T11:24:05.981776+01:00","level":"INFO","msg":"created new stream","id":"daq4zj61"}
+{"time":"2025-02-18T11:24:05.981819+01:00","level":"INFO","msg":"stream: started","id":"daq4zj61"}
+{"time":"2025-02-18T11:24:05.981816+01:00","level":"INFO","msg":"handler: started","stream_id":"daq4zj61"}
+{"time":"2025-02-18T11:24:05.981822+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"daq4zj61"}
+{"time":"2025-02-18T11:24:05.981827+01:00","level":"INFO","msg":"sender: started","stream_id":"daq4zj61"}
+{"time":"2025-02-18T11:24:06.22196+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:24:15.200397+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:24:15.20101+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:24:16.208003+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-daq4zj61-data_plot1_table","runtime_seconds":1.3308102499999999},{"desc":"uploading artifact run-daq4zj61-data_plot2_table","runtime_seconds":1.177206416},{"desc":"uploading artifact run-daq4zj61-data_plot3_table","runtime_seconds":1.015932083}],"total_operations":3}}
+{"time":"2025-02-18T11:24:16.610928+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:24:17.871703+01:00","level":"INFO","msg":"stream: closing","id":"daq4zj61"}
+{"time":"2025-02-18T11:24:17.8718+01:00","level":"INFO","msg":"handler: closed","stream_id":"daq4zj61"}
+{"time":"2025-02-18T11:24:17.871823+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"daq4zj61"}
+{"time":"2025-02-18T11:24:17.871851+01:00","level":"INFO","msg":"sender: closed","stream_id":"daq4zj61"}
+{"time":"2025-02-18T11:24:17.87225+01:00","level":"INFO","msg":"stream: closed","id":"daq4zj61"}

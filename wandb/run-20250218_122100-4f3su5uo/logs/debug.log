@@ -1,0 +1,55 @@
+2025-02-18 12:21:00,268 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_122100-4f3su5uo/logs/debug.log
+2025-02-18 12:21:00,269 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_122100-4f3su5uo/logs/debug-internal.log
+2025-02-18 12:21:00,269 INFO    MainThread:2646 [wandb_init.py:init():756] calling init triggers
+2025-02-18 12:21:00,269 INFO    MainThread:2646 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 12:21:00,270 INFO    MainThread:2646 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 12:21:00,270 ERROR   MainThread:2646 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 784, in init
+    with telemetry.context() as tel:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 741, in _telemetry_callback
+    self._telemetry_flush()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 754, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+    ~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_sock.py", line 47, in _publish
+    self._sock_client.send_record_publish(record)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 222, in send_record_publish
+    self.send_server_request(server_req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-18 12:21:00,333 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:00,334 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:46,993 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:47,022 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:47,023 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:50,687 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:50,718 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:50,720 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:52,360 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:52,386 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:52,387 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:58,266 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:58,293 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:58,295 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend

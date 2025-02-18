@@ -1,0 +1,18 @@
+{"time":"2025-02-18T11:21:34.657734+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112134-ve20wb16/logs/debug-core.log"}
+{"time":"2025-02-18T11:21:34.769786+01:00","level":"INFO","msg":"created new stream","id":"ve20wb16"}
+{"time":"2025-02-18T11:21:34.769828+01:00","level":"INFO","msg":"stream: started","id":"ve20wb16"}
+{"time":"2025-02-18T11:21:34.769832+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ve20wb16"}
+{"time":"2025-02-18T11:21:34.769853+01:00","level":"INFO","msg":"sender: started","stream_id":"ve20wb16"}
+{"time":"2025-02-18T11:21:34.769836+01:00","level":"INFO","msg":"handler: started","stream_id":"ve20wb16"}
+{"time":"2025-02-18T11:21:40.778634+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:21:49.680432+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T11:24:02.434069+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T11:24:03.202512+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:24:03.20294+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:24:04.206207+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ve20wb16-data_plot1_table","runtime_seconds":1.3860442499999999},{"desc":"uploading artifact run-ve20wb16-data_plot2_table","runtime_seconds":1.202786042},{"desc":"uploading artifact run-ve20wb16-data_plot3_table","runtime_seconds":1.0062745}],"total_operations":3}}
+{"time":"2025-02-18T11:24:04.650073+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:24:05.859612+01:00","level":"INFO","msg":"stream: closing","id":"ve20wb16"}
+{"time":"2025-02-18T11:24:05.859659+01:00","level":"INFO","msg":"handler: closed","stream_id":"ve20wb16"}
+{"time":"2025-02-18T11:24:05.859678+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ve20wb16"}
+{"time":"2025-02-18T11:24:05.859756+01:00","level":"INFO","msg":"sender: closed","stream_id":"ve20wb16"}
+{"time":"2025-02-18T11:24:05.860041+01:00","level":"INFO","msg":"stream: closed","id":"ve20wb16"}

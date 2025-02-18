@@ -1,0 +1,181 @@
+2025-02-18 12:08:25,108 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_120825-j1mu2rdl/logs/debug.log
+2025-02-18 12:08:25,109 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_120825-j1mu2rdl/logs/debug-internal.log
+2025-02-18 12:08:25,109 INFO    MainThread:2646 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x166b65bd0>
+2025-02-18 12:08:25,110 INFO    MainThread:2646 [wandb_init.py:init():756] calling init triggers
+2025-02-18 12:08:25,111 INFO    MainThread:2646 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 12:08:25,111 INFO    MainThread:2646 [wandb_init.py:init():789] starting backend
+2025-02-18 12:08:25,111 INFO    MainThread:2646 [wandb_init.py:init():793] sending inform_init request
+2025-02-18 12:08:25,113 INFO    MainThread:2646 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-18 12:08:25,113 INFO    MainThread:2646 [wandb_init.py:init():808] backend started and connected
+2025-02-18 12:08:25,118 INFO    MainThread:2646 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-18 12:08:25,144 INFO    MainThread:2646 [wandb_init.py:init():901] updated telemetry
+2025-02-18 12:08:25,166 INFO    MainThread:2646 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-18 12:08:25,574 INFO    MainThread:2646 [wandb_init.py:init():984] starting run threads in backend
+2025-02-18 12:08:25,631 INFO    MainThread:2646 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-18 12:08:25,632 INFO    MainThread:2646 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-18 12:08:25,632 INFO    MainThread:2646 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-18 12:08:25,632 INFO    MainThread:2646 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-18 12:08:25,633 INFO    MainThread:2646 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-18 12:08:37,494 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_f_epoch 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'f_ref', 'y': 'f_pred'}, 'stringSettings': {'title': 'f: epoch 0'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_f_epoch 0_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:08:37,495 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_D_epoch 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'D_ref', 'y': 'D_pred'}, 'stringSettings': {'title': 'D: epoch 0'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_D_epoch 0_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:08:37,495 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_Dp_epoch 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'Dp_ref', 'y': 'Dp_pred'}, 'stringSettings': {'title': 'Dp: epoch 0'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_Dp_epoch 0_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:10:42,067 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_f_epoch 10') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'f_ref', 'y': 'f_pred'}, 'stringSettings': {'title': 'f: epoch 10'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_f_epoch 10_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:10:42,074 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_D_epoch 10') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'D_ref', 'y': 'D_pred'}, 'stringSettings': {'title': 'D: epoch 10'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_D_epoch 10_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:10:42,074 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_Dp_epoch 10') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'Dp_ref', 'y': 'Dp_pred'}, 'stringSettings': {'title': 'Dp: epoch 10'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_Dp_epoch 10_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:12:43,620 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_f_epoch 20') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'f_ref', 'y': 'f_pred'}, 'stringSettings': {'title': 'f: epoch 20'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_f_epoch 20_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:12:43,625 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_D_epoch 20') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'D_ref', 'y': 'D_pred'}, 'stringSettings': {'title': 'D: epoch 20'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_D_epoch 20_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:12:43,625 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_Dp_epoch 20') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'Dp_ref', 'y': 'Dp_pred'}, 'stringSettings': {'title': 'Dp: epoch 20'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_Dp_epoch 20_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:14:44,223 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_f_epoch 30') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'f_ref', 'y': 'f_pred'}, 'stringSettings': {'title': 'f: epoch 30'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_f_epoch 30_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:14:44,229 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_D_epoch 30') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'D_ref', 'y': 'D_pred'}, 'stringSettings': {'title': 'D: epoch 30'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_D_epoch 30_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:14:44,229 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_Dp_epoch 30') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'Dp_ref', 'y': 'Dp_pred'}, 'stringSettings': {'title': 'Dp: epoch 30'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_Dp_epoch 30_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:16:44,972 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_f_epoch 40') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'f_ref', 'y': 'f_pred'}, 'stringSettings': {'title': 'f: epoch 40'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_f_epoch 40_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:16:44,978 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_D_epoch 40') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'D_ref', 'y': 'D_pred'}, 'stringSettings': {'title': 'D: epoch 40'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_D_epoch 40_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:16:44,978 INFO    MainThread:2646 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot_Dp_epoch 40') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'Dp_ref', 'y': 'Dp_pred'}, 'stringSettings': {'title': 'Dp: epoch 40'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot_Dp_epoch 40_table'}], 'fields': []}]}]}}} None
+2025-02-18 12:16:59,775 WARNING MsgRouterThr:2646 [router.py:message_loop():75] message_loop has been closed
+2025-02-18 12:16:59,834 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:16:59,835 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:17:25,015 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:17:25,229 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_121725-ztxatgf9/logs/debug.log
+2025-02-18 12:17:25,229 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_121725-ztxatgf9/logs/debug-internal.log
+2025-02-18 12:17:25,230 INFO    MainThread:2646 [wandb_init.py:init():756] calling init triggers
+2025-02-18 12:17:25,230 INFO    MainThread:2646 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 12:17:25,230 INFO    MainThread:2646 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 12:17:25,230 ERROR   MainThread:2646 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 784, in init
+    with telemetry.context() as tel:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 741, in _telemetry_callback
+    self._telemetry_flush()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 754, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+    ~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_sock.py", line 47, in _publish
+    self._sock_client.send_record_publish(record)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 222, in send_record_publish
+    self.send_server_request(server_req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-18 12:17:25,359 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:17:25,359 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:17:51,466 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:17:51,503 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_121751-n2hnh9fn/logs/debug.log
+2025-02-18 12:17:51,504 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_121751-n2hnh9fn/logs/debug-internal.log
+2025-02-18 12:17:51,505 INFO    MainThread:2646 [wandb_init.py:init():756] calling init triggers
+2025-02-18 12:17:51,505 INFO    MainThread:2646 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 12:17:51,506 INFO    MainThread:2646 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 12:17:51,506 ERROR   MainThread:2646 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 784, in init
+    with telemetry.context() as tel:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 741, in _telemetry_callback
+    self._telemetry_flush()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 754, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+    ~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_sock.py", line 47, in _publish
+    self._sock_client.send_record_publish(record)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 222, in send_record_publish
+    self.send_server_request(server_req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-18 12:17:51,570 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:17:51,571 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:00,240 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:00,268 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_122100-4f3su5uo/logs/debug.log
+2025-02-18 12:21:00,269 INFO    MainThread:2646 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_122100-4f3su5uo/logs/debug-internal.log
+2025-02-18 12:21:00,269 INFO    MainThread:2646 [wandb_init.py:init():756] calling init triggers
+2025-02-18 12:21:00,269 INFO    MainThread:2646 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 12:21:00,270 INFO    MainThread:2646 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 12:21:00,270 ERROR   MainThread:2646 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 784, in init
+    with telemetry.context() as tel:
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 741, in _telemetry_callback
+    self._telemetry_flush()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 754, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+    ~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/interface/interface_sock.py", line 47, in _publish
+    self._sock_client.send_record_publish(record)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 222, in send_record_publish
+    self.send_server_request(server_req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-18 12:21:00,333 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:00,334 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:46,993 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:47,022 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:47,023 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:50,687 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:50,718 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:50,720 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:52,360 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:52,386 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:52,387 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-18 12:21:58,266 INFO    MainThread:2646 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-18 12:21:58,293 INFO    MainThread:2646 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 12:21:58,295 INFO    MainThread:2646 [wandb_init.py:_pause_backend():554] pausing backend

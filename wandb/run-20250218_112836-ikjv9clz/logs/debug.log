@@ -1,0 +1,30 @@
+2025-02-18 11:28:36,780 INFO    MainThread:2033 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112836-ikjv9clz/logs/debug.log
+2025-02-18 11:28:36,781 INFO    MainThread:2033 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112836-ikjv9clz/logs/debug-internal.log
+2025-02-18 11:28:36,781 INFO    MainThread:2033 [wandb_init.py:init():756] calling init triggers
+2025-02-18 11:28:36,781 INFO    MainThread:2033 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 11:28:36,781 INFO    MainThread:2033 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-18 11:28:36,782 INFO    MainThread:2033 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 0_table'}], 'fields': []}]}]}}} None
+2025-02-18 11:28:36,937 INFO    MainThread:2033 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 1') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 1_table'}], 'fields': []}]}]}}} None
+2025-02-18 11:28:37,096 INFO    MainThread:2033 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 2') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 2_table'}], 'fields': []}]}]}}} None
+2025-02-18 11:28:37,260 INFO    MainThread:2033 [wandb_run.py:_config_callback():1253] config_cb ('_wandb', 'visualize', 'data_plot 3') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/scatter/v0', 'fieldSettings': {'x': 'b-values', 'y': 'signal'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'data_plot 3_table'}], 'fields': []}]}]}}} None
+2025-02-18 11:28:37,425 INFO    MainThread:2033 [wandb_run.py:_finish():2110] finishing run costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/xtsh0pug
+2025-02-18 11:28:37,426 INFO    MainThread:2033 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-18 11:28:37,427 INFO    MainThread:2033 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-18 11:28:37,427 INFO    MainThread:2033 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-18 11:28:37,428 INFO    MainThread:2033 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-18 11:28:37,429 INFO    MainThread:2033 [wandb_run.py:_restore():2332] restore
+2025-02-18 11:28:37,430 INFO    MainThread:2033 [wandb_run.py:_restore():2338] restore done
+2025-02-18 11:28:40,267 INFO    MainThread:2033 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112840-zxrm5e6f/logs/debug.log
+2025-02-18 11:28:40,267 INFO    MainThread:2033 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112840-zxrm5e6f/logs/debug-internal.log
+2025-02-18 11:28:40,267 INFO    MainThread:2033 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x126a63430>
+2025-02-18 11:28:40,268 INFO    MainThread:2033 [wandb_init.py:init():756] calling init triggers
+2025-02-18 11:28:40,268 INFO    MainThread:2033 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-18 11:28:40,268 INFO    MainThread:2033 [wandb_init.py:init():789] starting backend
+2025-02-18 11:28:40,268 INFO    MainThread:2033 [wandb_init.py:init():793] sending inform_init request
+2025-02-18 11:28:40,269 INFO    MainThread:2033 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-18 11:28:40,269 INFO    MainThread:2033 [wandb_init.py:init():808] backend started and connected
+2025-02-18 11:28:40,273 INFO    MainThread:2033 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-18 11:28:40,278 INFO    MainThread:2033 [wandb_init.py:init():901] updated telemetry
+2025-02-18 11:28:40,299 INFO    MainThread:2033 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout

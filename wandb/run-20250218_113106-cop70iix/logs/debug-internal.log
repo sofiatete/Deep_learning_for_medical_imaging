@@ -1,0 +1,21 @@
+{"time":"2025-02-18T11:31:06.382201+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113106-cop70iix/logs/debug-core.log"}
+{"time":"2025-02-18T11:31:06.493484+01:00","level":"INFO","msg":"created new stream","id":"cop70iix"}
+{"time":"2025-02-18T11:31:06.493513+01:00","level":"INFO","msg":"stream: started","id":"cop70iix"}
+{"time":"2025-02-18T11:31:06.493519+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cop70iix"}
+{"time":"2025-02-18T11:31:06.493532+01:00","level":"INFO","msg":"sender: started","stream_id":"cop70iix"}
+{"time":"2025-02-18T11:31:06.493557+01:00","level":"INFO","msg":"handler: started","stream_id":"cop70iix"}
+{"time":"2025-02-18T11:31:06.708458+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:31:15.800194+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T11:31:15.818939+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T11:31:15.819632+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T11:31:15.842556+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T11:31:16.479091+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:31:16.479948+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:31:16.819915+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:31:17.486556+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-cop70iix-data_plot0_table","runtime_seconds":1.48825325,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-cop70iix-data_plot1_table","runtime_seconds":1.336029625},{"desc":"uploading artifact run-cop70iix-data_plot2_table","runtime_seconds":1.177446625},{"desc":"uploading artifact run-cop70iix-data_plot3_table","runtime_seconds":1.014794667}],"total_operations":4}}
+{"time":"2025-02-18T11:31:20.612765+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:31:22.034065+01:00","level":"INFO","msg":"stream: closing","id":"cop70iix"}
+{"time":"2025-02-18T11:31:22.034124+01:00","level":"INFO","msg":"handler: closed","stream_id":"cop70iix"}
+{"time":"2025-02-18T11:31:22.034144+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cop70iix"}
+{"time":"2025-02-18T11:31:22.034165+01:00","level":"INFO","msg":"sender: closed","stream_id":"cop70iix"}
+{"time":"2025-02-18T11:31:22.034445+01:00","level":"INFO","msg":"stream: closed","id":"cop70iix"}

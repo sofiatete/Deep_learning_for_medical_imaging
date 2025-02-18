@@ -1,0 +1,30 @@
+{"time":"2025-02-18T11:44:15.690037+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_114415-qlog5gah/logs/debug-core.log"}
+{"time":"2025-02-18T11:44:15.796813+01:00","level":"INFO","msg":"created new stream","id":"qlog5gah"}
+{"time":"2025-02-18T11:44:15.796851+01:00","level":"INFO","msg":"stream: started","id":"qlog5gah"}
+{"time":"2025-02-18T11:44:15.796848+01:00","level":"INFO","msg":"handler: started","stream_id":"qlog5gah"}
+{"time":"2025-02-18T11:44:15.796873+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"qlog5gah"}
+{"time":"2025-02-18T11:44:15.796862+01:00","level":"INFO","msg":"sender: started","stream_id":"qlog5gah"}
+{"time":"2025-02-18T11:44:16.035477+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:44:16.717231+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:31.453074+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/qlog5gah/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-02-18T11:45:44.948849+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.955444+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.956291+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.971478+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.972209+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.974496+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.980044+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:44.980794+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:45:47.597671+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:48:31.531308+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/costanza-dercole-vrije-universiteit-amsterdam/AI_for_medical_imaging/qlog5gah/file_stream\": read tcp 145.108.84.32:53902->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-02-18T11:49:38.877889+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T11:49:38.898917+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T11:49:39.625755+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:49:39.626459+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:49:40.63314+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qlog5gah-data_plot1_table","runtime_seconds":1.406995917},{"desc":"uploading artifact run-qlog5gah-data_plot2_table","runtime_seconds":1.2061647500000001},{"desc":"uploading artifact run-qlog5gah-data_plot3_table","runtime_seconds":1.02220525},{"desc":"uploading config.yaml","runtime_seconds":0.263819708,"progress":"737.0KB/737.0KB"}],"total_operations":4}}
+{"time":"2025-02-18T11:49:41.210114+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:49:42.595861+01:00","level":"INFO","msg":"stream: closing","id":"qlog5gah"}
+{"time":"2025-02-18T11:49:42.595976+01:00","level":"INFO","msg":"handler: closed","stream_id":"qlog5gah"}
+{"time":"2025-02-18T11:49:42.596016+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qlog5gah"}
+{"time":"2025-02-18T11:49:42.596034+01:00","level":"INFO","msg":"sender: closed","stream_id":"qlog5gah"}
+{"time":"2025-02-18T11:49:42.59629+01:00","level":"INFO","msg":"stream: closed","id":"qlog5gah"}

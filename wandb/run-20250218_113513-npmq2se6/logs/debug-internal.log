@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:35:13.517627+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113513-npmq2se6/logs/debug-core.log"}
+{"time":"2025-02-18T11:35:13.625805+01:00","level":"INFO","msg":"created new stream","id":"npmq2se6"}
+{"time":"2025-02-18T11:35:13.625839+01:00","level":"INFO","msg":"stream: started","id":"npmq2se6"}
+{"time":"2025-02-18T11:35:13.625841+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"npmq2se6"}
+{"time":"2025-02-18T11:35:13.62591+01:00","level":"INFO","msg":"sender: started","stream_id":"npmq2se6"}
+{"time":"2025-02-18T11:35:13.625849+01:00","level":"INFO","msg":"handler: started","stream_id":"npmq2se6"}
+{"time":"2025-02-18T11:35:13.823483+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:35:24.156383+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:35:24.157073+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:35:25.163993+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-npmq2se6-data_plot1_table","runtime_seconds":1.383648333},{"desc":"uploading artifact run-npmq2se6-data_plot2_table","runtime_seconds":1.198856958},{"desc":"uploading artifact run-npmq2se6-data_plot3_table","runtime_seconds":1.021622542}],"total_operations":3}}
+{"time":"2025-02-18T11:35:25.494898+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:35:26.765593+01:00","level":"INFO","msg":"stream: closing","id":"npmq2se6"}
+{"time":"2025-02-18T11:35:26.765686+01:00","level":"INFO","msg":"handler: closed","stream_id":"npmq2se6"}
+{"time":"2025-02-18T11:35:26.765754+01:00","level":"INFO","msg":"sender: closed","stream_id":"npmq2se6"}
+{"time":"2025-02-18T11:35:26.765729+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"npmq2se6"}
+{"time":"2025-02-18T11:35:26.766137+01:00","level":"INFO","msg":"stream: closed","id":"npmq2se6"}

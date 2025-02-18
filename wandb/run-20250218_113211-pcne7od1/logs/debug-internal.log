@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:32:11.655556+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113211-pcne7od1/logs/debug-core.log"}
+{"time":"2025-02-18T11:32:11.764598+01:00","level":"INFO","msg":"created new stream","id":"pcne7od1"}
+{"time":"2025-02-18T11:32:11.764626+01:00","level":"INFO","msg":"stream: started","id":"pcne7od1"}
+{"time":"2025-02-18T11:32:11.764625+01:00","level":"INFO","msg":"handler: started","stream_id":"pcne7od1"}
+{"time":"2025-02-18T11:32:11.764645+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"pcne7od1"}
+{"time":"2025-02-18T11:32:11.764634+01:00","level":"INFO","msg":"sender: started","stream_id":"pcne7od1"}
+{"time":"2025-02-18T11:32:12.070263+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:32:21.059999+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:32:21.061123+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:32:22.068506+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pcne7od1-data_plot1_table","runtime_seconds":1.350970125},{"desc":"uploading artifact run-pcne7od1-data_plot2_table","runtime_seconds":1.183559625},{"desc":"uploading artifact run-pcne7od1-data_plot3_table","runtime_seconds":1.017980542}],"total_operations":3}}
+{"time":"2025-02-18T11:32:22.398099+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:32:23.601841+01:00","level":"INFO","msg":"stream: closing","id":"pcne7od1"}
+{"time":"2025-02-18T11:32:23.601871+01:00","level":"INFO","msg":"handler: closed","stream_id":"pcne7od1"}
+{"time":"2025-02-18T11:32:23.601883+01:00","level":"INFO","msg":"sender: closed","stream_id":"pcne7od1"}
+{"time":"2025-02-18T11:32:23.601879+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pcne7od1"}
+{"time":"2025-02-18T11:32:23.601996+01:00","level":"INFO","msg":"stream: closed","id":"pcne7od1"}

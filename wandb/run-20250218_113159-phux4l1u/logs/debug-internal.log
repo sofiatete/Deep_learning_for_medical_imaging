@@ -1,0 +1,17 @@
+{"time":"2025-02-18T11:31:59.471894+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113159-phux4l1u/logs/debug-core.log"}
+{"time":"2025-02-18T11:31:59.580394+01:00","level":"INFO","msg":"created new stream","id":"phux4l1u"}
+{"time":"2025-02-18T11:31:59.580427+01:00","level":"INFO","msg":"stream: started","id":"phux4l1u"}
+{"time":"2025-02-18T11:31:59.580431+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"phux4l1u"}
+{"time":"2025-02-18T11:31:59.580455+01:00","level":"INFO","msg":"handler: started","stream_id":"phux4l1u"}
+{"time":"2025-02-18T11:31:59.580433+01:00","level":"INFO","msg":"sender: started","stream_id":"phux4l1u"}
+{"time":"2025-02-18T11:31:59.79178+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:32:00.421185+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:32:09.016402+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:32:09.017453+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:32:10.025735+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-phux4l1u-data_plot1_table","runtime_seconds":1.334506875},{"desc":"uploading artifact run-phux4l1u-data_plot2_table","runtime_seconds":1.180420166},{"desc":"uploading artifact run-phux4l1u-data_plot3_table","runtime_seconds":1.019521417}],"total_operations":3}}
+{"time":"2025-02-18T11:32:10.392237+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:32:11.620923+01:00","level":"INFO","msg":"stream: closing","id":"phux4l1u"}
+{"time":"2025-02-18T11:32:11.621022+01:00","level":"INFO","msg":"handler: closed","stream_id":"phux4l1u"}
+{"time":"2025-02-18T11:32:11.621063+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"phux4l1u"}
+{"time":"2025-02-18T11:32:11.621085+01:00","level":"INFO","msg":"sender: closed","stream_id":"phux4l1u"}
+{"time":"2025-02-18T11:32:11.621633+01:00","level":"INFO","msg":"stream: closed","id":"phux4l1u"}

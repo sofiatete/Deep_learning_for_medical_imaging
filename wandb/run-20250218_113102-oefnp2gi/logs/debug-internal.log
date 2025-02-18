@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:31:02.603487+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113102-oefnp2gi/logs/debug-core.log"}
+{"time":"2025-02-18T11:31:02.711695+01:00","level":"INFO","msg":"created new stream","id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:02.711726+01:00","level":"INFO","msg":"stream: started","id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:02.711731+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:02.711734+01:00","level":"INFO","msg":"sender: started","stream_id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:02.711767+01:00","level":"INFO","msg":"handler: started","stream_id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:02.925689+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:31:03.563497+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:31:03.56373+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:31:04.570029+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-oefnp2gi-data_plot0_table","runtime_seconds":1.313382584},{"desc":"uploading artifact run-oefnp2gi-data_plot1_table","runtime_seconds":1.307621792},{"desc":"uploading artifact run-oefnp2gi-data_plot2_table","runtime_seconds":1.161972292},{"desc":"uploading artifact run-oefnp2gi-data_plot3_table","runtime_seconds":1.008981834}],"total_operations":4}}
+{"time":"2025-02-18T11:31:05.161131+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:31:06.364187+01:00","level":"INFO","msg":"stream: closing","id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:06.364272+01:00","level":"INFO","msg":"handler: closed","stream_id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:06.364316+01:00","level":"INFO","msg":"sender: closed","stream_id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:06.364301+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oefnp2gi"}
+{"time":"2025-02-18T11:31:06.364703+01:00","level":"INFO","msg":"stream: closed","id":"oefnp2gi"}

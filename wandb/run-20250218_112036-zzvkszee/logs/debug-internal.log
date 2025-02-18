@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:20:36.11191+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112036-zzvkszee/logs/debug-core.log"}
+{"time":"2025-02-18T11:20:36.21905+01:00","level":"INFO","msg":"created new stream","id":"zzvkszee"}
+{"time":"2025-02-18T11:20:36.219084+01:00","level":"INFO","msg":"stream: started","id":"zzvkszee"}
+{"time":"2025-02-18T11:20:36.219098+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zzvkszee"}
+{"time":"2025-02-18T11:20:36.219103+01:00","level":"INFO","msg":"sender: started","stream_id":"zzvkszee"}
+{"time":"2025-02-18T11:20:36.21913+01:00","level":"INFO","msg":"handler: started","stream_id":"zzvkszee"}
+{"time":"2025-02-18T11:20:36.424056+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:20:37.065021+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:20:37.065241+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:20:38.071923+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zzvkszee-data_plot0_table","runtime_seconds":1.313534708},{"desc":"uploading artifact run-zzvkszee-data_plot1_table","runtime_seconds":1.3027549999999999},{"desc":"uploading artifact run-zzvkszee-data_plot2_table","runtime_seconds":1.16521875},{"desc":"uploading artifact run-zzvkszee-data_plot3_table","runtime_seconds":1.009499333}],"total_operations":4}}
+{"time":"2025-02-18T11:20:38.450011+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:20:39.625548+01:00","level":"INFO","msg":"stream: closing","id":"zzvkszee"}
+{"time":"2025-02-18T11:20:39.625665+01:00","level":"INFO","msg":"handler: closed","stream_id":"zzvkszee"}
+{"time":"2025-02-18T11:20:39.625699+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zzvkszee"}
+{"time":"2025-02-18T11:20:39.625736+01:00","level":"INFO","msg":"sender: closed","stream_id":"zzvkszee"}
+{"time":"2025-02-18T11:20:39.626147+01:00","level":"INFO","msg":"stream: closed","id":"zzvkszee"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-18T11:58:30.27785+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_115830-u8gyqebi/logs/debug-core.log"}
+{"time":"2025-02-18T11:58:30.387305+01:00","level":"INFO","msg":"created new stream","id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:30.387331+01:00","level":"INFO","msg":"stream: started","id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:30.387342+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:30.387352+01:00","level":"INFO","msg":"sender: started","stream_id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:30.387356+01:00","level":"INFO","msg":"handler: started","stream_id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:30.632127+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:58:31.357927+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-18T11:58:31.420356+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:58:31.420732+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:58:32.427386+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-u8gyqebi-data_plot0_table","runtime_seconds":1.316956291},{"desc":"uploading artifact run-u8gyqebi-data_plot1_table","runtime_seconds":1.3169184170000001,"error_status":"retrying HTTP 503 Service Unavailable"},{"desc":"uploading artifact run-u8gyqebi-data_plot2_table","runtime_seconds":1.193387},{"desc":"uploading artifact run-u8gyqebi-data_plot3_table","runtime_seconds":1.045183375}],"total_operations":4}}
+{"time":"2025-02-18T11:58:35.433793+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:58:36.629835+01:00","level":"INFO","msg":"stream: closing","id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:36.629964+01:00","level":"INFO","msg":"handler: closed","stream_id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:36.630012+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:36.630092+01:00","level":"INFO","msg":"sender: closed","stream_id":"u8gyqebi"}
+{"time":"2025-02-18T11:58:36.630599+01:00","level":"INFO","msg":"stream: closed","id":"u8gyqebi"}

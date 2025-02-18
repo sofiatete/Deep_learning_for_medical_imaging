@@ -1,0 +1,43 @@
+{
+  "os":  "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.2",
+  "startedAt":  "2025-02-18T10:27:25.969413Z",
+  "program":  "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/help.ipynb",
+  "codePath":  "help.ipynb",
+  "git":  {
+    "remote":  "https://github.com/sofiatete/Deep_learning_for_medical_imaging.git",
+    "commit":  "32cbf0feb5ae06efa877e3cc1ab9d8add471cf23"
+  },
+  "email":  "costanza.dercole@student.uva.nl",
+  "root":  "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging",
+  "host":  "Costas-MacBook-Air.local",
+  "executable":  "/usr/local/bin/python3",
+  "codePathLocal":  "help.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "127258521600"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "127258521600"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M3",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "ramTotalBytes":  "17179869184"
+  }
+}

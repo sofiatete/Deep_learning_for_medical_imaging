@@ -1,0 +1,6 @@
+{"time":"2025-02-18T11:28:40.269778+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_112840-zxrm5e6f/logs/debug-core.log"}
+{"time":"2025-02-18T11:28:40.378346+01:00","level":"INFO","msg":"created new stream","id":"zxrm5e6f"}
+{"time":"2025-02-18T11:28:40.378412+01:00","level":"INFO","msg":"stream: started","id":"zxrm5e6f"}
+{"time":"2025-02-18T11:28:40.378423+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zxrm5e6f"}
+{"time":"2025-02-18T11:28:40.378435+01:00","level":"INFO","msg":"sender: started","stream_id":"zxrm5e6f"}
+{"time":"2025-02-18T11:28:40.378443+01:00","level":"INFO","msg":"handler: started","stream_id":"zxrm5e6f"}

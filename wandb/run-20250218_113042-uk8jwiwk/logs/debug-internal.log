@@ -1,0 +1,16 @@
+{"time":"2025-02-18T11:30:42.994931+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_113042-uk8jwiwk/logs/debug-core.log"}
+{"time":"2025-02-18T11:30:43.103902+01:00","level":"INFO","msg":"created new stream","id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:43.103937+01:00","level":"INFO","msg":"stream: started","id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:43.103973+01:00","level":"INFO","msg":"handler: started","stream_id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:43.104274+01:00","level":"INFO","msg":"sender: started","stream_id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:43.104342+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:43.319788+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T11:30:44.244354+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T11:30:44.244697+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T11:30:45.251548+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-uk8jwiwk-data_plot1_table","runtime_seconds":1.303248958},{"desc":"uploading artifact run-uk8jwiwk-data_plot2_table","runtime_seconds":1.150872792},{"desc":"uploading artifact run-uk8jwiwk-data_plot3_table","runtime_seconds":1.015749375}],"total_operations":3}}
+{"time":"2025-02-18T11:30:45.652497+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T11:30:46.835411+01:00","level":"INFO","msg":"stream: closing","id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:46.835544+01:00","level":"INFO","msg":"handler: closed","stream_id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:46.835551+01:00","level":"INFO","msg":"sender: closed","stream_id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:46.83554+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"uk8jwiwk"}
+{"time":"2025-02-18T11:30:46.836004+01:00","level":"INFO","msg":"stream: closed","id":"uk8jwiwk"}

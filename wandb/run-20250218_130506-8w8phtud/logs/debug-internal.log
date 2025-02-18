@@ -1,0 +1,22 @@
+{"time":"2025-02-18T13:05:06.995257+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/wandb/run-20250218_130506-8w8phtud/logs/debug-core.log"}
+{"time":"2025-02-18T13:05:07.104978+01:00","level":"INFO","msg":"created new stream","id":"8w8phtud"}
+{"time":"2025-02-18T13:05:07.105024+01:00","level":"INFO","msg":"stream: started","id":"8w8phtud"}
+{"time":"2025-02-18T13:05:07.105029+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"8w8phtud"}
+{"time":"2025-02-18T13:05:07.105045+01:00","level":"INFO","msg":"sender: started","stream_id":"8w8phtud"}
+{"time":"2025-02-18T13:05:07.105028+01:00","level":"INFO","msg":"handler: started","stream_id":"8w8phtud"}
+{"time":"2025-02-18T13:05:07.417267+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T13:05:07.50254+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T13:05:32.996588+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T13:05:32.999888+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T13:05:34.610747+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T13:05:34.614107+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-18T13:05:38.431198+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-18T13:05:39.302146+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T13:05:39.302485+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-18T13:05:40.308801+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8w8phtud-data_plot2_table","runtime_seconds":1.3685675},{"desc":"uploading artifact run-8w8phtud-data_plot3_table","runtime_seconds":1.205734917}],"total_operations":2}}
+{"time":"2025-02-18T13:05:40.488395+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-18T13:05:41.79786+01:00","level":"INFO","msg":"stream: closing","id":"8w8phtud"}
+{"time":"2025-02-18T13:05:41.797882+01:00","level":"INFO","msg":"handler: closed","stream_id":"8w8phtud"}
+{"time":"2025-02-18T13:05:41.797896+01:00","level":"INFO","msg":"sender: closed","stream_id":"8w8phtud"}
+{"time":"2025-02-18T13:05:41.797891+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8w8phtud"}
+{"time":"2025-02-18T13:05:41.798093+01:00","level":"INFO","msg":"stream: closed","id":"8w8phtud"}
