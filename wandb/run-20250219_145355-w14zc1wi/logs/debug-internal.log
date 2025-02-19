@@ -1,0 +1,20 @@
+{"time":"2025-02-19T14:53:55.43317+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_145355-w14zc1wi/logs/debug-core.log"}
+{"time":"2025-02-19T14:53:55.543058+01:00","level":"INFO","msg":"created new stream","id":"w14zc1wi"}
+{"time":"2025-02-19T14:53:55.543097+01:00","level":"INFO","msg":"stream: started","id":"w14zc1wi"}
+{"time":"2025-02-19T14:53:55.543099+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"w14zc1wi"}
+{"time":"2025-02-19T14:53:55.543156+01:00","level":"INFO","msg":"sender: started","stream_id":"w14zc1wi"}
+{"time":"2025-02-19T14:53:55.543196+01:00","level":"INFO","msg":"handler: started","stream_id":"w14zc1wi"}
+{"time":"2025-02-19T14:53:55.727617+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T14:53:55.867698+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-19T14:55:45.356859+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-19T14:55:45.362404+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-19T14:55:49.610229+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-19T14:55:50.521879+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T14:55:50.522231+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T14:55:51.528565+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-w14zc1wi-data_plot3_table","runtime_seconds":1.259380875}],"total_operations":1}}
+{"time":"2025-02-19T14:55:51.626584+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T14:55:52.789892+01:00","level":"INFO","msg":"stream: closing","id":"w14zc1wi"}
+{"time":"2025-02-19T14:55:52.789978+01:00","level":"INFO","msg":"handler: closed","stream_id":"w14zc1wi"}
+{"time":"2025-02-19T14:55:52.790042+01:00","level":"INFO","msg":"sender: closed","stream_id":"w14zc1wi"}
+{"time":"2025-02-19T14:55:52.790012+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w14zc1wi"}
+{"time":"2025-02-19T14:55:52.790442+01:00","level":"INFO","msg":"stream: closed","id":"w14zc1wi"}

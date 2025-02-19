@@ -1,0 +1,17 @@
+{"time":"2025-02-19T13:55:42.994515+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_135542-yo702jg5/logs/debug-core.log"}
+{"time":"2025-02-19T13:55:43.101645+01:00","level":"INFO","msg":"created new stream","id":"yo702jg5"}
+{"time":"2025-02-19T13:55:43.101687+01:00","level":"INFO","msg":"stream: started","id":"yo702jg5"}
+{"time":"2025-02-19T13:55:43.101689+01:00","level":"INFO","msg":"handler: started","stream_id":"yo702jg5"}
+{"time":"2025-02-19T13:55:43.101689+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yo702jg5"}
+{"time":"2025-02-19T13:55:43.101697+01:00","level":"INFO","msg":"sender: started","stream_id":"yo702jg5"}
+{"time":"2025-02-19T13:55:43.289227+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T13:55:43.970497+01:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-02-19T13:55:51.423472+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T13:55:51.424364+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T13:55:52.43101+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-yo702jg5-data_plot0_table","runtime_seconds":1.478905708},{"desc":"uploading artifact run-yo702jg5-data_plot1_table","runtime_seconds":1.339902541},{"desc":"uploading artifact run-yo702jg5-data_plot2_table","runtime_seconds":1.1774238750000001},{"desc":"uploading artifact run-yo702jg5-data_plot3_table","runtime_seconds":1.020438333}],"total_operations":4}}
+{"time":"2025-02-19T13:55:53.056617+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T13:55:54.273299+01:00","level":"INFO","msg":"stream: closing","id":"yo702jg5"}
+{"time":"2025-02-19T13:55:54.273383+01:00","level":"INFO","msg":"handler: closed","stream_id":"yo702jg5"}
+{"time":"2025-02-19T13:55:54.273427+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yo702jg5"}
+{"time":"2025-02-19T13:55:54.273439+01:00","level":"INFO","msg":"sender: closed","stream_id":"yo702jg5"}
+{"time":"2025-02-19T13:55:54.273752+01:00","level":"INFO","msg":"stream: closed","id":"yo702jg5"}

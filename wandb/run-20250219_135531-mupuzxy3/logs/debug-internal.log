@@ -1,0 +1,16 @@
+{"time":"2025-02-19T13:55:31.268324+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_135531-mupuzxy3/logs/debug-core.log"}
+{"time":"2025-02-19T13:55:31.379179+01:00","level":"INFO","msg":"created new stream","id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:31.379214+01:00","level":"INFO","msg":"stream: started","id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:31.379214+01:00","level":"INFO","msg":"handler: started","stream_id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:31.379219+01:00","level":"INFO","msg":"sender: started","stream_id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:31.379231+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:31.657759+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T13:55:40.278975+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T13:55:40.279616+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T13:55:41.286104+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mupuzxy3-data_plot1_table","runtime_seconds":1.335055166},{"desc":"uploading artifact run-mupuzxy3-data_plot2_table","runtime_seconds":1.173809833},{"desc":"uploading artifact run-mupuzxy3-data_plot3_table","runtime_seconds":1.01828525}],"total_operations":3}}
+{"time":"2025-02-19T13:55:41.740381+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T13:55:42.987109+01:00","level":"INFO","msg":"stream: closing","id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:42.98713+01:00","level":"INFO","msg":"handler: closed","stream_id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:42.987142+01:00","level":"INFO","msg":"sender: closed","stream_id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:42.987141+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mupuzxy3"}
+{"time":"2025-02-19T13:55:42.987226+01:00","level":"INFO","msg":"stream: closed","id":"mupuzxy3"}

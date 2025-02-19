@@ -200,7 +200,7 @@ class TanhModule(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-        DlDin = DlDout * (1 - self.x ** 2)
+        DlDin = DlDout * (1 - np.tanh(self.x) ** 2)
         #######################
         # END OF YOUR CODE    #
         #######################
@@ -313,13 +313,21 @@ class MLP(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-        for layer in self.layers:
-            x = layer.forward(x)
+        # Loop through all layers and activations except for the last output layer
+        for i in range(len(self.LM) - 1):
+            # Linear transformation
+            x = self.LM[i].forward(x)
+            # Apply ReLU activation
+            x = self.RELU[i].forward(x)
+
+        # Final output layer: linear transformation followed by Tanh activation
+        x = self.LM[-1].forward(x)  # Last Linear Layer
+        out = self.TANH.forward(x)   # Tanh activation at the output layer
         #######################
         # END OF YOUR CODE    #
         #######################
 
-        return x
+        return out
 
     def backward(self, DlDout):
         """
@@ -332,7 +340,13 @@ class MLP(object):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-
+        DlDout = self.TANH.backward(DlDout)  # Backpropagate through Tanh activation
+        DlDin = self.LM[-1].backward(DlDout)  # Backpropagate through the last LinearLayer
+        
+        # Backpropagate through the hidden layers (all layers except the output layer)
+        for i in range(len(self.LM) - 2, -1, -1):
+            DlDout = self.RELU[i].backward(DlDin)  # Backpropagate through ReLU activation
+            DlDin = self.LM[i].backward(DlDout)
         #######################
         # END OF YOUR CODE    #
         #######################

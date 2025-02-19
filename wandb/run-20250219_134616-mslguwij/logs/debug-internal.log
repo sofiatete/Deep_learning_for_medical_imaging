@@ -1,0 +1,20 @@
+{"time":"2025-02-19T13:46:16.948244+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_134616-mslguwij/logs/debug-core.log"}
+{"time":"2025-02-19T13:46:17.060662+01:00","level":"INFO","msg":"created new stream","id":"mslguwij"}
+{"time":"2025-02-19T13:46:17.060701+01:00","level":"INFO","msg":"stream: started","id":"mslguwij"}
+{"time":"2025-02-19T13:46:17.0607+01:00","level":"INFO","msg":"handler: started","stream_id":"mslguwij"}
+{"time":"2025-02-19T13:46:17.060708+01:00","level":"INFO","msg":"sender: started","stream_id":"mslguwij"}
+{"time":"2025-02-19T13:46:17.06071+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mslguwij"}
+{"time":"2025-02-19T13:46:17.285199+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T13:46:25.75851+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-19T13:46:25.792116+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-19T13:46:25.803648+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-19T13:46:25.809933+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-19T13:46:26.485264+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T13:46:26.486301+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T13:46:27.492716+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-mslguwij-data_plot2_table","runtime_seconds":1.194121083},{"desc":"uploading artifact run-mslguwij-data_plot3_table","runtime_seconds":1.021037541}],"total_operations":2}}
+{"time":"2025-02-19T13:46:27.889588+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T13:46:29.097358+01:00","level":"INFO","msg":"stream: closing","id":"mslguwij"}
+{"time":"2025-02-19T13:46:29.097409+01:00","level":"INFO","msg":"handler: closed","stream_id":"mslguwij"}
+{"time":"2025-02-19T13:46:29.09749+01:00","level":"INFO","msg":"sender: closed","stream_id":"mslguwij"}
+{"time":"2025-02-19T13:46:29.097479+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mslguwij"}
+{"time":"2025-02-19T13:46:29.097659+01:00","level":"INFO","msg":"stream: closed","id":"mslguwij"}

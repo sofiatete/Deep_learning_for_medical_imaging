@@ -1,0 +1,16 @@
+{"time":"2025-02-19T13:47:28.434847+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_134728-261usri7/logs/debug-core.log"}
+{"time":"2025-02-19T13:47:28.54388+01:00","level":"INFO","msg":"created new stream","id":"261usri7"}
+{"time":"2025-02-19T13:47:28.543914+01:00","level":"INFO","msg":"stream: started","id":"261usri7"}
+{"time":"2025-02-19T13:47:28.543917+01:00","level":"INFO","msg":"handler: started","stream_id":"261usri7"}
+{"time":"2025-02-19T13:47:28.54392+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"261usri7"}
+{"time":"2025-02-19T13:47:28.543936+01:00","level":"INFO","msg":"sender: started","stream_id":"261usri7"}
+{"time":"2025-02-19T13:47:28.749543+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T13:47:37.538111+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T13:47:37.541134+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T13:47:38.547234+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-261usri7-data_plot0_table","runtime_seconds":1.46591925},{"desc":"uploading artifact run-261usri7-data_plot1_table","runtime_seconds":1.323558083},{"desc":"uploading artifact run-261usri7-data_plot2_table","runtime_seconds":1.183224958},{"desc":"uploading artifact run-261usri7-data_plot3_table","runtime_seconds":1.022007958}],"total_operations":4}}
+{"time":"2025-02-19T13:47:39.030069+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T13:47:40.277915+01:00","level":"INFO","msg":"stream: closing","id":"261usri7"}
+{"time":"2025-02-19T13:47:40.278013+01:00","level":"INFO","msg":"handler: closed","stream_id":"261usri7"}
+{"time":"2025-02-19T13:47:40.278051+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"261usri7"}
+{"time":"2025-02-19T13:47:40.278069+01:00","level":"INFO","msg":"sender: closed","stream_id":"261usri7"}
+{"time":"2025-02-19T13:47:40.278436+01:00","level":"INFO","msg":"stream: closed","id":"261usri7"}

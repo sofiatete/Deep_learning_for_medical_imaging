@@ -1,0 +1,16 @@
+{"time":"2025-02-19T13:47:40.295734+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_134740-nzuck51p/logs/debug-core.log"}
+{"time":"2025-02-19T13:47:40.407574+01:00","level":"INFO","msg":"created new stream","id":"nzuck51p"}
+{"time":"2025-02-19T13:47:40.407617+01:00","level":"INFO","msg":"stream: started","id":"nzuck51p"}
+{"time":"2025-02-19T13:47:40.407619+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nzuck51p"}
+{"time":"2025-02-19T13:47:40.407637+01:00","level":"INFO","msg":"sender: started","stream_id":"nzuck51p"}
+{"time":"2025-02-19T13:47:40.407618+01:00","level":"INFO","msg":"handler: started","stream_id":"nzuck51p"}
+{"time":"2025-02-19T13:47:40.65164+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T13:47:49.732125+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T13:47:49.732867+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T13:47:50.739638+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nzuck51p-data_plot1_table","runtime_seconds":1.3360522910000001},{"desc":"uploading artifact run-nzuck51p-data_plot2_table","runtime_seconds":1.182597667},{"desc":"uploading artifact run-nzuck51p-data_plot3_table","runtime_seconds":1.022160167}],"total_operations":3}}
+{"time":"2025-02-19T13:47:51.295195+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T13:47:52.504371+01:00","level":"INFO","msg":"stream: closing","id":"nzuck51p"}
+{"time":"2025-02-19T13:47:52.504464+01:00","level":"INFO","msg":"handler: closed","stream_id":"nzuck51p"}
+{"time":"2025-02-19T13:47:52.504498+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nzuck51p"}
+{"time":"2025-02-19T13:47:52.504529+01:00","level":"INFO","msg":"sender: closed","stream_id":"nzuck51p"}
+{"time":"2025-02-19T13:47:52.504898+01:00","level":"INFO","msg":"stream: closed","id":"nzuck51p"}

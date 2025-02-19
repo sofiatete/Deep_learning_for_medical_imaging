@@ -1,0 +1,16 @@
+{"time":"2025-02-19T13:48:31.355371+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_134831-15jukneh/logs/debug-core.log"}
+{"time":"2025-02-19T13:48:31.468256+01:00","level":"INFO","msg":"created new stream","id":"15jukneh"}
+{"time":"2025-02-19T13:48:31.468292+01:00","level":"INFO","msg":"stream: started","id":"15jukneh"}
+{"time":"2025-02-19T13:48:31.468294+01:00","level":"INFO","msg":"handler: started","stream_id":"15jukneh"}
+{"time":"2025-02-19T13:48:31.468296+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"15jukneh"}
+{"time":"2025-02-19T13:48:31.468355+01:00","level":"INFO","msg":"sender: started","stream_id":"15jukneh"}
+{"time":"2025-02-19T13:48:31.66871+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T13:48:54.775107+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T13:48:54.775705+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T13:48:55.782392+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-15jukneh-data_plot1_table","runtime_seconds":1.3424697079999999},{"desc":"uploading artifact run-15jukneh-data_plot2_table","runtime_seconds":1.187008792},{"desc":"uploading artifact run-15jukneh-data_plot3_table","runtime_seconds":1.025801375}],"total_operations":3}}
+{"time":"2025-02-19T13:48:56.199535+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T13:48:57.40432+01:00","level":"INFO","msg":"stream: closing","id":"15jukneh"}
+{"time":"2025-02-19T13:48:57.40441+01:00","level":"INFO","msg":"handler: closed","stream_id":"15jukneh"}
+{"time":"2025-02-19T13:48:57.404443+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"15jukneh"}
+{"time":"2025-02-19T13:48:57.404481+01:00","level":"INFO","msg":"sender: closed","stream_id":"15jukneh"}
+{"time":"2025-02-19T13:48:57.404851+01:00","level":"INFO","msg":"stream: closed","id":"15jukneh"}

@@ -1,0 +1,20 @@
+{"time":"2025-02-19T14:57:51.255637+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250219_145751-j15rqlcm/logs/debug-core.log"}
+{"time":"2025-02-19T14:57:51.365512+01:00","level":"INFO","msg":"created new stream","id":"j15rqlcm"}
+{"time":"2025-02-19T14:57:51.365553+01:00","level":"INFO","msg":"stream: started","id":"j15rqlcm"}
+{"time":"2025-02-19T14:57:51.365558+01:00","level":"INFO","msg":"handler: started","stream_id":"j15rqlcm"}
+{"time":"2025-02-19T14:57:51.365565+01:00","level":"INFO","msg":"sender: started","stream_id":"j15rqlcm"}
+{"time":"2025-02-19T14:57:51.365592+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"j15rqlcm"}
+{"time":"2025-02-19T14:57:51.554563+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T14:57:51.656926+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-19T14:59:36.912073+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-19T14:59:36.916525+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-19T14:59:40.780982+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-19T14:59:41.499123+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T14:59:41.499624+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-19T14:59:42.505466+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-j15rqlcm-data_plot1_table","runtime_seconds":1.347657917},{"desc":"uploading artifact run-j15rqlcm-data_plot2_table","runtime_seconds":1.192521542},{"desc":"uploading artifact run-j15rqlcm-data_plot3_table","runtime_seconds":1.048518416}],"total_operations":3}}
+{"time":"2025-02-19T14:59:42.858062+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-19T14:59:44.054467+01:00","level":"INFO","msg":"stream: closing","id":"j15rqlcm"}
+{"time":"2025-02-19T14:59:44.054581+01:00","level":"INFO","msg":"handler: closed","stream_id":"j15rqlcm"}
+{"time":"2025-02-19T14:59:44.054618+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j15rqlcm"}
+{"time":"2025-02-19T14:59:44.054698+01:00","level":"INFO","msg":"sender: closed","stream_id":"j15rqlcm"}
+{"time":"2025-02-19T14:59:44.055635+01:00","level":"INFO","msg":"stream: closed","id":"j15rqlcm"}
