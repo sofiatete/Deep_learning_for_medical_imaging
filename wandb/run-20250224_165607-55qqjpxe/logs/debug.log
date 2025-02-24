@@ -1,0 +1,326 @@
+2025-02-24 16:56:07,528 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165607-55qqjpxe/logs/debug.log
+2025-02-24 16:56:07,529 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165607-55qqjpxe/logs/debug-internal.log
+2025-02-24 16:56:07,530 INFO    MainThread:86781 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1776edeb0>
+2025-02-24 16:56:07,531 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:56:07,531 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:56:07,532 INFO    MainThread:86781 [wandb_init.py:init():789] starting backend
+2025-02-24 16:56:07,532 INFO    MainThread:86781 [wandb_init.py:init():793] sending inform_init request
+2025-02-24 16:56:07,534 INFO    MainThread:86781 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-24 16:56:07,534 INFO    MainThread:86781 [wandb_init.py:init():808] backend started and connected
+2025-02-24 16:56:07,539 INFO    MainThread:86781 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-24 16:56:07,546 INFO    MainThread:86781 [wandb_init.py:init():901] updated telemetry
+2025-02-24 16:56:07,591 INFO    MainThread:86781 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-24 16:56:07,845 INFO    MainThread:86781 [wandb_init.py:init():984] starting run threads in backend
+2025-02-24 16:56:07,912 INFO    MainThread:86781 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-24 16:56:07,913 INFO    MainThread:86781 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-24 16:56:07,913 INFO    MainThread:86781 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-24 16:56:07,913 INFO    MainThread:86781 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-24 16:56:07,914 INFO    MainThread:86781 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-24 16:56:25,444 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165625-ac51llu8/logs/debug.log
+2025-02-24 16:56:25,445 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165625-ac51llu8/logs/debug-internal.log
+2025-02-24 16:56:25,445 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:56:25,445 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:56:25,446 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:56:43,478 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165643-ps6vprcx/logs/debug.log
+2025-02-24 16:56:43,484 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165643-ps6vprcx/logs/debug-internal.log
+2025-02-24 16:56:43,484 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:56:43,485 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:56:43,485 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:57:00,984 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165700-lunnpwof/logs/debug.log
+2025-02-24 16:57:00,989 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165700-lunnpwof/logs/debug-internal.log
+2025-02-24 16:57:00,989 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:57:00,990 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:57:00,990 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:57:18,811 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165718-lb5ulxud/logs/debug.log
+2025-02-24 16:57:18,812 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165718-lb5ulxud/logs/debug-internal.log
+2025-02-24 16:57:18,813 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:57:18,813 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:57:18,813 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:57:36,906 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165736-hts9et9z/logs/debug.log
+2025-02-24 16:57:36,913 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165736-hts9et9z/logs/debug-internal.log
+2025-02-24 16:57:36,913 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:57:36,913 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:57:36,914 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:57:54,675 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165754-3ke0go6h/logs/debug.log
+2025-02-24 16:57:54,676 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165754-3ke0go6h/logs/debug-internal.log
+2025-02-24 16:57:54,676 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:57:54,677 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:57:54,677 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:58:12,493 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165812-n0ujasgo/logs/debug.log
+2025-02-24 16:58:12,495 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165812-n0ujasgo/logs/debug-internal.log
+2025-02-24 16:58:12,496 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:58:12,496 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:58:12,496 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:58:30,477 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165830-laphb9kn/logs/debug.log
+2025-02-24 16:58:30,484 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165830-laphb9kn/logs/debug-internal.log
+2025-02-24 16:58:30,484 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:58:30,484 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:58:30,485 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:58:48,420 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165848-abf83whn/logs/debug.log
+2025-02-24 16:58:48,427 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165848-abf83whn/logs/debug-internal.log
+2025-02-24 16:58:48,427 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:58:48,428 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:58:48,428 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:59:06,310 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165906-g3ctg6xo/logs/debug.log
+2025-02-24 16:59:06,317 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165906-g3ctg6xo/logs/debug-internal.log
+2025-02-24 16:59:06,318 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:59:06,318 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:59:06,318 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:59:24,137 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165924-z80mue5v/logs/debug.log
+2025-02-24 16:59:24,144 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165924-z80mue5v/logs/debug-internal.log
+2025-02-24 16:59:24,144 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:59:24,145 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:59:24,145 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:59:42,058 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165942-mgqry1af/logs/debug.log
+2025-02-24 16:59:42,059 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165942-mgqry1af/logs/debug-internal.log
+2025-02-24 16:59:42,059 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:59:42,060 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:59:42,060 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 16:59:59,946 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165959-g7vujxk6/logs/debug.log
+2025-02-24 16:59:59,953 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165959-g7vujxk6/logs/debug-internal.log
+2025-02-24 16:59:59,954 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 16:59:59,954 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 16:59:59,954 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:00:17,777 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170017-iif2zm95/logs/debug.log
+2025-02-24 17:00:17,778 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170017-iif2zm95/logs/debug-internal.log
+2025-02-24 17:00:17,778 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:00:17,779 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:00:17,779 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:00:35,661 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170035-drj6qwwb/logs/debug.log
+2025-02-24 17:00:35,668 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170035-drj6qwwb/logs/debug-internal.log
+2025-02-24 17:00:35,669 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:00:35,669 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:00:35,670 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:00:53,576 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170053-251ke7vu/logs/debug.log
+2025-02-24 17:00:53,577 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170053-251ke7vu/logs/debug-internal.log
+2025-02-24 17:00:53,577 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:00:53,578 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:00:53,578 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:01:11,538 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170111-2ffxksn4/logs/debug.log
+2025-02-24 17:01:11,545 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170111-2ffxksn4/logs/debug-internal.log
+2025-02-24 17:01:11,545 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:01:11,546 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:01:11,546 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:01:29,653 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170129-hqw3ju1n/logs/debug.log
+2025-02-24 17:01:29,660 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170129-hqw3ju1n/logs/debug-internal.log
+2025-02-24 17:01:29,660 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:01:29,661 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:01:29,661 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:01:47,736 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170147-i52xrq37/logs/debug.log
+2025-02-24 17:01:47,743 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170147-i52xrq37/logs/debug-internal.log
+2025-02-24 17:01:47,743 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:01:47,744 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:01:47,744 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:02:05,681 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170205-0rvv1cx2/logs/debug.log
+2025-02-24 17:02:05,688 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170205-0rvv1cx2/logs/debug-internal.log
+2025-02-24 17:02:05,688 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:02:05,689 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:02:05,689 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:02:23,566 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170223-bmqdslhi/logs/debug.log
+2025-02-24 17:02:23,568 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170223-bmqdslhi/logs/debug-internal.log
+2025-02-24 17:02:23,568 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:02:23,568 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:02:23,569 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:02:41,686 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170241-3okzxrx2/logs/debug.log
+2025-02-24 17:02:41,692 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170241-3okzxrx2/logs/debug-internal.log
+2025-02-24 17:02:41,693 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:02:41,693 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:02:41,693 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:02:59,529 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170259-p4mu5hd6/logs/debug.log
+2025-02-24 17:02:59,535 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170259-p4mu5hd6/logs/debug-internal.log
+2025-02-24 17:02:59,535 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:02:59,535 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:02:59,536 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:03:17,557 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170317-l1udnspg/logs/debug.log
+2025-02-24 17:03:17,560 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170317-l1udnspg/logs/debug-internal.log
+2025-02-24 17:03:17,560 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:03:17,561 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:03:17,561 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:03:35,554 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170335-z2diake4/logs/debug.log
+2025-02-24 17:03:35,560 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170335-z2diake4/logs/debug-internal.log
+2025-02-24 17:03:35,561 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:03:35,561 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:03:35,562 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:03:53,623 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170353-y7scj4bn/logs/debug.log
+2025-02-24 17:03:53,624 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170353-y7scj4bn/logs/debug-internal.log
+2025-02-24 17:03:53,624 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:03:53,625 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:03:53,625 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:04:11,666 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170411-48xslc8a/logs/debug.log
+2025-02-24 17:04:11,667 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170411-48xslc8a/logs/debug-internal.log
+2025-02-24 17:04:11,667 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:04:11,668 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:04:11,668 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:04:29,601 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170429-qvg7dngz/logs/debug.log
+2025-02-24 17:04:29,609 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170429-qvg7dngz/logs/debug-internal.log
+2025-02-24 17:04:29,610 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:04:29,610 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:04:29,611 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:04:47,578 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170447-exw1owpk/logs/debug.log
+2025-02-24 17:04:47,586 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170447-exw1owpk/logs/debug-internal.log
+2025-02-24 17:04:47,586 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:04:47,587 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:04:47,587 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:05:05,437 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170505-f7dan08k/logs/debug.log
+2025-02-24 17:05:05,446 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170505-f7dan08k/logs/debug-internal.log
+2025-02-24 17:05:05,447 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:05:05,447 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:05:05,448 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:05:23,388 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170523-arir29v7/logs/debug.log
+2025-02-24 17:05:23,398 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170523-arir29v7/logs/debug-internal.log
+2025-02-24 17:05:23,399 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:05:23,399 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:05:23,400 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:05:41,387 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170541-w0oz1cig/logs/debug.log
+2025-02-24 17:05:41,388 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170541-w0oz1cig/logs/debug-internal.log
+2025-02-24 17:05:41,389 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:05:41,389 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:05:41,389 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:05:59,395 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170559-aprmj26u/logs/debug.log
+2025-02-24 17:05:59,405 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170559-aprmj26u/logs/debug-internal.log
+2025-02-24 17:05:59,405 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:05:59,406 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:05:59,406 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:06:17,483 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170617-kxowctm1/logs/debug.log
+2025-02-24 17:06:17,484 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170617-kxowctm1/logs/debug-internal.log
+2025-02-24 17:06:17,485 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:06:17,485 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:06:17,485 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:06:35,548 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170635-5la0cwol/logs/debug.log
+2025-02-24 17:06:35,557 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170635-5la0cwol/logs/debug-internal.log
+2025-02-24 17:06:35,558 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:06:35,558 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:06:35,559 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:06:53,654 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170653-zvt6qyyk/logs/debug.log
+2025-02-24 17:06:53,655 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170653-zvt6qyyk/logs/debug-internal.log
+2025-02-24 17:06:53,656 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:06:53,656 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:06:53,657 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:07:11,648 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170711-se0dj3pw/logs/debug.log
+2025-02-24 17:07:11,656 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170711-se0dj3pw/logs/debug-internal.log
+2025-02-24 17:07:11,657 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:07:11,658 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:07:11,658 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:07:29,699 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170729-rbf6chio/logs/debug.log
+2025-02-24 17:07:29,707 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170729-rbf6chio/logs/debug-internal.log
+2025-02-24 17:07:29,707 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:07:29,708 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:07:29,708 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:07:47,831 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170747-whk5yeia/logs/debug.log
+2025-02-24 17:07:47,838 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170747-whk5yeia/logs/debug-internal.log
+2025-02-24 17:07:47,839 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:07:47,839 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:07:47,840 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:08:05,695 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170805-7vaigemy/logs/debug.log
+2025-02-24 17:08:05,703 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170805-7vaigemy/logs/debug-internal.log
+2025-02-24 17:08:05,703 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:08:05,704 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:08:05,704 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:08:23,741 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170823-bnhpdfyo/logs/debug.log
+2025-02-24 17:08:23,751 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170823-bnhpdfyo/logs/debug-internal.log
+2025-02-24 17:08:23,751 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:08:23,752 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:08:23,752 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:08:41,617 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170841-yjmk6xuy/logs/debug.log
+2025-02-24 17:08:41,625 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170841-yjmk6xuy/logs/debug-internal.log
+2025-02-24 17:08:41,626 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:08:41,626 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:08:41,627 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:08:59,614 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170859-i5g1up5o/logs/debug.log
+2025-02-24 17:08:59,622 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170859-i5g1up5o/logs/debug-internal.log
+2025-02-24 17:08:59,623 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:08:59,623 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:08:59,624 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:09:17,536 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170917-4awd0bhu/logs/debug.log
+2025-02-24 17:09:17,539 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170917-4awd0bhu/logs/debug-internal.log
+2025-02-24 17:09:17,540 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:09:17,540 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:09:17,541 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:09:35,381 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170935-a58bmmng/logs/debug.log
+2025-02-24 17:09:35,382 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170935-a58bmmng/logs/debug-internal.log
+2025-02-24 17:09:35,383 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:09:35,383 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:09:35,384 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:09:53,262 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170953-v1lltlce/logs/debug.log
+2025-02-24 17:09:53,264 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_170953-v1lltlce/logs/debug-internal.log
+2025-02-24 17:09:53,264 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:09:53,265 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:09:53,265 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:10:11,322 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171011-6a72avqe/logs/debug.log
+2025-02-24 17:10:11,323 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171011-6a72avqe/logs/debug-internal.log
+2025-02-24 17:10:11,324 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:10:11,324 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:10:11,325 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:10:29,278 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171029-jvep1nl0/logs/debug.log
+2025-02-24 17:10:29,280 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171029-jvep1nl0/logs/debug-internal.log
+2025-02-24 17:10:29,280 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:10:29,281 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:10:29,281 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:10:47,110 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171047-mbm3xqzm/logs/debug.log
+2025-02-24 17:10:47,113 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171047-mbm3xqzm/logs/debug-internal.log
+2025-02-24 17:10:47,114 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:10:47,114 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:10:47,115 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:11:05,012 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171105-g6pzxhos/logs/debug.log
+2025-02-24 17:11:05,013 INFO    MainThread:86781 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_171105-g6pzxhos/logs/debug-internal.log
+2025-02-24 17:11:05,013 INFO    MainThread:86781 [wandb_init.py:init():756] calling init triggers
+2025-02-24 17:11:05,014 INFO    MainThread:86781 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-24 17:11:05,014 INFO    MainThread:86781 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-24 17:11:05,015 INFO    MainThread:86781 [wandb_run.py:_finish():2110] finishing run sofia-garcia-nunes-vrije-universiteit-amsterdam/AI_for_medical_imaging/55qqjpxe
+2025-02-24 17:11:05,016 INFO    MainThread:86781 [jupyter.py:save_history():458] not saving jupyter history
+2025-02-24 17:11:05,016 INFO    MainThread:86781 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-24 17:11:05,017 INFO    MainThread:86781 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-24 17:11:05,017 INFO    MainThread:86781 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-24 17:11:05,018 INFO    MainThread:86781 [wandb_run.py:_restore():2332] restore
+2025-02-24 17:11:05,018 INFO    MainThread:86781 [wandb_run.py:_restore():2338] restore done

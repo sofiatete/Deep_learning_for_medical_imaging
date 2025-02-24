@@ -1,0 +1,16 @@
+{"time":"2025-02-24T16:55:56.47519+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/Users/sofiatete/Deep_learning_for_medical_imaging/wandb/run-20250224_165556-id8vkrhc/logs/debug-core.log"}
+{"time":"2025-02-24T16:55:56.583345+01:00","level":"INFO","msg":"created new stream","id":"id8vkrhc"}
+{"time":"2025-02-24T16:55:56.583395+01:00","level":"INFO","msg":"stream: started","id":"id8vkrhc"}
+{"time":"2025-02-24T16:55:56.583391+01:00","level":"INFO","msg":"handler: started","stream_id":"id8vkrhc"}
+{"time":"2025-02-24T16:55:56.583402+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"id8vkrhc"}
+{"time":"2025-02-24T16:55:56.583402+01:00","level":"INFO","msg":"sender: started","stream_id":"id8vkrhc"}
+{"time":"2025-02-24T16:55:56.917881+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T16:55:57.902986+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T16:55:57.903534+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T16:55:58.910272+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-id8vkrhc-data_plot0_table","runtime_seconds":1.393868834},{"desc":"uploading artifact run-id8vkrhc-data_plot1_table","runtime_seconds":1.393799584},{"desc":"uploading artifact run-id8vkrhc-data_plot2_table","runtime_seconds":1.258497},{"desc":"uploading artifact run-id8vkrhc-data_plot3_table","runtime_seconds":1.0234154580000001},{"desc":"updating run config","runtime_seconds":1.00624725}],"total_operations":5}}
+{"time":"2025-02-24T16:56:06.329378+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T16:56:07.513736+01:00","level":"INFO","msg":"stream: closing","id":"id8vkrhc"}
+{"time":"2025-02-24T16:56:07.513854+01:00","level":"INFO","msg":"handler: closed","stream_id":"id8vkrhc"}
+{"time":"2025-02-24T16:56:07.513929+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"id8vkrhc"}
+{"time":"2025-02-24T16:56:07.513955+01:00","level":"INFO","msg":"sender: closed","stream_id":"id8vkrhc"}
+{"time":"2025-02-24T16:56:07.514411+01:00","level":"INFO","msg":"stream: closed","id":"id8vkrhc"}
