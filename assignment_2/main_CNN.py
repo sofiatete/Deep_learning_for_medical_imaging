@@ -20,6 +20,7 @@ import argparse
 import glob
 
 import torch
+import torch.optim.rmsprop
 import torchmetrics
 import torch.nn.functional as F
 from torchvision import transforms
@@ -30,6 +31,7 @@ from CNNs import SimpleConvNet
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import wandb
+from matplotlib import pyplot as plt
 
 #start interactieve sessie om wandb.login te runnen
 wandb.login()
@@ -68,7 +70,9 @@ torch.device(device)
 models = {'custom_convnet': SimpleConvNet}
 
 optimizers = {'adam': torch.optim.Adam,
-              'sgd': torch.optim.SGD}
+              'sgd': torch.optim.SGD,
+              'adagrad': torch.optim.Adagrad,
+              'RMSprop': torch.optim.RMSprop}
 
 metrics = {'acc': torchmetrics.Accuracy('binary').to(device),
            'f1': torchmetrics.F1Score('binary').to(device),
@@ -170,9 +174,80 @@ def run(config):
     trainer.test(model, dataloaders=test_data, verbose=True)
 
 
+def tune_hyperparameters():
+    # Hyperparameter values to test
+    epochs_list = [5, 10, 15, 25, 50]
+    learning_rate_list = [0.5, 0.1, 0.01, 0.001, 0.0001]
+    batch_size_list = [8, 16, 32, 64, 128]
+    optimizers_list = ['adam', 'sgd', 'adagrad', 'RMSprop']
+
+    # Default config from main
+    default_config = {
+        'optimizer_lr': 0.1,
+        'batch_size': 16,
+        'model_name': 'custom_convnet',
+        'optimizer_name': 'sgd',
+        'max_epochs': 10,
+        'experiment_name': 'hyperparameters_tuning',
+        'checkpoint_folder_path': False,
+        'checkpoint_folder_save': 'checkpoints/',
+    }
+
+    # Dictionary to store results
+    results = {'epochs': {}, 'learning_rate': {}, 'batch_size': {}, 'optimizer': {}}
+
+    # Function to run an experiment for a single parameter change
+    def run_experiment(param_name, values):
+        for value in values:
+            config = default_config.copy()
+            config[param_name] = value
+            config['hyperparameters_tuning'] = f"{param_name}_{value}"  # Unique name for tracking
+
+            print(f"Running {param_name} = {value}")
+            run(config)  # Run experiment (assumes loss is logged in WandB)
+
+            # Retrieve and store loss from logs (assuming WandB logs loss)
+            losses = retrieve_loss_from_wandb(config['experiment_name'])
+            results[param_name][value] = losses
+
+    # Run experiments for each parameter
+    run_experiment('max_epochs', epochs_list)
+    run_experiment('optimizer_lr', learning_rate_list)
+    run_experiment('batch_size', batch_size_list)
+    run_experiment('optimizer_name', optimizers_list)
+
+    # Save results for plotting
+    torch.save(results, 'hyperparameter_tuning_results.pth')
+
+    # Plot results
+    plot_results(results)
+
+def retrieve_loss_from_wandb(experiment_name):
+    """Retrieve loss history from WandB logs."""
+    import wandb
+    api = wandb.Api()
+    run = api.runs(f"ISIC/{experiment_name}")  # Assuming 'ISIC' is your project
+    loss_history = [x['train_loss'] for x in run.history(keys=['train_loss']) if 'train_loss' in x]
+    return loss_history
+
+def plot_results(results):
+    """Plot loss curves for each hyperparameter."""
+    for param_name, param_results in results.items():
+        plt.figure(figsize=(10, 5))
+        for value, loss_history in param_results.items():
+            plt.plot(loss_history, label=f"{param_name}={value}")
+        plt.xlabel("Epochs")
+        plt.ylabel("Loss")
+        plt.title(f"Loss vs Epochs for {param_name}")
+        plt.legend()
+        plt.savefig(f"{param_name}_tuning_plot.png")
+        plt.show()
+
+
 if __name__ == '__main__':
     # Command line arguments
     parser = argparse.ArgumentParser()
+
     # Optimizer hyperparameters
     parser.add_argument('--optimizer_lr', default=0.1, type=float, nargs='+',
                         help='Learning rate to use')
@@ -202,4 +277,6 @@ if __name__ == '__main__':
         'bin': 'models/'})
 
     run(config)
-    # Feel free to add any additional functions, such as plotting of the loss curve here
+    
+    # Run hyperparameter tuning
+    tune_hyperparameters()
