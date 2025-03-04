@@ -1,0 +1,8 @@
+ssh -X scur1593@snellius.surf.nl
+srun --partition=gpu_mig --ntasks=1 --cpus-per-task=9 --gpus=1 --time=00:10:00 --pty bash -i
+module purge
+module load 2023
+module load PyTorch/2.1.2-foss-2023a-CUDA-12.1.1
+source /gpfs/work5/0/prjs1312/venv/bin/activate
+wandb login
+sbatch slurm.job
