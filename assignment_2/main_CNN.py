@@ -48,7 +48,7 @@ else:
     #set data location on your local computer. Data can be downloaded from:
     # https://surfdrive.surf.nl/files/index.php/s/QWJUE37bHojMVKQ
     # PW: deeplearningformedicalimaging
-    data_dir = 'C:\scratch\Surf\Documents\Onderwijs\DeepLearning_MedicalImaging\opgaven\opgave 2\AI-Course_StudentChallenge\data\classification'
+    data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/classification'
 
 print('data is loaded from ' + data_dir)
 # view data
@@ -115,7 +115,7 @@ class Classifier(pl.LightningModule):
             self.logger.log_image("train_example",[fig],step=self.counter)
         batch_dictionary = {'loss': loss}
         self.log_dict(batch_dictionary)
-        return batch_dictionary
+        return batch_dictionary # returns dictionary with training loss per batch
 
     def validation_step(self, batch, batch_idx):
         loss = self.step(batch, 'val')
@@ -125,14 +125,13 @@ class Classifier(pl.LightningModule):
             self.counter = self.counter+1
         batch_dictionary = {'loss': loss}
         self.log_dict(batch_dictionary)
-        return batch_dictionary
+        return batch_dictionary # returns dictionary with validation loss per batch
 
     def train_epoch_end(self, outputs):
-        avg_loss = torch.stack([x['loss'] for x in outputs]).mean()
-        self.logger.experiment.add_scalar("Loss/Train", avg_loss, self.current_epoch)
+        avg_loss = torch.stack([x['loss'] for x in outputs]).mean() #  tensor with mean training loss per one epoch
+        self.logger.experiment.add_scalar("Loss/Train", avg_loss, self.current_epoch) 
         epoch_dictionary = {'loss': avg_loss, 'log': {'loss': avg_loss}}
-        return epoch_dictionary
-
+        return epoch_dictionary # returns dictionary with training loss per epoch
 
 
 
@@ -140,11 +139,11 @@ class Classifier(pl.LightningModule):
         self.step(batch, 'test')
 
     def forward(self, X):
-        return self.model(X)
+        return self.model(X) # forward pass and return the model's predictions
 
     def configure_optimizers(self):
         assert self.optimizer_name in optimizers, f'Optimizer name "{self.optimizer_name}" is not available. List of available names: {list(models.keys())}'
-        return optimizers[self.optimizer_name](self.parameters(), lr=self.lr)
+        return optimizers[self.optimizer_name](self.parameters(), lr=self.lr) # returns optimizer 
 
 
 def run(config):
@@ -177,6 +176,7 @@ if __name__ == '__main__':
     # Optimizer hyperparameters
     parser.add_argument('--optimizer_lr', default=0.1, type=float, nargs='+',
                         help='Learning rate to use')
+    # (python main_CNN.py --optimizer_lr 0.1 0.01 0.001)
     parser.add_argument('--batch_size', default=16, type=int,
                         help='Minibatch size')
     parser.add_argument('--model_name', default='custom_convnet', type=str,
