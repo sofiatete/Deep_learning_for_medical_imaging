@@ -1,0 +1,11 @@
+numpy
+nibabel
+matplotlib
+torch
+torchvision
+torchmetrics
+wandb
+scipy
+pytorch-lightning
+torchio
+jupyter
