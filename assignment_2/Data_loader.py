@@ -12,6 +12,8 @@ from skimage.util import random_noise
 from skimage.transform import resize
 import random
 
+
+
 # Data loader
 class Scan_DataModule(pl.LightningDataModule):
   def __init__(self, config,transform=True):
@@ -218,12 +220,6 @@ class GaussianNoise(object):
             sample = random_noise(sample, mode='gaussian', mean=self.mean, var=self.std**2)
         return sample.copy()  # Return the updated dictionary
 
-
-
-import numpy as np
-import torch
-from skimage.util import random_noise
-
 class GaussianNoise_Seg(object):
     """Add Gaussian noise to both image and mask in a segmentation task."""
     def __init__(self, mean=0.0, std=1.0, probability=0.5):
@@ -248,11 +244,6 @@ class GaussianNoise_Seg(object):
 
         return {'image': image, 'mask': mask.clone()}
 
-
-import numpy as np
-import torch
-import random
-
 class RandomFlip(object):
     """Randomly flip an image horizontally and/or vertically."""
     def __init__(self, horizontal=True, vertical=False, probability=0.5):
@@ -275,11 +266,6 @@ class RandomFlip(object):
                 sample = np.flipud(sample)  # Flip along height
 
         return sample.copy()
-
-
-import numpy as np
-import torch
-import random
 
 class RandomFlip_Seg(object):
     """Randomly flip image and mask horizontally and/or vertically in a segmentation task."""
