@@ -48,7 +48,8 @@ else:
     #set data location on your local computer. Data can be downloaded from:
     # https://surfdrive.surf.nl/files/index.php/s/QWJUE37bHojMVKQ
     # PW: deeplearningformedicalimaging
-    data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/classification'
+    #data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/classification'
+    data_dir = '/Users/sofiatete/Desktop/CLS/Deep learning/classification'
 
 print('data is loaded from ' + data_dir)
 # view data
