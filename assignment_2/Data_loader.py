@@ -11,7 +11,7 @@ from torchvision import transforms
 from skimage.util import random_noise
 from skimage.transform import resize
 import random
-
+from PIL import Image
 
 
 # Data loader
@@ -63,7 +63,6 @@ class Scan_DataModule_Segm(pl.LightningDataModule):
       self.train_transforms = transforms.Compose([
           Random_Rotate_Seg(0.1),
           GaussianNoise_Seg(mean=0.0, std=1.0, probability=0.5),
-          RandomCrop_Seg((128, 128)),  # Adjust crop size as needed
           RandomFlip_Seg(horizontal=True, vertical=False, probability=0.5),
           ToTensor_Seg()
       ])
@@ -128,8 +127,6 @@ class Scan_Dataset_Segm(Dataset):
   def __len__(self):
     """defines the size of the dataset (equal to the length of the data_list)"""
     return len(self.img_list)
-
-from PIL import Image
 
 def __getitem__(self, idx):
     """ensures each item in data_list is randomly and uniquely assigned an index (idx) so it can be loaded"""
@@ -197,11 +194,6 @@ class ToTensor_Seg(object):
     image = transforms.ToTensor()(image)
     mask = transforms.ToTensor()(mask)
     return {'image': image.clone(), 'mask': mask.clone()}
-
-
-import numpy as np
-import torch
-from skimage.util import random_noise
 
 class GaussianNoise(object):
     """Add Gaussian noise to an image."""
