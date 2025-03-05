@@ -25,7 +25,7 @@ import torchmetrics
 import torch.nn.functional as F
 from torchvision import transforms
 from sys import platform
-from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate
+from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate, GaussianNoise_Seg, RandomFlip_Seg, GaussianNoise, RandomFlip
 from visualization import show_data, show_data_logger
 from CNNs import SimpleConvNet
 import pytorch_lightning as pl
@@ -60,7 +60,13 @@ index = 0
 # study the effect of augmentation here!
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set))
 show_data(dataset,index,n_images_display=5)
-train_transforms = transforms.Compose([Random_Rotate(0.1), transforms.ToTensor()])
+train_transforms = transforms.Compose([
+          Random_Rotate(0.1),
+          GaussianNoise(mean=0.0, std=1.0, probability=0.5),
+          RandomFlip(horizontal=True, vertical=False, probability=0.5),
+          transforms.ToTensor()
+      ])
+
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set),transform = train_transforms)
 show_data(dataset,index,n_images_display=5)
 
@@ -259,7 +265,7 @@ if __name__ == '__main__':
     parser.add_argument('--optimizer_name', default='sgd', type=str,
                         help='optimizer options: adam and sgd (default)')
     # Other hyperparameters
-    parser.add_argument('--max_epochs', default=10, type=int,
+    parser.add_argument('--max_epochs', default=1, type=int,
                         help='Max number of epochs')
     parser.add_argument('--experiment_name', default='test1', type=str,
                         help='name of experiment')
@@ -279,4 +285,4 @@ if __name__ == '__main__':
     run(config)
     
     # Run hyperparameter tuning
-    tune_hyperparameters()
+    # tune_hyperparameters()
