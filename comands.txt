@@ -1,6 +1,6 @@
 COSTA - ssh -X scur1593@snellius.surf.nl 
 TÉTÉ - ssh -X scur0031@snellius.surf.nl
-srun --partition=gpu_mig --ntasks=1 --cpus-per-task=9 --gpus=1 --time=00:10:00 --pty bash -i
+srun --partition=gpu_mig --ntasks=1 --cpus-per-task=9 --gpus=1 --time=03:00:00 --pty bash -i
 module purge
 module load 2023
 module load PyTorch/2.1.2-foss-2023a-CUDA-12.1.1
