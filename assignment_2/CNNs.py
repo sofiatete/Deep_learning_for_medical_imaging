@@ -13,7 +13,7 @@ class SimpleConvNet(pl.LightningModule):
         #######################
         # Initial convolutional block: sets the foundation for skip connections
         self.initial_conv = nn.Sequential(
-            nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, padding=1),
+            nn.Conv2d(in_channels=3, out_channels=16,kernel_size=5, padding=1),
             nn.BatchNorm2d(16),
             nn.ReLU(),
             nn.MaxPool2d(2, 2)
