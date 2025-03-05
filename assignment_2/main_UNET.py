@@ -199,7 +199,7 @@ if __name__ == '__main__':
     parser.add_argument('--optimizer_name', default='adam', type=str,
                         help='optimizer options: adam and sgd (default)')
     # Other hyperparameters
-    parser.add_argument('--max_epochs', default=10, type=int,
+    parser.add_argument('--max_epochs', default=1, type=int,
                         help='Max number of epochs')
     parser.add_argument('--experiment_name', default='test2', type=str,
                         help='name of experiment')
