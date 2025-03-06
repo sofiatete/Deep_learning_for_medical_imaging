@@ -24,7 +24,7 @@ import torchmetrics
 import torch.nn.functional as F
 from torchvision import transforms
 from sys import platform
-from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate
+from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate, Random_Flip, Random_GaussianBlur
 from visualization import show_data, show_data_logger
 from CNNs import SimpleConvNet
 import pytorch_lightning as pl
@@ -58,7 +58,8 @@ index = 0
 # study the effect of augmentation here!
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set))
 show_data(dataset,index,n_images_display=5)
-train_transforms = transforms.Compose([Random_Rotate(0.1), transforms.ToTensor()])
+train_transforms = transforms.Compose([Random_Rotate(0.1), Random_Flip(0.1), Random_GaussianBlur(),
+                                        transforms.ToTensor()])
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set),transform = train_transforms)
 show_data(dataset,index,n_images_display=5)
 
@@ -100,6 +101,7 @@ class Classifier(pl.LightningModule):
         self.y_prob=y_prob
 
         loss = F.binary_cross_entropy_with_logits(y_hat, y.float())
+        print("loss!")
         self.log(f'{nn_set}_loss', loss, on_step=False, on_epoch=True)
 
         for metric_name, metric_fn in metrics.items():
@@ -109,6 +111,7 @@ class Classifier(pl.LightningModule):
         return loss
 
     def training_step(self, batch, batch_idx):
+        print("training stepppp!")
         loss = self.step(batch, 'train')
         if batch_idx == 0:
             fig = show_data_logger(batch,0,self.y_prob,n_images_display = 5, message = 'train_example')
@@ -148,19 +151,28 @@ class Classifier(pl.LightningModule):
 
 
 def run(config):
+    print("run!")
     logger = WandbLogger(name=config['experiment_name'], project='ISIC')
+    print("logger!")
     data = Scan_DataModule(config)
+    print("data!")
     classifier = Classifier(config)
+    print("classifier!")
     logger.watch(classifier)
+    print("watch!")
     checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config['checkpoint_folder_save'], monitor='val_f1')
+    print("checkpoint!")
     trainer = pl.Trainer(accelerator=device, max_epochs=config['max_epochs'],
                          logger=logger, callbacks=[checkpoint_callback],
                          default_root_dir=config['bin'],
                          log_every_n_steps=1)
+    print("trainer!")
     trainer.fit(classifier, data)
+    print("fit!")
     # load best model
     PATH = glob.glob(os.path.join(config['checkpoint_folder_save'], '*'))[0]
     model = Classifier.load_from_checkpoint(PATH)
+
     model.eval()
 
     # make test dataloader
@@ -184,7 +196,7 @@ if __name__ == '__main__':
     parser.add_argument('--optimizer_name', default='adam', type=str,  
                         help='optimizer options: adam and sgd (default)')
     # Other hyperparameters
-    parser.add_argument('--max_epochs', default=10, type=int, 
+    parser.add_argument('--max_epochs', default=50, type=int, 
                         help='Max number of epochs')
     parser.add_argument('--experiment_name', default='test1', type=str, 
                         help='name of experiment')

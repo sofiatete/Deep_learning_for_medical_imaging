@@ -58,21 +58,26 @@ class SimpleConvNet(pl.LightningModule):
 
     def forward(self, x):
         # First block
+        print("foward block 1!")
         identity = self.skip1(x)
         x = self.conv1(x) + identity
 
         # Second block
+        print("foward block 2!")
         identity = self.skip2(x)
         x = self.conv2(x) + identity
 
         # Third block
+        print("foward block 3!")
         identity = self.skip3(x)
         x = self.conv3(x) + identity
 
         # Fourth block (no skip connection needed as it's the last)
+        print("foward block 4!")
         x = self.conv4(x)
 
         # Classifier
+        print("foward classifier!")
         x = self.classifier(x)
         return x
 

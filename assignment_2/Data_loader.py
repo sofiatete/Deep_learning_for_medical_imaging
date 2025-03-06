@@ -3,7 +3,7 @@ import glob
 import nibabel as nib
 import torch
 import numpy as np
-from scipy.ndimage import rotate
+from scipy.ndimage import rotate, gaussian_filter
 from torch.utils.data import DataLoader, Dataset
 import pytorch_lightning as pl
 from torchvision import transforms
@@ -11,6 +11,8 @@ from torchvision import transforms
 from skimage.util import random_noise
 from skimage.transform import resize
 import random
+import cv2
+
 
 
 # Data loader
@@ -22,10 +24,16 @@ class Scan_DataModule(pl.LightningDataModule):
     self.test_data_dir    = config['test_data_dir']
     self.batch_size       = config['batch_size']
     if transform:
-      self.train_transforms = transforms.Compose([Random_Rotate(0.1), transforms.ToTensor()])
+      self.train_transforms = transforms.Compose([
+          Random_Rotate(0.1),
+          Random_Flip(0.1),
+          Random_GaussianBlur(),
+          transforms.ToTensor()
+      ])
     else:
       self.train_transforms = transforms.Compose([transforms.ToTensor()])
-    self.val_transforms  = transforms.Compose([transforms.ToTensor()])
+
+    self.val_transforms = transforms.Compose([transforms.ToTensor()])
 
   def setup(self, stage=None):
     self.train_dataset = Scan_Dataset(self.train_data_dir, transform = self.train_transforms)
@@ -53,8 +61,8 @@ class Scan_DataModule_Segm(pl.LightningDataModule):
     if transform:
       self.train_transforms = transforms.Compose([
           Random_Rotate_Seg(0.1),
-          GaussianNoise_Seg(mean=0.0, std=1.0, probability=0.5),
-          RandomFlip_Seg(horizontal=True, vertical=False, probability=0.5),
+          #GaussianNoise_Seg(mean=0.0, std=1.0, probability=0.5),
+          #RandomFlip_Seg(horizontal=True, vertical=False, probability=0.5),
           ToTensor_Seg()
       ])
     else:
@@ -179,104 +187,37 @@ class ToTensor_Seg(object):
     mask = transforms.ToTensor()(mask)
     return {'image': image.clone(), 'mask': mask.clone()}
   
-  # Gaussian Noise
-class GaussianNoise(object):
-    """Efficiently add Gaussian noise to an image."""
-    def __init__(self, mean=0.0, std=1.0, probability=0.5):
-        print("gaussian")
-        assert isinstance(mean, (int, float)), 'Mean must be a number'
-        assert isinstance(std, (int, float)) and std > 0, 'Std must be a positive number'
-        assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float between 0 and 1'
-
-        self.mean = mean
-        self.std = std
+class Random_Flip(object):
+    """Randomly flip ndarrays in sample."""
+    def __init__(self, probability):
+        print('Random_Flip')
+        assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float number between 0 and 1'
         self.probability = probability
 
     def __call__(self, sample):
-        if float(torch.rand(1)) < self.probability:
-            # Ensure sample is a NumPy array for consistency
-            if isinstance(sample, torch.Tensor):
-                sample = sample.numpy()  # Convert tensor to NumPy array if necessary
-
-            # Add Gaussian noise using NumPy for efficiency
-            noise = np.random.normal(self.mean, self.std, sample.shape)
-            sample = sample + noise  # Element-wise addition
-
-        return sample.copy()  # Ensure it returns a new instance, not a reference
-    
-
-class GaussianNoise_Seg(object):
-    """Add Gaussian noise to both image and mask in a segmentation task."""
-    def __init__(self, mean=0.0, std=1.0, probability=0.5):
-        print("gaussian_seg")
-        assert isinstance(mean, (int, float)), 'Mean must be a number'
-        assert isinstance(std, (int, float)) and std > 0, 'Std must be a positive number'
-        assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float between 0 and 1'
-        
-        self.mean = mean
-        self.std = std
-        self.probability = probability
-
-    def __call__(self, sample):
-        image, mask = sample['image'], sample['mask']
-        if float(torch.rand(1)) < self.probability:
-            # Add Gaussian noise to the image using NumPy
-            image = random_noise(image.numpy(), mode='gaussian', mean=self.mean, var=self.std**2)
-            image = torch.tensor(image, dtype=torch.float32).clone()
-
-            # Optionally, add noise to the mask if required (uncomment if needed)
-            # mask = random_noise(mask.numpy(), mode='gaussian', mean=self.mean, var=self.std**2)
-            # mask = torch.tensor(mask, dtype=torch.float32).clone()
-
-        return {'image': image, 'mask': mask.clone()}
-
-# RandomFlip
-class RandomFlip(object):
-    """Randomly flip an image horizontally and/or vertically."""
-    def __init__(self, horizontal=True, vertical=False, probability=0.5):
-        print("radomflip")
-        assert isinstance(horizontal, bool), 'horizontal must be a boolean value'
-        assert isinstance(vertical, bool), 'vertical must be a boolean value'
-        assert isinstance(probability, float) and 0 <= probability <= 1, 'Probability must be a float between 0 and 1'
-        
-        self.horizontal = horizontal
-        self.vertical = vertical
-        self.probability = probability
-
-    def __call__(self, sample):
-        if float(torch.rand(1)) < self.probability:
-            # Apply horizontal flip
-            if self.horizontal:
-                sample = np.flip(sample, axis = 1)  # Flip along width
-            # Apply vertical flip
-            if self.vertical:
-                sample = np.flip(sample, axis = 0)  # Flip along height
+        if np.random.rand() < self.probability:
+            if np.random.rand() > 0.5:
+                # Horizontal flip (axis=1 for height)
+                sample = np.flip(sample, axis=1)
+            else:
+                # Vertical flip (axis=0 for width)
+                sample = np.flip(sample, axis=0)
         return sample.copy()
 
-class RandomFlip_Seg(object):
-    """Randomly flip image and mask horizontally and/or vertically in a segmentation task."""
-    def __init__(self, horizontal=True, vertical=False, probability=0.5):
-        print
-        assert isinstance(horizontal, bool), 'horizontal must be a boolean value'
-        assert isinstance(vertical, bool), 'vertical must be a boolean value'
-        assert isinstance(probability, float) and 0 <= probability <= 1, 'Probability must be a float between 0 and 1'
-        
-        self.horizontal = horizontal
-        self.vertical = vertical
+class Random_GaussianBlur(object):
+    """Apply Gaussian blur to ndarrays in sample."""
+    def __init__(self, probability=0.4, kernel_size=7, sigma_range=(2, 5)):
+        print('Random_GaussianBlur')
+        assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float number between 0 and 1'
+        assert isinstance(sigma_range, tuple) and len(sigma_range) == 2, 'sigma_range must be a tuple (min_sigma, max_sigma)'
         self.probability = probability
+        self.sigma_range = sigma_range
+        self.kernel_size = kernel_size
 
     def __call__(self, sample):
-        image, mask = sample['image'], sample['mask']
-        
-        if float(torch.rand(1)) < self.probability:
-            # Apply horizontal flip
-            if self.horizontal and random.random() < 0.5:
-                image = np.flip(image.numpy(), axis=2)  # Flip along width
-                mask = np.flip(mask.numpy(), axis=2)  # Flip along width
+        if np.random.rand() < self.probability:
+            sigma = np.random.uniform(self.sigma_range[0], self.sigma_range[1])  # Random sigma in the specified range
+            sample = cv2.GaussianBlur(sample, (self.kernel_size, self.kernel_size), sigma)
+            print('End GaussianBlur')
+        return sample.copy()
 
-            # Apply vertical flip
-            if self.vertical and random.random() < 0.5:
-                image = np.flip(image.numpy(), axis=1)  # Flip along height
-                mask = np.flip(mask.numpy(), axis=1)  # Flip along height
-
-        return {'image': torch.tensor(image).float().clone(), 'mask': torch.tensor(mask).float().clone()}

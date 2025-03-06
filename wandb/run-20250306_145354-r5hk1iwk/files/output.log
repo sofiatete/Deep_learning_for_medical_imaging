@@ -1,0 +1,29 @@
+[34m[1mwandb[0m: logging graph, to disable use `wandb.watch(log_graph=False)`
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/setup.py:177: GPU available but not used. You can set it by doing `Trainer(accelerator='gpu')`.
+Traceback (most recent call last):
+  File "/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/main_CNN.py", line 205, in <module>
+    run(config)
+  File "/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/main_CNN.py", line 161, in run
+    trainer.fit(classifier, data)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 539, in fit
+    call._call_and_handle_interrupt(
+  File "/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 575, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 944, in _run
+    call._call_setup_hook(self)  # allow user to set up LightningModule in accelerator environment
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 102, in _call_setup_hook
+    _call_lightning_datamodule_hook(trainer, "setup", stage=fn)
+  File "/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 193, in _call_lightning_datamodule_hook
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/Data_loader.py", line 39, in setup
+    self.val_dataset   = Scan_Dataset(self.val_data_dir  , transform = self.val_transforms)
+                                                                       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Scan_DataModule' object has no attribute 'val_transforms'. Did you mean: 'train_transforms'?
