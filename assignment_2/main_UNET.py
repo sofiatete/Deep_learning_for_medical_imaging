@@ -51,7 +51,7 @@ else:
     #set data location on your local computer. Data can be downloaded from:
     # https://surfdrive.surf.nl/files/index.php/s/epjCz4fip1pkWN7
     # PW: deeplearningformedicalimaging
-    data_dir = 'C:\scratch\Surf\Documents\Onderwijs\DeepLearning_MedicalImaging\opgaven\opgave 2\AI-Course_StudentChallenge\data\segmentation'
+    data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/segmentation'
 
 print('data is loaded from ' + data_dir)
 # view data
@@ -149,16 +149,17 @@ def run(config_segm):
     logger = WandbLogger(name=config_segm['experiment_name'], project='ISIC-Unet')
     data = Scan_DataModule_Segm(config_segm)
     segmenter = Segmenter(config_segm)
-    checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['checkpoint_folder_save'],monitor='val_f1')
+    checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints'],monitor='val_f1')
     trainer = pl.Trainer(max_epochs=config_segm['max_epochs'],
                          logger=logger, callbacks=[checkpoint_callback],
                          default_root_dir=config_segm['bin'],
                          log_every_n_steps=1)
     trainer.fit(segmenter, data)
+    
     # change these paths
     test_data_dir = os.path.join(data_dir, 'test')
     # load best model
-    PATH = glob.glob(os.path.join(config_segm['checkpoint_folder_save'], '*'))[0]
+    PATH = glob.glob(os.path.join(config_segm['checkpoint_folde/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPointsr_save'], '*'))[0]
     model = Segmenter.load_from_checkpoint(PATH)
     model.eval()
 
@@ -170,9 +171,9 @@ def run(config_segm):
     trainer.test(model, dataloaders=test_data, verbose=True)
 
     # get and store predictions
-    if config_segm['checkpoint_folder_save']:
+    if config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints']:
         image_list = glob.glob(test_data_dir+'/img*.nii.gz')
-        predictions_dir = config_segm['checkpoint_folder_save']
+        predictions_dir = config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints']
         os.makedirs(predictions_dir, exist_ok=True)
         for image in image_list:
             X = torch.tensor(nib.load(image).get_fdata())

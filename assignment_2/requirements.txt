@@ -9,3 +9,6 @@ scipy
 pytorch-lightning
 torchio
 jupyter
+scikit-learn
+scikit-image
+opencv-python

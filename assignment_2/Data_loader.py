@@ -128,35 +128,33 @@ class Scan_Dataset_Segm(Dataset):
     """defines the size of the dataset (equal to the length of the data_list)"""
     return len(self.img_list)
 
-def __getitem__(self, idx):
-    """ensures each item in data_list is randomly and uniquely assigned an index (idx) so it can be loaded"""
+  def __getitem__(self, idx):
+      """ensures each item in data_list is randomly and uniquely assigned an index (idx) so it can be loaded"""
 
-    if torch.is_tensor(idx):
-      idx = idx.tolist()
+      if torch.is_tensor(idx):
+        idx = idx.tolist()
 
-    # loading image
-    image_name = self.img_list[idx]
-    image = nib.load(image_name).get_fdata()
+      # loading image
+      image_name = self.img_list[idx]
+      image = nib.load(image_name).get_fdata()
 
-    # Convert to PIL Image
-    image = Image.fromarray(image.astype(np.uint8))
-    mask = Image.fromarray(mask.astype(np.uint8))
+      # loading mask
+      mask_name = self.msk_list[idx]
+      mask = nib.load(mask_name).get_fdata()
+      mask = np.expand_dims(mask, axis=2)
 
+      # Convert to PIL Image
+      image = Image.fromarray(image.astype(np.uint8))
+      mask = Image.fromarray(mask.astype(np.uint8))
 
-    # loading mask
-    mask_name = self.msk_list[idx]
-    mask = nib.load(mask_name).get_fdata()
-    mask = np.expand_dims(mask, axis=2)
+      # make sample
+      sample = {'image': image, 'mask': mask}
 
-    # make sample
-    sample = {'image': image, 'mask': mask}
+      # apply transforms
+      if self.transform:
+        sample = self.transform(sample)
 
-    # apply transforms
-    if self.transform:
-      sample = self.transform(sample)
-
-    return sample
-
+      return sample
 
 # data augmentation. You can edit this to add additional augmentation options
 class Random_Rotate(object):
@@ -197,23 +195,28 @@ class ToTensor_Seg(object):
   
 # Gaussian Noise
 class GaussianNoise(object):
-    """Add Gaussian noise to an image."""
+    """Efficiently add Gaussian noise to an image."""
     def __init__(self, mean=0.0, std=1.0, probability=0.5):
         assert isinstance(mean, (int, float)), 'Mean must be a number'
         assert isinstance(std, (int, float)) and std > 0, 'Std must be a positive number'
         assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float between 0 and 1'
-        
+
         self.mean = mean
         self.std = std
         self.probability = probability
 
     def __call__(self, sample):
         if float(torch.rand(1)) < self.probability:
-            # sample = random_noise(sample, mode='gaussian', mean=self.mean, var=self.std**2)
-            noise = np.random.normal(self.mean, self.std, sample.shape)  # Generate Gaussian noise
-            sample = sample + noise  # Add noise to the image
-            # sample = np.clip(sample, 0, 255)  # Ensure pixel values remain valid
-        return sample.copy()  # Return the updated dictionary
+            # Ensure sample is a NumPy array for consistency
+            if isinstance(sample, torch.Tensor):
+                sample = sample.numpy()  # Convert tensor to NumPy array if necessary
+
+            # Add Gaussian noise using NumPy for efficiency
+            noise = np.random.normal(self.mean, self.std, sample.shape)
+            sample = sample + noise  # Element-wise addition
+
+        return sample.copy()  # Ensure it returns a new instance, not a reference
+    
 
 class GaussianNoise_Seg(object):
     """Add Gaussian noise to both image and mask in a segmentation task."""
