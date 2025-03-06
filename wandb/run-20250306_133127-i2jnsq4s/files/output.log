@@ -1,0 +1,31 @@
+[34m[1mwandb[0m: logging graph, to disable use `wandb.watch(log_graph=False)`
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/setup.py:177: GPU available but not used. You can set it by doing `Trainer(accelerator='gpu')`.
+
+  | Name  | Type          | Params | Mode
+------------------------------------------------
+0 | model | SimpleConvNet | 169 K  | train
+------------------------------------------------
+169 K     Trainable params
+0         Non-trainable params
+169 K     Total params
+0.678     Total estimated model params size (MB)
+32        Modules in train mode
+0         Modules in eval mode
+Epoch 9: 100%|████████████████████████████████████████████████████████████████████████████| 54/54 [01:20<00:00,  0.67it/s, v_num=sq4s]
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+                                                                                                                                      
+/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/visualization.py:55: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(1, n_images_display, figsize=(50, 20))
+`Trainer.fit` stopped: `max_epochs=10` reached.
+Traceback (most recent call last):
+  File "/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/main_CNN.py", line 204, in <module>
+    run(config)
+  File "/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/main_CNN.py", line 162, in run
+    PATH = glob.glob(os.path.join(config['checkpoint_folder_save'], '*'))[0]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 76, in join
+TypeError: expected str, bytes or os.PathLike object, not NoneType

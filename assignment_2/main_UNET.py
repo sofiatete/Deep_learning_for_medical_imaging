@@ -24,9 +24,9 @@ import torchmetrics
 import torch.nn.functional as F
 from torchvision import transforms
 from sys import platform
-from Data_loader import Scan_Dataset_Segm, Scan_DataModule_Segm, Random_Rotate_Seg, ToTensor_Seg
+from assignment_2.Data_loader_old import Scan_Dataset_Segm, Scan_DataModule_Segm, Random_Rotate_Seg, ToTensor_Seg
 from visualization import show_data_Unet, show_data_logger_Unet
-from CNNs import UNet
+from assignment_2.CNNs_old import UNet
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import wandb

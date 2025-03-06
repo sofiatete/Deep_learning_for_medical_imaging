@@ -1,0 +1,26 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-03-06T11:48:49.956738Z",
+  "args":  [
+    "--optimizer_name",
+    "adam",
+    "--optimizer_lr",
+    "0.01",
+    "--max_epochs",
+    "20",
+    "--batch_size",
+    "64"
+  ],
+  "program":  "/Users/sofiatete/Deep_learning_for_medical_imaging/assignment_2/main_CNN.py",
+  "codePath":  "assignment_2/main_CNN.py",
+  "git":  {
+    "remote":  "https://github.com/sofiatete/Deep_learning_for_medical_imaging.git",
+    "commit":  "b48d0567c978073243128a19f3836686bdcc2867"
+  },
+  "email":  "sofia.garcia.nunes@gmail.com",
+  "root":  ".",
+  "host":  "sp-byods-145-109-23-16.wireless.uva.nl",
+  "executable":  "/opt/anaconda3/bin/python",
+  "codePathLocal":  "assignment_2/main_CNN.py"
+}

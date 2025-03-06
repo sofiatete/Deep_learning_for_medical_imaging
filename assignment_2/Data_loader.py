@@ -11,7 +11,6 @@ from torchvision import transforms
 from skimage.util import random_noise
 from skimage.transform import resize
 import random
-from PIL import Image
 
 
 # Data loader
@@ -22,19 +21,11 @@ class Scan_DataModule(pl.LightningDataModule):
     self.val_data_dir     = config['val_data_dir']
     self.test_data_dir    = config['test_data_dir']
     self.batch_size       = config['batch_size']
-    
-    
     if transform:
-      self.train_transforms = transforms.Compose([
-          Random_Rotate(0.1),
-          GaussianNoise(mean=0.0, std=1.0, probability=0.5),
-          RandomFlip(horizontal=True, vertical=False, probability=0.5),
-          transforms.ToTensor()
-      ])
+      self.train_transforms = transforms.Compose([Random_Rotate(0.1), transforms.ToTensor()])
     else:
       self.train_transforms = transforms.Compose([transforms.ToTensor()])
-    
-    self.val_transforms = transforms.Compose([transforms.ToTensor()])
+    self.val_transforms  = transforms.Compose([transforms.ToTensor()])
 
   def setup(self, stage=None):
     self.train_dataset = Scan_Dataset(self.train_data_dir, transform = self.train_transforms)
@@ -69,7 +60,7 @@ class Scan_DataModule_Segm(pl.LightningDataModule):
     else:
       self.train_transforms = transforms.Compose([ToTensor_Seg()])
 
-    self.val_transforms = transforms.Compose([ToTensor_Seg()])
+      self.val_transforms = transforms.Compose([ToTensor_Seg()])
 
 
   def setup(self, stage=None):
@@ -83,8 +74,6 @@ class Scan_DataModule_Segm(pl.LightningDataModule):
   def val_dataloader(self):
     return DataLoader(self.val_dataset, batch_size = self.batch_size, shuffle=False)
 
-  def test_dataloader(self):
-      return DataLoader(self.test_dataset, batch_size=self.batch_size, shuffle=False)
 
 # Data module
 class Scan_Dataset(Dataset):
@@ -129,32 +118,29 @@ class Scan_Dataset_Segm(Dataset):
     return len(self.img_list)
 
   def __getitem__(self, idx):
-      """ensures each item in data_list is randomly and uniquely assigned an index (idx) so it can be loaded"""
+    """ensures each item in data_list is randomly and uniquely assigned an index (idx) so it can be loaded"""
 
-      if torch.is_tensor(idx):
-        idx = idx.tolist()
+    if torch.is_tensor(idx):
+      idx = idx.tolist()
 
-      # loading image
-      image_name = self.img_list[idx]
-      image = nib.load(image_name).get_fdata()
+    # loading image
+    image_name = self.img_list[idx]
+    image = nib.load(image_name).get_fdata()
 
-      # loading mask
-      mask_name = self.msk_list[idx]
-      mask = nib.load(mask_name).get_fdata()
-      mask = np.expand_dims(mask, axis=2)
+    # loading mask
+    mask_name = self.msk_list[idx]
+    mask = nib.load(mask_name).get_fdata()
+    mask = np.expand_dims(mask, axis=2)
 
-      # Convert to PIL Image
-      image = Image.fromarray(image.astype(np.uint8))
-      mask = Image.fromarray(mask.astype(np.uint8))
+    # make sample
+    sample = {'image': image, 'mask': mask}
 
-      # make sample
-      sample = {'image': image, 'mask': mask}
+    # apply transforms
+    if self.transform:
+      sample = self.transform(sample)
 
-      # apply transforms
-      if self.transform:
-        sample = self.transform(sample)
+    return sample
 
-      return sample
 
 # data augmentation. You can edit this to add additional augmentation options
 class Random_Rotate(object):
@@ -193,10 +179,11 @@ class ToTensor_Seg(object):
     mask = transforms.ToTensor()(mask)
     return {'image': image.clone(), 'mask': mask.clone()}
   
-# Gaussian Noise
+  # Gaussian Noise
 class GaussianNoise(object):
     """Efficiently add Gaussian noise to an image."""
     def __init__(self, mean=0.0, std=1.0, probability=0.5):
+        print("gaussian")
         assert isinstance(mean, (int, float)), 'Mean must be a number'
         assert isinstance(std, (int, float)) and std > 0, 'Std must be a positive number'
         assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float between 0 and 1'
@@ -221,6 +208,7 @@ class GaussianNoise(object):
 class GaussianNoise_Seg(object):
     """Add Gaussian noise to both image and mask in a segmentation task."""
     def __init__(self, mean=0.0, std=1.0, probability=0.5):
+        print("gaussian_seg")
         assert isinstance(mean, (int, float)), 'Mean must be a number'
         assert isinstance(std, (int, float)) and std > 0, 'Std must be a positive number'
         assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float between 0 and 1'
@@ -246,6 +234,7 @@ class GaussianNoise_Seg(object):
 class RandomFlip(object):
     """Randomly flip an image horizontally and/or vertically."""
     def __init__(self, horizontal=True, vertical=False, probability=0.5):
+        print("radomflip")
         assert isinstance(horizontal, bool), 'horizontal must be a boolean value'
         assert isinstance(vertical, bool), 'vertical must be a boolean value'
         assert isinstance(probability, float) and 0 <= probability <= 1, 'Probability must be a float between 0 and 1'
@@ -267,6 +256,7 @@ class RandomFlip(object):
 class RandomFlip_Seg(object):
     """Randomly flip image and mask horizontally and/or vertically in a segmentation task."""
     def __init__(self, horizontal=True, vertical=False, probability=0.5):
+        print
         assert isinstance(horizontal, bool), 'horizontal must be a boolean value'
         assert isinstance(vertical, bool), 'vertical must be a boolean value'
         assert isinstance(probability, float) and 0 <= probability <= 1, 'Probability must be a float between 0 and 1'

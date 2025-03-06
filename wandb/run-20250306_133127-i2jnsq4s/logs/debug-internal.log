@@ -1,0 +1,20 @@
+{"time":"2025-03-06T13:31:27.620686+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"wandb/run-20250306_133127-i2jnsq4s/logs/debug-core.log"}
+{"time":"2025-03-06T13:31:27.72591+01:00","level":"INFO","msg":"created new stream","id":"i2jnsq4s"}
+{"time":"2025-03-06T13:31:27.725973+01:00","level":"INFO","msg":"stream: started","id":"i2jnsq4s"}
+{"time":"2025-03-06T13:31:27.726+01:00","level":"INFO","msg":"handler: started","stream_id":"i2jnsq4s"}
+{"time":"2025-03-06T13:31:27.726012+01:00","level":"INFO","msg":"sender: started","stream_id":"i2jnsq4s"}
+{"time":"2025-03-06T13:31:27.726055+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"i2jnsq4s"}
+{"time":"2025-03-06T13:31:28.080048+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T13:41:51.259384+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/i2jnsq4s/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-03-06T13:41:53.68321+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/i2jnsq4s/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T13:41:58.555581+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/i2jnsq4s/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T13:42:01.355682+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 145.109.23.16:62251->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-03-06T13:44:19.07285+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/i2jnsq4s/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T13:45:00.309426+01:00","level":"INFO","msg":"stream: closing","id":"i2jnsq4s"}
+{"time":"2025-03-06T13:45:00.309441+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T13:45:00.309905+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T13:45:00.97095+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T13:45:01.36196+01:00","level":"INFO","msg":"handler: closed","stream_id":"i2jnsq4s"}
+{"time":"2025-03-06T13:45:01.362037+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i2jnsq4s"}
+{"time":"2025-03-06T13:45:01.362085+01:00","level":"INFO","msg":"sender: closed","stream_id":"i2jnsq4s"}
+{"time":"2025-03-06T13:45:01.362418+01:00","level":"INFO","msg":"stream: closed","id":"i2jnsq4s"}

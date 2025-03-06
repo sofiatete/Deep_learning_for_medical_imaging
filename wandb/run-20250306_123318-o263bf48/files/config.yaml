@@ -1,0 +1,578 @@
+_wandb:
+    value:
+        cli_version: 0.19.5
+        m:
+            - "1": gradients/model.classifier.4.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "1": gradients/model.layers.9.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.9.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.9.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.9.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.0.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_precision
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_precision
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_f1
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": test_example.format
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.4.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.4.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.2.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.6.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_recall
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.13.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_example.filenames
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.0.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.0.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.6.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.2.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.12.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.12.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.13.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.2.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.2.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.5.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.1.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_example.width
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.12.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.4.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.9.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.0.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.2.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.8.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": test_example.height
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": test_example.filenames
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_example.height
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_example.format
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.4.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.4.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.8.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.8.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_acc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_recall
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": test_example._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_example._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": train_example.count
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.1.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.1.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.13.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.0.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.8.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.5.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.12.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.4.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.6.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.1.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.1.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_f1
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.13.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.4.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.4.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.13.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.0.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.6.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.5.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_acc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.12.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.12.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.4.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": test_example.count
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.4.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.1.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.4.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.2.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.13.weight.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.5.bias._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.5.bias.bins
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.5.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.9.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.8.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": test_example.width
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.6.bias.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.classifier.6.weight._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": gradients/model.layers.8.weight.values
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+        python_version: 3.12.4
+        t:
+            "1":
+                - 1
+                - 9
+                - 41
+                - 55
+                - 103
+                - 105
+            "2":
+                - 1
+                - 9
+                - 41
+                - 55
+                - 103
+                - 105
+            "3":
+                - 1
+                - 7
+                - 13
+                - 23
+                - 55
+                - 62
+                - 66
+            "4": 3.12.4
+            "5": 0.19.5
+            "8":
+                - 5
+            "12": 0.19.5
+            "13": darwin-arm64

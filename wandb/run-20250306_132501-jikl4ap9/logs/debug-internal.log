@@ -1,0 +1,15 @@
+{"time":"2025-03-06T13:25:02.201381+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"wandb/run-20250306_132501-jikl4ap9/logs/debug-core.log"}
+{"time":"2025-03-06T13:25:02.30889+01:00","level":"INFO","msg":"created new stream","id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:02.308934+01:00","level":"INFO","msg":"stream: started","id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:02.309217+01:00","level":"INFO","msg":"handler: started","stream_id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:02.309309+01:00","level":"INFO","msg":"sender: started","stream_id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:02.309325+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:02.663357+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T13:25:10.313324+01:00","level":"INFO","msg":"stream: closing","id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:10.31349+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T13:25:10.31373+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T13:25:11.411397+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T13:25:11.59675+01:00","level":"INFO","msg":"sender: closed","stream_id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:11.596733+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:11.597134+01:00","level":"INFO","msg":"handler: closed","stream_id":"jikl4ap9"}
+{"time":"2025-03-06T13:25:11.597205+01:00","level":"INFO","msg":"stream: closed","id":"jikl4ap9"}
