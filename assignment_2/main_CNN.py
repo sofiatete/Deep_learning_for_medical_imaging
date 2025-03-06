@@ -25,7 +25,7 @@ import torchmetrics
 import torch.nn.functional as F
 from torchvision import transforms
 from sys import platform
-from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate, GaussianNoise_Seg, RandomFlip_Seg, GaussianNoise, RandomFlip
+from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate, GaussianNoise, RandomFlip, Random_Rotate_Seg, GaussianNoise_Seg, RandomFlip_Seg
 from visualization import show_data, show_data_logger
 from CNNs import SimpleConvNet
 import pytorch_lightning as pl
@@ -67,6 +67,12 @@ train_transforms = transforms.Compose([
           RandomFlip(horizontal=True, vertical=False, probability=0.5),
           transforms.ToTensor()
       ])
+
+########
+val_transforms = transforms.Compose([
+    transforms.ToTensor()
+])
+#######
 
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set),transform = train_transforms)
 show_data(dataset,index,n_images_display=5)
@@ -159,7 +165,7 @@ class Classifier(pl.LightningModule):
 
 def run(config):
     logger = WandbLogger(name=config['experiment_name'], project='ISIC')
-    data = Scan_DataModule(config)
+    data = Scan_DataModule(config, transform = True)
     classifier = Classifier(config)
     logger.watch(classifier)
     checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config['checkpoint_folder_save'], monitor='val_f1')
@@ -174,7 +180,7 @@ def run(config):
     model.eval()
 
     # make test dataloader
-    test_data = Scan_DataModule(config)
+    test_data = Scan_DataModule(config, transform = False)
 
     # test model
     trainer = pl.Trainer()

@@ -33,8 +33,8 @@ class Scan_DataModule(pl.LightningDataModule):
       ])
     else:
       self.train_transforms = transforms.Compose([transforms.ToTensor()])
-
-      self.val_transforms = transforms.Compose([transforms.ToTensor()])
+    
+    self.val_transforms = transforms.Compose([transforms.ToTensor()])
 
   def setup(self, stage=None):
     self.train_dataset = Scan_Dataset(self.train_data_dir, transform = self.train_transforms)
@@ -69,7 +69,7 @@ class Scan_DataModule_Segm(pl.LightningDataModule):
     else:
       self.train_transforms = transforms.Compose([ToTensor_Seg()])
 
-      self.val_transforms = transforms.Compose([ToTensor_Seg()])
+    self.val_transforms = transforms.Compose([ToTensor_Seg()])
 
 
   def setup(self, stage=None):
@@ -194,7 +194,8 @@ class ToTensor_Seg(object):
     image = transforms.ToTensor()(image)
     mask = transforms.ToTensor()(mask)
     return {'image': image.clone(), 'mask': mask.clone()}
-
+  
+# Gaussian Noise
 class GaussianNoise(object):
     """Add Gaussian noise to an image."""
     def __init__(self, mean=0.0, std=1.0, probability=0.5):
@@ -208,8 +209,10 @@ class GaussianNoise(object):
 
     def __call__(self, sample):
         if float(torch.rand(1)) < self.probability:
-            # Add Gaussian noise to the image using NumPy
-            sample = random_noise(sample, mode='gaussian', mean=self.mean, var=self.std**2)
+            # sample = random_noise(sample, mode='gaussian', mean=self.mean, var=self.std**2)
+            noise = np.random.normal(self.mean, self.std, sample.shape)  # Generate Gaussian noise
+            sample = sample + noise  # Add noise to the image
+            # sample = np.clip(sample, 0, 255)  # Ensure pixel values remain valid
         return sample.copy()  # Return the updated dictionary
 
 class GaussianNoise_Seg(object):
@@ -236,6 +239,7 @@ class GaussianNoise_Seg(object):
 
         return {'image': image, 'mask': mask.clone()}
 
+# RandomFlip
 class RandomFlip(object):
     """Randomly flip an image horizontally and/or vertically."""
     def __init__(self, horizontal=True, vertical=False, probability=0.5):
@@ -250,13 +254,11 @@ class RandomFlip(object):
     def __call__(self, sample):
         if float(torch.rand(1)) < self.probability:
             # Apply horizontal flip
-            if self.horizontal and random.random() < 0.5:
-                sample = np.fliplr(sample)  # Flip along width
-
+            if self.horizontal:
+                sample = np.flip(sample, axis = 1)  # Flip along width
             # Apply vertical flip
-            if self.vertical and random.random() < 0.5:
-                sample = np.flipud(sample)  # Flip along height
-
+            if self.vertical:
+                sample = np.flip(sample, axis = 0)  # Flip along height
         return sample.copy()
 
 class RandomFlip_Seg(object):
