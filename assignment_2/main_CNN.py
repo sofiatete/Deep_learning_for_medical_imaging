@@ -48,7 +48,8 @@ else:
     #set data location on your local computer. Data can be downloaded from:
     # https://surfdrive.surf.nl/files/index.php/s/QWJUE37bHojMVKQ
     # PW: deeplearningformedicalimaging
-    data_dir = '/Users/sofiatete/Desktop/CLS/Deep learning/classification'
+    data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/classification'
+    # data_dir = '/Users/sofiatete/Desktop/CLS/Deep learning/classification'
 
 print('data is loaded from ' + data_dir)
 # view data
@@ -187,16 +188,16 @@ if __name__ == '__main__':
     # Command line arguments
     parser = argparse.ArgumentParser()
     # Optimizer hyperparameters
-    parser.add_argument('--optimizer_lr', default=0.01, type=float, nargs='+', #pu back 0.1
+    parser.add_argument('--optimizer_lr', default=0.1, type=float, nargs='+', #put back 0.1
                         help='Learning rate to use')
-    parser.add_argument('--batch_size', default=64, type=int, # put back 16
+    parser.add_argument('--batch_size', default=32, type=int, # put back 16
                         help='Minibatch size')
     parser.add_argument('--model_name', default='custom_convnet', type=str,
                         help='defines model to use')
     parser.add_argument('--optimizer_name', default='adam', type=str,  
                         help='optimizer options: adam and sgd (default)')
     # Other hyperparameters
-    parser.add_argument('--max_epochs', default=50, type=int, 
+    parser.add_argument('--max_epochs', default=30, type=int, 
                         help='Max number of epochs')
     parser.add_argument('--experiment_name', default='test1', type=str, 
                         help='name of experiment')

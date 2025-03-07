@@ -14,72 +14,66 @@ class SimpleConvNet(pl.LightningModule):
         super().__init__()
 
         self.conv1 = nn.Sequential(
-            nn.Conv2d(3, 16, kernel_size=3, padding=1),
-            nn.BatchNorm2d(16),
-            nn.ReLU(),
-            nn.MaxPool2d(2, 2)
+            nn.Conv2d(3, 32, kernel_size=7, padding=3), nn.BatchNorm2d(32), nn.ReLU()
         )
-
         self.conv2 = nn.Sequential(
-            nn.Conv2d(16, 32, kernel_size=3, padding=1),
-            nn.BatchNorm2d(32),
-            nn.ReLU(),
-            nn.MaxPool2d(2, 2)
+            nn.Conv2d(32, 64, kernel_size=5, padding=2), nn.BatchNorm2d(64), nn.ReLU()
         )
-
+        self.skip1 = nn.Conv2d(3, 64, kernel_size=1, stride=1)  # Skip connection 1
+        
         self.conv3 = nn.Sequential(
-            nn.Conv2d(32, 64, kernel_size=3, padding=1),
-            nn.BatchNorm2d(64),
-            nn.ReLU(),
-            nn.MaxPool2d(2, 2)
+            nn.Conv2d(64, 128, kernel_size=3, padding=1), nn.BatchNorm2d(128), nn.ReLU()
         )
-
         self.conv4 = nn.Sequential(
-            nn.Conv2d(64, 128, kernel_size=3, padding=1),
-            nn.BatchNorm2d(128),
-            nn.ReLU(),
-            nn.MaxPool2d(2, 2)
+            nn.Conv2d(128, 256, kernel_size=3, padding=1), nn.BatchNorm2d(256), nn.ReLU()
         )
-
-        # 1x1 Conv for matching dimensions in skip connections
-        self.skip1 = nn.Conv2d(3, 16, kernel_size=1, stride=2)
-        self.skip2 = nn.Conv2d(16, 32, kernel_size=1, stride=2)
-        self.skip3 = nn.Conv2d(32, 64, kernel_size=1, stride=2)
+        self.skip2 = nn.Conv2d(64, 256, kernel_size=1, stride=1)  # Skip connection 2
+        
+        self.conv5 = nn.Sequential(
+            nn.Conv2d(256, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
+        )
+        self.conv6 = nn.Sequential(
+            nn.Conv2d(512, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
+        )
+        self.skip3 = nn.Conv2d(256, 512, kernel_size=1, stride=1)  # Skip connection 3
+        
+        self.conv7 = nn.Sequential(
+            nn.Conv2d(512, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
+        )
+        self.conv8 = nn.Sequential(
+            nn.Conv2d(512, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
+        )
+        self.skip4 = nn.Conv2d(512, 512, kernel_size=1, stride=1)  # Skip connection 4
+        
+        self.pool = nn.MaxPool2d(2, 2)
 
         self.classifier = nn.Sequential(
-            nn.AdaptiveAvgPool2d((2, 2)),
-            nn.Flatten(),
-            nn.Linear(2 * 2 * 128, 120),
-            nn.ReLU(),
-            nn.Linear(120, 60),
-            nn.ReLU(),
-            nn.Linear(60, 1)
+            nn.AdaptiveAvgPool2d((1, 1)), nn.Flatten(),
+            nn.Linear(512, 128), nn.ReLU(),
+            nn.Linear(128, 1), nn.Sigmoid()
         )
 
     def forward(self, x):
-        # First block
-        print("foward block 1!")
-        identity = self.skip1(x)
-        x = self.conv1(x) + identity
+        identity = x
+        x = self.conv1(x)
+        x = self.conv2(x) + self.skip1(identity)  # Skip connection 1
+        x = self.pool(x)
 
-        # Second block
-        print("foward block 2!")
-        identity = self.skip2(x)
-        x = self.conv2(x) + identity
+        identity = x
+        x = self.conv3(x)
+        x = self.conv4(x) + self.skip2(identity)  # Skip connection 2
+        x = self.pool(x)
 
-        # Third block
-        print("foward block 3!")
-        identity = self.skip3(x)
-        x = self.conv3(x) + identity
+        identity = x
+        x = self.conv5(x)
+        x = self.conv6(x) + self.skip3(identity)  # Skip connection 3
+        x = self.pool(x)
 
-        # Fourth block (no skip connection needed as it's the last)
-        print("foward block 4!")
-        x = self.conv4(x)
-
-        # Classifier
-        print("foward classifier!")
-        x = self.classifier(x)
-        return x
+        identity = x
+        x = self.conv7(x)
+        x = self.conv8(x) + self.skip4(identity)  # Skip connection 4
+        x = self.pool(x)
+        return self.classifier(x)
 
 class UNet(pl.LightningModule):
   def __init__(self, n_classes=1, in_ch=3):
