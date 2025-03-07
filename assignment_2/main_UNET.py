@@ -24,9 +24,9 @@ import torchmetrics
 import torch.nn.functional as F
 from torchvision import transforms
 from sys import platform
-from assignment_2.Data_loader_old import Scan_Dataset_Segm, Scan_DataModule_Segm, Random_Rotate_Seg, ToTensor_Seg
+from Data_loader import Scan_Dataset_Segm, Scan_DataModule_Segm, ToTensor_Seg, Random_Rotate_Seg, Random_Flip_Seg, Random_GaussianBlur_Seg
 from visualization import show_data_Unet, show_data_logger_Unet
-from assignment_2.CNNs_old import UNet
+from CNNs import UNet
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import wandb
@@ -59,7 +59,8 @@ nn_set = 'train' # ['train', 'val', 'test']
 index = 0
 dataset = Scan_Dataset_Segm(os.path.join(data_dir, nn_set))
 show_data_Unet(dataset,index,n_images_display=5)
-train_transforms = transforms.Compose([Random_Rotate_Seg(0.1), ToTensor_Seg()])
+train_transforms = transforms.Compose([Random_Rotate_Seg(0.1), Random_Flip_Seg(0.3), Random_GaussianBlur_Seg(),
+                                       ToTensor_Seg()])
 dataset = Scan_Dataset_Segm(os.path.join(data_dir, nn_set),transform = train_transforms)
 show_data_Unet(dataset,index,n_images_display=5)
 

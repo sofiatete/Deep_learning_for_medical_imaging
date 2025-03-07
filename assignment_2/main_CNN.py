@@ -26,10 +26,11 @@ from torchvision import transforms
 from sys import platform
 from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate, Random_Flip, Random_GaussianBlur
 from visualization import show_data, show_data_logger
-from CNNs import SimpleConvNet
+from CNNs import SimpleConvNet, VGG16Classifier
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import wandb
+
 
 #start interactieve sessie om wandb.login te runnen
 wandb.login()
@@ -59,7 +60,7 @@ index = 0
 # study the effect of augmentation here!
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set))
 show_data(dataset,index,n_images_display=5)
-train_transforms = transforms.Compose([Random_Rotate(0.1), Random_Flip(0.1), Random_GaussianBlur(),
+train_transforms = transforms.Compose([Random_Rotate(0.1), Random_Flip(0.3), Random_GaussianBlur(),
                                         transforms.ToTensor()])
 dataset = Scan_Dataset(os.path.join(data_dir, nn_set),transform = train_transforms)
 show_data(dataset,index,n_images_display=5)
@@ -67,7 +68,8 @@ show_data(dataset,index,n_images_display=5)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 torch.device(device)
 
-models = {'custom_convnet': SimpleConvNet}
+models = {'custom_convnet': SimpleConvNet,
+          'vgg': VGG16Classifier}
 
 optimizers = {'adam': torch.optim.Adam,
               'sgd': torch.optim.SGD}
@@ -138,8 +140,6 @@ class Classifier(pl.LightningModule):
         return epoch_dictionary
 
 
-
-
     def test_step(self, batch, batch_idx):
         self.step(batch, 'test')
 
@@ -149,7 +149,6 @@ class Classifier(pl.LightningModule):
     def configure_optimizers(self):
         assert self.optimizer_name in optimizers, f'Optimizer name "{self.optimizer_name}" is not available. List of available names: {list(models.keys())}'
         return optimizers[self.optimizer_name](self.parameters(), lr=self.lr)
-
 
 def run(config):
     print("run!")
@@ -190,7 +189,7 @@ if __name__ == '__main__':
     # Optimizer hyperparameters
     parser.add_argument('--optimizer_lr', default=0.1, type=float, nargs='+', #put back 0.1
                         help='Learning rate to use')
-    parser.add_argument('--batch_size', default=32, type=int, # put back 16
+    parser.add_argument('--batch_size', default=16, type=int, # put back 16
                         help='Minibatch size')
     parser.add_argument('--model_name', default='custom_convnet', type=str,
                         help='defines model to use')
@@ -214,5 +213,5 @@ if __name__ == '__main__':
         'test_data_dir': os.path.join(data_dir, 'test'),
         'bin': 'models/'})
 
-    run(config)
-    # Feel free to add any additional functions, such as plotting of the loss curve here
+    # run(config)
+

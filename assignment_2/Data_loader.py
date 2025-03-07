@@ -203,10 +203,30 @@ class Random_Flip(object):
                 # Vertical flip (axis=0 for width)
                 sample = np.flip(sample, axis=0)
         return sample.copy()
+    
+class Random_Flip_Seg(object):
+    """Randomly flip ndarrays in sample."""
+    def __init__(self, probability):
+        print('Random_Flip')
+        assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float number between 0 and 1'
+        self.probability = probability
+    
+    def __call__(self, sample):
+        image, mask = sample['image'], sample['mask']
+        if np.random.rand() < self.probability:
+            if np.random.rand() > 0.5:
+                # Horizontal flip (axis=1 for height)
+                image = np.flip(image, axis=1)
+                mask = np.flip(mask, axis=1)
+            else:
+                # Vertical flip (axis=0 for width)
+                image = np.flip(image, axis=0)
+                mask = np.flip(mask, axis=0)
+        return {'image': image.copy(), 'mask': mask.copy()}
 
 class Random_GaussianBlur(object):
     """Apply Gaussian blur to ndarrays in sample."""
-    def __init__(self, probability=0.4, kernel_size=7, sigma_range=(2, 5)):
+    def __init__(self, probability=0.3, kernel_size=7, sigma_range=(2, 5)):
         print('Random_GaussianBlur')
         assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float number between 0 and 1'
         assert isinstance(sigma_range, tuple) and len(sigma_range) == 2, 'sigma_range must be a tuple (min_sigma, max_sigma)'
@@ -220,4 +240,21 @@ class Random_GaussianBlur(object):
             sample = cv2.GaussianBlur(sample, (self.kernel_size, self.kernel_size), sigma)
             print('End GaussianBlur')
         return sample.copy()
+
+class Random_GaussianBlur_Seg(object):
+   """Apply Gaussian blur to ndarrays in sample."""
+   def __init__(self, probability=0.3, kernel_size=7, sigma_range=(2, 5)):
+        print('Random_GaussianBlur')
+        assert isinstance(probability, float) and 0 < probability <= 1, 'Probability must be a float number between 0 and 1'
+        assert isinstance(sigma_range, tuple) and len(sigma_range) == 2, 'sigma_range must be a tuple (min_sigma, max_sigma)'
+        self.probability = probability
+        self.sigma_range = sigma_range
+        self.kernel_size = kernel_size
+   def __call__(self, sample):
+      image, mask = sample['image'], sample['mask']
+      if np.random.rand() < self.probability:
+          sigma = np.random.uniform(self.sigma_range[0], self.sigma_range[1])
+          image = cv2.GaussianBlur(image, (self.kernel_size, self.kernel_size), sigma)
+          mask = cv2.GaussianBlur(mask, (self.kernel_size, self.kernel_size), sigma)
+      return {'image': image.copy(), 'mask': mask.copy()}
 
