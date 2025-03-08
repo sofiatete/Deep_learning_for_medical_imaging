@@ -103,7 +103,7 @@ class Classifier(pl.LightningModule):
         y_prob = torch.sigmoid(y_hat)
         self.y_prob=y_prob
 
-        loss = F.binary_cross_entropy_with_logits(y_hat, y.float())
+        loss = F.binary_cross_entropy(y_prob, y.float())
         print("loss!")
         self.log(f'{nn_set}_loss', loss, on_step=False, on_epoch=True)
 
@@ -187,18 +187,18 @@ if __name__ == '__main__':
     # Command line arguments
     parser = argparse.ArgumentParser()
     # Optimizer hyperparameters
-    parser.add_argument('--optimizer_lr', default=0.1, type=float, nargs='+', #put back 0.1
+    parser.add_argument('--optimizer_lr', default=0.001, type=float, nargs='+', #put back 0.1
                         help='Learning rate to use')
-    parser.add_argument('--batch_size', default=16, type=int, # put back 16
+    parser.add_argument('--batch_size', default=16, type=int, 
                         help='Minibatch size')
     parser.add_argument('--model_name', default='custom_convnet', type=str,
                         help='defines model to use')
     parser.add_argument('--optimizer_name', default='adam', type=str,  
                         help='optimizer options: adam and sgd (default)')
     # Other hyperparameters
-    parser.add_argument('--max_epochs', default=30, type=int, 
+    parser.add_argument('--max_epochs', default=10, type=int, 
                         help='Max number of epochs')
-    parser.add_argument('--experiment_name', default='test1', type=str, 
+    parser.add_argument('--experiment_name', default='test_new', type=str, 
                         help='name of experiment')
     parser.add_argument('--checkpoint_folder_path', default=False, type=str,
                         help='path of experiment to load')
@@ -213,5 +213,5 @@ if __name__ == '__main__':
         'test_data_dir': os.path.join(data_dir, 'test'),
         'bin': 'models/'})
 
-    # run(config)
+    run(config)
 
