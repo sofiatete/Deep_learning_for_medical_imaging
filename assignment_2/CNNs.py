@@ -19,61 +19,43 @@ class SimpleConvNet(pl.LightningModule):
         self.conv2 = nn.Sequential(
             nn.Conv2d(32, 64, kernel_size=5, padding=2), nn.BatchNorm2d(64), nn.ReLU()
         )
-        self.skip1 = nn.Conv2d(3, 64, kernel_size=1, stride=1)  # Skip connection 1
-        
+
+        # Single skip connection
+        self.skip = nn.Conv2d(32, 64, kernel_size=1, stride=1)
+
         self.conv3 = nn.Sequential(
             nn.Conv2d(64, 128, kernel_size=3, padding=1), nn.BatchNorm2d(128), nn.ReLU()
         )
         self.conv4 = nn.Sequential(
             nn.Conv2d(128, 256, kernel_size=3, padding=1), nn.BatchNorm2d(256), nn.ReLU()
         )
-        self.skip2 = nn.Conv2d(64, 256, kernel_size=1, stride=1)  # Skip connection 2
-        
         self.conv5 = nn.Sequential(
             nn.Conv2d(256, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
         )
-        self.conv6 = nn.Sequential(
-            nn.Conv2d(512, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
-        )
-        self.skip3 = nn.Conv2d(256, 512, kernel_size=1, stride=1)  # Skip connection 3
-        
-        self.conv7 = nn.Sequential(
-            nn.Conv2d(512, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
-        )
-        self.conv8 = nn.Sequential(
-            nn.Conv2d(512, 512, kernel_size=3, padding=1), nn.BatchNorm2d(512), nn.ReLU()
-        )
-        self.skip4 = nn.Conv2d(512, 512, kernel_size=1, stride=1)  # Skip connection 4
-        
+
         self.pool = nn.MaxPool2d(2, 2)
 
         self.classifier = nn.Sequential(
             nn.AdaptiveAvgPool2d((1, 1)), nn.Flatten(),
             nn.Linear(512, 128), nn.ReLU(),
-            nn.Linear(128, 1), nn.Sigmoid()
+            nn.Linear(128, 1)
         )
 
     def forward(self, x):
-        identity = x
         x = self.conv1(x)
-        x = self.conv2(x) + self.skip1(identity)  # Skip connection 1
+        identity = x  # Save identity for skip connection
+
+        x = self.conv2(x) + self.skip(identity)  # Skip connection
         x = self.pool(x)
 
-        identity = x
         x = self.conv3(x)
-        x = self.conv4(x) + self.skip2(identity)  # Skip connection 2
-        x = self.pool(x)
+        x = self.pool(self.conv4(x))
 
-        identity = x
-        x = self.conv5(x)
-        x = self.conv6(x) + self.skip3(identity)  # Skip connection 3
-        x = self.pool(x)
+        x = self.pool(self.conv5(x))
 
-        identity = x
-        x = self.conv7(x)
-        x = self.conv8(x) + self.skip4(identity)  # Skip connection 4
-        x = self.pool(x)
         return self.classifier(x)
+
+
 
 # Transfer learning with VGG model
 class VGG16Classifier(pl.LightningModule):

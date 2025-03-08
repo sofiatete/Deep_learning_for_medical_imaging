@@ -1,0 +1,35 @@
+{"time":"2025-03-08T11:26:59.225118+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"wandb/run-20250308_112658-kpjsejs1/logs/debug-core.log"}
+{"time":"2025-03-08T11:26:59.335165+01:00","level":"INFO","msg":"created new stream","id":"kpjsejs1"}
+{"time":"2025-03-08T11:26:59.335397+01:00","level":"INFO","msg":"stream: started","id":"kpjsejs1"}
+{"time":"2025-03-08T11:26:59.335456+01:00","level":"INFO","msg":"handler: started","stream_id":"kpjsejs1"}
+{"time":"2025-03-08T11:26:59.335837+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kpjsejs1"}
+{"time":"2025-03-08T11:26:59.336055+01:00","level":"INFO","msg":"sender: started","stream_id":"kpjsejs1"}
+{"time":"2025-03-08T11:26:59.873809+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T13:08:50.879352+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:53124->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-08T14:02:23.707649+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:53356->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-08T14:06:51.846711+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T14:23:05.208719+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T14:40:19.513161+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T14:40:20.400498+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.100:53786->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-03-08T14:40:22.579687+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T14:48:59.089764+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T14:49:01.598135+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T14:50:12.260983+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:07:10.290923+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.10.2.96:53833->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-03-08T15:07:12.351719+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:22:33.93997+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:23:46.22291+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:52:20.39607+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:52:20.583704+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:52:58.656568+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:53:20.399106+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T15:53:58.66007+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T16:10:59.499973+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofia-garcia-nunes-vrije-universiteit-amsterdam/ISIC/kpjsejs1/file_stream\": read tcp 192.168.101.7:54262->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-03-08T16:14:03.870264+01:00","level":"INFO","msg":"stream: closing","id":"kpjsejs1"}
+{"time":"2025-03-08T16:14:03.870286+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T16:14:03.871906+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T16:14:04.661001+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T16:14:04.846548+01:00","level":"INFO","msg":"handler: closed","stream_id":"kpjsejs1"}
+{"time":"2025-03-08T16:14:04.84654+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kpjsejs1"}
+{"time":"2025-03-08T16:14:04.847632+01:00","level":"INFO","msg":"sender: closed","stream_id":"kpjsejs1"}
+{"time":"2025-03-08T16:14:04.847758+01:00","level":"INFO","msg":"stream: closed","id":"kpjsejs1"}

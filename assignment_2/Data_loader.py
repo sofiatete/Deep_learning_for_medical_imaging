@@ -7,10 +7,6 @@ from scipy.ndimage import rotate, gaussian_filter
 from torch.utils.data import DataLoader, Dataset
 import pytorch_lightning as pl
 from torchvision import transforms
-
-from skimage.util import random_noise
-from skimage.transform import resize
-import random
 import cv2
 
 

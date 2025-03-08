@@ -49,8 +49,8 @@ else:
     #set data location on your local computer. Data can be downloaded from:
     # https://surfdrive.surf.nl/files/index.php/s/QWJUE37bHojMVKQ
     # PW: deeplearningformedicalimaging
-    data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/classification'
-    # data_dir = '/Users/sofiatete/Desktop/CLS/Deep learning/classification'
+    #data_dir = '/Users/costa/Desktop/Computational_Science/Deep_Learning/ass_2/classification'
+    data_dir = '/Users/sofiatete/Desktop/CLS/Deep learning/classification'
 
 print('data is loaded from ' + data_dir)
 # view data
@@ -96,14 +96,26 @@ class Classifier(pl.LightningModule):
         self.lr = config['optimizer_lr']
         self.plot = False
 
+    def focal_tversky_loss(self, y_prob, y, alpha=0.7, gamma=0.75, smooth=1e-6):
+        y_true_pos = y * y_prob
+        true_pos = torch.sum(y_true_pos, dim=0)
+        false_neg = torch.sum(y * (1 - y_prob), dim=0)
+        false_pos = torch.sum((1 - y) * y_prob, dim=0)
+
+        tversky_coeff = (true_pos + smooth) / (true_pos + alpha * false_neg + (1 - alpha) * false_pos + smooth)
+        loss = torch.pow((1 - tversky_coeff), gamma)
+        return loss.mean()
+
     def step(self, batch, nn_set):
         X, y = batch
         X, y = X.float().to(device), y.to(device)
         y_hat = self.model(X).squeeze(1)
         y_prob = torch.sigmoid(y_hat)
-        self.y_prob=y_prob
+        self.y_prob = y_prob
 
-        loss = F.binary_cross_entropy(y_prob, y.float())
+        # Use Focal Tversky Loss
+        loss = self.focal_tversky_loss(y_prob, y.float())
+
         print("loss!")
         self.log(f'{nn_set}_loss', loss, on_step=False, on_epoch=True)
 
@@ -112,6 +124,7 @@ class Classifier(pl.LightningModule):
             self.log(f'{nn_set}_{metric_name}', score, on_step=False, on_epoch=True)
 
         return loss
+
 
     def training_step(self, batch, batch_idx):
         print("training stepppp!")
@@ -189,7 +202,7 @@ if __name__ == '__main__':
     # Optimizer hyperparameters
     parser.add_argument('--optimizer_lr', default=0.001, type=float, nargs='+', #put back 0.1
                         help='Learning rate to use')
-    parser.add_argument('--batch_size', default=16, type=int, 
+    parser.add_argument('--batch_size', default=64, type=int, 
                         help='Minibatch size')
     parser.add_argument('--model_name', default='custom_convnet', type=str,
                         help='defines model to use')
@@ -198,7 +211,7 @@ if __name__ == '__main__':
     # Other hyperparameters
     parser.add_argument('--max_epochs', default=10, type=int, 
                         help='Max number of epochs')
-    parser.add_argument('--experiment_name', default='test_new', type=str, 
+    parser.add_argument('--experiment_name', default='test_new2', type=str, 
                         help='name of experiment')
     parser.add_argument('--checkpoint_folder_path', default=False, type=str,
                         help='path of experiment to load')

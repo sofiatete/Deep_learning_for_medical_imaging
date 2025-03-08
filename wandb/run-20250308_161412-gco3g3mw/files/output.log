@@ -1,0 +1,696 @@
+[34m[1mwandb[0m: logging graph, to disable use `wandb.watch(log_graph=False)`
+watch!
+checkpoint!
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/setup.py:177: GPU available but not used. You can set it by doing `Trainer(accelerator='gpu')`.
+trainer!
+
+  | Name  | Type          | Params | Mode
+------------------------------------------------
+0 | model | SimpleConvNet | 9.2 M  | train
+------------------------------------------------
+9.2 M     Trainable params
+0         Non-trainable params
+9.2 M     Total params
+36.666    Total estimated model params size (MB)
+45        Modules in train mode
+0         Modules in eval mode
+Sanity Checking DataLoader 0:   0%|                                                                                              | 0/2 [00:00<?, ?it/s]loss!
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+Sanity Checking DataLoader 0:  50%|███████████████████████████████████████████                                           | 1/2 [00:14<00:14,  0.07it/s]loss!
+Epoch 0:   0%|                                                                                                                  | 0/54 [00:00<?, ?it/s]End GaussianBlur
+/opt/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:   2%|█▋                                                                                            | 1/54 [00:42<37:26,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:   4%|███▍                                                                                          | 2/54 [01:22<35:43,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:   6%|█████▏                                                                                        | 3/54 [02:01<34:31,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:   7%|██████▉                                                                                       | 4/54 [02:45<34:33,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:   9%|████████▋                                                                                     | 5/54 [03:24<33:28,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  11%|██████████▍                                                                                   | 6/54 [04:03<32:24,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  13%|████████████▏                                                                                 | 7/54 [04:44<31:48,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  15%|█████████████▉                                                                                | 8/54 [05:23<30:57,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  17%|███████████████▋                                                                              | 9/54 [06:01<30:08,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  19%|█████████████████▏                                                                           | 10/54 [06:40<29:23,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  20%|██████████████████▉                                                                          | 11/54 [07:18<28:32,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  22%|████████████████████▋                                                                        | 12/54 [07:56<27:46,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  24%|██████████████████████▍                                                                      | 13/54 [08:33<27:00,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  26%|████████████████████████                                                                     | 14/54 [09:11<26:15,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  28%|█████████████████████████▊                                                                   | 15/54 [09:49<25:32,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  30%|███████████████████████████▌                                                                 | 16/54 [10:27<24:49,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  31%|█████████████████████████████▎                                                               | 17/54 [11:05<24:08,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  33%|███████████████████████████████                                                              | 18/54 [11:45<23:30,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  35%|████████████████████████████████▋                                                            | 19/54 [12:27<22:56,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  37%|██████████████████████████████████▍                                                          | 20/54 [13:09<22:22,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  39%|████████████████████████████████████▏                                                        | 21/54 [13:50<21:45,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  41%|█████████████████████████████████████▉                                                       | 22/54 [14:33<21:10,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  43%|███████████████████████████████████████▌                                                     | 23/54 [15:15<20:33,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  44%|█████████████████████████████████████████▎                                                   | 24/54 [16:00<20:00,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  46%|███████████████████████████████████████████                                                  | 25/54 [16:40<19:20,  0.02it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  48%|████████████████████████████████████████████▊                                                | 26/54 [17:19<18:39,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  50%|██████████████████████████████████████████████▌                                              | 27/54 [17:58<17:58,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  52%|████████████████████████████████████████████████▏                                            | 28/54 [18:37<17:17,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  54%|█████████████████████████████████████████████████▉                                           | 29/54 [19:16<16:37,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  56%|███████████████████████████████████████████████████▋                                         | 30/54 [19:53<15:54,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+Epoch 0:  57%|█████████████████████████████████████████████████████▍                                       | 31/54 [20:31<15:13,  0.03it/s, v_num=g3mw]End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+End GaussianBlur
+training stepppp!
+loss!
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
