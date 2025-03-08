@@ -150,8 +150,7 @@ def run(config_segm):
     logger = WandbLogger(name=config_segm['experiment_name'], project='ISIC-Unet')
     data = Scan_DataModule_Segm(config_segm)
     segmenter = Segmenter(config_segm)
-    checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['checkpoint_dir'], monitor='val_f1')
-    #checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints'],monitor='val_f1')
+    checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath='/gpfs/work5/0/prjs1312/CheckPoints', monitor='val_f1')
     trainer = pl.Trainer(max_epochs=config_segm['max_epochs'],
                          logger=logger, callbacks=[checkpoint_callback],
                          default_root_dir=config_segm['bin'],
@@ -162,7 +161,6 @@ def run(config_segm):
     test_data_dir = os.path.join(data_dir, 'test')
     # load best model
     PATH = glob.glob(os.path.join(config_segm['checkpoint_dir'], '*'))[0]
-    #PATH = glob.glob(os.path.join(config_segm['checkpoint_folde/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPointsr_save'], '*'))[0]
     model = Segmenter.load_from_checkpoint(PATH)
     model.eval()
 
@@ -177,7 +175,6 @@ def run(config_segm):
     if config_segm['checkpoint_dir']:
         image_list = glob.glob(test_data_dir+'/img*.nii.gz')
         predictions_dir = config_segm['checkpoint_dir']
-        #predictions_dir = config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints']
         os.makedirs(predictions_dir, exist_ok=True)
         for image in image_list:
             X = torch.tensor(nib.load(image).get_fdata())
@@ -204,7 +201,7 @@ if __name__ == '__main__':
     parser.add_argument('--optimizer_name', default='adam', type=str,
                         help='optimizer options: adam and sgd (default)')
     # Other hyperparameters
-    parser.add_argument('--max_epochs', default=1, type=int,
+    parser.add_argument('--max_epochs', default=50, type=int,
                         help='Max number of epochs')
     parser.add_argument('--experiment_name', default='test2', type=str,
                         help='name of experiment')
@@ -220,7 +217,7 @@ if __name__ == '__main__':
         'test_data_dir': os.path.join(data_dir, 'test'),
         'bin': 'segm_models/',
         'loss_pos_weight': 1,
-        'checkpoint_dir': '/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints'  # Correctly define this key
+        'checkpoint_folder_save': '/gpfs/work5/0/prjs1312/CheckPoints',
     })
 
     run(config_segm)
