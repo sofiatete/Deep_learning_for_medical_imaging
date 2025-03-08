@@ -150,7 +150,8 @@ def run(config_segm):
     logger = WandbLogger(name=config_segm['experiment_name'], project='ISIC-Unet')
     data = Scan_DataModule_Segm(config_segm)
     segmenter = Segmenter(config_segm)
-    checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints'],monitor='val_f1')
+    checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['checkpoint_dir'], monitor='val_f1')
+    #checkpoint_callback = pl.callbacks.ModelCheckpoint(dirpath=config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints'],monitor='val_f1')
     trainer = pl.Trainer(max_epochs=config_segm['max_epochs'],
                          logger=logger, callbacks=[checkpoint_callback],
                          default_root_dir=config_segm['bin'],
@@ -160,7 +161,8 @@ def run(config_segm):
     # change these paths
     test_data_dir = os.path.join(data_dir, 'test')
     # load best model
-    PATH = glob.glob(os.path.join(config_segm['checkpoint_folde/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPointsr_save'], '*'))[0]
+    PATH = glob.glob(os.path.join(config_segm['checkpoint_dir'], '*'))[0]
+    #PATH = glob.glob(os.path.join(config_segm['checkpoint_folde/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPointsr_save'], '*'))[0]
     model = Segmenter.load_from_checkpoint(PATH)
     model.eval()
 
@@ -172,9 +174,10 @@ def run(config_segm):
     trainer.test(model, dataloaders=test_data, verbose=True)
 
     # get and store predictions
-    if config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints']:
+    if config_segm['checkpoint_dir']:
         image_list = glob.glob(test_data_dir+'/img*.nii.gz')
-        predictions_dir = config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints']
+        predictions_dir = config_segm['checkpoint_dir']
+        #predictions_dir = config_segm['/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints']
         os.makedirs(predictions_dir, exist_ok=True)
         for image in image_list:
             X = torch.tensor(nib.load(image).get_fdata())
@@ -216,7 +219,9 @@ if __name__ == '__main__':
         'val_data_dir': os.path.join(data_dir, 'val'),
         'test_data_dir': os.path.join(data_dir, 'test'),
         'bin': 'segm_models/',
-        'loss_pos_weight': 1})
+        'loss_pos_weight': 1,
+        'checkpoint_dir': '/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/CheckPoints'  # Correctly define this key
+    })
 
     run(config_segm)
     # Feel free to add any additional functions, such as plotting of the loss curve here
