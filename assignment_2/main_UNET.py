@@ -223,7 +223,8 @@ if __name__ == '__main__':
 
     # run(config_segm)
 
-# Training hyperparameters
+import pandas as pd
+
 def tune_hyperparameters(epochs_list, lr_list, optimizers_list):
     best_model = None
     best_score = 0  # Track the best validation F1-score
@@ -249,22 +250,32 @@ def tune_hyperparameters(epochs_list, lr_list, optimizers_list):
                     'checkpoint_folder_save': '/gpfs/work5/0/prjs1312/CheckPoints',
                 }
 
-                # Train model
-                run(config)
+                try:
+                    # Train model
+                    run(config)
 
-                # Load validation F1-score
-                log_file = "segm_models/lightning_logs/version_latest/metrics.csv"
-                df = pd.read_csv(log_file)
-                val_f1 = df[df["val_f1"].notna()]["val_f1"].max()
+                    # Ensure each experiment gets a unique log directory
+                    log_dir = f"segm_models/lightning_logs/{config['experiment_name']}/metrics.csv"
+                    
+                    if os.path.exists(log_dir):
+                        df = pd.read_csv(log_dir)
+                        val_f1 = df[df["val_f1"].notna()]["val_f1"].max()
 
-                if val_f1 > best_score:
-                    best_score = val_f1
-                    best_model = config
-                    best_config = config.copy()
+                        if val_f1 > best_score:
+                            best_score = val_f1
+                            best_model = config
+                            best_config = config.copy()
+                    else:
+                        print(f"Warning: Metrics file not found for {config['experiment_name']}")
+
+                except Exception as e:
+                    print(f"Error during training with {config}: {e}")
+                    continue  # Move to the next set of parameters
 
     print(f"Best Model: {best_config} with F1-score: {best_score}")
     return best_model
 
+# Run hyperparameter tuning
 best_model = tune_hyperparameters(
     epochs_list=[30, 50],  # Try different epoch numbers
     lr_list=[0.001, 0.01, 0.1],  # Try different learning rates
