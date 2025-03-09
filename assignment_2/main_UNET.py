@@ -238,6 +238,7 @@ def tune_hyperparameters(epochs_list, lr_list, optimizers_list):
                     'max_epochs': epochs,
                     'optimizer_lr': lr,
                     'optimizer_name': optimizer_name,
+                    'batch_size': 16, 
                     'model_name': 'unet',
                     'experiment_name': f"exp_{epochs}_{lr}_{optimizer_name}",
                     'train_data_dir': os.path.join(data_dir, 'train'),
