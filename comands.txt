@@ -9,3 +9,4 @@ wandb login
 sbatch slurm.job
 
 srun --partition=gpu --ntasks=1 --cpus-per-task=9 --gpus=1 --time=01:00:00 --pty bash -i
+ssource /gpfs/work5/0/prjs1312/venv2/bin/activate

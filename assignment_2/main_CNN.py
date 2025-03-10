@@ -26,7 +26,7 @@ from torchvision import transforms
 from sys import platform
 from Data_loader import Scan_Dataset, Scan_DataModule, Random_Rotate, Random_Flip, Random_GaussianBlur
 from visualization import show_data, show_data_logger
-from CNNs import SimpleConvNet, VGG16Classifier
+from CNNs import SimpleConvNet, ResNet50 
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 import wandb
@@ -69,7 +69,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 torch.device(device)
 
 models = {'custom_convnet': SimpleConvNet,
-          'vgg': VGG16Classifier}
+          'resnet50': ResNet50}
 
 optimizers = {'adam': torch.optim.Adam,
               'sgd': torch.optim.SGD}
@@ -204,7 +204,7 @@ if __name__ == '__main__':
                         help='Learning rate to use')
     parser.add_argument('--batch_size', default=64, type=int, 
                         help='Minibatch size')
-    parser.add_argument('--model_name', default='custom_convnet', type=str,
+    parser.add_argument('--model_name', default='resnet50', type=str,
                         help='defines model to use')
     parser.add_argument('--optimizer_name', default='adam', type=str,  
                         help='optimizer options: adam and sgd (default)')

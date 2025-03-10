@@ -55,27 +55,48 @@ class SimpleConvNet(pl.LightningModule):
 
         return self.classifier(x)
 
-
-
-# Transfer learning with VGG model
-class VGG16Classifier(pl.LightningModule):
-    def __init__(self, *args):
+# Transfer learning with ResnET Model
+class ResNet50(pl.LightningModule):
+    def __init__(self, num_classes=1, pretrained=True):
         super().__init__()
-        self.save_hyperparameters()
-        self.counter = 0
+        
+        # Load ResNet-50 Pretrained Model
+        self.resnet = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1 if pretrained else None)
+        
+        # Modify First Layer to Handle 3-Channel Images
+        self.resnet.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=7, stride=2, padding=3, bias=False)
+        
+        # Remove Fully Connected Layer
+        self.resnet.fc = nn.Identity()
+        
+        # Freeze Early Layers for Transfer Learning
+        for param in self.resnet.parameters():
+            param.requires_grad = False
+        
+        # Freeze entire model initially
+        
+        # Unfreeze the last few layers (fine-tuning)
+        for param in self.resnet.layer4.parameters():
+            param.requires_grad = True
+        
+        # Unfreeze last residual block
+        
+        # Custom Classification Head
+        self.classifier = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(in_features=2048, out_features=512),
+            nn.LeakyReLU(),
+            nn.Dropout(0.4),
+            nn.Linear(in_features=512, out_features=128),
+            nn.LeakyReLU(),
+            nn.Dropout(0.3),
+            nn.Linear(in_features=128, out_features=num_classes)
+        )
 
-        # Load pre-trained VGG16
-        self.model = models.vgg16(pretrained=True)
-
-        for param in self.model.features.parameters():
-            param.requires_grad = False 
-
-        # Modify classifier for binary classification
-        num_features = self.model.classifier[6].in_features
-        self.model.classifier[6] = nn.Linear(num_features, 1) 
-
-    def forward(self, X):
-        return self.model(X)
+    def forward(self, x):
+        x = self.resnet(x)  # Feature extraction using ResNet
+        x = self.classifier(x)  # Classification head
+        return x
 
 class UNet(pl.LightningModule):
   def __init__(self, n_classes=1, in_ch=3):
