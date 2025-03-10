@@ -18,6 +18,7 @@ import os
 import numpy as np
 import argparse
 import glob
+import pandas as pd
 
 import torch
 import torchmetrics
@@ -32,6 +33,7 @@ from pytorch_lightning.loggers import WandbLogger
 import wandb
 import nibabel as nib
 import torchio
+import matplotlib.pyplot as plt
 
 
 #start interactieve sessie om wandb.login te runnen
@@ -203,7 +205,7 @@ if __name__ == '__main__':
     # Other hyperparameters
     parser.add_argument('--max_epochs', default=50, type=int,
                         help='Max number of epochs')
-    parser.add_argument('--experiment_name', default='test2', type=str,
+    parser.add_argument('--experiment_name', default='test', type=str,
                         help='name of experiment')
     parser.add_argument('--checkpoint_folder_save', default=None, type=str,
                         help='path of experiment')
@@ -220,5 +222,61 @@ if __name__ == '__main__':
         'checkpoint_folder_save': '/gpfs/work5/0/prjs1312/CheckPoints',
     })
 
-    run(config_segm)
-    # Feel free to add any additional functions, such as plotting of the loss curve here
+    # run(config_segm)
+
+def tune_hyperparameters(epochs_list, lr_list, optimizers_list):
+    best_model = None
+    best_score = 0  # Track the best validation F1-score
+    best_config = {}
+
+    for epochs in epochs_list:
+        for lr in lr_list:
+            for optimizer_name in optimizers_list:
+                print(f"Training with epochs={epochs}, lr={lr}, optimizer={optimizer_name}")
+
+                config = {
+                    'max_epochs': epochs,
+                    'optimizer_lr': lr,
+                    'optimizer_name': optimizer_name,
+                    'batch_size': 16, 
+                    'model_name': 'unet',
+                    'experiment_name': f"exp_{epochs}_{lr}_{optimizer_name}",
+                    'train_data_dir': os.path.join(data_dir, 'train'),
+                    'val_data_dir': os.path.join(data_dir, 'val'),
+                    'test_data_dir': os.path.join(data_dir, 'test'),
+                    'bin': 'segm_models/',
+                    'loss_pos_weight': 1,
+                    'checkpoint_folder_save': '/gpfs/work5/0/prjs1312/CheckPoints',
+                }
+
+                try:
+                    # Train model
+                    run(config)
+
+                    # Ensure each experiment gets a unique log directory
+                    log_dir = f"segm_models/lightning_logs/{config['experiment_name']}/metrics.csv"
+                    
+                    if os.path.exists(log_dir):
+                        df = pd.read_csv(log_dir)
+                        val_f1 = df[df["val_f1"].notna()]["val_f1"].max()
+
+                        if val_f1 > best_score:
+                            best_score = val_f1
+                            best_model = config
+                            best_config = config.copy()
+                    else:
+                        print(f"Warning: Metrics file not found for {config['experiment_name']}")
+
+                except Exception as e:
+                    print(f"Error during training with {config}: {e}")
+                    continue  # Move to the next set of parameters
+
+    print(f"Best Model: {best_config} with F1-score: {best_score}")
+    return best_model
+
+# Run hyperparameter tuning
+""" best_model = tune_hyperparameters(
+    epochs_list=[30, 50],  # Try different epoch numbers
+    lr_list=[0.001, 0.01, 0.1],  # Try different learning rates
+    optimizers_list=['adam', 'sgd']  # Try Adam and SGD optimizers
+) """
