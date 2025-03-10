@@ -18,6 +18,7 @@ import os
 import numpy as np
 import argparse
 import glob
+import pandas as pd
 
 import torch
 import torchmetrics
@@ -204,7 +205,7 @@ if __name__ == '__main__':
     # Other hyperparameters
     parser.add_argument('--max_epochs', default=50, type=int,
                         help='Max number of epochs')
-    parser.add_argument('--experiment_name', default='test2', type=str,
+    parser.add_argument('--experiment_name', default='test', type=str,
                         help='name of experiment')
     parser.add_argument('--checkpoint_folder_save', default=None, type=str,
                         help='path of experiment')
@@ -222,8 +223,6 @@ if __name__ == '__main__':
     })
 
     # run(config_segm)
-
-import pandas as pd
 
 def tune_hyperparameters(epochs_list, lr_list, optimizers_list):
     best_model = None
@@ -276,8 +275,8 @@ def tune_hyperparameters(epochs_list, lr_list, optimizers_list):
     return best_model
 
 # Run hyperparameter tuning
-best_model = tune_hyperparameters(
+""" best_model = tune_hyperparameters(
     epochs_list=[30, 50],  # Try different epoch numbers
     lr_list=[0.001, 0.01, 0.1],  # Try different learning rates
     optimizers_list=['adam', 'sgd']  # Try Adam and SGD optimizers
-)
+) """
