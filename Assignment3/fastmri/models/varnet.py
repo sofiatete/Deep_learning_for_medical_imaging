@@ -29,11 +29,11 @@ class NormUnet(nn.Module):
 
     def __init__(
         self,
-        chans: int,
-        num_pools: int,
-        in_chans: int = 2,
-        out_chans: int = 2,
-        drop_prob: float = 0.0,
+        chans: int, # number of output channels of the first convolution layer
+        num_pools: int, # number of down-sampling and up-sampling layers
+        in_chans: int = 2, # number of channels in the input to the U-Net model
+        out_chans: int = 2, # number of channels in the output to the U-Net model
+        drop_prob: float = 0.0, # dropout probability
     ):
         """
         Args:
@@ -54,36 +54,56 @@ class NormUnet(nn.Module):
         )
 
     def complex_to_chan_dim(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Reformats the input tensor from a shape (b, c, h, w, 2) to (b, 2c, h, w).
+        - x.permute --> permutes the dimensions of the tensor (real/imaginary parts are now in second place)
+        - x.reshape --> reshapes the tensor to combine real and imaginary part of each channel
+        """
         b, c, h, w, two = x.shape
         assert two == 2
         return x.permute(0, 4, 1, 2, 3).reshape(b, 2 * c, h, w)
 
     def chan_complex_to_last_dim(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Reformats the input tensor from a shape (b, 2c, h, w) to (b, c, h, w, 2).
+        - x.view --> reshapes the tensor to separate real and imaginary parts of each channel
+        - x.permute --> permutes the dimensions of the tensor (real/imaginary parts are now in last place)
+        """
         b, c2, h, w = x.shape
         assert c2 % 2 == 0
         c = c2 // 2
         return x.view(b, 2, c, h, w).permute(0, 2, 3, 4, 1).contiguous()
 
     def norm(self, x: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+        """
+        Normalizes the input tensor across groups of channels.
+        - x.view --> flattens the spatial dimensions of the input tensor splitting it into two groups
+        - x.mean --> calculates the mean of the input tensor across the second dimension (height and width)
+        - x.std --> calculates the standard deviation of the input tensor across the second dimension (height and width)
+        - x.view --> reshapes the tensor to its original shape
+        """
         # group norm
         b, c, h, w = x.shape
-        x = x.view(b, 2, c // 2 * h * w)
+        x = x.view(b, 2, c // 2 * h * w) # flatten the spatial dimensions of the input tensor
 
         mean = x.mean(dim=2).view(b, 2, 1, 1)
         std = x.std(dim=2).view(b, 2, 1, 1)
 
-        x = x.view(b, c, h, w)
+        x = x.view(b, c, h, w) 
 
         return (x - mean) / std, mean, std
 
     def unnorm(
         self, x: torch.Tensor, mean: torch.Tensor, std: torch.Tensor
     ) -> torch.Tensor:
-        return x * std + mean
+        return x * std + mean # unnormalize the input tensor
 
     def pad(
         self, x: torch.Tensor
     ) -> Tuple[torch.Tensor, Tuple[List[int], List[int], int, int]]:
+        """
+        
+        """
         _, _, h, w = x.shape
         w_mult = ((w - 1) | 15) + 1
         h_mult = ((h - 1) | 15) + 1

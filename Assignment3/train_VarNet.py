@@ -32,9 +32,9 @@ def cli_main(args):
         args.mask_type, args.center_fractions, args.accelerations
     )
     # use random masks for train transform, fixed masks for val transform
-    train_transform = VarNetDataTransform(mask_func=mask, use_seed=False)
-    val_transform = VarNetDataTransform(mask_func=mask)
-    test_transform = VarNetDataTransform()
+    train_transform = VarNetDataTransform(mask_func=mask, use_seed=False) # uses random masks
+    val_transform = VarNetDataTransform(mask_func=mask) # uses fixed masks
+    test_transform = VarNetDataTransform() # no masks
     # ptl data module - this handles data loaders
     data_module = FastMriDataModule(
         data_path=args.data_path,
@@ -60,17 +60,18 @@ def cli_main(args):
     # model
     # ------------
     model = VarNetModule(
-        num_cascades=args.num_cascades,
-        pools=args.pools,
-        chans=args.chans,
-        sens_pools=args.sens_pools,
-        sens_chans=args.sens_chans,
-        lr=args.lr,
-        lr_step_size=args.lr_step_size,
-        lr_gamma=args.lr_gamma,
-        weight_decay=args.weight_decay,
+        num_cascades=args.num_cascades, # number of iterations (data consistency layer + U-Net reconstruction layer)
+        pools=args.pools, # number of pooling layers for U-Net
+        chans=args.chans, # number of channels in the U-Net
+        sens_pools=args.sens_pools, 
+        sens_chans=args.sens_chans,  
+        lr=args.lr, # learning rate
+        lr_step_size=args.lr_step_size, # epoch interval at which to decrease learning rate
+        lr_gamma=args.lr_gamma, # extent to which to decrease learning rate
+        weight_decay=args.weight_decay, # weight regularization
     )
     # model = model.double()
+
     # ------------
     # trainer
     # ------------
@@ -204,6 +205,7 @@ def build_args():
     if not checkpoint_dir.exists():
         checkpoint_dir.mkdir(parents=True)
 
+    # saves the best model based on validation loss
     args.callbacks = [
         pl.callbacks.ModelCheckpoint(
             dirpath=args.default_root_dir / "checkpoints",
