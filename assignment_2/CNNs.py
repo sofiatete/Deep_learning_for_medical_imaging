@@ -99,52 +99,75 @@ class ResNet50(pl.LightningModule):
         return x
 
 class UNet(pl.LightningModule):
-    def __init__(self, n_classes=1, in_ch=3):
-        super().__init__()
-        c = [16, 32, 64, 128, 256, 512, 1024]  
+  def __init__(self, n_classes=1, in_ch=3):
+      super().__init__()
+      #######################
+      # Start YOUR CODE    #
+      #######################
+      # number of filter's list for each expanding and respecting contracting layer
+      c = [16, 32, 64, 128]
 
-        self.enc1 = encoder_conv(in_ch, c[0])
-        self.enc2 = encoder_conv(c[0], c[1])
-        self.enc3 = encoder_conv(c[1], c[2])
-        self.enc4 = encoder_conv(c[2], c[3])
-        self.enc5 = encoder_conv(c[3], c[4])
-        self.enc6 = encoder_conv(c[4], c[5])
+      # first convolution layer receiving the image
+      self.enc1 = conv3x3_bn(in_ch, c[0])
+      
+      # encoder layers
+      self.pool1 = nn.MaxPool2d(2)
+      self.enc2 = conv3x3_bn(c[0], c[1])
 
-        self.bottleneck = conv3x3_bn(c[5], c[6])
+      self.pool2 = nn.MaxPool2d(2)
+      self.enc3 = conv3x3_bn(c[1], c[2])
 
-        self.dec6 = deconv(c[6], c[5])
-        self.dec5 = deconv(c[5], c[4])
-        self.dec4 = deconv(c[4], c[3])
-        self.dec3 = deconv(c[3], c[2])
-        self.dec2 = deconv(c[2], c[1])
-        self.dec1 = deconv(c[1], c[0])
+      self.pool3 = nn.MaxPool2d(2)
+      self.enc4 = conv3x3_bn(c[2], c[3])
 
-        self.final_conv = nn.Conv2d(c[0], n_classes, kernel_size=1)
+      self.pool4 = nn.MaxPool2d(2)
 
-    def forward(self, x):
-        e1 = self.enc1(x)
-        e2 = self.enc2(e1)
-        e3 = self.enc3(e2)
-        e4 = self.enc4(e3)
-        e5 = self.enc5(e4)
-        e6 = self.enc6(e5)
+      # bottleneck
+      self.bottleneck = conv3x3_bn(c[3], c[3] * 2)
 
-        b = self.bottleneck(e6)
+      # decoder layers
+      self.dec4 = deconv(c[3] * 2, c[3])
+      self.dec3 = deconv(c[3], c[2])
+      self.dec2 = deconv(c[2], c[1])
+      self.dec1 = deconv(c[1], c[0])
 
-        d6 = self.dec6(b, e6)
-        d5 = self.dec5(d6, e5)
-        d4 = self.dec4(d5, e4)
-        d3 = self.dec3(d4, e3)
-        d2 = self.dec2(d3, e2)
-        d1 = self.dec1(d2, e1)
+      # last layer returning the output
+      self.final_conv = nn.Conv2d(c[0], n_classes, kernel_size=1)
 
-        return self.final_conv(d1)
+      #######################
+      # END OF YOUR CODE    #
+      #######################
+  
+  def forward(self,x):
+      #######################
+      # Start YOUR CODE    #
+      #######################
+      # encoder
+      e1 = self.enc1(x)
+      p1 = self.pool1(e1)
+      e2 = self.enc2(p1)
+      p2 = self.pool2(e2)
+      e3 = self.enc3(p2)
+      p3 = self.pool3(e3)
+      e4 = self.enc4(p3)
+      p4 = self.pool4(e4)
+    
+      # bottleneck
+      b = self.bottleneck(p4)
 
-# Dice Loss Function
-def dice_loss(pred, target, smooth=1e-6):
-    pred = torch.sigmoid(pred)
-    intersection = (pred * target).sum()
-    return 1 - ((2. * intersection + smooth) / (pred.sum() + target.sum() + smooth))
+      # decoder
+      d4 = self.dec4(b, e4)
+      d3 = self.dec3(d4, e3)
+      d2 = self.dec2(d3, e2)
+      d1 = self.dec1(d2, e1)
+
+      # output
+      x = self.final_conv(d1)
+      #######################
+      # END OF YOUR CODE    #
+      #######################
+      return x
+
 
 
 def conv3x3_bn(ci, co):
@@ -192,7 +215,7 @@ class deconv(nn.Module):
       # Start YOUR CODE    #
       #######################
       x1 = self.upconv(x1)
-      x = torch.cat([x2, x1], dim=1)  
+      x = torch.cat([x2, x1], dim=1)  # Concatenation along channel dimension
       x = self.conv(x)
       #######################
       # end YOUR CODE    #

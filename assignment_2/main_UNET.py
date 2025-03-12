@@ -82,6 +82,16 @@ metrics = {'acc': torchmetrics.Accuracy(task='binary').to(device),
            'precision': torchmetrics.Precision(task='binary').to(device),
            'recall': torchmetrics.Recall(task='binary').to(device)}
 
+class DiceLoss(nn.Module):
+    def __init__(self, smooth=1.):
+        super(DiceLoss, self).__init__()
+        self.smooth = smooth
+
+    def forward(self, y_pred, y_true):
+        y_pred = torch.sigmoid(y_pred)  # Ensure values are between 0-1
+        intersection = torch.sum(y_pred * y_true)
+        dice = (2. * intersection + self.smooth) / (torch.sum(y_pred) + torch.sum(y_true) + self.smooth)
+        return 1 - dice  # Dice loss is (1 - Dice coefficient)
 
 class Segmenter(pl.LightningModule):
     def __init__(self, *args):
@@ -98,21 +108,24 @@ class Segmenter(pl.LightningModule):
         self.optimizer_name = config_segm['optimizer_name']
         self.lr = config_segm['optimizer_lr']
 
+        self.criterion = DiceLoss()
+
     def step(self, batch, nn_set):
         X, y = batch['image'], batch['mask']
         X, y = X.float().to(device), y.to(device).float()
         y_hat = self.model(X)
 
-        y_prob = torch.sigmoid(y_hat)
-        self.y_prob=y_prob>0.5
-        del X, y_hat, batch
+        # y_prob = torch.sigmoid(y_hat)
+        # self.y_prob=y_prob>0.5
+        # del X, y_hat, batch
 
         #pos_weight = torch.tensor([config_segm['loss_pos_weight']]).float().to(device)
-        loss = F.binary_cross_entropy(y_prob,y)
+        # loss = F.binary_cross_entropy(y_prob,y)
+        loss = self.criterion(y_hat, y)
         self.log(f"{nn_set}_loss", loss, on_step=False, on_epoch=True)
 
         for i, (metric_name, metric_fn) in enumerate(metrics.items()):
-            score = metric_fn(y_prob, y.int())
+            score = metric_fn(y_hat, y.int())
             self.log(f'{nn_set}_{metric_name}', score, on_step=False, on_epoch=True)
 
         return loss
