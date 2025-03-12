@@ -194,7 +194,7 @@ if __name__ == '__main__':
     # Command line arguments
     parser = argparse.ArgumentParser()
     # Optimizer hyperparameters
-    parser.add_argument('--optimizer_lr', default=0.1, type=float, nargs='+',
+    parser.add_argument('--optimizer_lr', default=0.01, type=float, nargs='+',
                         help='Learning rate to use')
     parser.add_argument('--batch_size', default=32, type=int,
                         help='Minibatch size')
