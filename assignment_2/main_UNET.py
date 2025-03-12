@@ -23,6 +23,8 @@ import pandas as pd
 import torch
 import torchmetrics
 import torch.nn.functional as F
+import torch.nn as nn
+
 from torchvision import transforms
 from sys import platform
 from Data_loader import Scan_Dataset_Segm, Scan_DataModule_Segm, ToTensor_Seg, Random_Rotate_Seg, Random_Flip_Seg, Random_GaussianBlur_Seg
@@ -115,8 +117,9 @@ class Segmenter(pl.LightningModule):
         X, y = X.float().to(device), y.to(device).float()
         y_hat = self.model(X)
 
-        # y_prob = torch.sigmoid(y_hat)
-        # self.y_prob=y_prob>0.5
+        y_prob = torch.sigmoid(y_hat)
+        self.y_prob=y_prob>0.5
+        
         # del X, y_hat, batch
 
         #pos_weight = torch.tensor([config_segm['loss_pos_weight']]).float().to(device)
