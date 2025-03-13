@@ -196,7 +196,7 @@ class deconv(nn.Module):
     #######################
     # Start YOUR CODE    #
     #######################
-    self.upconv = nn.ConvTranspose2d(ci, co, kernel_size=2, stride=2)
+    self.upconv = nn.ConvTranspose2d(ci, co, kernel_size=2, stride=2, padding = 1)
     self.conv = conv3x3_bn(ci, co)
     #######################
     # end YOUR CODE    #
@@ -207,6 +207,8 @@ class deconv(nn.Module):
       # Start YOUR CODE    #
       #######################
       x1 = self.upconv(x1)
+      if x1.shape[-2:] != x2.shape[-2:]:
+          x1 = F.interpolate(x1, size=x2.shape[-2:], mode='bilinear', align_corners=True)
       x = torch.cat([x2, x1], dim=1)  # Concatenation along channel dimension
       x = self.conv(x)
       #######################
