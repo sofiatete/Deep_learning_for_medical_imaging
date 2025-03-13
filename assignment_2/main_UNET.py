@@ -122,7 +122,7 @@ class Segmenter(pl.LightningModule):
         
         # del X, y_hat, batch
 
-        #pos_weight = torch.tensor([config_segm['loss_pos_weight']]).float().to(device)
+        #pos_weight = torch.tensor([fig_segm['loss_pos_weight']]).float().to(device)
         # loss = F.binary_cross_entropy(y_prob,y)
         loss = self.criterion(y_hat, y)
         self.log(f"{nn_set}_loss", loss, on_step=False, on_epoch=True)

@@ -110,28 +110,21 @@ class UNet(pl.LightningModule):
       # first convolution layer receiving the image
       self.enc1 = conv3x3_bn(in_ch, c[0])
       
-      # encoder layers
-      self.pool1 = nn.MaxPool2d(2)
-      self.enc2 = conv3x3_bn(c[0], c[1])
+      # Encoder layers with strided convolutions instead of max pooling
+      self.enc2 = conv3x3_bn(c[0], c[1], use_stride=True)
+      self.enc3 = conv3x3_bn(c[1], c[2], use_stride=True)
+      self.enc4 = conv3x3_bn(c[2], c[3], use_stride=True)
 
-      self.pool2 = nn.MaxPool2d(2)
-      self.enc3 = conv3x3_bn(c[1], c[2])
-
-      self.pool3 = nn.MaxPool2d(2)
-      self.enc4 = conv3x3_bn(c[2], c[3])
-
-      self.pool4 = nn.MaxPool2d(2)
-
-      # bottleneck
+      # Bottleneck
       self.bottleneck = conv3x3_bn(c[3], c[3] * 2)
 
-      # decoder layers
+      # Decoder layers
       self.dec4 = deconv(c[3] * 2, c[3])
       self.dec3 = deconv(c[3], c[2])
       self.dec2 = deconv(c[2], c[1])
       self.dec1 = deconv(c[1], c[0])
 
-      # last layer returning the output
+      # Output layer
       self.final_conv = nn.Conv2d(c[0], n_classes, kernel_size=1)
 
       #######################
@@ -142,26 +135,22 @@ class UNet(pl.LightningModule):
       #######################
       # Start YOUR CODE    #
       #######################
-      # encoder
+      # Encoder
       e1 = self.enc1(x)
-      p1 = self.pool1(e1)
-      e2 = self.enc2(p1)
-      p2 = self.pool2(e2)
-      e3 = self.enc3(p2)
-      p3 = self.pool3(e3)
-      e4 = self.enc4(p3)
-      p4 = self.pool4(e4)
-    
-      # bottleneck
-      b = self.bottleneck(p4)
+      e2 = self.enc2(e1)
+      e3 = self.enc3(e2)
+      e4 = self.enc4(e3)
 
-      # decoder
+     # Bottleneck
+      b = self.bottleneck(e4)
+
+      # Decoder
       d4 = self.dec4(b, e4)
       d3 = self.dec3(d4, e3)
       d2 = self.dec2(d3, e2)
       d1 = self.dec1(d2, e1)
 
-      # output
+      # Output
       x = self.final_conv(d1)
       #######################
       # END OF YOUR CODE    #
@@ -170,17 +159,20 @@ class UNet(pl.LightningModule):
 
 
 
-def conv3x3_bn(ci, co):
+def conv3x3_bn(ci, co, use_stride=False):
     #######################
     # Start YOUR CODE    #
     #######################
+    stride = 2 if use_stride else 1
     return nn.Sequential(
-        nn.Conv2d(ci, co, kernel_size=3, padding=1),
+        nn.Conv2d(ci, co, kernel_size=3, padding=1, stride=stride),
         nn.BatchNorm2d(co),
-        nn.ReLU(inplace=True),
+        nn.LeakyReLU(inplace=True),
+        nn.Dropout(0.2),
         nn.Conv2d(co, co, kernel_size=3, padding=1),
         nn.BatchNorm2d(co),
-        nn.ReLU(inplace=True),
+        nn.LeakyReLU(0.1, inplace=True),
+        nn.Dropout(0.2),
     )
     #######################
     # end YOUR CODE    #
