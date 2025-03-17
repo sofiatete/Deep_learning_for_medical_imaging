@@ -102,7 +102,8 @@ class NormUnet(nn.Module):
         self, x: torch.Tensor
     ) -> Tuple[torch.Tensor, Tuple[List[int], List[int], int, int]]:
         """
-        
+        Pads the input tensor to have spatial dimensions that are multiples of 16.
+        Returns the padded tensor and the padding sizes.
         """
         _, _, h, w = x.shape
         w_mult = ((w - 1) | 15) + 1
@@ -128,6 +129,10 @@ class NormUnet(nn.Module):
         return x[..., h_pad[0] : h_mult - h_pad[1], w_pad[0] : w_mult - w_pad[1]]
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        Forward pass of the model.
+        It normalizes the input tensor, pads it, applies the U-Net model, un-pads it, un-normalizes it and returns it.
+        """
         if not x.shape[-1] == 2:
             raise ValueError("Last dimension must be 2 for complex.")
 
@@ -185,6 +190,10 @@ class SensitivityModel(nn.Module):
         )
 
     def chans_to_batch_dim(self, x: torch.Tensor) -> Tuple[torch.Tensor, int]:
+        """
+        It reshapes the input tensor from a shape (b, c, h, w, 2) to (b*c, 1, h, w, 2).
+        Returns the reshaped tensor and the batch size.
+        """
         b, c, h, w, comp = x.shape
 
         return x.view(b * c, 1, h, w, comp), b
@@ -196,11 +205,17 @@ class SensitivityModel(nn.Module):
         return x.view(batch_size, c, h, w, comp)
 
     def divide_root_sum_of_squares(self, x: torch.Tensor) -> torch.Tensor:
+        """
+        It divides the input tensor by the root sum of squares of the input tensor across the second dimension.
+        """
         return x / fastmri.rss_complex(x, dim=1).unsqueeze(-1).unsqueeze(1)
 
     def get_pad_and_num_low_freqs(
         self, mask: torch.Tensor, num_low_frequencies: Optional[int] = None
     ) -> Tuple[torch.Tensor, torch.Tensor]:
+        """
+        It calculates the padding size and the number of low frequencies to keep.
+        """
         if num_low_frequencies is None or num_low_frequencies == 0:
             # get low frequency line locations and mask them out
             squeezed_mask = mask[:, 0, 0, :, 0].to(torch.int8)
@@ -226,6 +241,9 @@ class SensitivityModel(nn.Module):
         mask: torch.Tensor,
         num_low_frequencies: Optional[int] = None,
     ) -> torch.Tensor:
+        """
+        It applies the sensitivity model to the input k-space data.
+        """
         if self.mask_center:
             pad, num_low_freqs = self.get_pad_and_num_low_freqs(
                 mask, num_low_frequencies
@@ -341,3 +359,9 @@ class VarNetBlock(nn.Module):
         )
 
         return current_kspace - soft_dc - model_term
+
+# We subtract soft_dc and model_term from current_kspace to enforce data consistency and regularization.
+# soft_dc is the difference between the current k-space and the reference k-space where the mask is True.
+# model_term is the difference between the current k-space and the model prediction of the current k-space.
+# The model prediction is obtained by applying the model to the difference between the current k-space and the reference k-space.
+
