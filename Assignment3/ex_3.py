@@ -133,8 +133,6 @@ mask_func = create_mask_for_mask_type(
 
 # Apply the mask to k-space
 mask, acc = mask_func(kspace_center_slice.shape)
-mask = mask[0,0] # you need to to this because the resulting mask is 4D, and you need it to be 2D 
-
 kspace_masked = kspace_center_slice * mask.numpy().astype(kspace_center_slice.dtype)
 
 # Reconstruct the masked image
@@ -164,3 +162,8 @@ plt.title("Masked Image (Magnitude)")
 plt.axis("off")
 
 plt.show()
+
+# The acceleration factory is 4x, which means that we are only keeping 25% of the k-space data. If we set it
+# to 8x, keeping only 12.5% of the test data, the image is less clear. If we set it to 2x, keeping 50% of the
+# data, the image is clearer. 
+

@@ -7,7 +7,7 @@ LICENSE file in the root directory of this source tree.
 import os
 import pathlib
 from argparse import ArgumentParser
-from evaluation_metrics import ssim, nmse
+from evaluation_metrics import ssim, nmse, mse, psnr
 import h5py
 
 import pytorch_lightning as pl
@@ -95,13 +95,15 @@ def build_args():
     parser = ArgumentParser()
 
     # basic args
-    # path_config = pathlib.Path("save_model/fastmri_dirs.yaml")
-    path_config = pathlib.Path("/content/gdrive/MyDrive/DL_4_MI/Assigment3/save_model/fastmri_dirs.yaml")
+    path_config = pathlib.Path("save_model/fastmri_dirs.yaml")
+    # path_config = pathlib.Path("/content/gdrive/MyDrive/DL_4_MI/Assigment3/save_model/fastmri_dirs.yaml")
     num_gpus = 1
     batch_size = 1
 
     # set defaults based on optional directory config
-    data_path = "/content/gdrive/MyDrive/DL_4_MI/Assigment3/FastMRIdata/"
+    # data_path = "/content/gdrive/MyDrive/DL_4_MI/Assigment3/FastMRIdata/"
+    data_path = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIadata/'
+
     default_root_dir = fetch_dir("log_path", path_config) / "varnet" / "varnet_demo"
 
     # client arguments
@@ -252,16 +254,50 @@ def evaluate_test_data_quantitatively(datapath, reconpath):
     #######################
     # Start YOUR CODE    #
     #######################
+    # Load ground truth and reconstruction data once 
+    ground_truth_files = sorted(pathlib.Path(datapath).glob('*.h5')) 
+    reconstruction_files = sorted(pathlib.Path(reconpath).glob('*.h5'))
 
-    # load in ground truth and reconstruction images
+    mse_values = []
+    nmse_values = []
+    psnr_values = []
+    ssim_values = []
+    
+    # Loop over each pair of ground truth and reconstructed images
+    for gt_file, recon_file in zip(ground_truth_files, reconstruction_files):
+        # Load ground truth and reconstruction images
+        with h5py.File(gt_file, 'r') as f:
+            gt = f['/kspace'][:]  # Assuming the ground truth is stored under '/kspace'
+        
+        with h5py.File(recon_file, 'r') as f:
+            recon = f['/reconstruction'][:]  # Assuming the reconstruction is stored under '/reconstruction'
+        
+        # Center crop the ground truth image to match the size of the reconstructed image
+        gt = center_crop(gt, recon.shape)
+        
+        # Compute metrics for the current image
+        mse_val = mse(gt, recon)
+        nmse_val = nmse(gt, recon)
+        psnr_val = psnr(gt, recon)
+        ssim_val = ssim(gt, recon)
+        
+        # Append the metrics to the lists
+        mse_values.append(mse_val)
+        nmse_values.append(nmse_val)
+        psnr_values.append(psnr_val)
+        ssim_values.append(ssim_val)
+    
+    # Calculate the mean (or median) of each metric across all images
+    mean_mse = np.mean(mse_values)
+    mean_nmse = np.mean(nmse_values)
+    mean_psnr = np.mean(psnr_values)
+    mean_ssim = np.mean(ssim_values)
 
-    # NOTE: Reconstructed image is cropped by the VarNet
-    # the ground truth image still needs to be cropped 
-    # Use: gt = center_crop(gt, recon.shape)
-
-    # quantitative evaluation
-    pass
-
+    # Print the results
+    print(f"Mean MSE: {mean_mse}")
+    print(f"Mean NMSE: {mean_nmse}")
+    print(f"Mean PSNR: {mean_psnr}")
+    print(f"Mean SSIM: {mean_ssim}")
     #######################
     # END OF YOUR CODE    #
     #######################
@@ -273,14 +309,64 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
     # Start YOUR CODE    #
     #######################
 
-    # load in ground truth and reconstruction images
+    # Load in the ground truth and reconstructed images
+    with h5py.File(datapath, 'r') as f:
+        gt = f['/kspace'][:]
+    
+    with h5py.File(reconpath, 'r') as f:
+        recon = f['/reconstruction'][:] 
 
-    # NOTE: Reconstructed image is cropped by the VarNet
-    # the ground truth image still needs to be cropped 
-    # Use: gt = center_crop(gt, recon.shape)
+    # Center crop the ground truth image to match the size of the reconstructed image
+    gt = center_crop(gt, recon.shape)
+    
+    # Convert both images to magnitude, phase, real, and imaginary
+    gt_magnitude = np.abs(gt)
+    gt_phase = np.angle(gt)
+    gt_real = np.real(gt)
+    gt_imag = np.imag(gt)
+    
+    recon_magnitude = np.abs(recon)
+    recon_phase = np.angle(recon)
+    recon_real = np.real(recon)
+    recon_imag = np.imag(recon)
+    
+    # Plot magnitude, phase, real and imaginary channels
+    fig, axs = plt.subplots(2, 4, figsize=(15, 8))
+    
+    # Ground truth magnitude
+    axs[0, 0].imshow(gt_magnitude, cmap='gray')
+    axs[0, 0].set_title('Ground Truth Magnitude')
+    
+    # Ground truth phase
+    axs[0, 1].imshow(gt_phase, cmap='gray')
+    axs[0, 1].set_title('Ground Truth Phase')
+    
+    # Ground truth real part
+    axs[0, 2].imshow(gt_real, cmap='gray')
+    axs[0, 2].set_title('Ground Truth Real')
+    
+    # Ground truth imaginary part
+    axs[0, 3].imshow(gt_imag, cmap='gray')
+    axs[0, 3].set_title('Ground Truth Imaginary')
+    
+    # Reconstruction magnitude
+    axs[1, 0].imshow(recon_magnitude, cmap='gray')
+    axs[1, 0].set_title('Reconstructed Magnitude')
+    
+    # Reconstruction phase
+    axs[1, 1].imshow(recon_phase, cmap='gray')
+    axs[1, 1].set_title('Reconstructed Phase')
+    
+    # Reconstruction real part
+    axs[1, 2].imshow(recon_real, cmap='gray')
+    axs[1, 2].set_title('Reconstructed Real')
+    
+    # Reconstruction imaginary part
+    axs[1, 3].imshow(recon_imag, cmap='gray')
+    axs[1, 3].set_title('Reconstructed Imaginary')
 
-    # qualitative evaluation
-    pass
+    plt.tight_layout()
+    plt.show()
     #######################
     # END OF YOUR CODE    #
     #######################
@@ -290,9 +376,9 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
 if __name__ == "__main__":
     # run testing the network
     run_cli()
-    # datapath = 'FastMRIdata/'
-    # reconpath = 'varnet/varnet_demo/reconstructions/'
-    # # quantitativaly evaluate data
-    # evaluate_test_data_quantitatively(datapath, reconpath)
-    # # qualitatively
-    # evaluate_test_data_qualitatively(datapath, reconpath)
+    datapath = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIadata/multicoil_test/'
+    reconpath = 'varnet/varnet_demo/reconstructions/'
+    # quantitativaly evaluate data
+    evaluate_test_data_quantitatively(datapath, reconpath)
+    # qualitatively
+    evaluate_test_data_qualitatively(datapath, reconpath)
