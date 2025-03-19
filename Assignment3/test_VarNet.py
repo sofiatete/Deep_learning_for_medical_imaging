@@ -376,7 +376,7 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
 if __name__ == "__main__":
     # run testing the network
     run_cli()
-    datapath = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIadata/multicoil_test/'
+    datapath = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIdata/multicoil_test/'
     # datapath = '/projects/prjs1312/Recon_exercise/FastMRIdata/multicoil_test'
     reconpath = 'varnet/varnet_demo/reconstructions/'
     # quantitativaly evaluate data
