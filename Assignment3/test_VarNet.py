@@ -273,13 +273,19 @@ def evaluate_test_data_quantitatively(datapath, reconpath):
             recon = f['/reconstruction'][:]  # Assuming the reconstruction is stored under '/reconstruction'
         
         # Center crop the ground truth image to match the size of the reconstructed image
-        print("GT shape before squeeze:", gt.shape)
-        print("Recon shape before squeeze:", recon.shape)
         gt = np.squeeze(gt, axis=1) 
         gt = center_crop(gt, recon.shape[1:])
 
-        print("GT shape after squeeze:", gt.shape)
-        print("Recon shape after squeeze:", recon.shape)
+        # Assuming gt and recon are complex, apply magnitude or real part
+        if np.iscomplexobj(gt):
+            gt = np.abs(gt)  # Or np.real(gt) if you prefer to discard the imaginary part
+
+        if np.iscomplexobj(recon):
+            recon = np.abs(recon)  # Or np.real(recon)
+
+        # Then you can proceed to calculate PSNR or other metrics
+        psnr_val = psnr(gt, recon)
+
         
         # Compute metrics for the current image
         mse_val = mse(gt, recon)
