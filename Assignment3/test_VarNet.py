@@ -275,9 +275,8 @@ def evaluate_test_data_quantitatively(datapath, reconpath):
         # Center crop the ground truth image to match the size of the reconstructed image
         print("GT shape before squeeze:", gt.shape)
         print("Recon shape before squeeze:", recon.shape)
-
-        gt = center_crop(gt, recon.shape)
-        gt = np.squeeze(gt)
+        gt = np.squeeze(gt, axis=1) 
+        gt = center_crop(gt, recon.shape[1:])
 
         print("GT shape after squeeze:", gt.shape)
         print("Recon shape after squeeze:", recon.shape)
@@ -324,8 +323,8 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
         recon = f['/reconstruction'][:] 
 
     # Center crop the ground truth image to match the size of the reconstructed image
-    gt = center_crop(gt, recon.shape)
-    gt = np.squeeze(gt)
+    gt = np.squeeze(gt, axis=1) 
+    gt = center_crop(gt, recon.shape[1:])
     
     # Convert both images to magnitude, phase, real, and imaginary
     gt_magnitude = np.abs(gt)
