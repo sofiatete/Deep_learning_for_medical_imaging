@@ -102,7 +102,7 @@ def build_args():
 
     # set defaults based on optional directory config
     # data_path = "/content/gdrive/MyDrive/DL_4_MI/Assigment3/FastMRIdata/"
-    data_path = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIadata/'
+    data_path = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIdata/'
 
     default_root_dir = fetch_dir("log_path", path_config) / "varnet" / "varnet_demo"
 
@@ -376,8 +376,8 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
 if __name__ == "__main__":
     # run testing the network
     run_cli()
-    # datapath = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIadata/multicoil_test/'
-    datapath = '/projects/prjs1312/Recon_exercise/FastMRIdata/multicoil_test'
+    datapath = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIadata/multicoil_test/'
+    # datapath = '/projects/prjs1312/Recon_exercise/FastMRIdata/multicoil_test'
     reconpath = 'varnet/varnet_demo/reconstructions/'
     # quantitativaly evaluate data
     evaluate_test_data_quantitatively(datapath, reconpath)
