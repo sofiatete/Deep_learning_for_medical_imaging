@@ -423,5 +423,8 @@ if __name__ == "__main__":
     # Specify the output directory for saving images
     output_dir = './qualitative_results'
 
+    # Quantitative evaluation
+    evaluate_test_data_quantitatively(datapath, reconpath)
+
     # Qualitative evaluation
     evaluate_test_data_qualitatively(datapath, reconpath, output_dir)
