@@ -443,6 +443,81 @@ def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
     #######################
     return
 
+def evaluate_test_data_qualitatively2(datapath, reconpath, output_dir):
+    # Get the list of all ground truth files and reconstruction files in the directory
+    ground_truth_files = sorted(pathlib.Path(datapath).glob('*.h5'))
+    reconstruction_files = sorted(pathlib.Path(reconpath).glob('*.h5'))
+
+    for gt_file, recon_file in zip(ground_truth_files, reconstruction_files):
+        print(f"Processing: {gt_file.name} and {recon_file.name}")
+        
+        # Load ground truth and reconstruction images
+        with h5py.File(gt_file, 'r') as f:
+            gt_kspace = f['/kspace'][:]  # Load k-space
+        
+        with h5py.File(recon_file, 'r') as f:
+            recon_image = f['/reconstruction'][:]  # Reconstructed image in image domain
+
+        # Squeeze and center crop ground truth to match reconstruction dimensions
+        gt_kspace = np.squeeze(gt_kspace, axis=1)  
+        gt_kspace = center_crop(gt_kspace, recon_image.shape[1:])
+
+        # Convert ground truth k-space to image domain
+        gt_image = fourier_transform(gt_kspace)  # Apply Fourier transform
+
+        # Get the magnitude correctly for visualization
+        gt_magnitude = np.abs(gt_image)  # Corrected: Magnitude in image domain
+        recon_magnitude = np.abs(recon_image)  # Ensure consistent magnitude handling
+
+        # Get center slice index
+        center_index = gt_magnitude.shape[0] // 2  # Center slice index
+
+        # Extract center slice
+        gt_magnitude_slice = gt_magnitude[center_index]  
+        recon_magnitude_slice = recon_magnitude[center_index]
+
+        # Get phase, real, and imaginary parts correctly
+        gt_phase_slice = np.angle(gt_image[center_index])
+        gt_real_slice = np.real(gt_image[center_index])
+        gt_imag_slice = np.imag(gt_image[center_index])
+
+        recon_phase_slice = np.angle(recon_image[center_index])
+        recon_real_slice = np.real(recon_image[center_index])
+        recon_imag_slice = np.imag(recon_image[center_index])
+
+        # Plot results
+        fig, axs = plt.subplots(2, 4, figsize=(15, 8))
+
+        axs[0, 0].imshow(gt_magnitude_slice, cmap='gray')
+        axs[0, 0].set_title('Ground Truth Magnitude')
+
+        axs[0, 1].imshow(gt_phase_slice, cmap='gray')
+        axs[0, 1].set_title('Ground Truth Phase')
+
+        axs[0, 2].imshow(gt_real_slice, cmap='gray')
+        axs[0, 2].set_title('Ground Truth Real')
+
+        axs[0, 3].imshow(gt_imag_slice, cmap='gray')
+        axs[0, 3].set_title('Ground Truth Imaginary')
+
+        axs[1, 0].imshow(recon_magnitude_slice, cmap='gray')
+        axs[1, 0].set_title('Reconstructed Magnitude')
+
+        axs[1, 1].imshow(recon_phase_slice, cmap='gray')
+        axs[1, 1].set_title('Reconstructed Phase')
+
+        axs[1, 2].imshow(recon_real_slice, cmap='gray')
+        axs[1, 2].set_title('Reconstructed Real')
+
+        axs[1, 3].imshow(recon_imag_slice, cmap='gray')
+        axs[1, 3].set_title('Reconstructed Imaginary')
+
+        output_path = os.path.join(output_dir, f"{gt_file.stem}_comparison.png")
+        save_image(fig, output_path)
+        print(f"Saved: {output_path}")
+    
+    return
+
 
 if __name__ == "__main__":
     # Run testing the network
@@ -454,7 +529,7 @@ if __name__ == "__main__":
     output_dir = './qualitative_results'
 
     # Quantitative evaluation
-    evaluate_test_data_quantitatively(datapath, reconpath)
+    # evaluate_test_data_quantitatively(datapath, reconpath)
 
     # Qualitative evaluation
-    evaluate_test_data_qualitatively(datapath, reconpath, output_dir)
+    evaluate_test_data_qualitatively2(datapath, reconpath, output_dir)
