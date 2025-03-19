@@ -341,109 +341,9 @@ def save_image(fig, output_path: str):
     fig.savefig(output_path, bbox_inches='tight', dpi=300)  
     plt.close(fig)  
 
+
+
 def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
-    #######################
-    # Start YOUR CODE    #
-    #######################
-    
-    # Get the list of all ground truth files and reconstruction files in the directory
-    ground_truth_files = sorted(pathlib.Path(datapath).glob('*.h5'))
-    reconstruction_files = sorted(pathlib.Path(reconpath).glob('*.h5'))
-
-    # Loop over each pair of ground truth and reconstructed images
-    for gt_file, recon_file in zip(ground_truth_files, reconstruction_files):
-        print(f"Processing: {gt_file.name} and {recon_file.name}")
-        
-        # Load ground truth and reconstruction images
-        with h5py.File(gt_file, 'r') as f:
-            gt = f['/kspace'][:]  
-        
-        with h5py.File(recon_file, 'r') as f:
-            recon = f['/reconstruction'][:]  
-
-        # If complex-valued, squeeze and center crop
-        gt = np.squeeze(gt, axis=1)  # Squeeze the singleton dimension
-        gt = center_crop(gt, recon.shape[1:])
-        
-        if np.iscomplexobj(gt):
-            gt_magnitude = np.abs(gt)
-            gt_phase = np.angle(gt)
-            gt_real = np.real(gt)
-            gt_imag = np.imag(gt)
-        else:
-            gt_magnitude = gt
-            gt_phase = np.zeros_like(gt)
-            gt_real = gt
-            gt_imag = np.zeros_like(gt)
-        
-        if np.iscomplexobj(recon):
-            recon_magnitude = np.abs(recon)
-            recon_phase = np.angle(recon)
-            recon_real = np.real(recon)
-            recon_imag = np.imag(recon)
-        else:
-            recon_magnitude = recon
-            recon_phase = np.zeros_like(recon)
-            recon_real = recon
-            recon_imag = np.zeros_like(recon)
-        
-        # Apply Fourier transform (shifting and inverse shifting)
-        gt_image = fourier_transform(gt)
-        recon_image = fourier_transform(recon)
-
-        # Take the magnitude to get real-valued images
-        gt_image_magnitude = np.abs(gt_image).squeeze()  # Remove extra dimensions, if any
-        recon_image_magnitude = recon_image.squeeze()
-
-        # Select the center slice (index = middle index of the 3D data)
-        center_index = gt_image_magnitude.shape[0] // 2  # Find the center slice index
-        gt_image_magnitude = gt_image_magnitude[center_index]  # Take the center slice
-        recon_image_magnitude = np.abs(recon_image_magnitude[center_index])  # Take the center slice
-
-        fig, axs = plt.subplots(2, 4, figsize=(15, 8))
-
-        # Ground truth magnitude (center slice)
-        axs[0, 0].imshow(gt_image_magnitude, cmap='gray')
-        axs[0, 0].set_title('Ground Truth Magnitude')
-
-        # Ground truth phase
-        axs[0, 1].imshow(gt_phase[center_index], cmap='gray')
-        axs[0, 1].set_title('Ground Truth Phase')
-
-        # Ground truth real part
-        axs[0, 2].imshow(gt_real[center_index], cmap='gray')
-        axs[0, 2].set_title('Ground Truth Real')
-
-        # Ground truth imaginary part
-        axs[0, 3].imshow(gt_imag[center_index], cmap='gray')
-        axs[0, 3].set_title('Ground Truth Imaginary')
-
-        # Reconstruction magnitude (center slice)
-        axs[1, 0].imshow(recon_image_magnitude, cmap='gray')
-        axs[1, 0].set_title('Reconstructed Magnitude')
-
-        # Reconstruction phase
-        axs[1, 1].imshow(recon_phase[center_index], cmap='gray')
-        axs[1, 1].set_title('Reconstructed Phase')
-
-        # Reconstruction real part
-        axs[1, 2].imshow(recon_real[center_index], cmap='gray')
-        axs[1, 2].set_title('Reconstructed Real')
-
-        # Reconstruction imaginary part
-        axs[1, 3].imshow(recon_imag[center_index], cmap='gray')
-        axs[1, 3].set_title('Reconstructed Imaginary')
-
-        output_path = os.path.join(output_dir, f"{gt_file.stem}_comparison.png")
-        save_image(fig, output_path)
-        print(f"Saved: {output_path}")
-    
-    #######################
-    # END OF YOUR CODE    #
-    #######################
-    return
-
-def evaluate_test_data_qualitatively2(datapath, reconpath, output_dir):
     # Get the list of all ground truth files and reconstruction files in the directory
     ground_truth_files = sorted(pathlib.Path(datapath).glob('*.h5'))
     reconstruction_files = sorted(pathlib.Path(reconpath).glob('*.h5'))
@@ -532,4 +432,4 @@ if __name__ == "__main__":
     # evaluate_test_data_quantitatively(datapath, reconpath)
 
     # Qualitative evaluation
-    evaluate_test_data_qualitatively2(datapath, reconpath, output_dir)
+    evaluate_test_data_qualitatively(datapath, reconpath, output_dir)
