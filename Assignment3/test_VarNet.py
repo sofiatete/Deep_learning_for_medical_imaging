@@ -20,9 +20,8 @@ from fastmri.data.subsample import create_mask_for_mask_type
 from fastmri.data.transforms import VarNetDataTransform
 from fastmri.data.transforms import center_crop
 
-
 from fastmri.pl_modules import FastMriDataModule, VarNetModule
-
+from ex_3 import fourier_transform
 
 def cli_main(args):
     pl.seed_everything(args.seed)
@@ -277,6 +276,10 @@ def evaluate_test_data_quantitatively(datapath, reconpath):
         gt = np.squeeze(gt, axis=1) 
         gt = center_crop(gt, recon.shape[1:])
 
+        # Apply Fourier transform (shifting and inverse shifting)
+        gt = fourier_transform(gt)
+        recon = fourier_transform(recon)
+
         # Assuming gt and recon are complex, apply magnitude or real part
         if np.iscomplexobj(gt):
             gt = np.abs(gt)  # Or np.real(gt) if you prefer to discard the imaginary part
@@ -369,11 +372,18 @@ def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
             recon_real = recon
             recon_imag = np.zeros_like(recon)
         
-        # Create a figure to save the images
+        # Apply Fourier transform (shifting and inverse shifting)
+        gt_image = fourier_transform(gt)
+        recon_image = fourier_transform(recon)
+        
+        # Take the magnitude to get real-valued images
+        gt_image_magnitude = np.abs(gt_image).squeeze()
+        recon_image_magnitude = np.abs(recon_image).squeeze()
+
         fig, axs = plt.subplots(2, 4, figsize=(15, 8))
         
         # Ground truth magnitude (select the first image in the batch)
-        axs[0, 0].imshow(gt_magnitude[0], cmap='gray')
+        axs[0, 0].imshow(gt_image_magnitude, cmap='gray')
         axs[0, 0].set_title('Ground Truth Magnitude')
         
         # Ground truth phase
@@ -389,7 +399,7 @@ def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
         axs[0, 3].set_title('Ground Truth Imaginary')
         
         # Reconstruction magnitude
-        axs[1, 0].imshow(recon_magnitude[0], cmap='gray')
+        axs[1, 0].imshow(recon_image_magnitude, cmap='gray')
         axs[1, 0].set_title('Reconstructed Magnitude')
         
         # Reconstruction phase
