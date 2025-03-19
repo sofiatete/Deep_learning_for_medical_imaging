@@ -387,56 +387,56 @@ def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
             recon_real = recon
             recon_imag = np.zeros_like(recon)
         
-    # Apply Fourier transform (shifting and inverse shifting)
-    gt_image = fourier_transform(gt)
-    recon_image = fourier_transform(recon)
+        # Apply Fourier transform (shifting and inverse shifting)
+        gt_image = fourier_transform(gt)
+        recon_image = fourier_transform(recon)
 
-    # Take the magnitude to get real-valued images
-    gt_image_magnitude = np.abs(gt_image).squeeze()  # Remove extra dimensions, if any
-    recon_image_magnitude = np.abs(recon_image).squeeze()
+        # Take the magnitude to get real-valued images
+        gt_image_magnitude = np.abs(gt_image).squeeze()  # Remove extra dimensions, if any
+        recon_image_magnitude = np.abs(recon_image).squeeze()
 
-    # Ensure that you select only a 2D slice from the 3D data
-    # Example: Select the first slice (index 0)
-    gt_image_magnitude = gt_image_magnitude[0]  # Take the first slice (adjust index as needed)
-    recon_image_magnitude = recon_image_magnitude[0]  # Take the first slice (adjust index as needed)
+        # Ensure that you select only a 2D slice from the 3D data
+        # Example: Select the first slice (index 0)
+        gt_image_magnitude = gt_image_magnitude[0]  # Take the first slice (adjust index as needed)
+        recon_image_magnitude = recon_image_magnitude[0]  # Take the first slice (adjust index as needed)
 
-    fig, axs = plt.subplots(2, 4, figsize=(15, 8))
+        fig, axs = plt.subplots(2, 4, figsize=(15, 8))
 
-    # Ground truth magnitude (select the first image in the batch)
-    axs[0, 0].imshow(gt_image_magnitude, cmap='gray')
-    axs[0, 0].set_title('Ground Truth Magnitude')
+        # Ground truth magnitude (select the first image in the batch)
+        axs[0, 0].imshow(gt_image_magnitude, cmap='gray')
+        axs[0, 0].set_title('Ground Truth Magnitude')
 
-    # Ground truth phase
-    axs[0, 1].imshow(gt_phase[0], cmap='gray')
-    axs[0, 1].set_title('Ground Truth Phase')
+        # Ground truth phase
+        axs[0, 1].imshow(gt_phase[0], cmap='gray')
+        axs[0, 1].set_title('Ground Truth Phase')
 
-    # Ground truth real part
-    axs[0, 2].imshow(gt_real[0], cmap='gray')
-    axs[0, 2].set_title('Ground Truth Real')
+        # Ground truth real part
+        axs[0, 2].imshow(gt_real[0], cmap='gray')
+        axs[0, 2].set_title('Ground Truth Real')
 
-    # Ground truth imaginary part
-    axs[0, 3].imshow(gt_imag[0], cmap='gray')
-    axs[0, 3].set_title('Ground Truth Imaginary')
+        # Ground truth imaginary part
+        axs[0, 3].imshow(gt_imag[0], cmap='gray')
+        axs[0, 3].set_title('Ground Truth Imaginary')
 
-    # Reconstruction magnitude
-    axs[1, 0].imshow(recon_image_magnitude, cmap='gray')
-    axs[1, 0].set_title('Reconstructed Magnitude')
+        # Reconstruction magnitude
+        axs[1, 0].imshow(recon_image_magnitude, cmap='gray')
+        axs[1, 0].set_title('Reconstructed Magnitude')
 
-    # Reconstruction phase
-    axs[1, 1].imshow(recon_phase[0], cmap='gray')
-    axs[1, 1].set_title('Reconstructed Phase')
+        # Reconstruction phase
+        axs[1, 1].imshow(recon_phase[0], cmap='gray')
+        axs[1, 1].set_title('Reconstructed Phase')
 
-    # Reconstruction real part
-    axs[1, 2].imshow(recon_real[0], cmap='gray')
-    axs[1, 2].set_title('Reconstructed Real')
+        # Reconstruction real part
+        axs[1, 2].imshow(recon_real[0], cmap='gray')
+        axs[1, 2].set_title('Reconstructed Real')
 
-    # Reconstruction imaginary part
-    axs[1, 3].imshow(recon_imag[0], cmap='gray')
-    axs[1, 3].set_title('Reconstructed Imaginary')
+        # Reconstruction imaginary part
+        axs[1, 3].imshow(recon_imag[0], cmap='gray')
+        axs[1, 3].set_title('Reconstructed Imaginary')
 
-    output_path = os.path.join(output_dir, f"{gt_file.stem}_comparison.png")
-    save_image(fig, output_path)
-    print(f"Saved: {output_path}")
+        output_path = os.path.join(output_dir, f"{gt_file.stem}_comparison.png")
+        save_image(fig, output_path)
+        print(f"Saved: {output_path}")
     
     #######################
     # END OF YOUR CODE    #
