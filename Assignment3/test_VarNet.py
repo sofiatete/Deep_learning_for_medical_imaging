@@ -21,7 +21,6 @@ from fastmri.data.transforms import VarNetDataTransform
 from fastmri.data.transforms import center_crop
 
 from fastmri.pl_modules import FastMriDataModule, VarNetModule
-from ex_3 import fourier_transform
 
 def cli_main(args):
     pl.seed_everything(args.seed)
@@ -247,6 +246,22 @@ def center_crop(data, shape):
     h_to = h_from + shape[1]
 
     return data[..., w_from:w_to, h_from:h_to]
+
+# perform inverse fourier transform and shifting
+def fourier_transform(kspace):
+    """Reconstructs an image using the Fourier transform with proper shifting."""
+    dim1, dim2 = -2, -1  # Last two dimensions (H, W)
+
+    # Shift k-space center to middle before performing IFT
+    kspace_shifted = np.fft.ifftshift(kspace, axes=(dim1, dim2))
+
+    # Perform the inverse 2D Fourier Transform
+    image = np.fft.ifft2(kspace_shifted, axes=(dim1, dim2))
+
+    # Shift the final image to center it correctly
+    image = np.fft.fftshift(image, axes=(dim1, dim2))
+
+    return image
 
 
 
