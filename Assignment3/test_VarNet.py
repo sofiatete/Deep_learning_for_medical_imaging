@@ -9,6 +9,7 @@ import pathlib
 from argparse import ArgumentParser
 from evaluation_metrics import ssim, nmse, mse, psnr
 import h5py
+from typing import Tuple
 
 import pytorch_lightning as pl
 import numpy as np
@@ -316,10 +317,18 @@ def evaluate_test_data_quantitatively(datapath, reconpath):
     return
 
 
-def evaluate_test_data_qualitatively(datapath, reconpath):
+def save_image(fig, output_path: str):
+    """ Save the figure as a PNG file to the specified path. """
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)  
+    fig.savefig(output_path, bbox_inches='tight', dpi=300)  
+    plt.close(fig)  
+
+def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
     #######################
     # Start YOUR CODE    #
     #######################
+    
+    # Get the list of all ground truth files and reconstruction files in the directory
     ground_truth_files = sorted(pathlib.Path(datapath).glob('*.h5'))
     reconstruction_files = sorted(pathlib.Path(reconpath).glob('*.h5'))
 
@@ -329,16 +338,15 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
         
         # Load ground truth and reconstruction images
         with h5py.File(gt_file, 'r') as f:
-            gt = f['/kspace'][:]  # Assuming the ground truth is stored under '/kspace'
+            gt = f['/kspace'][:]  
         
         with h5py.File(recon_file, 'r') as f:
-            recon = f['/reconstruction'][:]  # Assuming the reconstruction is stored under '/reconstruction'
+            recon = f['/reconstruction'][:]  
 
         # If complex-valued, squeeze and center crop
         gt = np.squeeze(gt, axis=1)  # Squeeze the singleton dimension
         gt = center_crop(gt, recon.shape[1:])
         
-        # Check if data is complex (e.g., ground truth and reconstruction might be complex-valued)
         if np.iscomplexobj(gt):
             gt_magnitude = np.abs(gt)
             gt_phase = np.angle(gt)
@@ -361,43 +369,44 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
             recon_real = recon
             recon_imag = np.zeros_like(recon)
         
-        # Plot magnitude, phase, real, and imaginary components
+        # Create a figure to save the images
         fig, axs = plt.subplots(2, 4, figsize=(15, 8))
         
-        # Ground truth magnitude
-        axs[0, 0].imshow(gt_magnitude, cmap='gray')
+        # Ground truth magnitude (select the first image in the batch)
+        axs[0, 0].imshow(gt_magnitude[0], cmap='gray')
         axs[0, 0].set_title('Ground Truth Magnitude')
         
         # Ground truth phase
-        axs[0, 1].imshow(gt_phase, cmap='gray')
+        axs[0, 1].imshow(gt_phase[0], cmap='gray')
         axs[0, 1].set_title('Ground Truth Phase')
         
         # Ground truth real part
-        axs[0, 2].imshow(gt_real, cmap='gray')
+        axs[0, 2].imshow(gt_real[0], cmap='gray')
         axs[0, 2].set_title('Ground Truth Real')
         
         # Ground truth imaginary part
-        axs[0, 3].imshow(gt_imag, cmap='gray')
+        axs[0, 3].imshow(gt_imag[0], cmap='gray')
         axs[0, 3].set_title('Ground Truth Imaginary')
         
         # Reconstruction magnitude
-        axs[1, 0].imshow(recon_magnitude, cmap='gray')
+        axs[1, 0].imshow(recon_magnitude[0], cmap='gray')
         axs[1, 0].set_title('Reconstructed Magnitude')
         
         # Reconstruction phase
-        axs[1, 1].imshow(recon_phase, cmap='gray')
+        axs[1, 1].imshow(recon_phase[0], cmap='gray')
         axs[1, 1].set_title('Reconstructed Phase')
         
         # Reconstruction real part
-        axs[1, 2].imshow(recon_real, cmap='gray')
+        axs[1, 2].imshow(recon_real[0], cmap='gray')
         axs[1, 2].set_title('Reconstructed Real')
         
         # Reconstruction imaginary part
-        axs[1, 3].imshow(recon_imag, cmap='gray')
+        axs[1, 3].imshow(recon_imag[0], cmap='gray')
         axs[1, 3].set_title('Reconstructed Imaginary')
 
-        plt.tight_layout()
-        plt.show()
+        output_path = os.path.join(output_dir, f"{gt_file.stem}_comparison.png")
+        save_image(fig, output_path)
+        print(f"Saved: {output_path}")
     
     #######################
     # END OF YOUR CODE    #
@@ -406,12 +415,13 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
 
 
 if __name__ == "__main__":
-    # run testing the network
+    # Run testing the network
     run_cli()
     datapath = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIdata/multicoil_test/'
-    # datapath = '/projects/prjs1312/Recon_exercise/FastMRIdata/multicoil_test'
     reconpath = 'varnet/varnet_demo/reconstructions/'
-    # quantitativaly evaluate data
-    evaluate_test_data_quantitatively(datapath, reconpath)
-    # qualitatively
-    evaluate_test_data_qualitatively(datapath, reconpath)
+
+    # Specify the output directory for saving images
+    output_dir = './qualitative_results'
+
+    # Qualitative evaluation
+    evaluate_test_data_qualitatively(datapath, reconpath, output_dir)
