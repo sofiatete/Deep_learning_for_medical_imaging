@@ -393,12 +393,12 @@ def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
 
         # Take the magnitude to get real-valued images
         gt_image_magnitude = np.abs(gt_image).squeeze()  # Remove extra dimensions, if any
-        recon_image_magnitude = np.abs(recon_image).squeeze()
+        recon_image_magnitude = recon_image.squeeze()
 
         # Select the center slice (index = middle index of the 3D data)
         center_index = gt_image_magnitude.shape[0] // 2  # Find the center slice index
         gt_image_magnitude = gt_image_magnitude[center_index]  # Take the center slice
-        recon_image_magnitude = recon_image_magnitude[center_index]  # Take the center slice
+        recon_image_magnitude = np.abs(recon_image_magnitude[center_index])  # Take the center slice
 
         fig, axs = plt.subplots(2, 4, figsize=(15, 8))
 
