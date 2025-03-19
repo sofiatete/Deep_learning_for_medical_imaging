@@ -395,43 +395,43 @@ def evaluate_test_data_qualitatively(datapath, reconpath, output_dir):
         gt_image_magnitude = np.abs(gt_image).squeeze()  # Remove extra dimensions, if any
         recon_image_magnitude = np.abs(recon_image).squeeze()
 
-        # Ensure that you select only a 2D slice from the 3D data
-        # Example: Select the first slice (index 0)
-        gt_image_magnitude = gt_image_magnitude[0]  # Take the first slice (adjust index as needed)
-        recon_image_magnitude = recon_image_magnitude[0]  # Take the first slice (adjust index as needed)
+        # Select the center slice (index = middle index of the 3D data)
+        center_index = gt_image_magnitude.shape[0] // 2  # Find the center slice index
+        gt_image_magnitude = gt_image_magnitude[center_index]  # Take the center slice
+        recon_image_magnitude = recon_image_magnitude[center_index]  # Take the center slice
 
         fig, axs = plt.subplots(2, 4, figsize=(15, 8))
 
-        # Ground truth magnitude (select the first image in the batch)
+        # Ground truth magnitude (center slice)
         axs[0, 0].imshow(gt_image_magnitude, cmap='gray')
         axs[0, 0].set_title('Ground Truth Magnitude')
 
         # Ground truth phase
-        axs[0, 1].imshow(gt_phase[0], cmap='gray')
+        axs[0, 1].imshow(gt_phase[center_index], cmap='gray')
         axs[0, 1].set_title('Ground Truth Phase')
 
         # Ground truth real part
-        axs[0, 2].imshow(gt_real[0], cmap='gray')
+        axs[0, 2].imshow(gt_real[center_index], cmap='gray')
         axs[0, 2].set_title('Ground Truth Real')
 
         # Ground truth imaginary part
-        axs[0, 3].imshow(gt_imag[0], cmap='gray')
+        axs[0, 3].imshow(gt_imag[center_index], cmap='gray')
         axs[0, 3].set_title('Ground Truth Imaginary')
 
-        # Reconstruction magnitude
+        # Reconstruction magnitude (center slice)
         axs[1, 0].imshow(recon_image_magnitude, cmap='gray')
         axs[1, 0].set_title('Reconstructed Magnitude')
 
         # Reconstruction phase
-        axs[1, 1].imshow(recon_phase[0], cmap='gray')
+        axs[1, 1].imshow(recon_phase[center_index], cmap='gray')
         axs[1, 1].set_title('Reconstructed Phase')
 
         # Reconstruction real part
-        axs[1, 2].imshow(recon_real[0], cmap='gray')
+        axs[1, 2].imshow(recon_real[center_index], cmap='gray')
         axs[1, 2].set_title('Reconstructed Real')
 
         # Reconstruction imaginary part
-        axs[1, 3].imshow(recon_imag[0], cmap='gray')
+        axs[1, 3].imshow(recon_imag[center_index], cmap='gray')
         axs[1, 3].set_title('Reconstructed Imaginary')
 
         output_path = os.path.join(output_dir, f"{gt_file.stem}_comparison.png")
