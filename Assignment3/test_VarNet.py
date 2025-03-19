@@ -320,66 +320,85 @@ def evaluate_test_data_qualitatively(datapath, reconpath):
     #######################
     # Start YOUR CODE    #
     #######################
+    ground_truth_files = sorted(pathlib.Path(datapath).glob('*.h5'))
+    reconstruction_files = sorted(pathlib.Path(reconpath).glob('*.h5'))
 
-    # Load in the ground truth and reconstructed images
-    with h5py.File(datapath, 'r') as f:
-        gt = f['/kspace'][:]
-    
-    with h5py.File(reconpath, 'r') as f:
-        recon = f['/reconstruction'][:] 
+    # Loop over each pair of ground truth and reconstructed images
+    for gt_file, recon_file in zip(ground_truth_files, reconstruction_files):
+        print(f"Processing: {gt_file.name} and {recon_file.name}")
+        
+        # Load ground truth and reconstruction images
+        with h5py.File(gt_file, 'r') as f:
+            gt = f['/kspace'][:]  # Assuming the ground truth is stored under '/kspace'
+        
+        with h5py.File(recon_file, 'r') as f:
+            recon = f['/reconstruction'][:]  # Assuming the reconstruction is stored under '/reconstruction'
 
-    # Center crop the ground truth image to match the size of the reconstructed image
-    gt = np.squeeze(gt, axis=1) 
-    gt = center_crop(gt, recon.shape[1:])
-    
-    # Convert both images to magnitude, phase, real, and imaginary
-    gt_magnitude = np.abs(gt)
-    gt_phase = np.angle(gt)
-    gt_real = np.real(gt)
-    gt_imag = np.imag(gt)
-    
-    recon_magnitude = np.abs(recon)
-    recon_phase = np.angle(recon)
-    recon_real = np.real(recon)
-    recon_imag = np.imag(recon)
-    
-    # Plot magnitude, phase, real and imaginary channels
-    fig, axs = plt.subplots(2, 4, figsize=(15, 8))
-    
-    # Ground truth magnitude
-    axs[0, 0].imshow(gt_magnitude, cmap='gray')
-    axs[0, 0].set_title('Ground Truth Magnitude')
-    
-    # Ground truth phase
-    axs[0, 1].imshow(gt_phase, cmap='gray')
-    axs[0, 1].set_title('Ground Truth Phase')
-    
-    # Ground truth real part
-    axs[0, 2].imshow(gt_real, cmap='gray')
-    axs[0, 2].set_title('Ground Truth Real')
-    
-    # Ground truth imaginary part
-    axs[0, 3].imshow(gt_imag, cmap='gray')
-    axs[0, 3].set_title('Ground Truth Imaginary')
-    
-    # Reconstruction magnitude
-    axs[1, 0].imshow(recon_magnitude, cmap='gray')
-    axs[1, 0].set_title('Reconstructed Magnitude')
-    
-    # Reconstruction phase
-    axs[1, 1].imshow(recon_phase, cmap='gray')
-    axs[1, 1].set_title('Reconstructed Phase')
-    
-    # Reconstruction real part
-    axs[1, 2].imshow(recon_real, cmap='gray')
-    axs[1, 2].set_title('Reconstructed Real')
-    
-    # Reconstruction imaginary part
-    axs[1, 3].imshow(recon_imag, cmap='gray')
-    axs[1, 3].set_title('Reconstructed Imaginary')
+        # If complex-valued, squeeze and center crop
+        gt = np.squeeze(gt, axis=1)  # Squeeze the singleton dimension
+        gt = center_crop(gt, recon.shape[1:])
+        
+        # Check if data is complex (e.g., ground truth and reconstruction might be complex-valued)
+        if np.iscomplexobj(gt):
+            gt_magnitude = np.abs(gt)
+            gt_phase = np.angle(gt)
+            gt_real = np.real(gt)
+            gt_imag = np.imag(gt)
+        else:
+            gt_magnitude = gt
+            gt_phase = np.zeros_like(gt)
+            gt_real = gt
+            gt_imag = np.zeros_like(gt)
+        
+        if np.iscomplexobj(recon):
+            recon_magnitude = np.abs(recon)
+            recon_phase = np.angle(recon)
+            recon_real = np.real(recon)
+            recon_imag = np.imag(recon)
+        else:
+            recon_magnitude = recon
+            recon_phase = np.zeros_like(recon)
+            recon_real = recon
+            recon_imag = np.zeros_like(recon)
+        
+        # Plot magnitude, phase, real, and imaginary components
+        fig, axs = plt.subplots(2, 4, figsize=(15, 8))
+        
+        # Ground truth magnitude
+        axs[0, 0].imshow(gt_magnitude, cmap='gray')
+        axs[0, 0].set_title('Ground Truth Magnitude')
+        
+        # Ground truth phase
+        axs[0, 1].imshow(gt_phase, cmap='gray')
+        axs[0, 1].set_title('Ground Truth Phase')
+        
+        # Ground truth real part
+        axs[0, 2].imshow(gt_real, cmap='gray')
+        axs[0, 2].set_title('Ground Truth Real')
+        
+        # Ground truth imaginary part
+        axs[0, 3].imshow(gt_imag, cmap='gray')
+        axs[0, 3].set_title('Ground Truth Imaginary')
+        
+        # Reconstruction magnitude
+        axs[1, 0].imshow(recon_magnitude, cmap='gray')
+        axs[1, 0].set_title('Reconstructed Magnitude')
+        
+        # Reconstruction phase
+        axs[1, 1].imshow(recon_phase, cmap='gray')
+        axs[1, 1].set_title('Reconstructed Phase')
+        
+        # Reconstruction real part
+        axs[1, 2].imshow(recon_real, cmap='gray')
+        axs[1, 2].set_title('Reconstructed Real')
+        
+        # Reconstruction imaginary part
+        axs[1, 3].imshow(recon_imag, cmap='gray')
+        axs[1, 3].set_title('Reconstructed Imaginary')
 
-    plt.tight_layout()
-    plt.show()
+        plt.tight_layout()
+        plt.show()
+    
     #######################
     # END OF YOUR CODE    #
     #######################
