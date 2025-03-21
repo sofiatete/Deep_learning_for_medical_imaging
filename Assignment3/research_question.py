@@ -1,5 +1,7 @@
 import argparse
 from train_VarNet import cli_main
+from fastmri.pl_modules import FastMriDataModule, VarNetModule
+
 
 def run_experiment(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
     # Set up ArgumentParser and define the required arguments
@@ -23,9 +25,11 @@ def run_experiment(mask_type, center_fractions, accelerations, experiment_name="
     parser.add_argument("--num_workers", type=int, default=4, help="Number of workers for data loader") 
     parser.add_argument("--test_path", type=str, default=None, help="Path to the test data")
     parser.add_argument("--accelerator", type=str, default=None, help="Accelerator type (ddp, etc.)")
-    
+
 
     # Parse the arguments
+    parser = FastMriDataModule.add_data_specific_args(parser)
+    parser = VarNetModule.add_model_specific_args(parser)
     args = parser.parse_args()
 
     # Run the training with the parsed arguments
