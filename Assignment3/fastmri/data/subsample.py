@@ -477,20 +477,20 @@ class MagicMaskFractionFunc(MagicMaskFunc):
 
 
 import torch
+import numpy as np
 
 class GaussianMaskFunc:
     def __init__(self, shape, offset=0, seed=None):
         self.shape = shape
         self.offset = offset
         self.seed = seed
-        # Initialize rng attribute for compatibility with worker_init_fn
-        self.rng = torch.Generator()  # Create a random number generator
+        # Initialize torch generator to handle randomness
+        self.rng = torch.Generator(device="cpu")  # Set the device for the generator (use 'cuda' if on GPU)
 
     def __call__(self, shape, offset, seed):
         # Set the random seed for reproducibility
         if seed is not None:
-            torch.manual_seed(seed)
-            self.rng.manual_seed(seed)  # Apply seed to the rng as well
+            self.rng.manual_seed(seed)  # Apply the seed to the generator
 
         # Create the mask: Gaussian distribution
         rows, cols = shape[-2], shape[-1]
