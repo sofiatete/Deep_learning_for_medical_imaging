@@ -224,6 +224,60 @@ def build_args():
 
     return args
 
+def run_training(
+    mask_type="random",
+    center_fractions=[0.08],
+    accelerations=[4],
+    learning_rate=0.001,
+    num_epochs=10,
+    batch_size=1,
+    experiment_name="Default_Experiment",
+    data_path="FastMRIdata/",
+    gpus=1,
+):
+    from argparse import Namespace
+
+    args = Namespace(
+        mode="train",
+        mask_type=mask_type,
+        center_fractions=center_fractions,
+        accelerations=accelerations,
+        experiment_name=experiment_name,
+        learning_rate=learning_rate,
+        num_epochs=num_epochs,
+        batch_size=batch_size,
+        data_path=data_path,
+        challenge="multicoil",
+        gpus=gpus,
+        seed=42,
+        deterministic=True,
+        default_root_dir=f"checkpoints/{experiment_name}",
+    )
+
+    # Set remaining args defaults
+    args.callbacks = [
+        pl.callbacks.ModelCheckpoint(
+            dirpath=f"checkpoints/{experiment_name}",
+            save_top_k=True,
+            verbose=True,
+            monitor="validation_loss",
+            mode="min",
+        )
+    ]
+    args.lr_step_size = 40
+    args.lr_gamma = 0.1
+    args.weight_decay = 0.0
+    args.num_cascades = 2
+    args.pools = 4
+    args.chans = 18
+    args.sens_pools = 4
+    args.sens_chans = 8
+    args.num_workers = 4
+    args.replace_sampler_ddp = False
+
+    # Run the CLI training logic
+    cli_main(args)
+
 
 def run_cli():
     args = build_args()
