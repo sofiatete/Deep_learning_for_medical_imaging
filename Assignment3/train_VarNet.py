@@ -166,13 +166,6 @@ def build_args():
         help="Number of epochs to train",
     )
 
-    parser.add_argument(
-    "--test_split",
-    default=0.2,  
-    type=float,
-    help="Fraction of dataset to use for testing"
-    )
-
     # data config
     parser = FastMriDataModule.add_data_specific_args(parser)
     args = parser.parse_args()
@@ -241,6 +234,9 @@ def run_training(
     experiment_name="Default_Experiment",
     data_path="FastMRIdata/",
     gpus=1,
+    test_path=None,
+    test_split=0.2,  
+    sample_rate=1.0,  
 ):
     from argparse import Namespace
 
@@ -254,6 +250,9 @@ def run_training(
         num_epochs=num_epochs,
         batch_size=batch_size,
         data_path=data_path,
+        test_path=test_path,
+        test_split=test_split, 
+        sample_rate=sample_rate,  
         challenge="multicoil",
         gpus=gpus,
         seed=42,
@@ -261,8 +260,7 @@ def run_training(
         default_root_dir=f"checkpoints/{experiment_name}",
     )
 
-    args.test_split = 0.2  
-
+    # Checkpointing
     args.callbacks = [
         pl.callbacks.ModelCheckpoint(
             dirpath=f"checkpoints/{experiment_name}",
@@ -272,6 +270,9 @@ def run_training(
             mode="min",
         )
     ]
+
+    # Model Hyperparameters
+    args.lr = learning_rate  # ✅ MATCHED WITH cli_main
     args.lr_step_size = 40
     args.lr_gamma = 0.1
     args.weight_decay = 0.0
@@ -280,6 +281,8 @@ def run_training(
     args.chans = 18
     args.sens_pools = 4
     args.sens_chans = 8
+
+    # Data Loader Parameters
     args.num_workers = 4
     args.replace_sampler_ddp = False
 
