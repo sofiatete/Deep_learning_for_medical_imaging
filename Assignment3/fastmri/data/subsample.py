@@ -476,6 +476,9 @@ class MagicMaskFractionFunc(MagicMaskFunc):
         return center_mask, accel_mask, num_low_frequencies
 
 
+import torch
+import numpy as np
+
 class GaussianMaskFunc:
     def __init__(self, shape, offset=0, seed=None):
         self.shape = shape
@@ -493,7 +496,7 @@ class GaussianMaskFunc:
     def __call__(self, shape, offset, seed):
         # Ensure rng is seeded with the current seed value
         if seed is not None:
-            self.rng.manual_seed(seed)
+            self.rng.manual_seed(seed)  # Corrected seed method
 
         # Create the mask: Gaussian distribution
         rows, cols = shape[-2], shape[-1]
@@ -508,6 +511,7 @@ class GaussianMaskFunc:
 
         # Return reshaped mask and sum of frequencies (num_low_frequencies)
         return mask, gauss_mask.sum()
+
 
 
 class RadialMaskFunc:
