@@ -28,6 +28,7 @@ def cli_main(args):
     # data
     # ------------
     # this creates a k-space mask for transforming input data
+    print(f"Using {args.mask_type} mask...")
     mask = create_mask_for_mask_type(
         args.mask_type, args.center_fractions, args.accelerations
     )
@@ -70,7 +71,6 @@ def cli_main(args):
         lr_gamma=args.lr_gamma, # extent to which to decrease learning rate
         weight_decay=args.weight_decay, # weight regularization
     )
-    # model = model.double()
 
     # ------------
     # trainer
@@ -97,8 +97,6 @@ def build_args():
 
     # basic args
     path_config = pathlib.Path("save_model/fastmri_dirs.yaml")
-    # HERE VERANDERD TO DO
-    # path_config = pathlib.Path("/content/gdrive/MyDrive/DL_4_MI/Assigment3/Recon_exercise_2024/save_model/fastmri_dirs.yaml")
     num_gpus = 1
     batch_size = 1
 
@@ -117,7 +115,15 @@ def build_args():
     # data transform params
     parser.add_argument(
         "--mask_type",
-        choices=("random", "equispaced_fraction"),
+        choices=(
+            "random",
+            "equispaced",
+            "equispaced_fraction",
+            "magic",
+            "magic_fraction",
+            "gaussian",
+            "radial",
+        ),
         default="random",
         type=str,
         help="Type of k-space mask",
@@ -134,14 +140,14 @@ def build_args():
     parser.add_argument(
         "--accelerations",
         nargs="+",
-        default=[2],
+        default=[4],
         type=int,
         help="Acceleration rates to use for masks",
     )
 
     parser.add_argument(
         "--experiment_name",
-        default='Train_VarNet 2 cascades MC',
+        default='Masks_Comparison',
         type=str,
         help="Name of Experiment in WandB",
     )
@@ -215,12 +221,6 @@ def build_args():
             mode="min",
         )
     ]
-
-    # set default checkpoint if one exists in our checkpoint directory
-    # if args.resume_from_checkpoint is None:
-    #     ckpt_list = sorted(checkpoint_dir.glob("*.ckpt"), key=os.path.getmtime)
-    #     if ckpt_list:
-    #         args.resume_from_checkpoint = str(ckpt_list[-1])
 
     return args
 

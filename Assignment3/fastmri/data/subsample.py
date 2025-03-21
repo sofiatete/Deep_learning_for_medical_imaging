@@ -474,6 +474,84 @@ class MagicMaskFractionFunc(MagicMaskFunc):
 
         return center_mask, accel_mask, num_low_frequencies
 
+class GaussianMaskFunc:
+    def __init__(self, center_fraction: float, sigma: float):
+        """
+        Create a Gaussian mask for k-space.
+
+        Parameters:
+        - center_fraction (float): Fraction of low-frequency region to be fully sampled.
+        - sigma (float): Standard deviation of the Gaussian distribution.
+        """
+        self.center_fraction = center_fraction
+        self.sigma = sigma
+
+    def __call__(self, shape):
+        """
+        Generate the Gaussian mask for the given shape.
+
+        Parameters:
+        - shape (tuple): Shape of the k-space (height, width).
+
+        Returns:
+        - mask (ndarray): A 2D Gaussian mask.
+        """
+        center_x, center_y = shape[1] // 2, shape[0] // 2
+        x = np.arange(shape[1])
+        y = np.arange(shape[0])
+        X, Y = np.meshgrid(x, y)
+
+        # Compute the 2D Gaussian function
+        gaussian = np.exp(-(((X - center_x) ** 2) + ((Y - center_y) ** 2)) / (2 * self.sigma ** 2))
+        
+        # Threshold based on center_fraction
+        low_freq_radius = int(self.center_fraction * min(shape) / 2)
+        mask = gaussian > np.max(gaussian) * np.exp(-low_freq_radius ** 2 / (2 * self.sigma ** 2))
+
+        return mask.astype(np.float32)
+
+class RadialMaskFunc:
+    def __init__(self, center_fraction: float, num_lines: int):
+        """
+        Create a radial mask for k-space.
+
+        Parameters:
+        - center_fraction (float): Fraction of low-frequency region to be fully sampled.
+        - num_lines (int): Number of radial lines to sample.
+        """
+        self.center_fraction = center_fraction
+        self.num_lines = num_lines
+
+    def __call__(self, shape):
+        """
+        Generate the radial mask for the given shape.
+
+        Parameters:
+        - shape (tuple): Shape of the k-space (height, width).
+
+        Returns:
+        - mask (ndarray): A 2D radial mask.
+        """
+        center_x, center_y = shape[1] // 2, shape[0] // 2
+        y, x = np.ogrid[:shape[0], :shape[1]]
+
+        # Compute radius for each point
+        radius = np.sqrt((x - center_x) ** 2 + (y - center_y) ** 2)
+
+        # Create a low-frequency circle
+        low_freq_radius = int(self.center_fraction * min(shape) / 2)
+        mask = radius <= low_freq_radius
+
+        # Add radial lines
+        angles = np.linspace(0, 2 * np.pi, self.num_lines, endpoint=False)
+        for angle in angles:
+            x_line = (center_x + radius * np.cos(angle)).astype(int)
+            y_line = (center_y + radius * np.sin(angle)).astype(int)
+            mask[y_line.clip(0, shape[0] - 1), x_line.clip(0, shape[1] - 1)] = 1
+
+        return mask.astype(np.float32)
+
+
 
 def create_mask_for_mask_type(
     mask_type_str: str,
@@ -500,5 +578,9 @@ def create_mask_for_mask_type(
         return MagicMaskFunc(center_fractions, accelerations)
     elif mask_type_str == "magic_fraction":
         return MagicMaskFractionFunc(center_fractions, accelerations)
+    elif mask_type_str == "gaussian":
+        return GaussianMaskFunc(center_fractions, accelerations)
+    elif mask_type_str == "radial":
+        return RadialMaskFunc(center_fractions, accelerations)
     else:
         raise ValueError(f"{mask_type_str} not supported")
