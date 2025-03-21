@@ -489,7 +489,7 @@ class GaussianMaskFunc:
         
         # Create the mask: Gaussian distribution
         rows, cols = shape[-2], shape[-1]
-        freq = torch.fft.fftfreq(cols, dtype=torch.float32, generator=self.rng)
+        freq = torch.fft.fftfreq(cols, dtype=torch.float32)
         
         # Apply the Gaussian formula to create the mask
         gauss_mask = torch.exp(-(freq**2) / (2 * (offset**2)))
@@ -500,7 +500,6 @@ class GaussianMaskFunc:
 
         # Return reshaped mask and sum of frequencies (num_low_frequencies)
         return mask, gauss_mask.sum()
-
 
 
 class RadialMaskFunc:
