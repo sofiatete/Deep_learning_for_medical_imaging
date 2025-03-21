@@ -492,7 +492,9 @@ class GaussianMaskFunc(MaskFunc):
         mask = gaussian > np.max(gaussian) * np.exp(-low_freq_radius ** 2 / (2 * self.sigma ** 2))
         num_low_frequencies = low_freq_radius
 
-        return mask.astype(np.float32), num_low_frequencies
+        # Reshape the mask using the reshape_mask method
+        return self.reshape_mask(mask, shape), num_low_frequencies
+
 
 class RadialMaskFunc(MaskFunc):
     def __init__(self, center_fraction: float, num_lines: int):
@@ -516,7 +518,8 @@ class RadialMaskFunc(MaskFunc):
 
         num_low_frequencies = low_freq_radius
 
-        return mask.astype(np.float32), num_low_frequencies 
+        # Reshape the mask using the reshape_mask method
+        return self.reshape_mask(mask, shape), num_low_frequencies
 
 def create_mask_for_mask_type(
     mask_type_str: str,
