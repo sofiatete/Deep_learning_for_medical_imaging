@@ -475,27 +475,20 @@ class MagicMaskFractionFunc(MagicMaskFunc):
 
         return center_mask, accel_mask, num_low_frequencies
 
-
-import torch
-import numpy as np
-
 class GaussianMaskFunc:
-    def __init__(self, shape, offset=0, seed=None):
+    def __init__(self, shape, offset=0):
         self.shape = shape
         self.offset = offset
-        self.seed = seed
-        # Initialize torch generator to handle randomness
-        self.rng = torch.Generator(device="cpu")  # Set the device for the generator (use 'cuda' if on GPU)
 
     def __call__(self, shape, offset, seed):
-        # Set the random seed for reproducibility
+        # Apply the random seed for reproducibility
         if seed is not None:
-            self.rng.manual_seed(seed)  # Apply the seed to the generator
+            torch.manual_seed(seed)  # Directly use torch's manual_seed for reproducibility
 
         # Create the mask: Gaussian distribution
         rows, cols = shape[-2], shape[-1]
-        freq = torch.fft.fftfreq(cols, dtype=torch.float32, generator=self.rng)
-        
+        freq = torch.fft.fftfreq(cols, dtype=torch.float32)
+
         # Apply the Gaussian formula to create the mask
         gauss_mask = torch.exp(-(freq**2) / (2 * (offset**2)))
 
@@ -505,7 +498,6 @@ class GaussianMaskFunc:
 
         # Return reshaped mask and sum of frequencies (num_low_frequencies)
         return mask, gauss_mask.sum()
-
 
 class RadialMaskFunc:
     def __init__(self, shape, offset=0, seed=None):
