@@ -5,6 +5,8 @@ from fastmri.data.transforms import VarNetDataTransform
 from fastmri.pl_modules import FastMriDataModule, VarNetModule
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
+from pathlib import Path
+
 
 def train_with_config():
     pl.seed_everything(42)
@@ -18,9 +20,10 @@ def train_with_config():
     train_transform = VarNetDataTransform(mask_func=mask, use_seed=False)
     val_transform = VarNetDataTransform(mask_func=mask)
 
+    data_path_obj = Path(data_path)
     # Data module
     data_module = FastMriDataModule(
-        data_path=data_path,
+        data_path=data_path_obj,
         challenge="multicoil",
         train_transform=train_transform,
         val_transform=val_transform,
@@ -42,7 +45,8 @@ def train_with_config():
     # Trainer configuration
     trainer = pl.Trainer(
         max_epochs=num_epochs,
-        gpus=1,
+        accelerator="gpu",
+        devices=1,
         logger=logger,
         default_root_dir=f"checkpoints/{experiment_name}",
     )
