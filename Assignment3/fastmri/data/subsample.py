@@ -477,35 +477,37 @@ class MagicMaskFractionFunc(MagicMaskFunc):
 
 
 class GaussianMaskFunc:
-    def __init__(self, shape, offset=0, seed=10):
+    def __init__(self, shape, offset=0, seed=None):
         self.shape = shape
         self.offset = offset
         self.seed = seed
         
-        # If a seed is provided, use Python's random seed
+        # Initialize rng (Random Number Generator) for reproducibility
         if seed is not None:
-            random.seed(seed)  # Set Python's random seed
-            np.random.seed(seed)  # Set NumPy's random seed (for consistency with numpy operations)
+            # Using torch's Generator for seeding
+            self.rng = torch.Generator().manual_seed(seed)
+        else:
+            # If no seed is provided, use a default unseeded generator
+            self.rng = torch.Generator()
 
     def __call__(self, shape, offset, seed):
-        # If a seed is provided, ensure Python's random module is seeded
+        # Ensure rng is seeded with the current seed value
         if seed is not None:
-            random.seed(seed)  # Set Python's random seed
-            np.random.seed(seed)  # Set NumPy's random seed
+            self.rng.manual_seed(seed)
 
         # Create the mask: Gaussian distribution
         rows, cols = shape[-2], shape[-1]
-        freq = torch.fft.fftfreq(cols, dtype=torch.float32)
+        freq = torch.fft.fftfreq(cols, dtype=torch.float32, generator=self.rng)
         
-        # Generate the Gaussian mask with a random offset
+        # Apply the Gaussian formula to create the mask
         gauss_mask = torch.exp(-(freq**2) / (2 * (offset**2)))
 
         # Reshape to match the shape of the k-space
         mask = gauss_mask.view(1, 1, 1, -1)  # Adding batch and channel dims
         mask = mask.repeat(*shape[:-2], 1, 1)  # Repeat along spatial dimensions
 
-        # Return reshaped mask
-        return mask, gauss_mask.sum()  # Return mask and sum of mask values (num_low_frequencies)
+        # Return reshaped mask and sum of frequencies (num_low_frequencies)
+        return mask, gauss_mask.sum()
 
 
 class RadialMaskFunc:
