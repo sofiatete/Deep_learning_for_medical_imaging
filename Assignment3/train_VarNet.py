@@ -122,7 +122,6 @@ def build_args():
             "equispaced_fraction",
             "magic",
             "magic_fraction",
-            "gaussian",
             "radial",
         ),
         default="random",

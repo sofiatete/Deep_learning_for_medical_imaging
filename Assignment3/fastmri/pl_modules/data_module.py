@@ -14,8 +14,6 @@ import torch
 
 import fastmri
 from fastmri.data import CombinedSliceDataset, SliceDataset
-from fastmri.data.subsample import GaussianMaskFunc
-
 
 def worker_init_fn(worker_id):
     """Handle random seeding for all mask_func."""
@@ -36,45 +34,31 @@ def worker_init_fn(worker_id):
     if isinstance(data, CombinedSliceDataset):
         for i, dataset in enumerate(data.datasets):
             if dataset.transform.mask_func is not None:
-                if isinstance(dataset.transform.mask_func, GaussianMaskFunc):
-                    # Handle the case for GaussianMaskFunc where `rng` might not be defined
+                if (
+                    is_ddp
+                ):  # DDP training: unique seed is determined by worker, device, dataset
+                    seed_i = (
+                        base_seed
+                        - worker_info.id
+                        + torch.distributed.get_rank()
+                        * (worker_info.num_workers * len(data.datasets))
+                        + worker_info.id * len(data.datasets)
+                        + i
+                    )
+                else:
                     seed_i = (
                         base_seed
                         - worker_info.id
                         + worker_info.id * len(data.datasets)
                         + i
                     )
-                    torch.manual_seed(seed_i % (2**32 - 1))  # Use torch.manual_seed if rng is not present
-                else:
-                    if is_ddp:  # DDP training: unique seed is determined by worker, device, dataset
-                        seed_i = (
-                            base_seed
-                            - worker_info.id
-                            + torch.distributed.get_rank()
-                            * (worker_info.num_workers * len(data.datasets))
-                            + worker_info.id * len(data.datasets)
-                            + i
-                        )
-                    else:
-                        seed_i = (
-                            base_seed
-                            - worker_info.id
-                            + worker_info.id * len(data.datasets)
-                            + i
-                        )
-                    dataset.transform.mask_func.rng.seed(seed_i % (2**32 - 1))  # Using `rng` for others
+                dataset.transform.mask_func.rng.seed(seed_i % (2**32 - 1))
     elif data.transform.mask_func is not None:
-        if isinstance(data.transform.mask_func, GaussianMaskFunc):
-            # Handle Gaussian case without `rng` defined
-            seed = base_seed
-            torch.manual_seed(seed)  # Use torch.manual_seed for GaussianMaskFunc
+        if is_ddp:  # DDP training: unique seed is determined by worker and device
+            seed = base_seed + torch.distributed.get_rank() * worker_info.num_workers
         else:
-            if is_ddp:  # DDP training: unique seed is determined by worker and device
-                seed = base_seed + torch.distributed.get_rank() * worker_info.num_workers
-            else:
-                seed = base_seed
-            data.transform.mask_func.rng.seed(seed % (2**32 - 1))  # Using `rng` for others
-
+            seed = base_seed
+        data.transform.mask_func.rng.seed(seed % (2**32 - 1))
 
 def _check_both_not_none(val1, val2):
     if (val1 is not None) and (val2 is not None):

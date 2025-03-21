@@ -475,29 +475,6 @@ class MagicMaskFractionFunc(MagicMaskFunc):
 
         return center_mask, accel_mask, num_low_frequencies
 
-class GaussianMaskFunc:
-    def __init__(self, shape, offset=0):
-        self.shape = shape
-        self.offset = offset
-
-    def __call__(self, shape, offset, seed):
-        # Apply the random seed for reproducibility
-        if seed is not None:
-            torch.manual_seed(seed)  # Directly use torch's manual_seed for reproducibility
-
-        # Create the mask: Gaussian distribution
-        rows, cols = shape[-2], shape[-1]
-        freq = torch.fft.fftfreq(cols, dtype=torch.float32)
-
-        # Apply the Gaussian formula to create the mask
-        gauss_mask = torch.exp(-(freq**2) / (2 * (offset**2)))
-
-        # Reshape to match the shape of the k-space
-        mask = gauss_mask.view(1, 1, 1, -1)  # Adding batch and channel dims
-        mask = mask.repeat(*shape[:-2], 1, 1)  # Repeat along spatial dimensions
-
-        # Return reshaped mask and sum of frequencies (num_low_frequencies)
-        return mask, gauss_mask.sum()
 
 class RadialMaskFunc:
     def __init__(self, shape, offset=0, seed=None):
@@ -548,8 +525,6 @@ def create_mask_for_mask_type(
         return MagicMaskFunc(center_fractions, accelerations)
     elif mask_type_str == "magic_fraction":
         return MagicMaskFractionFunc(center_fractions, accelerations)
-    elif mask_type_str == "gaussian":
-        return GaussianMaskFunc(center_fractions[0], accelerations[0])
     elif mask_type_str == "radial":
         return RadialMaskFunc(center_fractions[0], accelerations[0])
     else:
