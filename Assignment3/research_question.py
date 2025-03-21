@@ -21,13 +21,6 @@ def run_experiment1(mask_type, center_fractions, accelerations, experiment_name=
 
 if __name__ == "__main__":
 
-    # Example 2: Run with Random mask
-    run_experiment1(
-        mask_type="random", 
-        center_fractions=[0.1], 
-        accelerations=[2], 
-        experiment_name="Random_Mask_Test"
-    )
 
     # Example 1: Run with Gaussian mask
     run_experiment1(
@@ -36,3 +29,12 @@ if __name__ == "__main__":
         accelerations=[4], 
         experiment_name="Gaussian_Mask_Test"
     )
+
+"""
+    # Example 2: Run with Random mask
+    run_experiment1(
+        mask_type="random", 
+        center_fractions=[0.1], 
+        accelerations=[2], 
+        experiment_name="Random_Mask_Test"
+    )"""
