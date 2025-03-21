@@ -16,12 +16,12 @@ def run_experiment(mask_type, center_fractions, accelerations, experiment_name="
     parser.add_argument("--learning_rate", type=float, default=0.001, help="Learning rate for optimizer")
     parser.add_argument("--num_epochs", type=int, default=10, help="Number of epochs")
     # parser.add_argument("--batch_size", type=int, default=1, help="Batch size")
-    # parser.add_argument("--data_path", type=str, default="FastMRIdata/", help="Path to the MRI data")
+    parser.add_argument("--data_path", type=str, default="FastMRIdata/", help="Path to the MRI data")
     # parser.add_argument("--gpus", type=int, default=1, help="Number of GPUs to use")
-    parser.add_argument("--test_split", type=float, default=0.2, help="Fraction of data for validation")
-    parser.add_argument("--sample_rate", type=float, default=1.0, help="Sample rate")
+    # parser.add_argument("--test_split", type=float, default=0.2, help="Fraction of data for validation")
+    # parser.add_argument("--sample_rate", type=float, default=1.0, help="Sample rate")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
-    parser.add_argument("--challenge", type=str, default="multicoil", help="Challenge type (multicoil, etc.)")
+    # parser.add_argument("--challenge", type=str, default="multicoil", help="Challenge type (multicoil, etc.)")
     # parser.add_argument("--num_workers", type=int, default=4, help="Number of workers for data loader") 
     parser.add_argument("--test_path", type=str, default=None, help="Path to the test data")
     parser.add_argument("--accelerator", type=str, default=None, help="Accelerator type (ddp, etc.)")
@@ -35,9 +35,28 @@ def run_experiment(mask_type, center_fractions, accelerations, experiment_name="
     # Run the training with the parsed arguments
     cli_main(args)
 
+import argparse
+from train_VarNet import cli_main, build_args  # Import build_args from train_VarNet.py
+from fastmri.pl_modules import FastMriDataModule, VarNetModule
+
+def run_experiment1(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
+    # Get default arguments from train_VarNet.py
+    args = build_args()  # This ensures all default arguments (including data_path) are set
+
+    # Override only the necessary arguments
+    args.mask_type = mask_type
+    args.center_fractions = center_fractions
+    args.accelerations = accelerations
+    args.experiment_name = experiment_name
+
+    # Run the training with the modified arguments
+    cli_main(args)
+
+
+
 if __name__ == "__main__":
     # Example 1: Run with Gaussian mask
-    run_experiment(
+    run_experiment1(
         mask_type="gaussian", 
         center_fractions=[0.04], 
         accelerations=[4], 
@@ -45,7 +64,7 @@ if __name__ == "__main__":
     )
 
     # Example 2: Run with Random mask
-    run_experiment(
+    run_experiment1(
         mask_type="random", 
         center_fractions=[0.1], 
         accelerations=[2], 
