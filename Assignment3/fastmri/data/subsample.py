@@ -7,7 +7,6 @@ LICENSE file in the root directory of this source tree.
 
 import contextlib
 from typing import Optional, Sequence, Tuple, Union
-from fastmri.data.subsample import MaskFunc
 
 import numpy as np
 import torch
@@ -481,7 +480,7 @@ class GaussianMaskFunc(MaskFunc):
         self.center_fraction = center_fraction
         self.sigma = sigma
 
-    def __call__(self, shape):
+    def __call__(self, shape, offset=None, seed=None):
         center_x, center_y = shape[1] // 2, shape[0] // 2
         x = np.arange(shape[1])
         y = np.arange(shape[0])
@@ -500,7 +499,7 @@ class RadialMaskFunc(MaskFunc):
         self.center_fraction = center_fraction
         self.num_lines = num_lines
 
-    def __call__(self, shape):
+    def __call__(self, shape, offset=None, seed=None):
         center_x, center_y = shape[1] // 2, shape[0] // 2
         y, x = np.ogrid[:shape[0], :shape[1]]
 
@@ -543,8 +542,8 @@ def create_mask_for_mask_type(
     elif mask_type_str == "magic_fraction":
         return MagicMaskFractionFunc(center_fractions, accelerations)
     elif mask_type_str == "gaussian":
-        return GaussianMaskFunc(center_fractions, accelerations)
+        return GaussianMaskFunc(center_fractions[0], accelerations[0])
     elif mask_type_str == "radial":
-        return RadialMaskFunc(center_fractions, accelerations)
+        return RadialMaskFunc(center_fractions[0], accelerations[0])
     else:
         raise ValueError(f"{mask_type_str} not supported")
