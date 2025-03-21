@@ -103,7 +103,7 @@ def build_args():
     # set path to logs and saved model
     default_root_dir = fetch_dir("log_path", path_config) / "varnet" / "varnet_demo"
     # data_path = "FastMRIdata/"
-    data_path = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIdata/multicoil_test/'
+    data_path = '/gpfs/work5/0/prjs1312/Recon_exercise/FastMRIdata/'
 
     parser.add_argument(
         "--mode",

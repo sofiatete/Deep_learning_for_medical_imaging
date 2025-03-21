@@ -474,52 +474,53 @@ class MagicMaskFractionFunc(MagicMaskFunc):
 
         return center_mask, accel_mask, num_low_frequencies
 
-class GaussianMaskFunc(MaskFunc):
-    def __init__(self, center_fraction: float, sigma: float):
-        super().__init__([center_fraction], [1])  # Dummy values for MaskFunc init
-        self.center_fraction = center_fraction
-        self.sigma = sigma
+class GaussianMaskFunc:
+    def __init__(self, shape, offset=0, seed=None):
+        self.shape = shape
+        self.offset = offset
+        self.seed = seed
 
-    def __call__(self, shape, offset=None, seed=None):
-        center_x, center_y = shape[1] // 2, shape[0] // 2
-        x = np.arange(shape[1])
-        y = np.arange(shape[0])
-        X, Y = np.meshgrid(x, y)
+    def __call__(self, shape, offset, seed):
+        # Set the random seed for reproducibility
+        if seed is not None:
+            torch.manual_seed(seed)
+        
+        # Create the mask: Gaussian distribution
+        rows, cols = shape[-2], shape[-1]
+        freq = torch.fft.fftfreq(cols)
+        gauss_mask = torch.exp(-(freq**2) / (2 * (offset**2)))
+        
+        # Reshape to match the shape of the k-space
+        mask = gauss_mask.view(1, 1, 1, -1)  # Adding batch and channel dims
+        mask = mask.repeat(*shape[:-2], 1, 1)  # Repeat along spatial dimensions
+        
+        # Return reshaped mask
+        return mask, gauss_mask.sum()  # Return mask and sum of mask values (num_low_frequencies)
 
-        gaussian = np.exp(-(((X - center_x) ** 2) + ((Y - center_y) ** 2)) / (2 * self.sigma ** 2))
 
-        low_freq_radius = int(self.center_fraction * min(shape) / 2)
-        mask = gaussian > np.max(gaussian) * np.exp(-low_freq_radius ** 2 / (2 * self.sigma ** 2))
-        num_low_frequencies = low_freq_radius
+class RadialMaskFunc:
+    def __init__(self, shape, offset=0, seed=None):
+        self.shape = shape
+        self.offset = offset
+        self.seed = seed
 
-        # Reshape the mask using the reshape_mask method
-        return self.reshape_mask(mask, shape), num_low_frequencies
+    def __call__(self, shape, offset, seed):
+        # Set the random seed for reproducibility
+        if seed is not None:
+            torch.manual_seed(seed)
+        
+        # Generate radial mask: Radial pattern
+        rows, cols = shape[-2], shape[-1]
+        theta = torch.linspace(0, np.pi, steps=cols)
+        radial_mask = torch.cos(theta) ** offset
+        
+        # Reshape to match the k-space
+        mask = radial_mask.view(1, 1, 1, -1)  # Adding batch and channel dims
+        mask = mask.repeat(*shape[:-2], 1, 1)  # Repeat along spatial dimensions
+        
+        # Return reshaped mask
+        return mask, radial_mask.sum()  # Return mask and sum of mask values (num_low_frequencies)
 
-
-class RadialMaskFunc(MaskFunc):
-    def __init__(self, center_fraction: float, num_lines: int):
-        super().__init__([center_fraction], [1])  # Dummy values for MaskFunc init
-        self.center_fraction = center_fraction
-        self.num_lines = num_lines
-
-    def __call__(self, shape, offset=None, seed=None):
-        center_x, center_y = shape[1] // 2, shape[0] // 2
-        y, x = np.ogrid[:shape[0], :shape[1]]
-
-        radius = np.sqrt((x - center_x) ** 2 + (y - center_y) ** 2)
-        low_freq_radius = int(self.center_fraction * min(shape) / 2)
-        mask = radius <= low_freq_radius
-
-        angles = np.linspace(0, 2 * np.pi, self.num_lines, endpoint=False)
-        for angle in angles:
-            x_line = (center_x + radius * np.cos(angle)).astype(int)
-            y_line = (center_y + radius * np.sin(angle)).astype(int)
-            mask[y_line.clip(0, shape[0] - 1), x_line.clip(0, shape[1] - 1)] = 1
-
-        num_low_frequencies = low_freq_radius
-
-        # Reshape the mask using the reshape_mask method
-        return self.reshape_mask(mask, shape), num_low_frequencies
 
 def create_mask_for_mask_type(
     mask_type_str: str,
