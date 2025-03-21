@@ -261,7 +261,8 @@ def run_training(
         default_root_dir=f"checkpoints/{experiment_name}",
     )
 
-    # Set remaining args defaults
+    args.test_split = 0.2  
+
     args.callbacks = [
         pl.callbacks.ModelCheckpoint(
             dirpath=f"checkpoints/{experiment_name}",
@@ -284,6 +285,7 @@ def run_training(
 
     # Run the CLI training logic
     cli_main(args)
+
 
 
 def run_cli():
