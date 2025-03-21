@@ -166,6 +166,13 @@ def build_args():
         help="Number of epochs to train",
     )
 
+    parser.add_argument(
+    "--test_split",
+    default=0.2,  
+    type=float,
+    help="Fraction of dataset to use for testing"
+    )
+
     # data config
     parser = FastMriDataModule.add_data_specific_args(parser)
     args = parser.parse_args()

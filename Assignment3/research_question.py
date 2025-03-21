@@ -1,4 +1,4 @@
-from research_question import run_training
+from train_VarNet import run_training
 
 # Experiment 1: Gaussian mask
 run_training(
