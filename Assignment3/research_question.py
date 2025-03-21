@@ -20,15 +20,6 @@ def run_experiment(mask_type, center_fractions, accelerations, experiment_name="
 
 
 if __name__ == "__main__":
-    # Example 1: Run with Gaussian mask
-    run_experiment(
-        mask_type="gaussian", 
-        center_fractions=[0.4], 
-        accelerations=[4], 
-        experiment_name="Gaussian_Mask_Test"
-    )
-
-    # Example 2: Run with Random mask
     run_experiment(
         mask_type="random", 
         center_fractions=[0.1], 
