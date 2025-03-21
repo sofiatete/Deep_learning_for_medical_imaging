@@ -475,6 +475,9 @@ class MagicMaskFractionFunc(MagicMaskFunc):
         return center_mask, accel_mask, num_low_frequencies
 
 
+import torch
+import numpy as np
+
 class GaussianMaskFunc:
     def __init__(self, shape, offset=0, seed=None):
         self.shape = shape
@@ -484,12 +487,12 @@ class GaussianMaskFunc:
         # Initialize the random number generator (rng)
         self.rng = torch.Generator()
         if seed is not None:
-            self.rng.manual_seed(seed)
+            self.rng.manual_seed(seed)  # Correct method to set seed
 
     def __call__(self, shape, offset, seed):
         # Set the random seed for reproducibility
         if seed is not None:
-            self.rng.manual_seed(seed)
+            self.rng.manual_seed(seed)  # Correct method to set seed
         
         # Create the mask: Gaussian distribution
         rows, cols = shape[-2], shape[-1]
