@@ -1,6 +1,8 @@
 import argparse
-from train_VarNet import cli_main
 from fastmri.pl_modules import FastMriDataModule, VarNetModule
+from train_VarNet import cli_main, build_args  # Import build_args from train_VarNet.py
+from fastmri.data.mri_data import fetch_dir
+
 
 
 def run_experiment(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
@@ -35,9 +37,7 @@ def run_experiment(mask_type, center_fractions, accelerations, experiment_name="
     # Run the training with the parsed arguments
     cli_main(args)
 
-import argparse
-from train_VarNet import cli_main, build_args  # Import build_args from train_VarNet.py
-from fastmri.pl_modules import FastMriDataModule, VarNetModule
+
 
 def run_experiment1(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
     # Get default arguments from train_VarNet.py
