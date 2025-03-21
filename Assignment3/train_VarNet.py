@@ -224,76 +224,155 @@ def build_args():
 
     return args
 
-def run_training(
-    mask_type="random",          # Type of k-space mask to use (random, gaussian, etc.)
-    center_fractions=[0.08],     # Fraction of the k-space center to preserve
-    accelerations=[4],           # Acceleration factor for undersampling
-    learning_rate=0.001,         # Learning rate for the optimizer
-    num_epochs=10,               # Number of epochs to train
-    batch_size=1,                # Batch size for training
-    experiment_name="Default_Experiment",  # Experiment name for logging
-    data_path="FastMRIdata/",    # Path to the MRI data
-    gpus=1,                      # Number of GPUs to use for training
-    test_path=None,              # Path to test data (optional)
-    test_split=0.2,              # Fraction of data to use for validation
-    sample_rate=1.0,             # Sample rate for the data (default is 1.0)
-):
-    import pytorch_lightning as pl
-    from fastmri.data.subsample import create_mask_for_mask_type
-    from fastmri.pl_modules import FastMriDataModule, VarNetModule
-    import wandb
-    from pytorch_lightning.loggers import WandbLogger
-    import time
+def run_training():
+    # Set up ArgumentParser
+    parser = ArgumentParser()
 
-    # Prepare the arguments for training
-    args = {
-        "mode": "train",
-        "mask_type": mask_type,
-        "center_fractions": center_fractions,
-        "accelerations": accelerations,
-        "experiment_name": experiment_name,
-        "learning_rate": learning_rate,
-        "num_epochs": num_epochs,
-        "batch_size": batch_size,
-        "data_path": data_path,
-        "test_path": test_path,
-        "test_split": test_split,
-        "sample_rate": sample_rate,
-        "challenge": "multicoil",
-        "gpus": gpus,
-        "seed": 42,
-        "deterministic": True,
-        "default_root_dir": f"checkpoints/{experiment_name}",
-    }
+    # Define the arguments
+    parser.add_argument(
+        "--mask_type",
+        choices=(
+            "random",
+            "equispaced",
+            "equispaced_fraction",
+            "magic",
+            "magic_fraction",
+            "gaussian",
+            "radial",
+        ),
+        default="random",
+        type=str,
+        help="Type of k-space mask",
+    )
+    parser.add_argument(
+        "--center_fractions",
+        nargs="+",
+        default=[0.08],
+        type=float,
+        help="Number of center lines to use in mask",
+    )
+    parser.add_argument(
+        "--accelerations",
+        nargs="+",
+        default=[4],
+        type=int,
+        help="Acceleration rates to use for masks",
+    )
+    parser.add_argument(
+        "--learning_rate",
+        default=0.001,
+        type=float,
+        help="Learning rate for the optimizer",
+    )
+    parser.add_argument(
+        "--num_epochs",
+        default=10,
+        type=int,
+        help="Number of epochs to train",
+    )
+    parser.add_argument(
+        "--batch_size",
+        default=1,
+        type=int,
+        help="Batch size",
+    )
+    parser.add_argument(
+        "--experiment_name",
+        default='Masks_Comparison',
+        type=str,
+        help="Name of Experiment in WandB",
+    )
+    parser.add_argument(
+        "--data_path",
+        default="FastMRIdata/",
+        type=str,
+        help="Path to data directory",
+    )
+    parser.add_argument(
+        "--gpus",
+        default=1,
+        type=int,
+        help="Number of GPUs to use",
+    )
+    parser.add_argument(
+        "--test_split",
+        default=0.2,
+        type=float,
+        help="Test split fraction",
+    )
+    parser.add_argument(
+        "--sample_rate",
+        default=1.0,
+        type=float,
+        help="Sampling rate",
+    )
+    
+    # Parse the arguments
+    args = parser.parse_args()
 
-    # Checkpointing for saving the best model
-    callbacks = [
-        pl.callbacks.ModelCheckpoint(
-            dirpath=f"checkpoints/{experiment_name}",
+    # Set up Wandb logger
+    logger = WandbLogger(name=args.experiment_name, project='Exercise3')
+
+    # Prepare mask for k-space
+    print(f"Using {args.mask_type} mask...")
+    mask = create_mask_for_mask_type(
+        args.mask_type, args.center_fractions, args.accelerations
+    )
+
+    # Data transform
+    train_transform = VarNetDataTransform(mask_func=mask, use_seed=False)  # Random mask for training
+    val_transform = VarNetDataTransform(mask_func=mask)  # Fixed mask for validation
+    test_transform = VarNetDataTransform()  # No mask for testing
+
+    # Data module
+    data_module = FastMriDataModule(
+        data_path=args.data_path,
+        challenge="multicoil",  # Only multicoil implemented for VarNet
+        train_transform=train_transform,
+        val_transform=val_transform,
+        test_transform=test_transform,
+        test_split=args.test_split,
+        sample_rate=args.sample_rate,
+        batch_size=args.batch_size,
+        num_workers=4,  # Adjust if needed
+        distributed_sampler=False,  # Adjust if using DDP
+    )
+
+    # Model setup
+    model = VarNetModule(
+        num_cascades=2,
+        pools=4,
+        chans=18,
+        sens_pools=4,
+        sens_chans=8,
+        lr=args.learning_rate,
+        lr_step_size=40,
+        lr_gamma=0.1,
+        weight_decay=0.0,
+    )
+
+    # Trainer setup
+    trainer = pl.Trainer(
+        gpus=args.gpus,
+        max_epochs=args.num_epochs,
+        logger=logger,
+        seed_everything=42,
+        deterministic=True,
+        default_root_dir=f"checkpoints/{args.experiment_name}",
+        callbacks=[pl.callbacks.ModelCheckpoint(
+            dirpath=f"checkpoints/{args.experiment_name}",
             save_top_k=True,
             verbose=True,
             monitor="validation_loss",
-            mode="min",                  # Minimize validation loss
-        )
-    ]
+            mode="min",
+        )],
+    )
 
-    # Hyperparameters for the model
-    lr = learning_rate
-    lr_step_size = 40
-    lr_gamma = 0.1
-    weight_decay = 0.0
-    num_cascades = 2
-    pools = 4
-    chans = 18
-    sens_pools = 4
-    sens_chans = 8
-
-    # Parameters for data loading
-    num_workers = 4
-    replace_sampler_ddp = False
-
-    # Run the CLI logic (training)
-    cli_main(args)
+    # Training loop
+    start = time.time()
+    trainer.fit(model, datamodule=data_module)
+    end = time.time()
+    print(f"Training time: {end - start} seconds")
 
 
 def run_cli():
