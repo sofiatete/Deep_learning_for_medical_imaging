@@ -4,7 +4,7 @@ from train_VarNet import cli_main, build_args  # Import build_args from train_Va
 from fastmri.data.mri_data import fetch_dir
 
 
-def run_experiment1(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
+def run_experiment(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
     # Get default arguments from train_VarNet.py
     args = build_args()  # This ensures all default arguments (including data_path) are set
 
@@ -20,21 +20,18 @@ def run_experiment1(mask_type, center_fractions, accelerations, experiment_name=
 
 
 if __name__ == "__main__":
-
-
     # Example 1: Run with Gaussian mask
-    run_experiment1(
+    run_experiment(
         mask_type="gaussian", 
-        center_fractions=[0.04], 
+        center_fractions=[0.4], 
         accelerations=[4], 
         experiment_name="Gaussian_Mask_Test"
     )
 
-"""
     # Example 2: Run with Random mask
-    run_experiment1(
+    run_experiment(
         mask_type="random", 
         center_fractions=[0.1], 
         accelerations=[2], 
         experiment_name="Random_Mask_Test"
-    )"""
+    )
