@@ -1,4 +1,3 @@
-
 # Import the run_training function from train_VarNet.py
 from train_VarNet import run_training
 
