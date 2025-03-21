@@ -1,32 +1,49 @@
-# Import the run_training function from train_VarNet.py
-from train_VarNet import run_training
+import argparse
+from train_VarNet import cli_main
 
-# Example 1: Running with Gaussian mask and specific center fractions and accelerations
-run_training(
-    mask_type="gaussian",          # Type of k-space mask
-    center_fractions=[0.04],      # Center fraction for k-space
-    accelerations=[4],            # Acceleration factor
-    learning_rate=0.001,          # Learning rate for optimizer
-    num_epochs=15,                # Number of epochs
-    batch_size=1,                 # Batch size
-    experiment_name="Gaussian_Mask_Test", # Experiment name for logging
-    data_path="FastMRIdata/",     # Path to the MRI data
-    gpus=1,                       # Number of GPUs to use
-    test_split=0.2,               # Fraction of data to use for validation
-    sample_rate=1.0,              # Sample rate (usually 1.0)
-)
+def run_experiment(mask_type, center_fractions, accelerations, experiment_name="Mask_Test_Experiment"):
+    # Set up ArgumentParser and define the required arguments
+    parser = argparse.ArgumentParser()
 
-# Example 2: Running with Random mask and different center fractions and accelerations
-run_training(
-    mask_type="random",           # Type of k-space mask
-    center_fractions=[0.1],       # Center fraction for k-space
-    accelerations=[2],            # Acceleration factor
-    learning_rate=0.0005,         # Learning rate for optimizer
-    num_epochs=10,                # Number of epochs
-    batch_size=1,                 # Batch size
-    experiment_name="Random_Mask_Test", # Experiment name for logging
-    data_path="FastMRIdata/",     # Path to the MRI data
-    gpus=1,                       # Number of GPUs to use
-    test_split=0.2,               # Fraction of data to use for validation
-    sample_rate=1.0,              # Sample rate
-)
+    # Defining the arguments
+    parser.add_argument("--mode", type=str, default="train", help="Mode: train or test")
+    parser.add_argument("--mask_type", type=str, default=mask_type, help="Type of k-space mask")
+    parser.add_argument("--center_fractions", type=float, nargs='+', default=center_fractions, help="Center fractions for the mask")
+    parser.add_argument("--accelerations", type=int, nargs='+', default=accelerations, help="Acceleration factors for the mask")
+    parser.add_argument("--experiment_name", type=str, default=experiment_name, help="Name of the experiment")
+    parser.add_argument("--learning_rate", type=float, default=0.001, help="Learning rate for optimizer")
+    parser.add_argument("--num_epochs", type=int, default=10, help="Number of epochs")
+    parser.add_argument("--batch_size", type=int, default=1, help="Batch size")
+    parser.add_argument("--data_path", type=str, default="FastMRIdata/", help="Path to the MRI data")
+    parser.add_argument("--gpus", type=int, default=1, help="Number of GPUs to use")
+    parser.add_argument("--test_split", type=float, default=0.2, help="Fraction of data for validation")
+    parser.add_argument("--sample_rate", type=float, default=1.0, help="Sample rate")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
+    parser.add_argument("--challenge", type=str, default="multicoil", help="Challenge type (multicoil, etc.)")
+    parser.add_argument("--num_workers", type=int, default=4, help="Number of workers for data loader") 
+    parser.add_argument("--test_path", type=str, default=None, help="Path to the test data")
+    parser.add_argument("--accelerator", type=str, default=None, help="Accelerator type (ddp, etc.)")
+    
+
+    # Parse the arguments
+    args = parser.parse_args()
+
+    # Run the training with the parsed arguments
+    cli_main(args)
+
+if __name__ == "__main__":
+    # Example 1: Run with Gaussian mask
+    run_experiment(
+        mask_type="gaussian", 
+        center_fractions=[0.04], 
+        accelerations=[4], 
+        experiment_name="Gaussian_Mask_Test"
+    )
+
+    # Example 2: Run with Random mask
+    run_experiment(
+        mask_type="random", 
+        center_fractions=[0.1], 
+        accelerations=[2], 
+        experiment_name="Random_Mask_Test"
+    )

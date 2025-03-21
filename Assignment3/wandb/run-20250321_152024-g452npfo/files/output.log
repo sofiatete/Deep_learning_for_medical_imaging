@@ -1,0 +1,10 @@
+Using gaussian mask...
+Traceback (most recent call last):
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/research_question.py", line 34, in <module>
+    run_experiment(
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/research_question.py", line 30, in run_experiment
+    cli_main(args)
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/train_VarNet.py", line 33, in cli_main
+    args.mask_type, args.center_fractions, args.accelerations
+                                           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'accelerations'. Did you mean: 'accelerator'?

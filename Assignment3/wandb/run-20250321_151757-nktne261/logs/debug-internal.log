@@ -1,0 +1,15 @@
+{"time":"2025-03-21T15:17:58.015946+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250321_151757-nktne261/logs/debug-core.log"}
+{"time":"2025-03-21T15:17:58.123051+01:00","level":"INFO","msg":"created new stream","id":"nktne261"}
+{"time":"2025-03-21T15:17:58.123089+01:00","level":"INFO","msg":"stream: started","id":"nktne261"}
+{"time":"2025-03-21T15:17:58.123099+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nktne261"}
+{"time":"2025-03-21T15:17:58.123107+01:00","level":"INFO","msg":"handler: started","stream_id":"nktne261"}
+{"time":"2025-03-21T15:17:58.12314+01:00","level":"INFO","msg":"sender: started","stream_id":"nktne261"}
+{"time":"2025-03-21T15:17:58.656743+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-21T15:17:58.917686+01:00","level":"INFO","msg":"stream: closing","id":"nktne261"}
+{"time":"2025-03-21T15:17:58.917699+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-21T15:17:58.917953+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-21T15:17:59.802214+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-21T15:18:00.017521+01:00","level":"INFO","msg":"handler: closed","stream_id":"nktne261"}
+{"time":"2025-03-21T15:18:00.017611+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nktne261"}
+{"time":"2025-03-21T15:18:00.017782+01:00","level":"INFO","msg":"sender: closed","stream_id":"nktne261"}
+{"time":"2025-03-21T15:18:00.018048+01:00","level":"INFO","msg":"stream: closed","id":"nktne261"}

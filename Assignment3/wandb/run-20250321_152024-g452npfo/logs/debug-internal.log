@@ -1,0 +1,15 @@
+{"time":"2025-03-21T15:20:24.438057+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"wandb/run-20250321_152024-g452npfo/logs/debug-core.log"}
+{"time":"2025-03-21T15:20:24.545526+01:00","level":"INFO","msg":"created new stream","id":"g452npfo"}
+{"time":"2025-03-21T15:20:24.545572+01:00","level":"INFO","msg":"stream: started","id":"g452npfo"}
+{"time":"2025-03-21T15:20:24.545584+01:00","level":"INFO","msg":"handler: started","stream_id":"g452npfo"}
+{"time":"2025-03-21T15:20:24.545593+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"g452npfo"}
+{"time":"2025-03-21T15:20:24.545596+01:00","level":"INFO","msg":"sender: started","stream_id":"g452npfo"}
+{"time":"2025-03-21T15:20:25.139872+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-21T15:20:25.485945+01:00","level":"INFO","msg":"stream: closing","id":"g452npfo"}
+{"time":"2025-03-21T15:20:25.485969+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-21T15:20:25.486272+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-21T15:20:26.077121+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-21T15:20:26.292754+01:00","level":"INFO","msg":"handler: closed","stream_id":"g452npfo"}
+{"time":"2025-03-21T15:20:26.292766+01:00","level":"INFO","msg":"sender: closed","stream_id":"g452npfo"}
+{"time":"2025-03-21T15:20:26.292761+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g452npfo"}
+{"time":"2025-03-21T15:20:26.292885+01:00","level":"INFO","msg":"stream: closed","id":"g452npfo"}

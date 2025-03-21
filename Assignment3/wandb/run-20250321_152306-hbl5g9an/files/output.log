@@ -1,0 +1,16 @@
+Using gaussian mask...
+Traceback (most recent call last):
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/research_question.py", line 35, in <module>
+    run_experiment(
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/research_question.py", line 31, in run_experiment
+    cli_main(args)
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/train_VarNet.py", line 55, in cli_main
+    train_set = data_module.train_dataloader().dataset
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/fastmri/pl_modules/data_module.py", line 319, in train_dataloader
+    return self._create_data_loader(self.train_transform, data_partition="train")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/costa/Documents/GitHub/DeepLearningMac/Deep_learning_for_medical_imaging/Assignment3/fastmri/pl_modules/data_module.py", line 253, in _create_data_loader
+    data_path = self.data_path / f"{self.challenge}_{data_partition}"
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
