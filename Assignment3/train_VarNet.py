@@ -22,7 +22,7 @@ def cli_main(args):
     pl.seed_everything(args.seed)
 
     # Wandb
-    logger = WandbLogger(name=args.experiment_name, project='Exercise3')
+    logger = WandbLogger(name=args.experiment_name, project='RunForTestLoss')
 
     # ------------
     # data
@@ -123,6 +123,7 @@ def build_args():
             "magic",
             "magic_fraction",
             "radial",
+            "poisson",
         ),
         default="random",
         type=str,
@@ -133,14 +134,14 @@ def build_args():
     parser.add_argument(
         "--center_fractions",
         nargs="+",
-        default=[0.08],
+        default=[0.1],
         type=float,
         help="Number of center lines to use in mask",
     )
     parser.add_argument(
         "--accelerations",
         nargs="+",
-        default=[4],
+        default=[2],
         type=int,
         help="Acceleration rates to use for masks",
     )
@@ -172,7 +173,7 @@ def build_args():
 
     parser.set_defaults(
         data_path=data_path,  # path to fastMRI data
-        mask_type=args.mask_type,
+        mask_type="radial",
         challenge="multicoil",  # only multicoil implemented for VarNet
         batch_size=batch_size,  # number of samples per batch
         test_path=None,  # path for test split, overwrites data_path
