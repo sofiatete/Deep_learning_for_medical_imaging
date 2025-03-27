@@ -23,6 +23,6 @@ if __name__ == "__main__":
     run_experiment(
         mask_type="random", 
         center_fractions=[0.1], 
-        accelerations=[2], 
-        experiment_name="Random_Mask_Test"
+        accelerations=[4], 
+        experiment_name="Random"
     )
