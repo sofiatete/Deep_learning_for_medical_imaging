@@ -476,28 +476,51 @@ class MagicMaskFractionFunc(MagicMaskFunc):
         return center_mask, accel_mask, num_low_frequencies
 
 
-class RadialMaskFunc:
-    def __init__(self, shape, offset=0, seed=None):
-        self.shape = shape
-        self.offset = offset
-        self.seed = seed
+class RadialMaskFunc(MaskFunc):
+    """
+    Creates a radial sampling pattern in k-space.
+    """
+    def calculate_acceleration_mask(
+        self,
+        num_cols: int,
+        acceleration: int,
+        offset: Optional[int],
+        num_low_frequencies: int,
+    ) -> np.ndarray:
+        angles = np.linspace(0, 2*np.pi, num=int(num_cols / acceleration), endpoint=False)
+        print("num cols:", num_cols)
+        mask = np.zeros((num_cols, num_cols), dtype=np.float32)
+        center = num_cols // 2
 
-    def __call__(self, shape, offset, seed):
-        # Set the random seed for reproducibility
-        if seed is not None:
-            torch.manual_seed(seed)
-        
-        # Generate radial mask: Radial pattern
-        rows, cols = shape[-2], shape[-1]
-        theta = torch.linspace(0, np.pi, steps=cols)
-        radial_mask = torch.cos(theta) ** offset
-        
-        # Reshape to match the k-space
-        mask = radial_mask.view(1, 1, 1, -1)  # Adding batch and channel dims
-        mask = mask.repeat(*shape[:-2], 1, 1)  # Repeat along spatial dimensions
-        
-        # Return reshaped mask
-        return mask, radial_mask.sum()  # Return mask and sum of mask values (num_low_frequencies)
+        for angle in angles:
+            for r in range(center):
+                x = int(center + r * np.cos(angle))
+                y = int(center + r * np.sin(angle))
+                if 0 <= x < num_cols and 0 <= y < num_cols:
+                    mask[x, y] = 1
+
+        return mask[center, :]
+
+
+class PoissonMaskFunc(MaskFunc):
+    """Poisson disc sampling mask implementation."""
+    
+    def calculate_acceleration_mask(self, num_cols: int, acceleration: int, offset: Optional[int], num_low_frequencies: int) -> np.ndarray:
+        mask = np.zeros(num_cols, dtype=np.float32)
+
+        # Define the lambda parameter for Poisson distribution
+        lam = num_cols / (2 * acceleration)  
+
+        # Generate Poisson-distributed sample locations
+        poisson_samples = np.random.poisson(lam, size=num_cols)
+
+        # Normalize the samples to ensure they are within [0,1]
+        poisson_samples = poisson_samples / poisson_samples.max()
+
+        # Apply thresholding to generate a binary mask
+        mask = self.rng.uniform(size=num_cols) < poisson_samples
+
+        return mask
 
 
 def create_mask_for_mask_type(
@@ -526,6 +549,8 @@ def create_mask_for_mask_type(
     elif mask_type_str == "magic_fraction":
         return MagicMaskFractionFunc(center_fractions, accelerations)
     elif mask_type_str == "radial":
-        return RadialMaskFunc(center_fractions[0], accelerations[0])
+        return RadialMaskFunc(center_fractions, accelerations)
+    elif mask_type_str == "poisson":
+        return PoissonMaskFunc(center_fractions, accelerations)
     else:
         raise ValueError(f"{mask_type_str} not supported")
